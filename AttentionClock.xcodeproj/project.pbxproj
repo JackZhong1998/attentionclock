@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000010000000000000001 /* AttentionClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000001 /* AttentionClockApp.swift */; };
+		A10000010000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000002 /* ContentView.swift */; };
+		A10000010000000000000003 /* SessionRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000003 /* SessionRecord.swift */; };
+		A10000010000000000000004 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000004 /* SessionStore.swift */; };
+		A10000010000000000000005 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000005 /* SettingsStore.swift */; };
+		A10000010000000000000006 /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000006 /* TimerViewModel.swift */; };
+		A10000010000000000000007 /* TimeFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000007 /* TimeFormat.swift */; };
+		A10000010000000000000008 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000008 /* TimerView.swift */; };
+		A10000010000000000000009 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000009 /* StatsView.swift */; };
+		A10000010000000000000010 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000010 /* SettingsView.swift */; };
+		A10000010000000000000011 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000011 /* Assets.xcassets */; };
+		A10000010000000000000012 /* HeatmapDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000012 /* HeatmapDay.swift */; };
+		A10000010000000000000013 /* FocusHeatmapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000013 /* FocusHeatmapView.swift */; };
+		A10000010000000000000014 /* FocusReminderMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000014 /* FocusReminderMessages.swift */; };
+		A10000010000000000000015 /* FocusReminderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000015 /* FocusReminderService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A20000010000000000000001 /* AttentionClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttentionClockApp.swift; sourceTree = "<group>"; };
+		A20000010000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A20000010000000000000003 /* SessionRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionRecord.swift; sourceTree = "<group>"; };
+		A20000010000000000000004 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+		A20000010000000000000005 /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
+		A20000010000000000000006 /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
+		A20000010000000000000007 /* TimeFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormat.swift; sourceTree = "<group>"; };
+		A20000010000000000000008 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		A20000010000000000000009 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		A20000010000000000000010 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A20000010000000000000011 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A20000010000000000000012 /* HeatmapDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatmapDay.swift; sourceTree = "<group>"; };
+		A20000010000000000000013 /* FocusHeatmapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusHeatmapView.swift; sourceTree = "<group>"; };
+		A20000010000000000000014 /* FocusReminderMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusReminderMessages.swift; sourceTree = "<group>"; };
+		A20000010000000000000015 /* FocusReminderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusReminderService.swift; sourceTree = "<group>"; };
+		A30000010000000000000001 /* AttentionClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AttentionClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A40000010000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A50000010000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A50000010000000000000002 /* AttentionClock */,
+				A50000010000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A50000010000000000000002 /* AttentionClock */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000001 /* AttentionClockApp.swift */,
+				A20000010000000000000002 /* ContentView.swift */,
+				A50000010000000000000004 /* Models */,
+				A50000010000000000000005 /* Services */,
+				A50000010000000000000006 /* ViewModels */,
+				A50000010000000000000007 /* Views */,
+				A50000010000000000000008 /* Utilities */,
+				A20000010000000000000011 /* Assets.xcassets */,
+			);
+			path = AttentionClock;
+			sourceTree = "<group>";
+		};
+		A50000010000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A30000010000000000000001 /* AttentionClock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A50000010000000000000004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000003 /* SessionRecord.swift */,
+				A20000010000000000000012 /* HeatmapDay.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A50000010000000000000005 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000004 /* SessionStore.swift */,
+				A20000010000000000000005 /* SettingsStore.swift */,
+				A20000010000000000000015 /* FocusReminderService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A50000010000000000000006 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000006 /* TimerViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A50000010000000000000007 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000008 /* TimerView.swift */,
+				A20000010000000000000009 /* StatsView.swift */,
+				A20000010000000000000010 /* SettingsView.swift */,
+				A20000010000000000000013 /* FocusHeatmapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A50000010000000000000008 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000007 /* TimeFormat.swift */,
+				A20000010000000000000014 /* FocusReminderMessages.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A60000010000000000000001 /* AttentionClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80000010000000000000003 /* Build configuration list for PBXNativeTarget "AttentionClock" */;
+			buildPhases = (
+				A70000010000000000000001 /* Sources */,
+				A40000010000000000000001 /* Frameworks */,
+				A70000010000000000000002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AttentionClock;
+			productName = AttentionClock;
+			productReference = A30000010000000000000001 /* AttentionClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A90000010000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					A60000010000000000000001 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+				};
+			};
+			buildConfigurationList = A80000010000000000000001 /* Build configuration list for PBXProject "AttentionClock" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = A50000010000000000000001;
+			productRefGroup = A50000010000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A60000010000000000000001 /* AttentionClock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A70000010000000000000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000010000000000000011 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A70000010000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000010000000000000001 /* AttentionClockApp.swift in Sources */,
+				A10000010000000000000002 /* ContentView.swift in Sources */,
+				A10000010000000000000003 /* SessionRecord.swift in Sources */,
+				A10000010000000000000004 /* SessionStore.swift in Sources */,
+				A10000010000000000000005 /* SettingsStore.swift in Sources */,
+				A10000010000000000000006 /* TimerViewModel.swift in Sources */,
+				A10000010000000000000007 /* TimeFormat.swift in Sources */,
+				A10000010000000000000008 /* TimerView.swift in Sources */,
+				A10000010000000000000009 /* StatsView.swift in Sources */,
+				A10000010000000000000010 /* SettingsView.swift in Sources */,
+				A10000010000000000000012 /* HeatmapDay.swift in Sources */,
+				A10000010000000000000013 /* FocusHeatmapView.swift in Sources */,
+				A10000010000000000000014 /* FocusReminderMessages.swift in Sources */,
+				A10000010000000000000015 /* FocusReminderService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AB0000010000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB0000010000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AB0000010000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "专注时钟";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.attentionclock.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AB0000010000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "专注时钟";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.attentionclock.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A80000010000000000000001 /* Build configuration list for PBXProject "AttentionClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB0000010000000000000001 /* Debug */,
+				AB0000010000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80000010000000000000003 /* Build configuration list for PBXNativeTarget "AttentionClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB0000010000000000000003 /* Debug */,
+				AB0000010000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A90000010000000000000001 /* Project object */;
+}
