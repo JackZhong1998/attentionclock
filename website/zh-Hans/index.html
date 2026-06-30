@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="zh-Hans" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>专注时钟 — 免费 Mac 专注计时器</title>
+  <meta name="description" content="专注时钟是一款免费开源的 Mac 专注计时工具。番茄钟式专注、热力图统计、可选像素小猫陪伴。无需注册，数据本地保存。">
+  <meta name="keywords" content="专注计时, 番茄钟, Mac 效率, 专注时钟, 开源, macOS 应用, 集中注意力">
+  <meta name="author" content="Attention Clock">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://jackzhong1998.github.io/attentionclock/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://jackzhong1998.github.io/attentionclock/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://jackzhong1998.github.io/attentionclock/zh-Hant/">
+  <link rel="alternate" hreflang="en" href="https://jackzhong1998.github.io/attentionclock/en/">
+  <link rel="alternate" hreflang="es" href="https://jackzhong1998.github.io/attentionclock/es/">
+  <link rel="alternate" hreflang="fr" href="https://jackzhong1998.github.io/attentionclock/fr/">
+  <link rel="alternate" hreflang="de" href="https://jackzhong1998.github.io/attentionclock/de/">
+  <link rel="alternate" hreflang="ja" href="https://jackzhong1998.github.io/attentionclock/ja/">
+  <link rel="alternate" hreflang="ko" href="https://jackzhong1998.github.io/attentionclock/ko/">
+  <link rel="alternate" hreflang="pt-BR" href="https://jackzhong1998.github.io/attentionclock/pt-BR/">
+  <link rel="alternate" hreflang="ru" href="https://jackzhong1998.github.io/attentionclock/ru/">
+  <link rel="alternate" hreflang="ar" href="https://jackzhong1998.github.io/attentionclock/ar/">
+  <link rel="alternate" hreflang="hi" href="https://jackzhong1998.github.io/attentionclock/hi/">
+  <link rel="alternate" hreflang="it" href="https://jackzhong1998.github.io/attentionclock/it/">
+  <link rel="alternate" hreflang="th" href="https://jackzhong1998.github.io/attentionclock/th/">
+  <link rel="alternate" hreflang="vi" href="https://jackzhong1998.github.io/attentionclock/vi/">
+  <link rel="alternate" hreflang="id" href="https://jackzhong1998.github.io/attentionclock/id/">
+  <link rel="alternate" hreflang="tr" href="https://jackzhong1998.github.io/attentionclock/tr/">
+  <link rel="alternate" hreflang="nl" href="https://jackzhong1998.github.io/attentionclock/nl/">
+  <link rel="alternate" hreflang="pl" href="https://jackzhong1998.github.io/attentionclock/pl/">
+  <link rel="alternate" hreflang="uk" href="https://jackzhong1998.github.io/attentionclock/uk/">
+  <link rel="alternate" hreflang="ms" href="https://jackzhong1998.github.io/attentionclock/ms/">
+  <link rel="alternate" hreflang="x-default" href="https://jackzhong1998.github.io/attentionclock/en/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="专注时钟 — 免费 Mac 专注计时器">
+  <meta property="og:description" content="专注时钟是一款免费开源的 Mac 专注计时工具。番茄钟式专注、热力图统计、可选像素小猫陪伴。无需注册，数据本地保存。">
+  <meta property="og:url" content="https://jackzhong1998.github.io/attentionclock/zh-Hans/">
+  <meta property="og:image" content="https://jackzhong1998.github.io/attentionclock/assets/og-image.png">
+  <meta property="og:locale" content="zh_Hans">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="专注时钟 — 免费 Mac 专注计时器">
+  <meta name="twitter:description" content="专注时钟是一款免费开源的 Mac 专注计时工具。番茄钟式专注、热力图统计、可选像素小猫陪伴。无需注册，数据本地保存。">
+  <meta name="twitter:image" content="https://jackzhong1998.github.io/attentionclock/assets/og-image.png">
+  <link rel="icon" href="../assets/icon.png" type="image/png">
+  <link rel="apple-touch-icon" href="../assets/icon.png">
+  <link rel="stylesheet" href="../assets/style.css">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "专注时钟", "applicationCategory": "ProductivityApplication", "operatingSystem": "macOS 14.0+", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "downloadUrl": "https://github.com/JackZhong1998/attentionclock/releases/latest", "softwareVersion": "1.0.0", "description": "专注时钟是一款免费开源的 Mac 专注计时工具。番茄钟式专注、热力图统计、可选像素小猫陪伴。无需注册，数据本地保存。", "url": "https://jackzhong1998.github.io/attentionclock/zh-Hans/", "author": {"@type": "Organization", "name": "Attention Clock"}, "isAccessibleForFree": true, "license": "https://opensource.org/licenses/MIT"}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="#top">
+        <img src="../assets/icon.png" width="32" height="32" alt="专注时钟">
+        <span>专注时钟</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Menu" aria-expanded="false">☰</button>
+      <nav class="nav-main" aria-label="Main">
+        <a href="#features">功能</a>
+        <a href="#how">使用方法</a>
+        <a href="#download">下载</a>
+        <a href="#faq">常见问题</a>
+      </nav>
+      <div class="header-actions">
+        <select id="lang-select" class="lang-select" aria-label="语言">
+<option value="." selected>简体中文</option>
+<option value="../zh-Hant/">繁體中文</option>
+<option value="../en/">English</option>
+<option value="../es/">Español</option>
+<option value="../fr/">Français</option>
+<option value="../de/">Deutsch</option>
+<option value="../ja/">日本語</option>
+<option value="../ko/">한국어</option>
+<option value="../pt-BR/">Português (Brasil)</option>
+<option value="../ru/">Русский</option>
+<option value="../ar/">العربية</option>
+<option value="../hi/">हिन्दी</option>
+<option value="../it/">Italiano</option>
+<option value="../th/">ไทย</option>
+<option value="../vi/">Tiếng Việt</option>
+<option value="../id/">Bahasa Indonesia</option>
+<option value="../tr/">Türkçe</option>
+<option value="../nl/">Nederlands</option>
+<option value="../pl/">Polski</option>
+<option value="../uk/">Українська</option>
+<option value="../ms/">Bahasa Melayu</option>
+        </select>
+        <a class="btn btn-secondary" href="https://github.com/JackZhong1998/attentionclock" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container">
+        <span class="hero-badge">v1.0.0 · macOS 14+</span>
+        <h1>专注时钟</h1>
+        <p class="hero-lead">一款安静、不打扰的 Mac 专注计时器。设定一段专注时间，安心做事，看见自己的进步——无需注册，不上传云端。</p>
+        <div class="hero-cta">
+          <a id="hero-download" class="btn btn-primary btn-lg" href="#download">下载 Mac 版</a>
+          <a class="btn btn-secondary btn-lg" href="https://github.com/JackZhong1998/attentionclock" rel="noopener">在 GitHub 查看</a>
+        </div>
+        <div class="hero-meta">
+          <span>✓ 免费开源</span>
+          <span>✓ 数据保存在本机</span>
+          <span>✓ macOS 14+</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="preview">
+      <div class="container">
+        <div class="mockup-wrap" role="img" aria-label="专注计时器应用预览">
+          <div class="mockup-bar"><span></span><span></span><span></span></div>
+          <div class="mockup-body">
+            <div class="mockup-sidebar">
+              <div class="mockup-tab active">专注</div>
+              <div class="mockup-tab">统计</div>
+              <div class="mockup-tab">设置</div>
+            </div>
+            <div class="mockup-main">
+              <div class="timer-ring">
+                <svg viewBox="0 0 140 140" aria-hidden="true">
+                  <circle class="track" cx="70" cy="70" r="65"></circle>
+                  <circle class="progress" cx="70" cy="70" r="65"></circle>
+                </svg>
+                <div class="timer-label">25:00<small>专注</small></div>
+              </div>
+              <div class="mockup-actions">
+                <span class="mockup-btn">开始专注</span>
+                <span class="mockup-btn ghost">−</span>
+                <span class="mockup-btn ghost">+</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section section-alt">
+      <div class="container">
+        <header class="section-header">
+          <h2>为深度工作而设计</h2>
+          <p>帮你坐下来把事情做完——没有多余干扰。</p>
+        </header>
+        <div class="features-grid">
+        <article class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h3>打开就能用</h3>
+          <p>点开「开始专注」即可，无需账号或复杂设置。</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">🎯</div>
+          <h3>界面干净</h3>
+          <p>大圆环倒计时、充足留白，把注意力留给正事。</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">⏱️</div>
+          <h3>时间灵活</h3>
+          <p>默认 25 分钟，可按 ±5 分钟调整，或在设置中修改默认时长。</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">🌳</div>
+          <h3>种下森林</h3>
+          <p>每完成一次专注种一棵树，可视化记录你的坚持。</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">📊</div>
+          <h3>专注热力图</h3>
+          <p>一眼回顾过去六个月的活动，发现专注规律。</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">🐱</div>
+          <h3>云养猫陪伴</h3>
+          <p>可选像素小猫陪你专注，还能放到桌面上。</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">🔓</div>
+          <h3>私密且免费</h3>
+          <p>开源透明，无隐藏费用，所有数据保存在你的 Mac 上。</p>
+        </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="section">
+      <div class="container">
+        <header class="section-header">
+          <h2>几分钟即可上手</h2>
+          <p>下载、安装，开始第一次专注。</p>
+        </header>
+        <div class="steps">
+        <article class="step-card">
+          <h3>下载并安装</h3>
+          <p>根据芯片类型（Apple 芯片或 Intel）选择 DMG，拖入应用程序文件夹。</p>
+        </article>
+        <article class="step-card">
+          <h3>开始专注</h3>
+          <p>点击「开始专注」，圆环倒计时，安心做事。</p>
+        </article>
+        <article class="step-card">
+          <h3>查看进步</h3>
+          <p>在「统计」中查看今日次数、热力图和历史记录。</p>
+        </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <header class="section-header">
+          <h2>三个简洁页面</h2>
+        </header>
+        <div class="tabs-grid">
+        <article class="tab-card">
+          <h3>专注</h3>
+          <p>倒计时与暂停、继续、结束操作。</p>
+        </article>
+        <article class="tab-card">
+          <h3>统计</h3>
+          <p>今日专注次数、热力图与每日记录。</p>
+        </article>
+        <article class="tab-card">
+          <h3>设置</h3>
+          <p>默认时长、云养猫开关等偏好。</p>
+        </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="download" class="section">
+      <div class="container">
+        <header class="section-header">
+          <h2>下载专注时钟</h2>
+          <p>适用于 macOS 14.0 及以上，完全免费。请选择芯片类型。</p>
+        </header>
+        <div class="download-panel">
+          <div class="chip-toggle" role="group" aria-label="Chip">
+            <button class="chip-btn active" type="button" data-chip="arm64">Apple 芯片（M 系列）</button>
+            <button class="chip-btn" type="button" data-chip="x86_64">Intel 芯片</button>
+          </div>
+          <div class="download-actions">
+            <a id="download-primary" class="btn btn-primary btn-lg" href="#" rel="noopener">下载 .dmg</a>
+            <a class="btn btn-secondary" href="https://github.com/JackZhong1998/attentionclock/releases/latest" rel="noopener">GitHub 所有版本</a>
+          </div>
+          <div class="download-note">
+            <strong>安装步骤</strong>
+            <ol>
+          <li>双击下载的 .dmg 文件</li>
+          <li>将专注时钟拖入「应用程序」文件夹</li>
+          <li>推出磁盘映像</li>
+          <li>首次打开若被阻止：系统设置 → 隐私与安全性 → 仍要打开</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section section-alt">
+      <div class="container">
+        <header class="section-header">
+          <h2>常见问题</h2>
+        </header>
+        <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false">需要联网吗？</button>
+          <div class="faq-answer"><p>不需要。专注时钟完全在本地运行。</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false">数据存在哪里？</button>
+          <div class="faq-answer"><p>保存在 Mac 本地（~/Library/Application Support/AttentionClock/），不会上传。</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false">支持 Windows 或 iPhone 吗？</button>
+          <div class="faq-answer"><p>目前仅支持 Mac（macOS 14.0 及以上）。</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false">下载链接打不开？</button>
+          <div class="faq-answer"><p>请前往 GitHub Releases 页面。若尚未发布，可从源码自行编译。</p></div>
+        </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="#top">
+            <img src="../assets/icon.png" width="32" height="32" alt="">
+            <span>专注时钟</span>
+          </a>
+          <p>免费开源的 Mac 专注计时器。坐下来，专注，成长。</p>
+        </div>
+        <div class="footer-links">
+          <a href="https://github.com/JackZhong1998/attentionclock" rel="noopener">GitHub</a>
+          <a href="https://github.com/JackZhong1998/attentionclock/releases/latest" rel="noopener">下载</a>
+          <a href="#features">功能</a>
+          <a href="#faq">常见问题</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © 2026 专注时钟 · 开源项目 · https://github.com/JackZhong1998/attentionclock
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/app.js" data-lang="zh-Hans" data-version="1.0.0"></script>
+</body>
+</html>

@@ -2,7 +2,7 @@
 
 一款免费开源的 Mac 专注计时工具——打开就能用，帮你安静坐下来做事。
 
-**[前往最新版本下载页](https://github.com/JackZhong1998/attentionclock/releases/latest)**
+**[官网 / Website](https://jackzhong1998.github.io/attentionclock/)** · **[前往最新版本下载页](https://github.com/JackZhong1998/attentionclock/releases/latest)**
 
 ---
 
@@ -59,6 +59,9 @@ python3 scripts/generate-localizations.py
 
 # 更新各语言 README
 python3 scripts/generate-readmes.py
+
+# 生成多语言官网静态页面
+python3 scripts/generate-website.py
 ```
 
 翻译源文件：`scripts/locales/{语言代码}.json`

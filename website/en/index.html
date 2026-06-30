@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Attention Clock — Free Mac Focus Timer</title>
+  <meta name="description" content="Attention Clock is a free, open-source Mac focus timer. Pomodoro-style sessions, heatmap stats, optional pixel cat companion. No account, data stays local.">
+  <meta name="keywords" content="focus timer, pomodoro, mac productivity, attention clock, open source, macos app, concentration">
+  <meta name="author" content="Attention Clock">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://jackzhong1998.github.io/attentionclock/en/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://jackzhong1998.github.io/attentionclock/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://jackzhong1998.github.io/attentionclock/zh-Hant/">
+  <link rel="alternate" hreflang="en" href="https://jackzhong1998.github.io/attentionclock/en/">
+  <link rel="alternate" hreflang="es" href="https://jackzhong1998.github.io/attentionclock/es/">
+  <link rel="alternate" hreflang="fr" href="https://jackzhong1998.github.io/attentionclock/fr/">
+  <link rel="alternate" hreflang="de" href="https://jackzhong1998.github.io/attentionclock/de/">
+  <link rel="alternate" hreflang="ja" href="https://jackzhong1998.github.io/attentionclock/ja/">
+  <link rel="alternate" hreflang="ko" href="https://jackzhong1998.github.io/attentionclock/ko/">
+  <link rel="alternate" hreflang="pt-BR" href="https://jackzhong1998.github.io/attentionclock/pt-BR/">
+  <link rel="alternate" hreflang="ru" href="https://jackzhong1998.github.io/attentionclock/ru/">
+  <link rel="alternate" hreflang="ar" href="https://jackzhong1998.github.io/attentionclock/ar/">
+  <link rel="alternate" hreflang="hi" href="https://jackzhong1998.github.io/attentionclock/hi/">
+  <link rel="alternate" hreflang="it" href="https://jackzhong1998.github.io/attentionclock/it/">
+  <link rel="alternate" hreflang="th" href="https://jackzhong1998.github.io/attentionclock/th/">
+  <link rel="alternate" hreflang="vi" href="https://jackzhong1998.github.io/attentionclock/vi/">
+  <link rel="alternate" hreflang="id" href="https://jackzhong1998.github.io/attentionclock/id/">
+  <link rel="alternate" hreflang="tr" href="https://jackzhong1998.github.io/attentionclock/tr/">
+  <link rel="alternate" hreflang="nl" href="https://jackzhong1998.github.io/attentionclock/nl/">
+  <link rel="alternate" hreflang="pl" href="https://jackzhong1998.github.io/attentionclock/pl/">
+  <link rel="alternate" hreflang="uk" href="https://jackzhong1998.github.io/attentionclock/uk/">
+  <link rel="alternate" hreflang="ms" href="https://jackzhong1998.github.io/attentionclock/ms/">
+  <link rel="alternate" hreflang="x-default" href="https://jackzhong1998.github.io/attentionclock/en/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Attention Clock — Free Mac Focus Timer">
+  <meta property="og:description" content="Attention Clock is a free, open-source Mac focus timer. Pomodoro-style sessions, heatmap stats, optional pixel cat companion. No account, data stays local.">
+  <meta property="og:url" content="https://jackzhong1998.github.io/attentionclock/en/">
+  <meta property="og:image" content="https://jackzhong1998.github.io/attentionclock/assets/og-image.png">
+  <meta property="og:locale" content="en">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Attention Clock — Free Mac Focus Timer">
+  <meta name="twitter:description" content="Attention Clock is a free, open-source Mac focus timer. Pomodoro-style sessions, heatmap stats, optional pixel cat companion. No account, data stays local.">
+  <meta name="twitter:image" content="https://jackzhong1998.github.io/attentionclock/assets/og-image.png">
+  <link rel="icon" href="../assets/icon.png" type="image/png">
+  <link rel="apple-touch-icon" href="../assets/icon.png">
+  <link rel="stylesheet" href="../assets/style.css">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Attention Clock", "applicationCategory": "ProductivityApplication", "operatingSystem": "macOS 14.0+", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "downloadUrl": "https://github.com/JackZhong1998/attentionclock/releases/latest", "softwareVersion": "1.0.0", "description": "Attention Clock is a free, open-source Mac focus timer. Pomodoro-style sessions, heatmap stats, optional pixel cat companion. No account, data stays local.", "url": "https://jackzhong1998.github.io/attentionclock/en/", "author": {"@type": "Organization", "name": "Attention Clock"}, "isAccessibleForFree": true, "license": "https://opensource.org/licenses/MIT"}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="#top">
+        <img src="../assets/icon.png" width="32" height="32" alt="Attention Clock">
+        <span>Attention Clock</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Menu" aria-expanded="false">☰</button>
+      <nav class="nav-main" aria-label="Main">
+        <a href="#features">Features</a>
+        <a href="#how">How it works</a>
+        <a href="#download">Download</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <div class="header-actions">
+        <select id="lang-select" class="lang-select" aria-label="Language">
+<option value="../zh-Hans/">简体中文</option>
+<option value="../zh-Hant/">繁體中文</option>
+<option value="." selected>English</option>
+<option value="../es/">Español</option>
+<option value="../fr/">Français</option>
+<option value="../de/">Deutsch</option>
+<option value="../ja/">日本語</option>
+<option value="../ko/">한국어</option>
+<option value="../pt-BR/">Português (Brasil)</option>
+<option value="../ru/">Русский</option>
+<option value="../ar/">العربية</option>
+<option value="../hi/">हिन्दी</option>
+<option value="../it/">Italiano</option>
+<option value="../th/">ไทย</option>
+<option value="../vi/">Tiếng Việt</option>
+<option value="../id/">Bahasa Indonesia</option>
+<option value="../tr/">Türkçe</option>
+<option value="../nl/">Nederlands</option>
+<option value="../pl/">Polski</option>
+<option value="../uk/">Українська</option>
+<option value="../ms/">Bahasa Melayu</option>
+        </select>
+        <a class="btn btn-secondary" href="https://github.com/JackZhong1998/attentionclock" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container">
+        <span class="hero-badge">v1.0.0 · macOS 14+</span>
+        <h1>Attention Clock</h1>
+        <p class="hero-lead">A calm, distraction-free focus timer for Mac. Set a session, work deeply, and watch your progress grow — no signup, no cloud.</p>
+        <div class="hero-cta">
+          <a id="hero-download" class="btn btn-primary btn-lg" href="#download">Download for Mac</a>
+          <a class="btn btn-secondary btn-lg" href="https://github.com/JackZhong1998/attentionclock" rel="noopener">View on GitHub</a>
+        </div>
+        <div class="hero-meta">
+          <span>✓ Free &amp; open source</span>
+          <span>✓ Data stays on your Mac</span>
+          <span>✓ macOS 14+</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="preview">
+      <div class="container">
+        <div class="mockup-wrap" role="img" aria-label="App preview showing focus timer">
+          <div class="mockup-bar"><span></span><span></span><span></span></div>
+          <div class="mockup-body">
+            <div class="mockup-sidebar">
+              <div class="mockup-tab active">Focus</div>
+              <div class="mockup-tab">Stats</div>
+              <div class="mockup-tab">Settings</div>
+            </div>
+            <div class="mockup-main">
+              <div class="timer-ring">
+                <svg viewBox="0 0 140 140" aria-hidden="true">
+                  <circle class="track" cx="70" cy="70" r="65"></circle>
+                  <circle class="progress" cx="70" cy="70" r="65"></circle>
+                </svg>
+                <div class="timer-label">25:00<small>Focus</small></div>
+              </div>
+              <div class="mockup-actions">
+                <span class="mockup-btn">Start Focus</span>
+                <span class="mockup-btn ghost">−</span>
+                <span class="mockup-btn ghost">+</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section section-alt">
+      <div class="container">
+        <header class="section-header">
+          <h2>Built for deep work</h2>
+          <p>Everything you need to sit down and finish — nothing you don&#x27;t.</p>
+        </header>
+        <div class="features-grid">
+        <article class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h3>One tap to start</h3>
+          <p>Open the app and hit Start Focus. No accounts, no setup wizard.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">🎯</div>
+          <h3>Calm, clean design</h3>
+          <p>A large progress ring and generous whitespace keep your attention on the work.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">⏱️</div>
+          <h3>Flexible timing</h3>
+          <p>Default 25 minutes with ±5 minute adjustments, or set your own default in Settings.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">🌳</div>
+          <h3>Grow your forest</h3>
+          <p>Plant a tree for every completed session and build a visual record of consistency.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">📊</div>
+          <h3>Focus heatmap</h3>
+          <p>See six months of activity at a glance and spot patterns in your habits.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">🐱</div>
+          <h3>Cloud Cat companion</h3>
+          <p>Optional pixel cat keeps you company, with a floating desktop window.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">🔓</div>
+          <h3>Private &amp; free</h3>
+          <p>Open-source code, no hidden costs. All session data stays on your Mac.</p>
+        </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="section">
+      <div class="container">
+        <header class="section-header">
+          <h2>Get started in minutes</h2>
+          <p>Download, install, and begin your first focus session.</p>
+        </header>
+        <div class="steps">
+        <article class="step-card">
+          <h3>Download &amp; install</h3>
+          <p>Pick the DMG for your Mac chip (Apple Silicon or Intel), drag to Applications.</p>
+        </article>
+        <article class="step-card">
+          <h3>Start a session</h3>
+          <p>Tap Start Focus. The ring counts down while you work without distractions.</p>
+        </article>
+        <article class="step-card">
+          <h3>Track your progress</h3>
+          <p>Check Stats for today&#x27;s count, heatmap, and history after each session.</p>
+        </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <header class="section-header">
+          <h2>Three simple tabs</h2>
+        </header>
+        <div class="tabs-grid">
+        <article class="tab-card">
+          <h3>Focus</h3>
+          <p>Timer, pause, resume, and end controls.</p>
+        </article>
+        <article class="tab-card">
+          <h3>Stats</h3>
+          <p>Today&#x27;s sessions, heatmap, and daily history.</p>
+        </article>
+        <article class="tab-card">
+          <h3>Settings</h3>
+          <p>Default duration, Cloud Cat, and preferences.</p>
+        </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="download" class="section">
+      <div class="container">
+        <header class="section-header">
+          <h2>Download Attention Clock</h2>
+          <p>Free for macOS 14.0 and later. Choose your chip type below.</p>
+        </header>
+        <div class="download-panel">
+          <div class="chip-toggle" role="group" aria-label="Chip">
+            <button class="chip-btn active" type="button" data-chip="arm64">Apple Silicon (M-series)</button>
+            <button class="chip-btn" type="button" data-chip="x86_64">Intel Mac</button>
+          </div>
+          <div class="download-actions">
+            <a id="download-primary" class="btn btn-primary btn-lg" href="#" rel="noopener">Download .dmg</a>
+            <a class="btn btn-secondary" href="https://github.com/JackZhong1998/attentionclock/releases/latest" rel="noopener">All releases on GitHub</a>
+          </div>
+          <div class="download-note">
+            <strong>Installation</strong>
+            <ol>
+          <li>Double-click the downloaded .dmg file</li>
+          <li>Drag Attention Clock into Applications</li>
+          <li>Eject the disk image</li>
+          <li>If blocked on first launch: System Settings → Privacy &amp; Security → Open Anyway</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section section-alt">
+      <div class="container">
+        <header class="section-header">
+          <h2>Frequently asked questions</h2>
+        </header>
+        <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false">Does it need the internet?</button>
+          <div class="faq-answer"><p>No. Attention Clock runs entirely on your Mac.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false">Where is my data stored?</button>
+          <div class="faq-answer"><p>Locally in ~/Library/Application Support/AttentionClock/. Nothing is uploaded.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false">Windows or iPhone?</button>
+          <div class="faq-answer"><p>Mac only — macOS 14.0 or later.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false">Download link not working?</button>
+          <div class="faq-answer"><p>Visit the GitHub Releases page. If no release is published yet, you can build from source.</p></div>
+        </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="#top">
+            <img src="../assets/icon.png" width="32" height="32" alt="">
+            <span>Attention Clock</span>
+          </a>
+          <p>Free, open-source focus timer for Mac. Sit down, focus, and grow.</p>
+        </div>
+        <div class="footer-links">
+          <a href="https://github.com/JackZhong1998/attentionclock" rel="noopener">GitHub</a>
+          <a href="https://github.com/JackZhong1998/attentionclock/releases/latest" rel="noopener">Download</a>
+          <a href="#features">Features</a>
+          <a href="#faq">FAQ</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © 2026 Attention Clock · Open source · https://github.com/JackZhong1998/attentionclock
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/app.js" data-lang="en" data-version="1.0.0"></script>
+</body>
+</html>
