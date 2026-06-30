@@ -27,7 +27,10 @@ if ! gh auth status >/dev/null 2>&1; then
   exit 1
 fi
 
-mapfile -t DMGS < <(
+DMGS=()
+while IFS= read -r dmg; do
+  DMGS+=("$dmg")
+done < <(
   find "$RELEASE_DIR" -maxdepth 1 \( \
     -name "AttentionClock-${VERSION}-*-arm64.dmg" -o \
     -name "AttentionClock-${VERSION}-*-x86_64.dmg" \
