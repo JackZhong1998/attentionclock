@@ -5,7 +5,17 @@ struct FocusHeatmapView: View {
 
     private let cellSize: CGFloat = 14
     private let cellSpacing: CGFloat = 3
-    private let weekdaySymbols = ["日", "一", "二", "三", "四", "五", "六"]
+    private var weekdaySymbols: [String] {
+        [
+            String(localized: "日"),
+            String(localized: "一"),
+            String(localized: "二"),
+            String(localized: "三"),
+            String(localized: "四"),
+            String(localized: "五"),
+            String(localized: "六"),
+        ]
+    }
 
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
@@ -119,17 +129,16 @@ struct FocusHeatmapView: View {
 
     private func tooltip(for day: HeatmapDay) -> String {
         if day.isFuture { return "" }
-        let formatter = DateFormatter()
-        formatter.locale = Locale(identifier: "zh_CN")
-        formatter.dateFormat = "yyyy年M月d日"
-        let dateStr = formatter.string(from: day.date)
+        let dateStr = TimeFormat.heatmapDate(day.date)
 
         if day.level == 0 {
-            return "\(dateStr)：无专注记录"
+            return L10n.heatmapNoRecord(date: dateStr)
         }
         let trees = String(repeating: "🌳", count: min(day.completedCount, 6))
-        let countPart = day.completedCount > 0 ? "完成 \(day.completedCount) 次 \(trees)" : "未完成"
+        let countPart = day.completedCount > 0
+            ? L10n.heatmapCompleted(day.completedCount, trees: trees)
+            : String(localized: "未完成")
         let timePart = TimeFormat.duration(day.totalSeconds)
-        return "\(dateStr)\n\(countPart) · 共 \(timePart)"
+        return L10n.heatmapTooltip(date: dateStr, detail: countPart, duration: timePart)
     }
 }

@@ -67,7 +67,7 @@ struct StatsView: View {
                 statCard(
                     title: "累计完成",
                     value: treeString(sessionStore.allCompletedCount),
-                    subtitle: "共 \(sessionStore.allCompletedCount) 次"
+                    subtitle: L10n.totalCompletedSubtitle(sessionStore.allCompletedCount)
                 )
                 statCard(
                     title: "累计时长",
@@ -77,7 +77,7 @@ struct StatsView: View {
                 statCard(
                     title: "日均次数",
                     value: String(format: "%.1f", sessionStore.averageDailyCompletedCount),
-                    subtitle: "基于 \(sessionStore.activeDays) 个活跃日"
+                    subtitle: L10n.activeDaysSubtitle(sessionStore.activeDays)
                 )
                 statCard(
                     title: "日均时长",
@@ -110,7 +110,7 @@ struct StatsView: View {
                             }
                             Spacer()
                             VStack(alignment: .trailing, spacing: 4) {
-                                Text("\(day.completedCount) 次")
+                                Text(L10n.completedTimes(day.completedCount))
                                     .font(.body)
                                     .foregroundStyle(.secondary)
                                 Text(TimeFormat.duration(day.totalSeconds))
@@ -159,6 +159,6 @@ struct StatsView: View {
     private func treeString(_ count: Int) -> String {
         if count == 0 { return "—" }
         if count <= 12 { return String(repeating: "🌳", count: count) }
-        return String(repeating: "🌳", count: 8) + " ×\(count)"
+        return String(repeating: "🌳", count: 8) + " " + L10n.treeMultiplier(count)
     }
 }

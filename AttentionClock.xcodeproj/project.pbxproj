@@ -22,6 +22,20 @@
 		A10000010000000000000013 /* FocusHeatmapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000013 /* FocusHeatmapView.swift */; };
 		A10000010000000000000014 /* FocusReminderMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000014 /* FocusReminderMessages.swift */; };
 		A10000010000000000000015 /* FocusReminderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000015 /* FocusReminderService.swift */; };
+		A10000010000000000000016 /* CatState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000016 /* CatState.swift */; };
+		A10000010000000000000017 /* CatStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000017 /* CatStore.swift */; };
+		A10000010000000000000018 /* FloatingCatWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000018 /* FloatingCatWindowController.swift */; };
+		A10000010000000000000019 /* CatCompanionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000019 /* CatCompanionView.swift */; };
+		A10000010000000000000020 /* FloatingCatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000020 /* FloatingCatView.swift */; };
+		A10000010000000000000021 /* CatSpriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000021 /* CatSpriteView.swift */; };
+		A10000010000000000000022 /* AppButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000022 /* AppButtonStyles.swift */; };
+		A10000010000000000000024 /* CatFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000024 /* CatFrame.swift */; };
+		A10000010000000000000025 /* MCCatSprites.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000025 /* MCCatSprites.swift */; };
+		A10000010000000000000026 /* CatAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000026 /* CatAnimator.swift */; };
+		A10000010000000000000027 /* PixelCatCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000027 /* PixelCatCanvas.swift */; };
+		A10000010000000000000028 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000028 /* Localizable.xcstrings */; };
+		A10000010000000000000029 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000029 /* InfoPlist.xcstrings */; };
+		A10000010000000000000030 /* L10n.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000030 /* L10n.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +54,20 @@
 		A20000010000000000000013 /* FocusHeatmapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusHeatmapView.swift; sourceTree = "<group>"; };
 		A20000010000000000000014 /* FocusReminderMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusReminderMessages.swift; sourceTree = "<group>"; };
 		A20000010000000000000015 /* FocusReminderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusReminderService.swift; sourceTree = "<group>"; };
+		A20000010000000000000016 /* CatState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatState.swift; sourceTree = "<group>"; };
+		A20000010000000000000017 /* CatStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatStore.swift; sourceTree = "<group>"; };
+		A20000010000000000000018 /* FloatingCatWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingCatWindowController.swift; sourceTree = "<group>"; };
+		A20000010000000000000019 /* CatCompanionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCompanionView.swift; sourceTree = "<group>"; };
+		A20000010000000000000020 /* FloatingCatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingCatView.swift; sourceTree = "<group>"; };
+		A20000010000000000000021 /* CatSpriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatSpriteView.swift; sourceTree = "<group>"; };
+		A20000010000000000000022 /* AppButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButtonStyles.swift; sourceTree = "<group>"; };
+		A20000010000000000000024 /* CatFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFrame.swift; sourceTree = "<group>"; };
+		A20000010000000000000025 /* MCCatSprites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCCatSprites.swift; sourceTree = "<group>"; };
+		A20000010000000000000026 /* CatAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatAnimator.swift; sourceTree = "<group>"; };
+		A20000010000000000000027 /* PixelCatCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelCatCanvas.swift; sourceTree = "<group>"; };
+		A20000010000000000000028 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		A20000010000000000000029 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
+		A20000010000000000000030 /* L10n.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L10n.swift; sourceTree = "<group>"; };
 		A30000010000000000000001 /* AttentionClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AttentionClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -73,6 +101,8 @@
 				A50000010000000000000007 /* Views */,
 				A50000010000000000000008 /* Utilities */,
 				A20000010000000000000011 /* Assets.xcassets */,
+				A20000010000000000000028 /* Localizable.xcstrings */,
+				A20000010000000000000029 /* InfoPlist.xcstrings */,
 			);
 			path = AttentionClock;
 			sourceTree = "<group>";
@@ -90,6 +120,8 @@
 			children = (
 				A20000010000000000000003 /* SessionRecord.swift */,
 				A20000010000000000000012 /* HeatmapDay.swift */,
+				A20000010000000000000016 /* CatState.swift */,
+				A20000010000000000000024 /* CatFrame.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -100,6 +132,9 @@
 				A20000010000000000000004 /* SessionStore.swift */,
 				A20000010000000000000005 /* SettingsStore.swift */,
 				A20000010000000000000015 /* FocusReminderService.swift */,
+				A20000010000000000000017 /* CatStore.swift */,
+				A20000010000000000000026 /* CatAnimator.swift */,
+				A20000010000000000000018 /* FloatingCatWindowController.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -119,6 +154,11 @@
 				A20000010000000000000009 /* StatsView.swift */,
 				A20000010000000000000010 /* SettingsView.swift */,
 				A20000010000000000000013 /* FocusHeatmapView.swift */,
+				A20000010000000000000019 /* CatCompanionView.swift */,
+				A20000010000000000000020 /* FloatingCatView.swift */,
+				A20000010000000000000021 /* CatSpriteView.swift */,
+				A20000010000000000000022 /* AppButtonStyles.swift */,
+				A20000010000000000000027 /* PixelCatCanvas.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -128,6 +168,8 @@
 			children = (
 				A20000010000000000000007 /* TimeFormat.swift */,
 				A20000010000000000000014 /* FocusReminderMessages.swift */,
+				A20000010000000000000025 /* MCCatSprites.swift */,
+				A20000010000000000000030 /* L10n.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -172,9 +214,28 @@
 			developmentRegion = "zh-Hans";
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
+				ar,
 				Base,
+				de,
+				en,
+				es,
+				fr,
+				hi,
+				id,
+				it,
+				ja,
+				ko,
+				ms,
+				nl,
+				pl,
+				"pt-BR",
+				ru,
+				th,
+				tr,
+				uk,
+				vi,
 				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = A50000010000000000000001;
 			productRefGroup = A50000010000000000000003 /* Products */;
@@ -192,6 +253,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A10000010000000000000011 /* Assets.xcassets in Resources */,
+				A10000010000000000000028 /* Localizable.xcstrings in Resources */,
+				A10000010000000000000029 /* InfoPlist.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +279,18 @@
 				A10000010000000000000013 /* FocusHeatmapView.swift in Sources */,
 				A10000010000000000000014 /* FocusReminderMessages.swift in Sources */,
 				A10000010000000000000015 /* FocusReminderService.swift in Sources */,
+				A10000010000000000000016 /* CatState.swift in Sources */,
+				A10000010000000000000017 /* CatStore.swift in Sources */,
+				A10000010000000000000018 /* FloatingCatWindowController.swift in Sources */,
+				A10000010000000000000019 /* CatCompanionView.swift in Sources */,
+				A10000010000000000000020 /* FloatingCatView.swift in Sources */,
+				A10000010000000000000021 /* CatSpriteView.swift in Sources */,
+				A10000010000000000000022 /* AppButtonStyles.swift in Sources */,
+				A10000010000000000000024 /* CatFrame.swift in Sources */,
+				A10000010000000000000025 /* MCCatSprites.swift in Sources */,
+				A10000010000000000000026 /* CatAnimator.swift in Sources */,
+				A10000010000000000000027 /* PixelCatCanvas.swift in Sources */,
+				A10000010000000000000030 /* L10n.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +352,6 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "专注时钟";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -303,7 +377,6 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "专注时钟";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (

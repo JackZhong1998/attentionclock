@@ -19,10 +19,12 @@ final class TimerViewModel: ObservableObject {
 
     private let sessionStore: SessionStore
     private let settings: SettingsStore
+    private let catStore: CatStore
 
-    init(sessionStore: SessionStore, settings: SettingsStore) {
+    init(sessionStore: SessionStore, settings: SettingsStore, catStore: CatStore) {
         self.sessionStore = sessionStore
         self.settings = settings
+        self.catStore = catStore
         syncFromSettings()
     }
 
@@ -104,6 +106,11 @@ final class TimerViewModel: ObservableObject {
             reason: reason
         )
         sessionStore.add(record)
+
+        if settings.cloudCatEnabled {
+            catStore.feed(reason: reason, elapsedSeconds: max(elapsed, 0))
+            catStore.refreshExpression(timerPhase: .idle)
+        }
 
         if reason == .completed {
             FocusReminderService.shared.notifySessionCompleted(minutes: plannedSeconds / 60)

@@ -4,15 +4,20 @@ import SwiftUI
 struct AttentionClockApp: App {
     @StateObject private var sessionStore = SessionStore()
     @StateObject private var settings = SettingsStore()
+    @StateObject private var catStore = CatStore()
 
     var body: some Scene {
         WindowGroup {
-            ContentView(sessionStore: sessionStore, settings: settings)
-                .onAppear {
-                    FocusReminderService.shared.requestAuthorization()
-                }
+            ContentView(
+                sessionStore: sessionStore,
+                settings: settings,
+                catStore: catStore
+            )
+            .onAppear {
+                FocusReminderService.shared.requestAuthorization()
+            }
         }
         .windowResizability(.contentSize)
-        .defaultSize(width: 480, height: 600)
+        .defaultSize(width: 520, height: 600)
     }
 }

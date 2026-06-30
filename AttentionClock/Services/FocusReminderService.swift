@@ -17,8 +17,8 @@ final class FocusReminderService: NSObject, ObservableObject, UNUserNotification
     func notifySessionCompleted(minutes: Int) {
         let effect = FocusReminderMessages.nextEffect()
         let content = UNMutableNotificationContent()
-        content.title = "专注完成"
-        content.body = "已专注\(minutes)分钟，\(effect)"
+        content.title = String(localized: "专注完成")
+        content.body = L10n.sessionCompletedBody(minutes: minutes, effect: effect)
         content.sound = .default
 
         let request = UNNotificationRequest(

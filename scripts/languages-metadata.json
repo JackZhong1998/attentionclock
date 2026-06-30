@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0",
+  "repo": "https://github.com/JackZhong1998/attentionclock",
+  "locales": {
+    "zh-Hans": { "label": "简体中文", "title": "专注时钟", "vol": "专注时钟 AttentionClock" },
+    "zh-Hant": { "label": "繁體中文", "title": "專注時鐘", "vol": "專注時鐘 AttentionClock" },
+    "en": { "label": "English", "title": "Attention Clock", "vol": "Attention Clock" },
+    "es": { "label": "Español", "title": "Reloj de Enfoque", "vol": "Reloj de Enfoque" },
+    "fr": { "label": "Français", "title": "Horloge Focus", "vol": "Horloge Focus" },
+    "de": { "label": "Deutsch", "title": "Fokus-Uhr", "vol": "Fokus-Uhr" },
+    "ja": { "label": "日本語", "title": "集中タイマー", "vol": "集中タイマー AttentionClock" },
+    "ko": { "label": "한국어", "title": "집중 타이머", "vol": "집중 타이머 AttentionClock" },
+    "pt-BR": { "label": "Português (Brasil)", "title": "Relógio de Foco", "vol": "Relógio de Foco" },
+    "ru": { "label": "Русский", "title": "Часы Фокуса", "vol": "Часы Фокуса" },
+    "ar": { "label": "العربية", "title": "ساعة التركيز", "vol": "ساعة التركيز" },
+    "hi": { "label": "हिन्दी", "title": "फोकस घड़ी", "vol": "फोकस घड़ी" },
+    "it": { "label": "Italiano", "title": "Orologio Focus", "vol": "Orologio Focus" },
+    "th": { "label": "ไทย", "title": "นาฬิกาโฟกัส", "vol": "นาฬิกาโฟกัส" },
+    "vi": { "label": "Tiếng Việt", "title": "Đồng Hồ Tập Trung", "vol": "Đồng Hồ Tập Trung" },
+    "id": { "label": "Bahasa Indonesia", "title": "Jam Fokus", "vol": "Jam Fokus" },
+    "tr": { "label": "Türkçe", "title": "Odak Saati", "vol": "Odak Saati" },
+    "nl": { "label": "Nederlands", "title": "Focus Klok", "vol": "Focus Klok" },
+    "pl": { "label": "Polski", "title": "Zegar Skupienia", "vol": "Zegar Skupienia" },
+    "uk": { "label": "Українська", "title": "Годинник Фокусу", "vol": "Годинник Фокусу" },
+    "ms": { "label": "Bahasa Melayu", "title": "Jam Fokus", "vol": "Jam Fokus" }
+  }
+}

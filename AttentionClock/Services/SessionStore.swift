@@ -77,8 +77,8 @@ final class SessionStore: ObservableObject {
         var lastMonth = -1
 
         let monthFormatter = DateFormatter()
-        monthFormatter.locale = Locale(identifier: "zh_CN")
-        monthFormatter.dateFormat = "M月"
+        monthFormatter.locale = .current
+        monthFormatter.setLocalizedDateFormatFromTemplate(String(localized: "M月"))
 
         for weekIndex in 0..<weekCount {
             guard let weekStart = calendar.date(byAdding: .weekOfYear, value: weekIndex, to: gridStart) else { continue }

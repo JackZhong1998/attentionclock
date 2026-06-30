@@ -1,3 +1,6 @@
+# Release artifacts (upload to GitHub Releases, don't commit)
+release/
+
 # Xcode
 build/
 DerivedData/
