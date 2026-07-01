@@ -63,7 +63,7 @@ create_dmg() {
 
   rm -rf "$staging" "$dmg_path"
   mkdir -p "$staging"
-  cp -R "$app_path" "$staging/"
+  cp -R "$app_path" "$staging/AttentionClock.app"
   ln -s /Applications "$staging/Applications"
   hdiutil create \
     -volname "$vol_name" \
