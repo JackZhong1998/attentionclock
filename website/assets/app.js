@@ -26,8 +26,11 @@
     document.querySelectorAll(".chip-btn").forEach(function (btn) {
       btn.classList.toggle("active", btn.dataset.chip === chip);
     });
+    var url = dmgUrl(chip);
     var primary = document.getElementById("download-primary");
-    if (primary) primary.href = dmgUrl(chip);
+    if (primary) primary.href = url;
+    var heroDownload = document.getElementById("hero-download");
+    if (heroDownload) heroDownload.href = url;
   }
 
   document.querySelectorAll(".chip-btn").forEach(function (btn) {
@@ -37,9 +40,6 @@
   });
 
   setChip(activeChip);
-
-  var heroDownload = document.getElementById("hero-download");
-  if (heroDownload) heroDownload.href = dmgUrl(activeChip);
 
   var langSelect = document.getElementById("lang-select");
   if (langSelect) {

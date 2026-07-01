@@ -97,7 +97,13 @@
         <h1>Attention Clock</h1>
         <p class="hero-lead">A calm Mac focus timer with optional desktop pets. Pick a pixel companion from 3000+ characters, float it on your desktop, and stay motivated while you work.</p>
         <div class="hero-cta">
-          <a id="hero-download" class="btn btn-primary btn-lg" href="#download">Download for Mac</a>
+          <div class="hero-download-panel">
+            <div class="chip-toggle hero-chip-toggle" role="group" aria-label="Chip">
+              <button class="chip-btn active" type="button" data-chip="arm64">Apple Silicon (M-series)</button>
+              <button class="chip-btn" type="button" data-chip="x86_64">Intel Mac</button>
+            </div>
+            <a id="hero-download" class="btn btn-primary btn-lg" href="#" rel="noopener">Download .dmg</a>
+          </div>
           <a class="btn btn-secondary btn-lg" href="https://github.com/JackZhong1998/attentionclock" rel="noopener">View on GitHub</a>
         </div>
         <div class="hero-meta">

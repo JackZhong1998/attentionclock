@@ -97,7 +97,13 @@
         <h1>집중 타이머</h1>
         <p class="hero-lead">3000개 이상의 데스크톱 펫과 함께 집중하는 Mac 타이머.</p>
         <div class="hero-cta">
-          <a id="hero-download" class="btn btn-primary btn-lg" href="#download">Mac용 다운로드</a>
+          <div class="hero-download-panel">
+            <div class="chip-toggle hero-chip-toggle" role="group" aria-label="Chip">
+              <button class="chip-btn active" type="button" data-chip="arm64">Apple Silicon (M 시리즈)</button>
+              <button class="chip-btn" type="button" data-chip="x86_64">Intel Mac</button>
+            </div>
+            <a id="hero-download" class="btn btn-primary btn-lg" href="#" rel="noopener">.dmg 다운로드</a>
+          </div>
           <a class="btn btn-secondary btn-lg" href="https://github.com/JackZhong1998/attentionclock" rel="noopener">GitHub에서 보기</a>
         </div>
         <div class="hero-meta">

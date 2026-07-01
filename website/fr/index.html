@@ -97,7 +97,13 @@
         <h1>Horloge Focus</h1>
         <p class="hero-lead">Minuteur Mac avec plus de 3000 animaux pixel optionnels sur le bureau.</p>
         <div class="hero-cta">
-          <a id="hero-download" class="btn btn-primary btn-lg" href="#download">Télécharger pour Mac</a>
+          <div class="hero-download-panel">
+            <div class="chip-toggle hero-chip-toggle" role="group" aria-label="Chip">
+              <button class="chip-btn active" type="button" data-chip="arm64">Apple Silicon (série M)</button>
+              <button class="chip-btn" type="button" data-chip="x86_64">Mac Intel</button>
+            </div>
+            <a id="hero-download" class="btn btn-primary btn-lg" href="#" rel="noopener">Télécharger .dmg</a>
+          </div>
           <a class="btn btn-secondary btn-lg" href="https://github.com/JackZhong1998/attentionclock" rel="noopener">Voir sur GitHub</a>
         </div>
         <div class="hero-meta">
