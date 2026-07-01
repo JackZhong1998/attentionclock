@@ -89,6 +89,7 @@ for arch in "${ARCHS[@]}"; do
     rm -rf "$WORK_APP"
     cp -R "$SRC_APP" "$WORK_APP"
     strip_localizations "$WORK_APP" "$lang"
+    sign_app "$WORK_APP"
     create_dmg "$WORK_APP" "release/$DMG_NAME" "$VOL_NAME"
     rm -rf "$WORK_APP"
   done

@@ -59,6 +59,8 @@ done
 /usr/libexec/PlistBuddy -c "Set :CFBundleDevelopmentRegion $LANG" "$WORK_APP/Contents/Info.plist" 2>/dev/null \
   || /usr/libexec/PlistBuddy -c "Add :CFBundleDevelopmentRegion string $LANG" "$WORK_APP/Contents/Info.plist"
 
+sign_app "$WORK_APP"
+
 echo "Creating DMG..."
 STAGING="release/dmg-staging"
 rm -rf "$STAGING" "release/$DMG_NAME"
