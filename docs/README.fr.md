@@ -55,7 +55,7 @@ Downloaded from a browser, **the installer helper itself** may be blocked first.
 
 1. Double-click **Installer et ouvrir** in the DMG
 2. If macOS says it **cannot verify “Installer et ouvrir”**, click **Done**
-3. Open **System Settings** → **Privacy & Security** (or double-click **Open System Settings.webloc**)
+3. Open **System Settings** → **Privacy & Security** (or double-click **Open System Settings**)
 4. Under **Security**, click **Open Anyway** for **Installer et ouvrir**
 5. **Double-click Installer et ouvrir again** — the install guide dialog will appear and install Attention Clock
 

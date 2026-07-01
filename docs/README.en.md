@@ -94,7 +94,7 @@ Downloaded from a browser, **Install and Open itself** may be blocked first. mac
 
 1. Double-click **Install and Open**
 2. If macOS says it **cannot verify “Install and Open”**, click **Done**
-3. Open **System Settings** → **Privacy & Security** (or double-click **Open System Settings.webloc**)
+3. Open **System Settings** → **Privacy & Security** (or double-click **Open System Settings**)
 4. Under **Security**, click **Open Anyway** for **Install and Open**
 5. **Double-click Install and Open again** — you’ll see **Continue Install**, then Attention Clock installs
 

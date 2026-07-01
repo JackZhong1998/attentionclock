@@ -4,7 +4,6 @@
 from __future__ import annotations
 
 import json
-import plistlib
 import re
 import shutil
 import subprocess
@@ -16,7 +15,7 @@ INSTALL = json.loads((ROOT / "scripts" / "dmg-install-sections.json").read_text(
 META = json.loads((ROOT / "scripts" / "languages-metadata.json").read_text(encoding="utf-8"))
 OUT = ROOT / "release" / "dmg-assets"
 APPLESCRIPT = ROOT / "scripts" / "dmg" / "Install.applescript"
-SETTINGS_URL = "x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension"
+OPEN_SETTINGS_SCRIPT = ROOT / "scripts" / "dmg" / "OpenSettings.applescript"
 
 
 def strip_md(text: str) -> str:
@@ -80,8 +79,24 @@ def escape_applescript(text: str) -> str:
     return text.replace("\\", "\\\\").replace('"', '\\"')
 
 
-def write_settings_webloc(path: Path) -> None:
-    path.write_bytes(plistlib.dumps({"URL": SETTINGS_URL}, fmt=plistlib.FMT_BINARY))
+def build_settings_app(locale: str) -> Path:
+    ins = install_for(locale)
+    app_file = ins.get("settings_link_file", INSTALL["en"]["settings_link_file"])
+    dest = OUT / locale / app_file
+    if dest.exists():
+        shutil.rmtree(dest)
+
+    tmp_script = OUT / locale / ".open-settings.applescript"
+    tmp_script.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copy(OPEN_SETTINGS_SCRIPT, tmp_script)
+
+    subprocess.run(["osacompile", "-o", str(dest), str(tmp_script)], check=True)
+    tmp_script.unlink(missing_ok=True)
+    subprocess.run(
+        ["codesign", "--force", "--deep", "--sign", "-", "--timestamp=none", str(dest)],
+        check=True,
+    )
+    return dest
 
 
 def build_installer_app(locale: str) -> Path:
@@ -138,11 +153,9 @@ def main() -> None:
         guide_path = locale_dir / ins["guide_file"]
         guide_path.write_text(build_guide(locale), encoding="utf-8")
 
-        webloc_name = ins.get("settings_link_file", INSTALL["en"]["settings_link_file"])
-        write_settings_webloc(locale_dir / webloc_name)
-
+        settings_app = build_settings_app(locale)
         app_path = build_installer_app(locale)
-        print(f"  {locale}: {app_path.name}, {guide_path.name}, {webloc_name}")
+        print(f"  {locale}: {app_path.name}, {guide_path.name}, {settings_app.name}")
 
     print(f"Generated DMG assets for {len(locales)} locales in {OUT}")
 

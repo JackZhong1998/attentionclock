@@ -18,7 +18,7 @@ INSTALLER: dict[str, dict] = {
         "installer_steps": [
             "双击 DMG 中的 **「安装并打开」**",
             "若弹出 **「未打开“安装并打开”」/ Apple 无法验证…**，点击 **完成**（不要移到废纸篓）",
-            "打开 **系统设置** → **隐私与安全性**（可双击 DMG 内 **「打开系统设置.webloc」**）",
+            "打开 **系统设置** → **隐私与安全性**（可双击 DMG 内 **「打开系统设置」**）",
             "在 **安全性** 区域找到 **「安装并打开」**，点击 **仍要打开**",
             "**再次双击「安装并打开」** — 此时才会出现安装引导弹窗，并自动安装专注时钟",
         ],
@@ -27,7 +27,7 @@ INSTALLER: dict[str, dict] = {
         "intro": "安装助手成功运行后，会复制并尝试打开专注时钟。若此时 macOS 拦截 **专注时钟** 本身，请**按顺序**操作：",
         "steps": [
             "安装助手会自动尝试打开专注时钟；若弹出 **「已损坏」**，点击 **取消**",
-            "打开 **系统设置** → **隐私与安全性**（安装弹窗或 **「打开系统设置.webloc」** 可一键跳转）",
+            "打开 **系统设置** → **隐私与安全性**（安装弹窗或 **「打开系统设置」** 可一键跳转）",
             "在 **安全性** 区域找到 **AttentionClock / 专注时钟**，点击 **仍要打开**",
             "再次打开专注时钟，即可正常使用",
         ],
@@ -64,7 +64,7 @@ INSTALLER: dict[str, dict] = {
         "installer_steps": [
             "Double-click **Install and Open** in the DMG",
             "If macOS says it **cannot verify “Install and Open”**, click **Done**",
-            "Open **System Settings** → **Privacy & Security** (or double-click **Open System Settings.webloc**)",
+            "Open **System Settings** → **Privacy & Security** (or double-click **Open System Settings**)",
             "Under **Security**, click **Open Anyway** for **Install and Open**",
             "**Double-click Install and Open again** — the install guide dialog will appear and install Attention Clock",
         ],
