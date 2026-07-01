@@ -86,7 +86,9 @@
     "tab4_title": "Settings",
     "tab4_desc": "Default duration, floating window, and preferences.",
     "faq5_q": "Do desktop pets need the internet?",
-    "faq5_a": "Only to browse and download new pets. Focus timing and stats work fully offline."
+    "faq5_a": "Only to browse and download new pets. Focus timing and stats work fully offline.",
+    "chip_arm_short": "Apple Silicon",
+    "chip_intel_short": "Intel"
   },
   "zh-Hans": {
     "meta_title": "{app} — 免费 Mac 专注计时器",
@@ -175,7 +177,9 @@
     "tab4_title": "设置",
     "tab4_desc": "默认时长、桌面浮窗等偏好。",
     "faq5_q": "桌面宠物需要联网吗？",
-    "faq5_a": "浏览和下载新宠物时需要网络。专注计时和统计可完全离线使用。"
+    "faq5_a": "浏览和下载新宠物时需要网络。专注计时和统计可完全离线使用。",
+    "chip_arm_short": "Apple 芯片",
+    "chip_intel_short": "Intel 芯片"
   },
   "zh-Hant": {
     "meta_title": "{app} — 免費 Mac 專注計時器",
@@ -264,7 +268,9 @@
     "tab4_title": "設定",
     "tab4_desc": "預設時長、桌面浮窗等偏好。",
     "faq5_q": "桌面寵物需要連網嗎？",
-    "faq5_a": "瀏覽和下載新寵物時需要網路。專注計時和統計可完全離線。"
+    "faq5_a": "瀏覽和下載新寵物時需要網路。專注計時和統計可完全離線。",
+    "chip_arm_short": "Apple 晶片",
+    "chip_intel_short": "Intel 晶片"
   },
   "ja": {
     "meta_title": "{app} — 無料 Mac 集中タイマー",
@@ -353,7 +359,9 @@
     "tab4_title": "設定",
     "tab4_desc": "時間・浮窗など。",
     "faq5_q": "ペットにネットは必要？",
-    "faq5_a": "新規ダウンロード時のみ。タイマーはオフライン可。"
+    "faq5_a": "新規ダウンロード時のみ。タイマーはオフライン可。",
+    "chip_arm_short": "Apple Silicon",
+    "chip_intel_short": "Intel"
   },
   "ko": {
     "meta_title": "{app} — 무료 Mac 집중 타이머",
@@ -442,7 +450,9 @@
     "tab4_title": "설정",
     "tab4_desc": "시간·플로팅 창 등.",
     "faq5_q": "펫에 인터넷 필요?",
-    "faq5_a": "새 펫 다운로드 시만. 타이머는 오프라인 가능."
+    "faq5_a": "새 펫 다운로드 시만. 타이머는 오프라인 가능.",
+    "chip_arm_short": "Apple Silicon",
+    "chip_intel_short": "Intel"
   },
   "es": {
     "meta_title": "{app} — Temporizador de enfoque gratis para Mac",
@@ -531,7 +541,9 @@
     "tab4_title": "Ajustes",
     "tab4_desc": "Duración, ventana flotante y más.",
     "faq5_q": "¿Las mascotas necesitan internet?",
-    "faq5_a": "Solo para descargar nuevas. El temporizador funciona offline."
+    "faq5_a": "Solo para descargar nuevas. El temporizador funciona offline.",
+    "chip_arm_short": "Apple Silicon",
+    "chip_intel_short": "Intel"
   },
   "fr": {
     "meta_title": "{app} — Minuteur de concentration gratuit pour Mac",
@@ -620,7 +632,9 @@
     "tab4_title": "Réglages",
     "tab4_desc": "Durée, fenêtre flottante, etc.",
     "faq5_q": "Internet requis pour les animaux ?",
-    "faq5_a": "Seulement pour télécharger. Le minuteur fonctionne hors ligne."
+    "faq5_a": "Seulement pour télécharger. Le minuteur fonctionne hors ligne.",
+    "chip_arm_short": "Apple Silicon",
+    "chip_intel_short": "Intel"
   },
   "de": {
     "meta_title": "{app} — Kostenloser Mac-Fokus-Timer",
@@ -709,7 +723,9 @@
     "tab4_title": "Einstellungen",
     "tab4_desc": "Dauer, Schwebefenster, etc.",
     "faq5_q": "Internet für Haustiere nötig?",
-    "faq5_a": "Nur zum Herunterladen. Timer läuft offline."
+    "faq5_a": "Nur zum Herunterladen. Timer läuft offline.",
+    "chip_arm_short": "Apple Silicon",
+    "chip_intel_short": "Intel"
   },
   "it": {
     "meta_title": "{app} — Orologio Focus Mac Gratis",
@@ -798,7 +814,9 @@
     "tab4_title": "Settings",
     "tab4_desc": "Default duration, floating window, and preferences.",
     "faq5_q": "Do desktop pets need the internet?",
-    "faq5_a": "Only to browse and download new pets. Focus timing and stats work fully offline."
+    "faq5_a": "Only to browse and download new pets. Focus timing and stats work fully offline.",
+    "chip_arm_short": "Apple Silicon",
+    "chip_intel_short": "Intel"
   },
   "pt-BR": {
     "meta_title": "{app} — Relógio de Foco Mac Gratis",
@@ -887,7 +905,9 @@
     "tab4_title": "Settings",
     "tab4_desc": "Default duration, floating window, and preferences.",
     "faq5_q": "Do desktop pets need the internet?",
-    "faq5_a": "Only to browse and download new pets. Focus timing and stats work fully offline."
+    "faq5_a": "Only to browse and download new pets. Focus timing and stats work fully offline.",
+    "chip_arm_short": "Apple Silicon",
+    "chip_intel_short": "Intel"
   },
   "nl": {
     "meta_title": "{app} — Focus Klok Mac Gratis",
@@ -976,7 +996,9 @@
     "tab4_title": "Settings",
     "tab4_desc": "Default duration, floating window, and preferences.",
     "faq5_q": "Do desktop pets need the internet?",
-    "faq5_a": "Only to browse and download new pets. Focus timing and stats work fully offline."
+    "faq5_a": "Only to browse and download new pets. Focus timing and stats work fully offline.",
+    "chip_arm_short": "Apple Silicon",
+    "chip_intel_short": "Intel"
   },
   "pl": {
     "meta_title": "{app} — Zegar Skupienia Mac Gratis",
@@ -1065,7 +1087,9 @@
     "tab4_title": "Settings",
     "tab4_desc": "Default duration, floating window, and preferences.",
     "faq5_q": "Do desktop pets need the internet?",
-    "faq5_a": "Only to browse and download new pets. Focus timing and stats work fully offline."
+    "faq5_a": "Only to browse and download new pets. Focus timing and stats work fully offline.",
+    "chip_arm_short": "Apple Silicon",
+    "chip_intel_short": "Intel"
   },
   "ru": {
     "meta_title": "{app} — Часы Фокуса Mac Gratis",
@@ -1154,7 +1178,9 @@
     "tab4_title": "Settings",
     "tab4_desc": "Default duration, floating window, and preferences.",
     "faq5_q": "Do desktop pets need the internet?",
-    "faq5_a": "Only to browse and download new pets. Focus timing and stats work fully offline."
+    "faq5_a": "Only to browse and download new pets. Focus timing and stats work fully offline.",
+    "chip_arm_short": "Apple Silicon",
+    "chip_intel_short": "Intel"
   },
   "uk": {
     "meta_title": "{app} — Годинник Фокусу Mac Gratis",
@@ -1243,7 +1269,9 @@
     "tab4_title": "Settings",
     "tab4_desc": "Default duration, floating window, and preferences.",
     "faq5_q": "Do desktop pets need the internet?",
-    "faq5_a": "Only to browse and download new pets. Focus timing and stats work fully offline."
+    "faq5_a": "Only to browse and download new pets. Focus timing and stats work fully offline.",
+    "chip_arm_short": "Apple Silicon",
+    "chip_intel_short": "Intel"
   },
   "tr": {
     "meta_title": "{app} — Odak Saati Mac Gratis",
@@ -1332,7 +1360,9 @@
     "tab4_title": "Settings",
     "tab4_desc": "Default duration, floating window, and preferences.",
     "faq5_q": "Do desktop pets need the internet?",
-    "faq5_a": "Only to browse and download new pets. Focus timing and stats work fully offline."
+    "faq5_a": "Only to browse and download new pets. Focus timing and stats work fully offline.",
+    "chip_arm_short": "Apple Silicon",
+    "chip_intel_short": "Intel"
   },
   "vi": {
     "meta_title": "{app} — Đồng Hồ Tập Trung Mac Gratis",
@@ -1421,7 +1451,9 @@
     "tab4_title": "Settings",
     "tab4_desc": "Default duration, floating window, and preferences.",
     "faq5_q": "Do desktop pets need the internet?",
-    "faq5_a": "Only to browse and download new pets. Focus timing and stats work fully offline."
+    "faq5_a": "Only to browse and download new pets. Focus timing and stats work fully offline.",
+    "chip_arm_short": "Apple Silicon",
+    "chip_intel_short": "Intel"
   },
   "id": {
     "meta_title": "{app} — Jam Fokus Mac Gratis",
@@ -1510,7 +1542,9 @@
     "tab4_title": "Settings",
     "tab4_desc": "Default duration, floating window, and preferences.",
     "faq5_q": "Do desktop pets need the internet?",
-    "faq5_a": "Only to browse and download new pets. Focus timing and stats work fully offline."
+    "faq5_a": "Only to browse and download new pets. Focus timing and stats work fully offline.",
+    "chip_arm_short": "Apple Silicon",
+    "chip_intel_short": "Intel"
   },
   "ms": {
     "meta_title": "{app} — Jam Fokus Mac Gratis",
@@ -1599,7 +1633,9 @@
     "tab4_title": "Settings",
     "tab4_desc": "Default duration, floating window, and preferences.",
     "faq5_q": "Do desktop pets need the internet?",
-    "faq5_a": "Only to browse and download new pets. Focus timing and stats work fully offline."
+    "faq5_a": "Only to browse and download new pets. Focus timing and stats work fully offline.",
+    "chip_arm_short": "Apple Silicon",
+    "chip_intel_short": "Intel"
   },
   "th": {
     "meta_title": "{app} — นาฬิกาโฟกัส Mac Gratis",
@@ -1688,7 +1724,9 @@
     "tab4_title": "Settings",
     "tab4_desc": "Default duration, floating window, and preferences.",
     "faq5_q": "Do desktop pets need the internet?",
-    "faq5_a": "Only to browse and download new pets. Focus timing and stats work fully offline."
+    "faq5_a": "Only to browse and download new pets. Focus timing and stats work fully offline.",
+    "chip_arm_short": "Apple Silicon",
+    "chip_intel_short": "Intel"
   },
   "hi": {
     "meta_title": "{app} — फोकस घड़ी Mac Gratis",
@@ -1777,7 +1815,9 @@
     "tab4_title": "Settings",
     "tab4_desc": "Default duration, floating window, and preferences.",
     "faq5_q": "Do desktop pets need the internet?",
-    "faq5_a": "Only to browse and download new pets. Focus timing and stats work fully offline."
+    "faq5_a": "Only to browse and download new pets. Focus timing and stats work fully offline.",
+    "chip_arm_short": "Apple Silicon",
+    "chip_intel_short": "Intel"
   },
   "ar": {
     "meta_title": "{app} — مؤقت تركيز مجاني لـ Mac",
@@ -1866,6 +1906,8 @@
     "tab4_title": "Settings",
     "tab4_desc": "Default duration, floating window, and preferences.",
     "faq5_q": "Do desktop pets need the internet?",
-    "faq5_a": "Only to browse and download new pets. Focus timing and stats work fully offline."
+    "faq5_a": "Only to browse and download new pets. Focus timing and stats work fully offline.",
+    "chip_arm_short": "Apple Silicon",
+    "chip_intel_short": "Intel"
   }
 }

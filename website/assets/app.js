@@ -13,9 +13,6 @@
   }
 
   function detectChip() {
-    var ua = navigator.userAgent || "";
-    if (/Intel Mac OS X/i.test(ua)) return "x86_64";
-    if (/Mac OS X/i.test(ua)) return "arm64";
     return "arm64";
   }
 

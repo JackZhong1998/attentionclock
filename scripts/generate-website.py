@@ -270,11 +270,11 @@ def render_page(lang: str) -> str:
         <p class="hero-lead">{html.escape(t(lang, "hero_lead"))}</p>
         <div class="hero-cta">
           <div class="hero-download-panel">
-            <div class="chip-toggle hero-chip-toggle" role="group" aria-label="Chip">
-              <button class="chip-btn active" type="button" data-chip="arm64">{html.escape(t(lang, "chip_arm"))}</button>
-              <button class="chip-btn" type="button" data-chip="x86_64">{html.escape(t(lang, "chip_intel"))}</button>
-            </div>
             <a id="hero-download" class="btn btn-primary btn-lg" href="#" rel="noopener">{html.escape(t(lang, "download_btn"))}</a>
+            <div class="chip-toggle hero-chip-toggle" role="group" aria-label="Chip">
+              <button class="chip-btn active" type="button" data-chip="arm64">{html.escape(t(lang, "chip_arm_short"))}</button>
+              <button class="chip-btn" type="button" data-chip="x86_64">{html.escape(t(lang, "chip_intel_short"))}</button>
+            </div>
           </div>
           <a class="btn btn-secondary btn-lg" href="{REPO}" rel="noopener">{html.escape(t(lang, "hero_github"))}</a>
         </div>

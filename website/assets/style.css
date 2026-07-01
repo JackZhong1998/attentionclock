@@ -195,15 +195,35 @@ a:hover { text-decoration: underline; }
 .hero-download-panel {
   display: flex;
   flex-direction: column;
-  gap: 0.65rem;
-  min-width: min(100%, 320px);
+  align-items: center;
+  gap: 0.5rem;
+  min-width: min(100%, 280px);
 }
 
 .hero-chip-toggle {
-  background: var(--bg-elevated);
+  padding: 0;
+  gap: 0.35rem;
+  border: none;
+  background: transparent;
+  max-width: 100%;
 }
 
-.hero-download-panel .btn {
+.hero-chip-toggle .chip-btn {
+  flex: 0 1 auto;
+  padding: 0.25rem 0.55rem;
+  font-size: 0.72rem;
+  font-weight: 500;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+
+.hero-chip-toggle .chip-btn.active {
+  background: var(--accent-soft);
+  color: var(--primary);
+  box-shadow: none;
+}
+
+.hero-download-panel .btn-primary {
   width: 100%;
 }
 
