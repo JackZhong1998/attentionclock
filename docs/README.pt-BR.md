@@ -13,12 +13,12 @@ No account or internet required. All data stays on your Mac.
 - **Flexible timing** (default 25 min)
 - **Pause, resume, or end anytime**
 - **Track progress** with trees 🌳 and a heatmap
-- **Focus companions (optional)** — 3000+ downloadable pixel characters with floating window
+- **Desktop companions (optional)** — 3000+ downloadable pixel characters with floating window
 - **Completely free** and open source
 
-## Focus companions (optional)
+## Desktop companions (optional)
 
-Focus doesn't have to feel lonely. With focus companions you can:
+Focus doesn't have to feel lonely. With desktop companions you can:
 
 - **Browse 3000+ characters** — search the catalog and download favorites
 - **Get reactions while focusing** — your companion stays beside the timer

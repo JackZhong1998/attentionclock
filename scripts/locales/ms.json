@@ -93,9 +93,6 @@
   "小伴": "Kawan",
   "默契 +1": "Ikatan +1",
   "安静地陪在你旁边…": "Diam-diam menemani di sisi…",
-  "专注伙伴": "Rakan fokus",
-  "开启专注伙伴": "Dayakan rakan fokus",
-  "开启专注伙伴后，可从图鉴下载角色陪你专注，或显示在桌面上。": "Dayakan untuk memuat turun watak dari katalog, menemani fokus, atau paparkan di desktop.",
   "搜索伙伴（支持中文/英文/日文等）": "Cari rakan (Cina, Inggeris, Jepun…)",
   "从 Petdex 拉取最新伙伴列表": "Ambil senarai rakan terkini dari Petdex",
   "没有匹配的伙伴，试试其他关键词或筛选条件。": "Tiada rakan sepadan — cuba kata kunci atau penapis lain.",
@@ -103,5 +100,8 @@
   "图鉴已更新，新增 %lld 个伙伴，共 %lld 个。": "Katalog dikemas kini — %lld rakan baharu (jumlah %lld).",
   "图鉴已是最新，共 %lld 个伙伴。": "Katalog terkini — %lld rakan.",
   "伙伴包格式无效，无法安装。": "Pakej rakan tidak sah — tidak boleh dipasang.",
-  "该伙伴已下载。": "Rakan ini sudah dimuat turun."
+  "该伙伴已下载。": "Rakan ini sudah dimuat turun.",
+  "桌面伙伴": "Rakan desktop",
+  "开启桌面伙伴": "Dayakan rakan desktop",
+  "开启桌面伙伴后，可从图鉴下载角色陪你专注，或显示在桌面上。": "Dayakan untuk memuat turun watak dari katalog, menemani fokus, atau paparkan di desktop."
 }

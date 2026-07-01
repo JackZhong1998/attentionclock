@@ -2,7 +2,7 @@
 
 [简体中文](README.zh-Hans.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [More languages](../README.md)
 
-**Attention Clock** is a free, open-source Mac app that helps you focus. Set a timer (default 25 minutes), work without distractions, and get a gentle reminder when time is up. Your daily progress is tracked automatically. Optionally, pick from **3000+ focus companions** to keep you company.
+**Attention Clock** is a free, open-source Mac app that helps you focus. Set a timer (default 25 minutes), work without distractions, and get a gentle reminder when time is up. Your daily progress is tracked automatically. Optionally, pick from **3000+ desktop companions** to keep you company.
 
 No account required. Focus timing works offline. All data stays on your Mac.
 
@@ -15,16 +15,16 @@ No account required. Focus timing works offline. All data stays on your Mac.
 - **Flexible timing**: Default 25 minutes, adjust in ±5 minute steps, or change your default in Settings
 - **Full control**: Pause, resume, or end a session anytime
 - **See your progress**: Plant a tree 🌳 for every completed session; a heatmap shows your consistency over six months
-- **Focus companions (optional)**: 3000+ downloadable pixel characters with a floating desktop window
+- **Desktop companions (optional)**: 3000+ downloadable pixel characters with a floating desktop window
 - **Completely free**: Open source, transparent code, no hidden costs
 
 ---
 
-## Focus companions (optional)
+## Desktop companions (optional)
 
-Focus doesn't have to feel lonely. With focus companions you can:
+Focus doesn't have to feel lonely. With desktop companions you can:
 
-- **Browse 3000+ characters** — search the catalog in the Companions tab and download favorites
+- **Browse 3000+ characters** — search the catalog in the Desktop Companions tab and download favorites
 - **Get reactions while focusing** — your companion stays beside the timer and celebrates when you finish
 - **Float on your desktop** — enable the floating window to keep your companion visible across apps
 - **Turn off anytime** — the timer works perfectly on its own
@@ -48,15 +48,15 @@ Focus doesn't have to feel lonely. With focus companions you can:
 | Change this session's length | Tap **−** or **+** beside the ring (5 min each) |
 | Take a break | Tap **Pause**, then **Resume** when ready |
 | End early | Tap **End** |
-| Pick a focus companion | **Companions** → browse catalog → download and select |
-| Enable floating window | **Companions** → turn on **Floating Window** |
+| Pick a desktop companion | **Desktop Companions** → browse catalog → download and select |
+| Enable floating window | **Desktop Companions** → turn on **Floating Window** |
 | Change default duration | **Settings** → adjust **Default Duration** |
 | View stats | **Stats** → today's count, heatmap, history |
 
 ### Four main tabs
 
 - **Focus**: Timer, controls, and your selected companion below the ring
-- **Companions**: Browse, search, download, and manage pixel characters
+- **Desktop Companions**: Browse, search, download, and manage pixel characters
 - **Stats**: Today's sessions, heatmap, and daily history
 - **Settings**: Default duration, companion toggles, and more
 
@@ -106,12 +106,12 @@ macOS may block apps downloaded outside the App Store and show a "damaged" warni
 ## FAQ
 
 **Does it need the internet?**  
-Focus timing and stats work offline. Browsing and downloading focus companions requires internet.
+Focus timing and stats work offline. Browsing and downloading desktop companions requires internet.
 
 **Where is my data stored?**  
 Locally on your Mac (`~/Library/Application Support/AttentionClock/`). Nothing is uploaded.
 
-**What are focus companions?**  
+**What are desktop companions?**  
 An optional feature. Download pixel characters from a catalog of 3000+, keep them beside the timer while you focus, and optionally float them on your desktop. The timer works fine without them.
 
 **Windows or iPhone?**  

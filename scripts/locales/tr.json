@@ -93,9 +93,6 @@
   "小伴": "Dost",
   "默契 +1": "Bağ +1",
   "安静地陪在你旁边…": "Sessizce yanında…",
-  "专注伙伴": "Yol arkadaşları",
-  "开启专注伙伴": "Odak arkadaşını etkinleştir",
-  "开启专注伙伴后，可从图鉴下载角色陪你专注，或显示在桌面上。": "Katalogdan karakter indirmek, odaklanırken eşlik etmek veya masaüstünde göstermek için etkinleştirin.",
   "搜索伙伴（支持中文/英文/日文等）": "Yol arkadaşı ara (Çince, İngilizce, Japonca…)",
   "从 Petdex 拉取最新伙伴列表": "Petdex'ten en son yol arkadaşı listesini al",
   "没有匹配的伙伴，试试其他关键词或筛选条件。": "Eşleşen yol arkadaşı yok — başka anahtar kelimeler veya filtreler deneyin.",
@@ -103,5 +100,8 @@
   "图鉴已更新，新增 %lld 个伙伴，共 %lld 个。": "Katalog güncellendi — %lld yeni yol arkadaşı (toplam %lld).",
   "图鉴已是最新，共 %lld 个伙伴。": "Katalog güncel — %lld yol arkadaşı.",
   "伙伴包格式无效，无法安装。": "Geçersiz yol arkadaşı paketi — yüklenemiyor.",
-  "该伙伴已下载。": "Bu yol arkadaşı zaten indirildi."
+  "该伙伴已下载。": "Bu yol arkadaşı zaten indirildi.",
+  "桌面伙伴": "Masaüstü arkadaşları",
+  "开启桌面伙伴": "Masaüstü arkadaşını etkinleştir",
+  "开启桌面伙伴后，可从图鉴下载角色陪你专注，或显示在桌面上。": "Katalogdan karakter indirmek, odaklanırken eşlik etmek veya masaüstünde göstermek için etkinleştirin."
 }

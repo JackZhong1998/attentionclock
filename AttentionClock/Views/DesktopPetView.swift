@@ -73,12 +73,12 @@ struct DesktopPetView: View {
         HStack(alignment: .center, spacing: 16) {
             VStack(alignment: .leading, spacing: 10) {
                 if !settings.desktopPetEnabled {
-                    Text(String(localized: "开启专注伙伴后，可从图鉴下载角色陪你专注，或显示在桌面上。"))
+                    Text(String(localized: "开启桌面伙伴后，可从图鉴下载角色陪你专注，或显示在桌面上。"))
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
                 }
 
-                Toggle(String(localized: "开启专注伙伴"), isOn: $settings.desktopPetEnabled)
+                Toggle(String(localized: "开启桌面伙伴"), isOn: $settings.desktopPetEnabled)
                 Toggle(String(localized: "桌面浮窗"), isOn: $settings.floatingCatEnabled)
                     .disabled(!settings.desktopPetEnabled)
             }

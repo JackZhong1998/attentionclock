@@ -13,10 +13,10 @@ Sin registro ni conexión a internet. Tus datos permanecen en tu Mac.
 - **Tiempo flexible**: 25 min por defecto, ajustes de ±5 min
 - **Control total**: pausa, reanuda o termina cuando quieras
 - **Ve tu progreso**: un árbol 🌳 por sesión completada y mapa de calor
-- **Compañeros de enfoque (opcional)**: 3000+ personajes pixel, descargables y con ventana flotante
+- **Compañeros de escritorio (opcional)**: 3000+ personajes pixel, descargables y con ventana flotante
 - **Totalmente gratis**: código abierto y transparente
 
-## Compañeros de enfoque (opcional)
+## Compañeros de escritorio (opcional)
 
 Enfocarte no tiene que ser solitario. Con los compañeros de enfoque puedes:
 

@@ -93,9 +93,6 @@
   "小伴": "Bạn nhỏ",
   "默契 +1": "Gắn kết +1",
   "安静地陪在你旁边…": "Lặng lẽ ở bên cạnh bạn…",
-  "专注伙伴": "Bạn đồng hành",
-  "开启专注伙伴": "Bật bạn đồng hành tập trung",
-  "开启专注伙伴后，可从图鉴下载角色陪你专注，或显示在桌面上。": "Bật để tải nhân vật từ danh mục, đồng hành khi tập trung hoặc hiển thị trên màn hình.",
   "搜索伙伴（支持中文/英文/日文等）": "Tìm bạn đồng hành (tiếng Trung, Anh, Nhật…)",
   "从 Petdex 拉取最新伙伴列表": "Lấy danh sách bạn đồng hành mới nhất từ Petdex",
   "没有匹配的伙伴，试试其他关键词或筛选条件。": "Không có bạn đồng hành phù hợp — thử từ khóa hoặc bộ lọc khác.",
@@ -103,5 +100,8 @@
   "图鉴已更新，新增 %lld 个伙伴，共 %lld 个。": "Đã cập nhật danh mục — %lld bạn mới (tổng %lld).",
   "图鉴已是最新，共 %lld 个伙伴。": "Danh mục đã cập nhật — %lld bạn đồng hành.",
   "伙伴包格式无效，无法安装。": "Gói bạn đồng hành không hợp lệ — không thể cài đặt.",
-  "该伙伴已下载。": "Bạn đồng hành này đã được tải."
+  "该伙伴已下载。": "Bạn đồng hành này đã được tải.",
+  "桌面伙伴": "Bạn đồng hành desktop",
+  "开启桌面伙伴": "Bật bạn đồng hành desktop",
+  "开启桌面伙伴后，可从图鉴下载角色陪你专注，或显示在桌面上。": "Bật để tải nhân vật từ danh mục, đồng hành khi tập trung hoặc hiển thị trên màn hình."
 }

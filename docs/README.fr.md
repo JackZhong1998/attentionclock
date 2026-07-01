@@ -13,10 +13,10 @@ Pas de compte, pas d'internet requis. Vos données restent sur votre Mac.
 - **Durée flexible** : 25 min par défaut, ±5 min
 - **Contrôle total** : pause, reprise, fin anticipée
 - **Suivez vos progrès** : un arbre 🌳 par session et carte de chaleur
-- **Compagnons de focus (optionnel)** : 3000+ personnages pixel, téléchargeables avec fenêtre flottante
+- **Compagnons de bureau (optionnel)** : 3000+ personnages pixel, téléchargeables avec fenêtre flottante
 - **Entièrement gratuit** : open source
 
-## Compagnons de focus (optionnel)
+## Compagnons de bureau (optionnel)
 
 Se concentrer n'a pas à être solitaire. Avec les compagnons de focus :
 

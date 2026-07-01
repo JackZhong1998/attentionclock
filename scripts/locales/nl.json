@@ -93,9 +93,6 @@
   "小伴": "Maatje",
   "默契 +1": "Band +1",
   "安静地陪在你旁边…": "Rustig naast je…",
-  "专注伙伴": "Metgezellen",
-  "开启专注伙伴": "Focus-metgezel inschakelen",
-  "开启专注伙伴后，可从图鉴下载角色陪你专注，或显示在桌面上。": "Schakel in om personages uit de catalogus te downloaden, gezelschap te houden tijdens focus of op het bureaublad te tonen.",
   "搜索伙伴（支持中文/英文/日文等）": "Metgezellen zoeken (Chinees, Engels, Japans…)",
   "从 Petdex 拉取最新伙伴列表": "Haal de nieuwste metgezellenlijst op van Petdex",
   "没有匹配的伙伴，试试其他关键词或筛选条件。": "Geen overeenkomende metgezellen — probeer andere zoekwoorden of filters.",
@@ -103,5 +100,8 @@
   "图鉴已更新，新增 %lld 个伙伴，共 %lld 个。": "Catalogus bijgewerkt — %lld nieuwe metgezellen (%lld totaal).",
   "图鉴已是最新，共 %lld 个伙伴。": "Catalogus is up-to-date — %lld metgezellen.",
   "伙伴包格式无效，无法安装。": "Ongeldig metgezellenpakket — kan niet installeren.",
-  "该伙伴已下载。": "Deze metgezel is al gedownload."
+  "该伙伴已下载。": "Deze metgezel is al gedownload.",
+  "桌面伙伴": "Desktop-metgezellen",
+  "开启桌面伙伴": "Desktop-metgezel inschakelen",
+  "开启桌面伙伴后，可从图鉴下载角色陪你专注，或显示在桌面上。": "Schakel in om personages uit de catalogus te downloaden, gezelschap te houden tijdens focus of op het bureaublad te tonen."
 }

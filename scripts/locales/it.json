@@ -93,9 +93,6 @@
   "小伴": "Amico",
   "默契 +1": "Legame +1",
   "安静地陪在你旁边…": "Tranquillamente al tuo fianco…",
-  "专注伙伴": "Compagni",
-  "开启专注伙伴": "Attiva compagno di focus",
-  "开启专注伙伴后，可从图鉴下载角色陪你专注，或显示在桌面上。": "Attiva per scaricare personaggi dal catalogo, farti compagnia durante il focus o mostrarli sul desktop.",
   "搜索伙伴（支持中文/英文/日文等）": "Cerca compagni (cinese, inglese, giapponese…)",
   "从 Petdex 拉取最新伙伴列表": "Recupera l'elenco aggiornato dei compagni da Petdex",
   "没有匹配的伙伴，试试其他关键词或筛选条件。": "Nessun compagno corrispondente — prova altre parole chiave o filtri.",
@@ -103,5 +100,8 @@
   "图鉴已更新，新增 %lld 个伙伴，共 %lld 个。": "Catalogo aggiornato — %lld nuovi compagni (%lld totali).",
   "图鉴已是最新，共 %lld 个伙伴。": "Catalogo aggiornato — %lld compagni.",
   "伙伴包格式无效，无法安装。": "Pacchetto compagno non valido — impossibile installare.",
-  "该伙伴已下载。": "Questo compagno è già stato scaricato."
+  "该伙伴已下载。": "Questo compagno è già stato scaricato.",
+  "桌面伙伴": "Compagni desktop",
+  "开启桌面伙伴": "Attiva compagno desktop",
+  "开启桌面伙伴后，可从图鉴下载角色陪你专注，或显示在桌面上。": "Attiva per scaricare personaggi dal catalogo, farti compagnia durante il focus o mostrarli sul desktop."
 }

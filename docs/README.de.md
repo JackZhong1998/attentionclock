@@ -13,12 +13,12 @@ Kein Konto, kein Internet nötig. Alle Daten bleiben auf deinem Mac.
 - **Flexible Zeit**: 25 Min. Standard, ±5 Min.
 - **Volle Kontrolle**: Pause, Fortsetzen, vorzeitig beenden
 - **Fortschritt sehen**: ein Baum 🌳 pro Session, Heatmap
-- **Fokus-Begleiter (optional)**: 3000+ Pixel-Charaktere, downloadbar mit Schwebefenster
+- **Desktop-Begleiter (optional)**: 3000+ Pixel-Charaktere, downloadbar mit Schwebefenster
 - **Komplett kostenlos**: Open Source
 
-## Fokus-Begleiter (optional)
+## Desktop-Begleiter (optional)
 
-Fokussieren muss nicht einsam sein. Mit Fokus-Begleitern kannst du:
+Fokussieren muss nicht einsam sein. Mit Desktop-Begleitern kannst du:
 
 - **3000+ Katalog**: durchsuchen, suchen und herunterladen
 - **Reagiert beim Fokus**: begleitet den Timer
