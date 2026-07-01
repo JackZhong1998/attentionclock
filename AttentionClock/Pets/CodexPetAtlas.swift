@@ -5,6 +5,7 @@ final class CodexPetAtlas {
     let pack: CodexPetPack
     private let cgImage: CGImage
     private var frameCache: [String: CGImage] = [:]
+    private var nsImageCache: [String: NSImage] = [:]
 
     var cellWidth: Int { pack.atlas.cellWidth }
     var cellHeight: Int { pack.atlas.cellHeight }
@@ -23,6 +24,11 @@ final class CodexPetAtlas {
     }
 
     func frameImage(row: Int, column: Int) -> CGImage? {
+        guard row >= 0, row < pack.atlas.rows,
+              column >= 0, column < pack.atlas.columns else {
+            return nil
+        }
+
         let key = "\(row)-\(column)"
         if let cached = frameCache[key] {
             return cached
@@ -43,7 +49,13 @@ final class CodexPetAtlas {
 
     func nsImage(row: Int, column: Int) -> NSImage? {
         guard let frame = frameImage(row: row, column: column) else { return nil }
+        let key = "\(row)-\(column)-ns"
+        if let cached = nsImageCache[key] {
+            return cached
+        }
         let size = NSSize(width: cellWidth, height: cellHeight)
-        return NSImage(cgImage: frame, size: size)
+        let image = NSImage(cgImage: frame, size: size)
+        nsImageCache[key] = image
+        return image
     }
 }

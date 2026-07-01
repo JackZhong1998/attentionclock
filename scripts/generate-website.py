@@ -59,7 +59,7 @@ def feature_items(lang: str) -> list[dict[str, str]]:
             "desc": t(lang, "f5_desc"),
         },
         {
-            "icon": "🐱",
+            "icon": "✨",
             "title": t(lang, "f6_title"),
             "desc": t(lang, "f6_desc"),
         },

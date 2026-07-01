@@ -114,7 +114,7 @@
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "%lld хв"
+            "value": "%lld хвилин"
           }
         },
         "ms": {
@@ -338,7 +338,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "%@: Tidak ada catatan fokus"
+            "value": "%@: Tidak ada rekaman fokus"
           }
         },
         "tr": {
@@ -350,19 +350,19 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "%@: Geen registratie van focus"
+            "value": "%@: Geen focusrecord"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "%@: Brak zapisu skupienia"
+            "value": "%@: Brak zapisu ostrości"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "%@: Немає запису фокусу"
+            "value": "%@: немає запису фокусу"
           }
         },
         "ms": {
@@ -462,7 +462,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "%@\n%@ · Total %@"
+            "value": "%@\n%@ · Jumlah %@"
           }
         },
         "tr": {
@@ -486,7 +486,7 @@
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "%@\n%@ · Всього %@"
+            "value": "%@\n%@ · Усього %@"
           }
         },
         "ms": {
@@ -586,7 +586,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "%d hours %d menit"
+            "value": "%d jam %d menit"
           }
         },
         "tr": {
@@ -598,13 +598,13 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "%d hours %d minuten"
+            "value": "%d uur %d minuten"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "%d hours %d min"
+            "value": "%d godziny %d minuty"
           }
         },
         "uk": {
@@ -616,7 +616,7 @@
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "%d hours %d minit"
+            "value": "%d jam %d minit"
           }
         }
       }
@@ -710,7 +710,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "%d minutes %d detik"
+            "value": "%d menit %d detik"
           }
         },
         "tr": {
@@ -722,25 +722,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "%d minutes %d seconden"
+            "value": "%d minuten %d seconden"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "%d minutes %d sek."
+            "value": "%d minut %d sekund"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "%d хвилини %d секунди"
+            "value": "%d хвилин %d секунд"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "%d minutes %d saat"
+            "value": "%d minit %d saat"
           }
         }
       }
@@ -852,7 +852,7 @@
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "%d sek."
+            "value": "%d sekund"
           }
         },
         "uk": {
@@ -1330,7 +1330,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "🌳 × %lld"
+            "value": "🌳 ×%lld"
           }
         },
         "tr": {
@@ -1342,25 +1342,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "🌳 × %lld"
+            "value": "🌳 ×%lld"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "🌳 × %lld"
+            "value": "🌳 ×%lld"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "🌳 × %lld"
+            "value": "🌳 ×%lld"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "🌳 × %lld"
+            "value": "🌳 ×%lld"
           }
         }
       }
@@ -2328,7 +2328,7 @@
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "odak"
+            "value": "Odak"
           }
         },
         "nl": {
@@ -2346,7 +2346,7 @@
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Фокус"
+            "value": "фокус"
           }
         },
         "ms": {
@@ -2446,7 +2446,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fokus"
+            "value": "Berkonsentrasi"
           }
         },
         "tr": {
@@ -2458,25 +2458,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Gericht"
+            "value": "Concentreren"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Skupiony"
+            "value": "Koncentrując się"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Зосереджений"
+            "value": "Концентрація"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fokus"
+            "value": "menumpukan perhatian"
           }
         }
       }
@@ -2570,7 +2570,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Penyelesaian Terfokus"
+            "value": "Fokus pada penyelesaian"
           }
         },
         "tr": {
@@ -2582,149 +2582,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Gerichte voltooiing"
+            "value": "Focus op voltooiing"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ukierunkowane ukończenie"
+            "value": "Skup się na ukończeniu"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Цілеспрямоване завершення"
+            "value": "Зосередьтеся на завершенні"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Penyelesaian Berfokus"
-          }
-        }
-      }
-    },
-    "专注完成，猫粮已领取": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Session done, treat claimed"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "集中完了、ごはんをもらった"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "집중 완료, 간식 받음"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "專注完成，貓糧已领取"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Centrado, comida para gatos reivindicada"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Concentré, nourriture pour chat revendiquée"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Konzentriertes, beanspruchtes Katzenfutter"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Focada, comida de gato reivindicada"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Сфокусирован, заявлен корм для кошек"
-          }
-        },
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "مركّز، ادعى طعام القطط"
-          }
-        },
-        "hi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "फ़ोकस्ड, कैट फ़ूड क्लेम किया गया"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cibo per gatti mirato e dichiarato"
-          }
-        },
-        "th": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "โฟกัสเสร็จได้รับอาหารแมวแล้ว"
-          }
-        },
-        "vi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Đã lấy nét xong, đã nhận được thức ăn cho mèo"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fokus, makanan kucing diklaim"
-          }
-        },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Odaklanma tamamlandı, kedi maması alındı"
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Gericht, kattenvoer geclaimd"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Skupiona, deklarowana karma dla kotów"
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Зосереджено, заявлено корм для котів"
-          }
-        },
-        "ms": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Berfokus, makanan kucing dituntut"
+            "value": "Fokus pada penyiapan"
           }
         }
       }
@@ -2818,7 +2694,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Peta Panas Terfokus"
+            "value": "Fokus pada peta panas"
           }
         },
         "tr": {
@@ -2830,25 +2706,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Gerichte heatmap"
+            "value": "Focus op hittekaarten"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Skupiona mapa cieplna"
+            "value": "Skoncentruj się na mapach cieplnych"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Сфокусована теплова карта"
+            "value": "Зосередьтеся на теплових картах"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Peta Haba Berfokus"
+            "value": "Fokus pada peta haba"
           }
         }
       }
@@ -2943,7 +2819,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Picu impian Anda sekali"
+            "value": "Kumpulkan energi untuk impian Anda sekali"
           }
         },
         "tr": {
@@ -2955,25 +2831,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Geef je dromen één keer brandstof"
+            "value": "Verzamel een keer energie voor je droom"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Podsyć swoje marzenia raz"
+            "value": "Zbierz raz energię na swoje marzenie"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Підживте свої мрії один раз"
+            "value": "Наберіться один раз енергії для своєї мрії"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Semarakkan impian anda sekali"
+            "value": "Kumpul tenaga untuk impian anda sekali"
           }
         }
       }
@@ -3067,7 +2943,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Picu impian Anda sekali"
+            "value": "Isi daya untuk impian Anda sekali"
           }
         },
         "tr": {
@@ -3079,149 +2955,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Geef je dromen één keer brandstof"
+            "value": "Laad een keer op voor je droom"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Podsyć swoje marzenia raz"
+            "value": "Naładuj raz swoje marzenie"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Підживте свої мрії один раз"
+            "value": "Зарядись за свою мрію один раз"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Semarakkan impian anda sekali"
-          }
-        }
-      }
-    },
-    "云养猫": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cloud Cat"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "クラウド猫"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "클라우드 고양이"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "雲养貓"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cloud CAT"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cloud CAT"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cloud Cat"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Gato das nuvens"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cloud CAT"
-          }
-        },
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "قطة سحابية"
-          }
-        },
-        "hi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "क्लाउड कैट"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Gatto delle nuvole"
-          }
-        },
-        "th": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "เมฆหยางเหมา"
-          }
-        },
-        "vi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mây Dương Mậu"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kucing awan"
-          }
-        },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Bulut Yangmao"
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Wolkenkat"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kot w chmurze"
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cloud CAT"
-          }
-        },
-        "ms": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kucing awan"
+            "value": "Caj untuk impian anda sekali"
           }
         }
       }
@@ -3339,13 +3091,13 @@
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Адам і я хочемо зупинити це."
+            "value": "сьогодні"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "e kamus"
+            "value": "hari ini"
           }
         }
       }
@@ -3439,7 +3191,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Hari ini Anda menginap dengan saya selama %lld menit, sangat senang!"
+            "value": "Anda menghabiskan %lld menit bersama saya hari ini, sangat bahagia!"
           }
         },
         "tr": {
@@ -3451,25 +3203,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Vandaag ben je %lld minuten bij me gebleven, zo blij!"
+            "value": "Je hebt vandaag %lld minuten met mij doorgebracht, zo blij!"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Dzisiaj byłeś ze mną przez %lld minut, więc jesteś szczęśliwy!"
+            "value": "Spędziłeś dzisiaj ze mną %lld minut, jestem bardzo szczęśliwy!"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Сьогодні ти залишився зі мною на %lld хв, так щасливо!"
+            "value": "Ти провів зі мною %lld хвилин сьогодні, такий щасливий!"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Hari ini awak tinggal dengan saya selama %lld minit, sangat gembira!"
+            "value": "Anda menghabiskan %lld minit dengan saya hari ini, sangat gembira!"
           }
         }
       }
@@ -3563,7 +3315,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Kondisinya bagus hari ini ~"
+            "value": "Aku dalam kondisi baik hari ini~"
           }
         },
         "tr": {
@@ -3575,25 +3327,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Het is vandaag in goede staat ~"
+            "value": "Ik ben in goede conditie vandaag~"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Dziś jest w dobrym stanie ~"
+            "value": "Dziś jestem w dobrym stanie~"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Сьогодні він у хорошій формі ~"
+            "value": "Сьогодні я в хорошому стані~"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ia dalam keadaan baik hari ini ~"
+            "value": "Saya dalam keadaan baik hari ini~"
           }
         }
       }
@@ -3687,7 +3439,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ringkas Semua"
+            "value": "Semua ringkasan"
           }
         },
         "tr": {
@@ -3699,25 +3451,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Alles samenvatten"
+            "value": "Allemaal samenvatting"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Podsumuj wszystko"
+            "value": "Wszystko podsumowanie"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Підсумувати всі"
+            "value": "Все резюме"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ringkaskan Semua"
+            "value": "Semua ringkasan"
           }
         }
       }
@@ -3829,143 +3581,19 @@
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Razem %lld razy"
+            "value": "Łącznie %lld razy"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Всього %lld разів"
+            "value": "Усього %lld разів"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
             "value": "Jumlah %lld kali"
-          }
-        }
-      }
-    },
-    "关闭后不显示任何养猫相关功能。": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "When off, all cat companion features are hidden."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "オフにすると猫関連の機能は表示されません。"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "끄면 고양이 관련 기능이 모두 숨겨집니다."
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "關闭後不顯示任何养貓相關功能。"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No muestre ninguna característica relacionada con el CAT cuando esté apagado."
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ne montrez aucune caractéristique liée au chat lorsqu'il est éteint."
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Zeigen Sie keine katzenbezogenen Funktionen an, wenn Sie ausgeschaltet sind."
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Não mostre nenhum recurso relacionado ao Cat quando desligado."
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "При выключении не показывайте никаких функций, связанных с CAT."
-          }
-        },
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "لا تعرض أي ميزات متعلقة بالقطط عند إيقاف التشغيل."
-          }
-        },
-        "hi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "बंद होने पर बिल्ली से संबंधित कोई भी सुविधा न दिखाएँ।"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Non mostrare alcuna caratteristica relativa al gatto quando è spento."
-          }
-        },
-        "th": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "หลังจากปิดแล้ว จะไม่แสดงฟังก์ชันที่เกี่ยวข้องกับแมว"
-          }
-        },
-        "vi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sau khi đóng, sẽ không có chức năng nào liên quan đến mèo được hiển thị."
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Jangan tampilkan fitur terkait kucing saat dimatikan."
-          }
-        },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kapattıktan sonra kedi ile ilgili hiçbir işlev görüntülenmez."
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Laat geen kattengerelateerde functies zien wanneer uitgeschakeld."
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nie pokazuj żadnych funkcji związanych z kotami po wyłączeniu."
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "При вимкненні не показуйте жодних функцій, пов 'язаних з CAT."
-          }
-        },
-        "ms": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Jangan tunjukkan sebarang ciri berkaitan kucing apabila dimatikan."
           }
         }
       }
@@ -4059,7 +3687,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Mengetuk Kembali Penundaan Sekali"
+            "value": "Kalahkan dan tunda sekali"
           }
         },
         "tr": {
@@ -4071,25 +3699,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Knock Back Procrastination Once"
+            "value": "Versla en stel één keer uit"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Odwróć prokrastynację raz"
+            "value": "Pokonaj i opóźnij raz"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Відкиньте прокрастинацію один раз"
+            "value": "Поразка і затримка один раз"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Mengetuk Kembali Penangguhan Sekali"
+            "value": "Kalah dan tangguh sekali"
           }
         }
       }
@@ -4183,7 +3811,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Dapatkan perhatian Anda kembali satu kali"
+            "value": "Dapatkan perhatian Anda kembali sekali"
           }
         },
         "tr": {
@@ -4195,13 +3823,13 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Krijg één keer je aandacht terug"
+            "value": "Trek uw aandacht een keer terug"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Odzyskaj swoją uwagę raz"
+            "value": "Przywróć raz swoją uwagę"
           }
         },
         "uk": {
@@ -4307,7 +3935,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Meskipun belum selesai, tapi juga menemaniku untuk sementara waktu ~"
+            "value": "Meskipun saya tidak menyelesaikannya, saya tetap bersama saya untuk sementara waktu~"
           }
         },
         "tr": {
@@ -4319,25 +3947,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Hoewel het niet voltooid is, maar me ook een tijdje vergezelde ~"
+            "value": "Hoewel ik het niet afmaakte, bleef ik een tijdje bij me~"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Chociaż nie jest ukończony, ale też towarzyszył mi przez chwilę ~"
+            "value": "Choć nie dokończyłam, zostałam ze sobą na jakiś czas~"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Хоча вона не завершена, але також деякий час супроводжувала мене ~"
+            "value": "Хоча я не закінчив його, я залишився зі собою на деякий час~"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Walaupun tak siap, tapi sempat juga temankan saya sekejap ~"
+            "value": "Walaupun saya tidak menyelesaikannya, saya tinggal bersama saya untuk seketika~"
           }
         }
       }
@@ -4431,7 +4059,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Dengan Penyelesaian, Penangguhan, dan Penghentian Dini"
+            "value": "Termasuk penyelesaian, penangguhan, dan penyelesaian awal"
           }
         },
         "tr": {
@@ -4443,25 +4071,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Met Voltooiing, Opschorting en Vroegtijdige Beëindiging"
+            "value": "Inclusief oplevering, opschorting en vervroegd einde"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Z zakończeniem, zawieszeniem i wcześniejszym rozwiązaniem"
+            "value": "Obejmuje ukończenie, zawieszenie i wcześniejsze zakończenie"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "З завершенням, призупиненням та достроковим припиненням"
+            "value": "Включаючи завершення, призупинення та дострокове завершення"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Dengan Penyelesaian, Penggantungan, dan Penamatan Awal"
+            "value": "Termasuk penyiapan, penggantungan dan penamat awal"
           }
         }
       }
@@ -4679,7 +4307,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tinggi?"
+            "value": "banyak"
           }
         },
         "tr": {
@@ -4691,149 +4319,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Engte"
+            "value": "veel"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Przesuń"
+            "value": "wiele"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Більше"
+            "value": "багато"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ais"
-          }
-        }
-      }
-    },
-    "好棒！吃到猫粮啦": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Yay! Got a treat!"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "やった！ごはんもらった！"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "야호! 간식 받았어!"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "好棒！吃到貓糧啦"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "¡Genial! Tengo comida para gatos"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Super ! J'ai de la nourriture pour chat"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Super! Ich habe Katzenfutter"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ótimo! Eu tenho comida de gato"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Отлично! У меня есть кошачий корм"
-          }
-        },
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "رائع! لدي طعام للقطط"
-          }
-        },
-        "hi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "बढ़िया! मेरे पास बिल्ली का खाना है"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fantastico! Ho del cibo per gatti"
-          }
-        },
-        "th": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ยอดเยี่ยม!ได้อาหารแมวแล้ว"
-          }
-        },
-        "vi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tuyệt vời!Có thức ăn cho mèo"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Bagus! Saya punya makanan kucing"
-          }
-        },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Harika!Kedi maması aldım"
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Geweldig! Ik heb kattenvoer"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Świetnie! Mam karmę dla kotów"
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Чудово! У мене є котячий корм"
-          }
-        },
-        "ms": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Bagus! Saya ada makanan kucing"
+            "value": "ramai"
           }
         }
       }
@@ -4927,7 +4431,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Sangat bahagia"
+            "value": "sangat bahagia"
           }
         },
         "tr": {
@@ -4939,25 +4443,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Zo blij"
+            "value": "zo blij"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Dziękuję ci."
+            "value": "taki szczęśliwy"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Так щасливо"
+            "value": "такий щасливий"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Sangat gembira"
+            "value": "sangat gembira"
           }
         }
       }
@@ -5051,7 +4555,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Apa yang Anda berhenti itu?"
+            "value": "Mengapa kamu berhenti?"
           }
         },
         "tr": {
@@ -5063,273 +4567,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Waarom is het gestopt?"
+            "value": "Waarom ben je gestopt?"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Czemu zatrzymałeś?"
+            "value": "Dlaczego się zatrzymałeś?"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Чому це зупинилося?"
+            "value": "Чому ти зупинився?"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Kenapa ia berhenti?"
-          }
-        }
-      }
-    },
-    "幼猫": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kitten"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "子猫"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "새끼 고양이"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "幼貓"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Gatito"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Chaton"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kätzchen"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Gatinho"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Котенок"
-          }
-        },
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "قطة صغيرة"
-          }
-        },
-        "hi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "बिल्ली का बच्चा"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Gattino"
-          }
-        },
-        "th": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ลูกแมว"
-          }
-        },
-        "vi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "mèo con"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Anak kucing"
-          }
-        },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "yavru kedi"
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kitten"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kociak"
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Кошеня"
-          }
-        },
-        "ms": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Anak kucing"
-          }
-        }
-      }
-    },
-    "成猫": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Adult Cat"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "成猫"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "성묘"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "成貓"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Gato adulto"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Chat adulte"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Erwachsene Katze"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Gato Adulto"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Взрослая кошка"
-          }
-        },
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "قطة بالغة"
-          }
-        },
-        "hi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "वयस्क बिल्ली"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Gatto adulto"
-          }
-        },
-        "th": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "แมวโต"
-          }
-        },
-        "vi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "mèo trưởng thành"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kucing Dewasa"
-          }
-        },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "yetişkin kedi"
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Volwassen kat"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dorosły kot"
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Дорослий кіт"
-          }
-        },
-        "ms": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kucing Dewasa"
+            "value": "Kenapa awak berhenti?"
           }
         }
       }
@@ -5424,7 +4680,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Pulihkan Durasi Default"
+            "value": "Kembali ke durasi default"
           }
         },
         "tr": {
@@ -5436,7 +4692,7 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Standaardduur herstellen"
+            "value": "Terug naar de standaardduur"
           }
         },
         "pl": {
@@ -5448,13 +4704,13 @@
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Відновити тривалість за замовчуванням"
+            "value": "Повернутися до тривалості за замовчуванням"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Pulihkan Tempoh Lalai"
+            "value": "Kembali ke tempoh lalai"
           }
         }
       }
@@ -5548,7 +4804,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Simpan lobus prefrontal satu kali"
+            "value": "Simpan lobus prefrontal sekali saja"
           }
         },
         "tr": {
@@ -5560,25 +4816,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Sla de prefrontale kwab één keer op"
+            "value": "Bewaar de prefrontale kwab voor één keer"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Jednokrotne zapisanie płata przedczołowego"
+            "value": "Oszczędź choć raz płat przedczołowy"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Збережіть префронтальну частку один раз"
+            "value": "Збережіть хоч раз передлобну частку"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Simpan lobus prefrontal sekali"
+            "value": "Simpan lobus prefrontal untuk sekali"
           }
         }
       }
@@ -5672,7 +4928,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Akumulasi kekuatan sekali"
+            "value": "Kumpulkan kekuatan sekali"
           }
         },
         "tr": {
@@ -5684,25 +4940,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Accumuleer kracht een keer"
+            "value": "Verzamel een keer kracht"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Zbierz siły raz"
+            "value": "Zbierz siłę raz"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Накопичувати міцність один раз"
+            "value": "Накопичуйте сили один раз"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Kumpulkan kekuatan sekali"
+            "value": "Kumpul kekuatan sekali"
           }
         }
       }
@@ -5796,7 +5052,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Jumlah rata - rata kali per hari"
+            "value": "Jumlah rata-rata kali per hari"
           }
         },
         "tr": {
@@ -5920,7 +5176,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Durasi harian rata - rata"
+            "value": "durasi harian rata-rata"
           }
         },
         "tr": {
@@ -5932,25 +5188,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Gemiddelde dagelijkse duur"
+            "value": "gemiddelde dagelijkse duur"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Średni dzienny czas trwania"
+            "value": "średni dzienny czas trwania"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Середня щоденна тривалість"
+            "value": "середньодобова тривалість"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Purata tempoh harian"
+            "value": "purata tempoh harian"
           }
         }
       }
@@ -6044,7 +5300,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Rata - rata waktu fokus harian"
+            "value": "Waktu fokus harian rata-rata"
           }
         },
         "tr": {
@@ -6068,13 +5324,13 @@
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Середній щоденний час фокусування"
+            "value": "Середній щоденний час концентрації уваги"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Purata masa tumpuan harian"
+            "value": "Purata masa fokus harian"
           }
         }
       }
@@ -6168,7 +5424,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Berfokus pada %lld menit, %@"
+            "value": "Fokus selama %lld menit, %@"
           }
         },
         "tr": {
@@ -6180,25 +5436,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Gericht op %lld minuten, %@"
+            "value": "Gefocust gedurende %lld minuten, %@"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Skoncentrowany na %lld minutach, %@"
+            "value": "Skupiony przez %lld minut, %@"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Зосереджено на %lld хвилинах, %@"
+            "value": "Зосереджено %lld хвилин, %@"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Berfokus pada %lld minit, %@"
+            "value": "Fokus selama %lld minit, %@"
           }
         }
       }
@@ -6292,7 +5548,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Sudah jeda"
+            "value": "Tergantung"
           }
         },
         "tr": {
@@ -6304,149 +5560,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "GEPAUSEERD"
+            "value": "Opgeschort"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Wstrzymane"
+            "value": "Zawieszony"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "ПРИЗУПИНЕНО"
+            "value": "Призупинено"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Jeda"
-          }
-        }
-      }
-    },
-    "开启后会有像素小猫陪伴专注；桌面浮窗可将小猫放在桌面上。": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "A pixel cat will keep you company. Desktop float places the cat on your screen."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ピクセル猫が集中をサポート。デスクトップフロートで画面上に表示できます。"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "픽셀 고양이가 집중을 함께합니다. 데스크톱 플로트로 화면에 띄울 수 있습니다."
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "開啟後會有像素小貓陪伴專注；桌面浮窗可將小貓放在桌面上。"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cuando se enciende, un gatito de píxeles acompañará el foco; la ventana flotante de la mesa puede colocar al gatito sobre la mesa."
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Lorsqu'il est allumé, un chaton pixel accompagnera la mise au point ; la fenêtre flottante du dessus de table peut placer le chaton sur le dessus de table."
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Wenn sie eingeschaltet ist, begleitet ein Pixelkätzchen den Fokus; das schwebende Fenster der Tischplatte kann das Kätzchen auf die Tischplatte legen."
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Quando ligado, um gatinho de pixel acompanhará o foco; a janela flutuante da mesa pode colocar o gatinho na mesa."
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "При включении фокус будет сопровождаться пиксельным котенком; плавающее окно столешницы может поместить котенка на столешницу."
-          }
-        },
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "عند تشغيله، سيرافق التركيز قطة صغيرة بكسل ؛ يمكن للنافذة العائمة على سطح الطاولة وضع القطة الصغيرة على سطح الطاولة."
-          }
-        },
-        "hi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "चालू होने पर, फोकस के साथ एक पिक्सेल बिल्ली का बच्चा होगा; टेबलटॉप फ्लोटिंग विंडो बिल्ली के बच्चे को टेबलटॉप पर रख सकती है।"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Quando è acceso, un gattino pixel accompagnerà la messa a fuoco; la finestra galleggiante del tavolo può posizionare il gattino sul tavolo."
-          }
-        },
-        "th": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "เมื่อเปิดใช้งาน ลูกแมวพิกเซลจะติดตามคุณไปเพื่อมุ่งความสนใจไปที่ หน้าต่างลอยเดสก์ท็อปสามารถวางลูกแมวบนเดสก์ท็อปได้"
-          }
-        },
-        "vi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Khi được bật, một chú mèo con pixel sẽ đi cùng bạn để tập trung vào; cửa sổ nổi trên màn hình có thể đặt chú mèo con trên màn hình."
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Saat dihidupkan, anak kucing piksel akan menyertai fokus; jendela meja mengambang dapat menempatkan anak kucing di atas meja."
-          }
-        },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Açıldığında, odaklanmanız için bir piksel kedi yavrusu size eşlik edecek; masaüstü kayan penceresi, yavru kediyi masaüstüne yerleştirebilir."
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Wanneer ingeschakeld, zal een pixelkitten de focus begeleiden; het zwevende tafelbladvenster kan het kitten op het tafelblad plaatsen."
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Po włączeniu kociak pikselowy będzie towarzyszył ostrości; pływające okno blatu stołu może umieścić kociaka na blacie stołu."
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "При увімкненні піксельне кошеня буде супроводжувати фокус; стільничне плаваюче вікно може розмістити кошеня на стільниці."
-          }
-        },
-        "ms": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Apabila dihidupkan, anak kucing piksel akan mengiringi tumpuan; tetingkap terapung di atas meja boleh meletakkan anak kucing di atas meja."
+            "value": "Digantung"
           }
         }
       }
@@ -6540,7 +5672,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Mulai"
+            "value": "awal"
           }
         },
         "tr": {
@@ -6552,149 +5684,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Begin"
+            "value": "begin"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Początek"
+            "value": "start"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "- Давай."
+            "value": "початок"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "mula"
-          }
-        }
-      }
-    },
-    "开始云养猫": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Enable Cloud Cat"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "クラウド猫を有効にする"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "클라우드 고양이 켜기"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "開始雲养貓"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Inicio de Gatos Basados en la Nube"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Démarrage des chats basés sur le cloud"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Starten von Cloud-basierten Katzen"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Iniciando Gatos Baseados em Nuvem"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Запуск облачных кошек"
-          }
-        },
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "بدء القطط القائمة على السحابة"
-          }
-        },
-        "hi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "क्लाउड - आधारित बिल्लियाँ शुरू करना"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Avvio di gatti basati su cloud"
-          }
-        },
-        "th": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "เริ่มเลี้ยงแมวบนคลาวด์"
-          }
-        },
-        "vi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Bắt đầu nuôi mèo trên mây"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Memulai Kucing Berbasis Awan"
-          }
-        },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Bulutta kedi yetiştirmeye başlayın"
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cloud-gebaseerde katten starten"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Uruchamianie kotów w chmurze"
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Запуск хмарних котів"
-          }
-        },
-        "ms": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Memulakan Kucing Berasaskan Awan"
+            "value": "mulakan"
           }
         }
       }
@@ -6794,7 +5802,7 @@
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "odaklanmaya başla"
+            "value": "Odaklanmayı başlat"
           }
         },
         "nl": {
@@ -6812,7 +5820,7 @@
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Почати фокус"
+            "value": "почніть фокусуватися"
           }
         },
         "ms": {
@@ -6936,386 +5944,13 @@
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Всього всіх записів"
+            "value": "Загальна кількість усіх записів"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
             "value": "Jumlah semua rekod"
-          }
-        }
-      }
-    },
-    "喵喵…好久没陪我啦": {
-      "extractionState": "stale",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Meow… it's been a while"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "にゃ…久しぶり"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "야옹… 오랜만이야"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "喵喵…好久沒陪我啦"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Miau miau... No he estado contigo por mucho tiempo"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Miaou miaou... Je ne suis pas avec toi depuis longtemps"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Miau miau... ich war schon lange nicht mehr bei dir"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Miau miau... Eu não estou com você há muito tempo"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Мяу-мяу... Я давно с тобой не был"
-          }
-        },
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "مياو مياو... لم أكن معك منذ فترة طويلة"
-          }
-        },
-        "hi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Meow meow... मैं लंबे समय से तुम्हारे साथ नहीं रही हूँ"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Miao miao... non sto con te da molto tempo"
-          }
-        },
-        "th": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "เหมียว เหมียว...อยู่กับฉันมานานแล้วนะ"
-          }
-        },
-        "vi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Meo meo...lâu lắm rồi em mới ở bên anh"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Meow meow... Aku sudah lama tidak bersamamu"
-          }
-        },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Miyav miyav... benimle kalmayalı uzun zaman oldu"
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Miauw miauw... Ik ben al heel lang niet meer bij je geweest"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Miau miau... Dawno z tobą nie byłam"
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Мяу-мяу… Я давно з тобою не був"
-          }
-        },
-        "ms": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Meow meow... saya dah lama tak bersama awak"
-          }
-        }
-      }
-    },
-    "喵…好久没陪我啦": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Meow… it's been a while"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "にゃ…久しぶり"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "야옹… 오랜만이야"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "喵…好久沒陪我啦"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Miau... no he estado contigo por mucho tiempo"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Miaou... Je ne suis pas avec toi depuis longtemps"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Miau... ich war schon lange nicht mehr bei dir"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Miau... Eu não estou com você há muito tempo"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Мяу... Я давно с тобой не был"
-          }
-        },
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "مياو... لم أكن معك منذ فترة طويلة"
-          }
-        },
-        "hi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Meow... मैं लंबे समय से तुम्हारे साथ नहीं रही हूँ"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Miao... non sto con te da molto tempo"
-          }
-        },
-        "th": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "เหมียว...คุณไม่ได้อยู่กับฉันมานานแล้ว"
-          }
-        },
-        "vi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Meow...lâu rồi bạn không ở bên tôi"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Meow... aku sudah lama tidak bersamamu"
-          }
-        },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Miyav...uzun zamandır yanımda değildin"
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Miauw... ik ben al heel lang niet meer bij je geweest"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Miau... Dawno z tobą nie byłam"
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Мяу… Я давно з тобою не був"
-          }
-        },
-        "ms": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Meow... saya dah lama tak bersama awak"
-          }
-        }
-      }
-    },
-    "咪咪": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mimi"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ミミ"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "미미"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "咪咪"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mimi"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mimi "
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mimi"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mimi"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Мими"
-          }
-        },
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mimi"
-          }
-        },
-        "hi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "मिमी"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tette!"
-          }
-        },
-        "th": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "มีมี่"
-          }
-        },
-        "vi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mimi"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "tasya"
-          }
-        },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mimi"
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mimi"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kitty?"
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Мімі"
-          }
-        },
-        "ms": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mimie"
           }
         }
       }
@@ -7409,7 +6044,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Selesaikan %lld %@"
+            "value": "Selesai %lld kali %@"
           }
         },
         "tr": {
@@ -7421,25 +6056,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Voltooi %lld %@"
+            "value": "%lld keer %@ voltooid"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ukończ %lld %@"
+            "value": "Ukończono %lld razy %@"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Завершити %lld %@"
+            "value": "Виконано %lld разів %@"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Lengkapkan %lld %@"
+            "value": "Selesai %lld kali %@"
           }
         }
       }
@@ -7533,7 +6168,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Penyelesaian"
+            "value": "Waktu selesai"
           }
         },
         "tr": {
@@ -7545,25 +6180,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Voltooiingen"
+            "value": "Voltooide tijden"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Realizacje"
+            "value": "Ukończone czasy"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Завершення"
+            "value": "Завершено разів"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Penyelesaian"
+            "value": "Masa siap"
           }
         }
       }
@@ -7658,7 +6293,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Maafkan aku untuk sekali ini."
+            "value": "Maaf pada diriku sendiri sekali"
           }
         },
         "tr": {
@@ -7670,25 +6305,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Het spijt me voor een keer."
+            "value": "Sorry voor mezelf, een keer"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Choć raz mi przykro."
+            "value": "Przepraszam siebie raz"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Вибачте хоча б раз."
+            "value": "Вибач собі одного разу"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Saya minta maaf buat kali ini."
+            "value": "Maaf pada diri sendiri sekali"
           }
         }
       }
@@ -7782,7 +6417,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Layak untuk diriku sendiri sekali"
+            "value": "Jadilah layak untuk dirimu sendiri sekali"
           }
         },
         "tr": {
@@ -7794,25 +6429,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ooit mezelf waardig"
+            "value": "Wees jezelf een keer waard"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Kiedyś byłem siebie warty"
+            "value": "Bądź choć raz siebie wart"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Гідний себе одного разу"
+            "value": "Будь одного разу гідним себе"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Layak untuk diri saya sekali"
+            "value": "Layak untuk diri sendiri sekali"
           }
         }
       }
@@ -7906,7 +6541,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "\"Tuan...\""
+            "value": "sedikit"
           }
         },
         "tr": {
@@ -7918,25 +6553,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "minder"
+            "value": "weinig"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Kilka"
+            "value": "kilka"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "— Ногтей."
+            "value": "мало"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Lei daipin la lei!"
+            "value": "sedikit"
           }
         }
       }
@@ -8030,7 +6665,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ketika kamu kembali"
+            "value": "Menunggumu kembali"
           }
         },
         "tr": {
@@ -8042,25 +6677,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Als je terugkomt"
+            "value": "Ik wacht tot je terugkomt"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "- Za tydzień fucha w Australii."
+            "value": "Czekam aż wrócisz"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Коли ви повернетеся"
+            "value": "Чекаю, коли ти повернешся"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Apabila awak kembali"
+            "value": "Menunggu awak kembali"
           }
         }
       }
@@ -8166,25 +6801,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Wachten tot je begint"
+            "value": "Ik wacht tot je begint"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Oczekiwanie na rozpoczęcie"
+            "value": "Czekam, aż zaczniesz"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Чекаємо на початок роботи"
+            "value": "Чекаю, поки ти почнеш"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Menunggu anda bermula"
+            "value": "Menunggu anda untuk memulakan"
           }
         }
       }
@@ -8278,7 +6913,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Alirkan sekali"
+            "value": "Pengalaman mengalir"
           }
         },
         "tr": {
@@ -8290,25 +6925,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Eenmaal doorstromen"
+            "value": "Een flow-ervaring"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Przepływ jednorazowy"
+            "value": "Doświadczenie przepływu"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Потік один раз"
+            "value": "Досвід потоку"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Alirkan sekali"
+            "value": "Pengalaman aliran"
           }
         }
       }
@@ -8402,7 +7037,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Total Durasi"
+            "value": "durasi total"
           }
         },
         "tr": {
@@ -8414,25 +7049,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Totale duur"
+            "value": "totale duur"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Całkowity czas trwania"
+            "value": "całkowity czas trwania"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Загальна тривалість"
+            "value": "загальна тривалість"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Jumlah Tempoh"
+            "value": "jumlah tempoh"
           }
         }
       }
@@ -8526,7 +7161,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Durasi Ini"
+            "value": "Durasi sesi ini"
           }
         },
         "tr": {
@@ -8538,25 +7173,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Deze duur"
+            "value": "Duur van deze sessie"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ten czas trwania"
+            "value": "Czas trwania tej sesji"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ця тривалість"
+            "value": "Тривалість цієї сесії"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tempoh Ini"
+            "value": "Tempoh sesi ini"
           }
         }
       }
@@ -8650,7 +7285,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Durasi default"
+            "value": "Durasi bawaan"
           }
         },
         "tr": {
@@ -8774,7 +7409,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Durasi default diterapkan secara otomatis di akhir setiap sesi fokus. Buka aplikasi dan klik \"Mulai Fokus ,\" atau sesuaikan durasinya terlebih dahulu."
+            "value": "Durasi default diterapkan secara otomatis setelah setiap fokus.Setelah membuka aplikasi, Anda dapat langsung mengklik \"Mulai Fokus\", atau sesuaikan durasinya terlebih dahulu."
           }
         },
         "tr": {
@@ -8786,25 +7421,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "De standaard duur wordt automatisch toegepast aan het einde van elke focus sessie. Open de app en klik op \"Start Focusing\" of pas eerst de duur aan."
+            "value": "De standaardduur wordt automatisch toegepast na elke focus.Na het openen van de app kun je direct op ‘Start Focusing’ klikken, of eerst de duur aanpassen."
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Domyślny czas trwania jest automatycznie stosowany pod koniec każdej sesji fokusowej. Otwórz aplikację i kliknij „Rozpocznij ogniskowanie” lub najpierw dostosuj czas trwania."
+            "value": "Domyślny czas trwania jest automatycznie stosowany po każdym skupieniu.Po otwarciu aplikacji możesz bezpośrednio kliknąć „Rozpocznij ustawianie ostrości” lub najpierw dostosować czas trwania."
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Тривалість за замовчуванням автоматично застосовується наприкінці кожного сеансу фокусування. Відкрийте додаток і натисніть \"Почати фокусування\" або спочатку змініть тривалість."
+            "value": "Тривалість за замовчуванням автоматично застосовується після кожного фокусу.Відкривши програму, ви можете безпосередньо натиснути «Почати фокусування» або спочатку налаштувати тривалість."
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tempoh lalai digunakan secara automatik pada akhir setiap sesi fokus. Buka aplikasi dan klik \"Mula Fokus,\" atau laraskan tempohnya terlebih dahulu."
+            "value": "Tempoh lalai digunakan secara automatik selepas setiap fokus.Selepas membuka apl, anda boleh mengklik \"Mulakan Fokus\" secara terus, atau laraskan tempoh dahulu."
           }
         }
       }
@@ -8898,7 +7533,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Belum selesai"
+            "value": "Tidak selesai"
           }
         },
         "tr": {
@@ -8910,13 +7545,13 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Incomplete..."
+            "value": "Niet voltooid"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Nie ukończono"
+            "value": "Nieukończone"
           }
         },
         "uk": {
@@ -8928,7 +7563,7 @@
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Belum selesai"
+            "value": "Tidak selesai"
           }
         }
       }
@@ -9022,7 +7657,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fokus yang Belum Selesai"
+            "value": "Fokus yang belum selesai"
           }
         },
         "tr": {
@@ -9040,19 +7675,19 @@
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Niedokończona koncentracja"
+            "value": "Niedokończone skupienie"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Незакінчений фокус"
+            "value": "Незавершений фокус"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tumpuan Belum Selesai"
+            "value": "Fokus yang belum selesai"
           }
         }
       }
@@ -9146,7 +7781,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tanam satu pohon pada satu waktu"
+            "value": "Tanam pohon setiap kali Anda menyelesaikannya"
           }
         },
         "tr": {
@@ -9158,25 +7793,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Plant één boom per keer"
+            "value": "Plant een boom elke keer dat je deze voltooit"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Posadź jedno drzewo na raz"
+            "value": "Za każdym razem, gdy je ukończysz, zasadź drzewo"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Посаджуйте по одному дереву за раз"
+            "value": "Саджайте дерево кожного разу, коли завершуєте його"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tanam satu pokok pada satu masa"
+            "value": "Tanam pokok setiap kali anda menyiapkannya"
           }
         }
       }
@@ -9270,7 +7905,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Pikirkan sedalam - dalamnya sekali"
+            "value": "Pikirkan baik-baik sekali"
           }
         },
         "tr": {
@@ -9282,25 +7917,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Denk één keer diep na"
+            "value": "Denk eens diep na"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Zastanów się raz głęboko"
+            "value": "Pomyśl raz głęboko"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Подумайте глибоко один раз"
+            "value": "Один раз глибоко подумайте"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fikirkan sedalam-dalamnya"
+            "value": "Fikir sedalam-dalamnya sekali"
           }
         }
       }
@@ -9406,19 +8041,19 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Een stap dichter bij je doel"
+            "value": "Een stap dichter bij jouw doel"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "O krok bliżej do celu"
+            "value": "O krok bliżej celu"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "На крок ближче до вашої мети"
+            "value": "На крок ближче до своєї мети"
           }
         },
         "ms": {
@@ -9518,7 +8153,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Jeda"
+            "value": "berhenti sebentar"
           }
         },
         "tr": {
@@ -9530,25 +8165,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Pauzeren"
+            "value": "pauze"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "przerwa"
+            "value": "pauza"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Застрягло"
+            "value": "пауза"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Penggantungan"
+            "value": "jeda"
           }
         }
       }
@@ -9654,13 +8289,13 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Countdown"
+            "value": "Aftellen"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Wsparcie dla gier Countdown oraz Les chiffres et les lettres"
+            "value": "Odliczanie"
           }
         },
         "uk": {
@@ -9672,7 +8307,7 @@
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Kiraan Mengundur"
+            "value": "undur"
           }
         }
       }
@@ -9766,7 +8401,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Catatan Harian"
+            "value": "catatan harian"
           }
         },
         "tr": {
@@ -9778,25 +8413,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Dagelijks record"
+            "value": "dagelijks record"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codzienny rekord"
+            "value": "dzienny zapis"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Щоденний запис"
+            "value": "щоденний запис"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Rekod Harian"
+            "value": "rekod harian"
           }
         }
       }
@@ -9890,7 +8525,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tidak ada catatan, mari fokus untuk pertama kalinya"
+            "value": "Belum ada rekornya, mari mulai fokus untuk pertama kalinya"
           }
         },
         "tr": {
@@ -9902,25 +8537,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Geen records, laten we ons voor het eerst concentreren"
+            "value": "Er is nog geen record, laten we ons voor de eerste keer gaan concentreren"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Brak zapisów, skupmy się po raz pierwszy"
+            "value": "Rekordu jeszcze nie ma, zacznijmy się skupiać po raz pierwszy"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Немає записів, давайте зосередимося вперше"
+            "value": "Запису ще немає, давайте почнемо фокусуватися вперше"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tiada rekod, mari kita fokus buat kali pertama"
+            "value": "Belum ada rekod, mari kita mula fokus buat kali pertama"
           }
         }
       }
@@ -10026,25 +8661,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Het is in goede staat"
+            "value": "In goede staat"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Jest w dobrym stanie"
+            "value": "W dobrym stanie"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Він у хорошій формі"
+            "value": "В хорошому стані"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ia dalam keadaan baik"
+            "value": "Dalam keadaan baik"
           }
         }
       }
@@ -10138,7 +8773,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "mendampingi"
+            "value": "Di perusahaan"
           }
         },
         "tr": {
@@ -10150,25 +8785,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "begeleidend"
+            "value": "In gezelschap"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "towarzysząca"
+            "value": "W towarzystwie"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "супроводжує"
+            "value": "В компанії"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "mengiringi"
+            "value": "Dalam syarikat"
           }
         }
       }
@@ -10262,7 +8897,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Berfokus pada Anda..."
+            "value": "Tetap fokus bersamamu..."
           }
         },
         "tr": {
@@ -10274,25 +8909,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Je concentreert je op jou..."
+            "value": "Blijf gefocust bij jou..."
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Koncentrując się na tobie..."
+            "value": "Bądź skupiony razem z tobą..."
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Зосередитися на вас..."
+            "value": "Залишайтеся зосередженими разом з вами..."
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Berfokus pada awak..."
+            "value": "Tetap fokus dengan anda..."
           }
         }
       }
@@ -10386,7 +9021,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ketuk \"Mulai Fokus\" untuk menemani saya"
+            "value": "Klik \"Mulai Fokus\" untuk menemani saya"
           }
         },
         "tr": {
@@ -10398,25 +9033,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tik op \"Start Focusing\" om me te vergezellen"
+            "value": "Klik op 'Start focussen' om met mij mee te gaan"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Dotknij „Rozpocznij ogniskowanie”, aby mi towarzyszyć"
+            "value": "Kliknij „Rozpocznij ustawianie ostrości”, aby mi towarzyszyć"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Натисніть \"Почати фокусування\", щоб супроводжувати мене"
+            "value": "Натисніть «Почати фокусування», щоб супроводжувати мене"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ketik \"Mula Fokus\" untuk menemani saya"
+            "value": "Klik \"Mula Fokus\" untuk menemani saya"
           }
         }
       }
@@ -10540,131 +9175,7 @@
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Semakan perkakasan:% u"
-          }
-        }
-      }
-    },
-    "猫粮 +1": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Treat +1"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ごはん +1"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "간식 +1"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "貓糧 +1"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Comida para gatos +1"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nourriture pour chats +1"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Katzenfutter +1"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Alimento para gatos +1"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Корм для кошек +1"
-          }
-        },
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "طعام القطط +1"
-          }
-        },
-        "hi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "बिल्ली का खाना +1"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cibo per gatti +1"
-          }
-        },
-        "th": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "อาหารแมว+1"
-          }
-        },
-        "vi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Thức ăn cho mèo +1"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Makanan kucing +1"
-          }
-        },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kedi maması +1"
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kattenvoer +1"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Karma dla kotów +1"
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Корм для котів +1"
-          }
-        },
-        "ms": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Makanan kucing +1"
+            "value": "Versi"
           }
         }
       }
@@ -10758,7 +9269,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Mengerti"
+            "value": "tahu"
           }
         },
         "tr": {
@@ -10770,25 +9281,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Begrepen"
+            "value": "wist"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "- Co to ma być?"
+            "value": "wiedział"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "- Ви такі неординарні."
+            "value": "знав"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "mengenal"
+            "value": "tahu"
           }
         }
       }
@@ -10888,7 +9399,7 @@
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "istatistikler"
+            "value": "İstatistikler"
           }
         },
         "nl": {
@@ -10906,7 +9417,7 @@
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Статистика"
+            "value": "статистика"
           }
         },
         "ms": {
@@ -11006,7 +9517,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Lanjut"
+            "value": "melanjutkan"
           }
         },
         "tr": {
@@ -11018,25 +9529,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Doorgaan"
+            "value": "doorgaan"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Kontynuuj"
+            "value": "Kontynuować"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Дальше."
+            "value": "продовжувати"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Sudah terlambat untuk menyalin"
+            "value": "teruskan"
           }
         }
       }
@@ -11130,7 +9641,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Total selesai"
+            "value": "Penyelesaian kumulatif"
           }
         },
         "tr": {
@@ -11148,19 +9659,19 @@
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Skumulowane ukończenie"
+            "value": "Zakończenie skumulowane"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Сукупне завершення"
+            "value": "Кумулятивне завершення"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Penyelesaian Kumulatif"
+            "value": "Penyelesaian kumulatif"
           }
         }
       }
@@ -11254,7 +9765,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Durasi Kumulatif"
+            "value": "Akumulasi waktu"
           }
         },
         "tr": {
@@ -11266,25 +9777,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Cumulatieve duur"
+            "value": "Geaccumuleerde tijd"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Łączny czas trwania"
+            "value": "Skumulowany czas"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Сукупна тривалість"
+            "value": "Накопичений час"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tempoh Kumulatif"
+            "value": "Masa terkumpul"
           }
         }
       }
@@ -11378,7 +9889,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Berakhir"
+            "value": "Menyelesaikan"
           }
         },
         "tr": {
@@ -11390,25 +9901,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "eindigen"
+            "value": "Finish"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "zamknięty"
+            "value": "Skończyć"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Кінець\"."
+            "value": "Закінчити"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "ajaib"
+            "value": "Selesai"
           }
         }
       }
@@ -11508,7 +10019,7 @@
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "kurmak"
+            "value": "Ayarlar"
           }
         },
         "nl": {
@@ -11526,7 +10037,7 @@
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Налаштування"
+            "value": "налаштувати"
           }
         },
         "ms": {
@@ -11626,7 +10137,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fokus harian selama 26 minggu terakhir, dengan warna yang lebih gelap menunjukkan lebih banyak aktivitas"
+            "value": "Konsentrasi harian dalam 26 minggu terakhir, semakin gelap warnanya maka semakin aktif"
           }
         },
         "tr": {
@@ -11638,149 +10149,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Dagelijkse focus in de afgelopen 26 weken, met donkere kleuren die meer activiteit aangeven"
+            "value": "Dagelijkse concentratie in de afgelopen 26 weken: hoe donkerder de kleur, hoe actiever deze is"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codzienna koncentracja w ciągu ostatnich 26 tygodni, z ciemniejszymi kolorami wskazującymi na większą aktywność"
+            "value": "Stężenie dzienne w ciągu ostatnich 26 tygodni, im ciemniejszy kolor, tym bardziej aktywny"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Щоденна концентрація уваги протягом останніх 26 тижнів, причому темніші кольори вказують на більшу активність"
+            "value": "Щоденна концентрація за останні 26 тижнів, чим темніший колір, тим він активніший"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fokus harian sepanjang 26 minggu terakhir, dengan warna yang lebih gelap menunjukkan lebih banyak aktiviti"
-          }
-        }
-      }
-    },
-    "安静地趴在你旁边…": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Quietly resting beside you…"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "そっと横でお昼寝中…"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "조용히 옆에 누워 있어…"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "安靜地趴在你旁邊…"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tumbado tranquilamente a tu lado..."
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Allongé tranquillement à côté de vous..."
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Leise neben dir liegend..."
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Deitado silenciosamente ao seu lado..."
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Лежать тихо рядом с тобой..."
-          }
-        },
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "مستلقيا بجانبك بهدوء..."
-          }
-        },
-        "hi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "आपके बगल में चुपचाप झूठ बोलना..."
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sdraiato tranquillamente accanto a te..."
-          }
-        },
-        "th": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "นอนอยู่ข้างๆคุณอย่างเงียบๆ..."
-          }
-        },
-        "vi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nằm lặng lẽ bên cạnh anh..."
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Berbaring tenang di sampingmu..."
-          }
-        },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Yanında sessizce uzanmak..."
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Rustig naast je liggend..."
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Leżąc cicho obok ciebie..."
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Лежить тихо поруч з тобою..."
-          }
-        },
-        "ms": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Baring diam-diam di sebelah awak..."
+            "value": "Kepekatan harian dalam 26 minggu yang lalu, lebih gelap warna, lebih aktif"
           }
         }
       }
@@ -11874,7 +10261,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Bersiap mulai"
+            "value": "siap untuk memulai"
           }
         },
         "tr": {
@@ -11886,25 +10273,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Maak je klaar om aan de slag te gaan"
+            "value": "klaar om te beginnen"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Działamy."
+            "value": "gotowy do rozpoczęcia"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Приготуйтеся розпочати"
+            "value": "готовий почати"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Bersedia untuk bermula"
+            "value": "bersedia untuk memulakan"
           }
         }
       }
@@ -11998,7 +10385,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Heatmap gagal dimuat, silakan mulai ulang aplikasi"
+            "value": "Peta panas gagal dimuat, silakan mulai ulang aplikasi."
           }
         },
         "tr": {
@@ -12010,25 +10397,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Heatmap kon niet worden geladen, start de app opnieuw"
+            "value": "De heatmap kan niet worden geladen. Start de applicatie opnieuw."
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Nie udało się załadować mapy skupień, uruchom ponownie aplikację"
+            "value": "Nie udało się załadować mapy cieplnej. Uruchom ponownie aplikację."
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Не вдалося завантажити теплову карту. Перезапустіть додаток"
+            "value": "Не вдалося завантажити теплову карту, перезапустіть програму."
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Peta haba gagal dimuatkan, sila mulakan semula aplikasi"
+            "value": "Peta haba gagal dimuatkan, sila mulakan semula aplikasi."
           }
         }
       }
@@ -12122,7 +10509,7 @@
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Jendela Mengambang Desktop"
+            "value": "Jendela mengambang desktop"
           }
         },
         "tr": {
@@ -12134,7 +10521,7 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Zwevend bureaubladvenster"
+            "value": "Zwevend venster op het bureaublad"
           }
         },
         "pl": {
@@ -12146,13 +10533,13 @@
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Плаваюче вікно стільниці"
+            "value": "Плаваюче вікно на робочому столі"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tetingkap Terapung Desktop"
+            "value": "Tetingkap terapung desktop"
           }
         }
       }
@@ -12258,25 +10645,2495 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Eenmaal efficiënt groeien"
+            "value": "Eén keer efficiënt groeien"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Rozwijaj się wydajnie raz"
+            "value": "Rozwijaj się efektywnie raz"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ефективне зростання один раз"
+            "value": "Вирости ефективно один раз"
           }
         },
         "ms": {
           "stringUnit": {
             "state": "translated",
             "value": "Berkembang dengan cekap sekali"
+          }
+        }
+      }
+    },
+    "专注完成，默契已提升": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "专注完成，默契已提升"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Focus complete — bond strengthened"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "集中完了 — 絆が深まりました"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "집중 완료 — 유대감 상승"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enfoque completado — vínculo reforzado"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Focus terminé — lien renforcé"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fokus abgeschlossen — Bindung gestärkt"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Foco concluído — vínculo fortalecido"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Фокус завершён — связь укреплена"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اكتمل التركيز — تعزّزت الرابطة"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "फ़ोकस पूरा — बंधन मज़बूत हुआ"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Focus completato — legame rafforzato"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "โฟกัสเสร็จแล้ว — ความผูกพันเพิ่มขึ้น"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hoàn thành tập trung — gắn kết tăng thêm"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fokus selesai — ikatan diperkuat"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Odak tamamlandı — bağ güçlendi"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Focus voltooid — band versterkt"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skupienie ukończone — więź wzmocniona"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Фокус завершено — зв'язок зміцнено"
+          }
+        },
+        "ms": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fokus selesai — ikatan diperkukuh"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "專注完成，默契已提升"
+          }
+        }
+      }
+    },
+    "太好了！又一起专注啦": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "太好了！又一起专注啦"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Great! We focused together again!"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "やった！また一緒に集中できた！"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "좋아! 또 함께 집중했어!"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¡Genial! ¡Enfocamos juntos otra vez!"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Super ! On a de nouveau focus ensemble !"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toll! Wir haben wieder zusammen fokussiert!"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ótimo! Focamos juntos de novo!"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Отлично! Мы снова сфокусировались вместе!"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "رائع! ركزنا معاً مرة أخرى!"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "बढ़िया! हमने फिर साथ में फ़ोकस किया!"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ottimo! Abbiamo di nuovo fatto focus insieme!"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เยี่ยม! โฟกัสด้วยกันอีกแล้ว!"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tuyệt! Chúng ta lại cùng tập trung!"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hebat! Kita fokus bersama lagi!"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Harika! Yine birlikte odaklandık!"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geweldig! We hebben weer samen gefocust!"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Świetnie! Znowu skupiliśmy się razem!"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Чудово! Ми знову сфокусувалися разом!"
+          }
+        },
+        "ms": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hebat! Kita fokus bersama lagi!"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "太好了！又一起專注啦"
+          }
+        }
+      }
+    },
+    "初识": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "初识"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "初めまして"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "처음 만남"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nuevo"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nouveau"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neu"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Novo"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Знакомство"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "جديد"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "नया"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nuovo"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เพิ่งรู้จัก"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mới quen"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Baru"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yeni"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nieuw"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nowy"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Новий"
+          }
+        },
+        "ms": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Baru"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "初识"
+          }
+        }
+      }
+    },
+    "熟络": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "熟络"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Close"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "なじみ"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "친해짐"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cercano"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Proche"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vertraut"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Próximo"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Близкий"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مقرّب"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "घनिष्ठ"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vicino"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "สนิท"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thân thiết"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Akrab"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yakın"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vertrouwd"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bliski"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Близький"
+          }
+        },
+        "ms": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "rapat"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "熟络"
+          }
+        }
+      }
+    },
+    "好久没一起专注了": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "好久没一起专注了"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "It's been a while since we focused together"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "しばらく一緒に集中してないね"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "우리 같이 집중한 지 꽤 됐어"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hace tiempo que no enfocamos juntos"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ça fait un moment qu'on n'a pas focus ensemble"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wir haben schon lange nicht mehr zusammen fokussiert"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Faz tempo que não focamos juntos"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Давно мы не фокусировались вместе"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مر وقت طويل منذ آخر تركيز معاً"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "हमने काफ़ी समय से साथ में फ़ोकस नहीं किया"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "È passato un po' dall'ultimo focus insieme"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ไม่ได้โฟกัสด้วยกันนานแล้ว"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã lâu chúng ta chưa cùng tập trung"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sudah lama kita tidak fokus bersama"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Birlikte odaklanalı uzun zaman oldu"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Het is lang geleden dat we samen focusten"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dawno nie skupialiśmy się razem"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Давно ми не фокусувалися разом"
+          }
+        },
+        "ms": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sudah lama kita tidak fokus bersama"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "好久沒一起專注了"
+          }
+        }
+      }
+    },
+    "小伴": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "小伴"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buddy"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ともだち"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "친구"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Compi"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copain"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kumpel"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Amiguinho"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Дружок"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "رفيق"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "दोस्त"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Amico"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เพื่อน"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bạn nhỏ"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Teman"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dost"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Maatje"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przyjaciel"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Друже"
+          }
+        },
+        "ms": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kawan"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "小伴"
+          }
+        }
+      }
+    },
+    "默契 +1": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "默契 +1"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bond +1"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "絆 +1"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "유대 +1"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vínculo +1"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lien +1"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bindung +1"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vínculo +1"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Связь +1"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "رابطة +1"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "बंधन +1"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Legame +1"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "สายสัมพันธ์ +1"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gắn kết +1"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ikatan +1"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bağ +1"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Band +1"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Więź +1"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Зв'язок +1"
+          }
+        },
+        "ms": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ikatan +1"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "默契 +1"
+          }
+        }
+      }
+    },
+    "安静地陪在你旁边…": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "安静地陪在你旁边…"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quietly keeping you company…"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "そっとそばで寄り添っています…"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "조용히 곁에서 함께하고 있어요…"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tranquilamente a tu lado…"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tranquillement à tes côtés…"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ruhig an deiner Seite…"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quietamente ao seu lado…"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Тихо рядом с тобой…"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بجانبك بهدوء…"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "चुपचाप साथ बैठा हूँ…"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tranquillamente al tuo fianco…"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "อยู่ข้างๆ อย่างเงียบๆ…"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lặng lẽ ở bên cạnh bạn…"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diam-diam menemani di samping…"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sessizce yanında…"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rustig naast je…"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cicho obok ciebie…"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Тихо поруч із тобою…"
+          }
+        },
+        "ms": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diam-diam menemani di sisi…"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "安靜地陪在你旁邊…"
+          }
+        }
+      }
+    },
+    "专注伙伴": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "专注伙伴"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Companions"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "集中パートナー"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "집중 파트너"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Compañeros"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Compagnons"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Begleiter"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Companheiros"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Спутники"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الرفاق"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "साथी"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Compagni"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เพื่อนร่วมทาง"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bạn đồng hành"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Teman fokus"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yol arkadaşları"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Metgezellen"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Towarzysze"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Супутники"
+          }
+        },
+        "ms": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rakan fokus"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "專注伙伴"
+          }
+        }
+      }
+    },
+    "开启专注伙伴": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "开启专注伙伴"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enable Focus Companion"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "集中パートナーを有効にする"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "집중 파트너 사용"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activar compañero de enfoque"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activer le compagnon de focus"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fokus-Begleiter aktivieren"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ativar companheiro de foco"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Включить спутника фокуса"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تفعيل رفيق التركيز"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "फ़ोकस साथी चालू करें"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Attiva compagno di focus"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เปิดใช้เพื่อนร่วมโฟกัส"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bật bạn đồng hành tập trung"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktifkan teman fokus"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Odak arkadaşını etkinleştir"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Focus-metgezel inschakelen"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Włącz towarzysza skupienia"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Увімкнути супутника фокусу"
+          }
+        },
+        "ms": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dayakan rakan fokus"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "開啟專注伙伴"
+          }
+        }
+      }
+    },
+    "开启专注伙伴后，可从图鉴下载角色陪你专注，或显示在桌面上。": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "开启专注伙伴后，可从图鉴下载角色陪你专注，或显示在桌面上。"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enable companions to download characters from the catalog, keep you company while focusing, or show one on your desktop."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "有効にすると、図鑑からキャラをダウンロードして集中を一緒にしたり、デスクトップに表示できます。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "켜면 도감에서 캐릭터를 받아 집중할 때 함께하거나 바탕화면에 표시할 수 있습니다."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Actívalo para descargar personajes del catálogo, acompañarte al enfocarte o mostrarlos en el escritorio."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activez pour télécharger des personnages, vous tenir compagnie pendant le focus ou les afficher sur le bureau."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktivieren, um Charaktere aus dem Katalog zu laden, beim Fokussieren Gesellschaft zu leisten oder sie auf dem Desktop anzuzeigen."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ative para baixar personagens do catálogo, fazer companhia no foco ou exibir na área de trabalho."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Включите, чтобы скачивать персонажей из каталога, сопровождать вас во время фокуса или показывать на рабочем столе."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "فعّل لتحميل الشخصيات من الفهرس، مرافقتك أثناء التركيز، أو عرضها على سطح المكتب."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "कैटलॉग से पात्र डाउनलोड करने, फ़ोकस में साथ देने या डेस्कटॉप पर दिखाने के लिए चालू करें।"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Attiva per scaricare personaggi dal catalogo, farti compagnia durante il focus o mostrarli sul desktop."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เปิดใช้เพื่อดาวน์โหลดตัวละครจากคatalog คอยเป็นเพื่อนตอนโฟกัส หรือแสดงบนเดสก์ท็อป"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bật để tải nhân vật từ danh mục, đồng hành khi tập trung hoặc hiển thị trên màn hình."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktifkan untuk mengunduh karakter dari katalog, menemani fokus, atau menampilkannya di desktop."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Katalogdan karakter indirmek, odaklanırken eşlik etmek veya masaüstünde göstermek için etkinleştirin."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Schakel in om personages uit de catalogus te downloaden, gezelschap te houden tijdens focus of op het bureaublad te tonen."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Włącz, aby pobierać postacie z katalogu, towarzyszyć podczas skupienia lub wyświetlać na pulpicie."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Увімкніть, щоб завантажувати персонажів із каталогу, супроводжувати під час фокусу або показувати на робочому столі."
+          }
+        },
+        "ms": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dayakan untuk memuat turun watak dari katalog, menemani fokus, atau paparkan di desktop."
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "開啟專注伙伴後，可从圖鉴下載角色陪你專注，或顯示在桌面上。"
+          }
+        }
+      }
+    },
+    "搜索伙伴（支持中文/英文/日文等）": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "搜索伙伴（支持中文/英文/日文等）"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search companions (Chinese, English, Japanese…)"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "パートナーを検索（中国語・英語・日本語など）"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "동반자 검색 (중국어/영어/일본어 등)"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscar compañeros (chino, inglés, japonés…)"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rechercher des compagnons (chinois, anglais, japonais…)"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Begleiter suchen (Chinesisch, Englisch, Japanisch…)"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscar companheiros (chinês, inglês, japonês…)"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Поиск спутников (китайский, английский, японский…)"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "البحث عن الرفاق (صيني، إنجليزي، ياباني…)"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "साथी खोजें (चीनी, अंग्रेज़ी, जापानी…)"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cerca compagni (cinese, inglese, giapponese…)"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ค้นหาเพื่อนร่วมทาง (จีน อังกฤษ ญี่ปุ่น ฯลฯ)"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tìm bạn đồng hành (tiếng Trung, Anh, Nhật…)"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cari teman (Mandarin, Inggris, Jepang…)"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yol arkadaşı ara (Çince, İngilizce, Japonca…)"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Metgezellen zoeken (Chinees, Engels, Japans…)"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Szukaj towarzyszy (chiński, angielski, japoński…)"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пошук супутників (китайська, англійська, японська…)"
+          }
+        },
+        "ms": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cari rakan (Cina, Inggeris, Jepun…)"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "搜索伙伴（支持中文/英文/日文等）"
+          }
+        }
+      }
+    },
+    "从 Petdex 拉取最新伙伴列表": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "从 Petdex 拉取最新伙伴列表"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fetch the latest companion list from Petdex"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Petdex から最新のパートナー一覧を取得"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Petdex에서 최신 동반자 목록 가져오기"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obtener la lista más reciente de compañeros desde Petdex"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Récupérer la liste des compagnons depuis Petdex"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neueste Begleiterliste von Petdex abrufen"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscar a lista mais recente de companheiros no Petdex"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Загрузить актуальный список спутников из Petdex"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "جلب أحدث قائمة رفاق من Petdex"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Petdex से नवीनतम साथी सूची लाएँ"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recupera l'elenco aggiornato dei compagni da Petdex"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ดึงรายชื่อเพื่อนล่าสุดจาก Petdex"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lấy danh sách bạn đồng hành mới nhất từ Petdex"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ambil daftar teman terbaru dari Petdex"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Petdex'ten en son yol arkadaşı listesini al"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Haal de nieuwste metgezellenlijst op van Petdex"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pobierz najnowszą listę towarzyszy z Petdex"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Отримати останній список супутників з Petdex"
+          }
+        },
+        "ms": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ambil senarai rakan terkini dari Petdex"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "从 Petdex 拉取最新伙伴列表"
+          }
+        }
+      }
+    },
+    "没有匹配的伙伴，试试其他关键词或筛选条件。": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "没有匹配的伙伴，试试其他关键词或筛选条件。"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No matching companions — try other keywords or filters."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "一致するパートナーがありません。別のキーワードやフィルターをお試しください。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "일치하는 동반자가 없습니다. 다른 키워드나 필터를 시도해 보세요."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sin coincidencias — prueba otras palabras clave o filtros."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucun compagnon trouvé — essayez d'autres mots-clés ou filtres."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keine passenden Begleiter — andere Suchbegriffe oder Filter versuchen."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nenhum companheiro encontrado — tente outras palavras-chave ou filtros."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Совпадений нет — попробуйте другие ключевые слова или фильтры."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "لا يوجد رفاق مطابقون — جرّب كلمات مفتاحية أو فلاتر أخرى."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "कोई मेल खाता साथी नहीं — अन्य कीवर्ड या फ़िल्टर आज़माएँ।"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nessun compagno corrispondente — prova altre parole chiave o filtri."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ไม่พบเพื่อนที่ตรงกัน ลองคำค้นหาหรือตัวกรองอื่น"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không có bạn đồng hành phù hợp — thử từ khóa hoặc bộ lọc khác."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tidak ada teman yang cocok — coba kata kunci atau filter lain."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eşleşen yol arkadaşı yok — başka anahtar kelimeler veya filtreler deneyin."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geen overeenkomende metgezellen — probeer andere zoekwoorden of filters."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brak pasujących towarzyszy — spróbuj innych słów kluczowych lub filtrów."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Супутників не знайдено — спробуйте інші ключові слова або фільтри."
+          }
+        },
+        "ms": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tiada rakan sepadan — cuba kata kunci atau penapis lain."
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "沒有匹配的伙伴，试试其他關键词或筛选条件。"
+          }
+        }
+      }
+    },
+    "无法加载伙伴图鉴。": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无法加载伙伴图鉴。"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't load the companion catalog."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "パートナー図鑑を読み込めませんでした。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "동반자 도감을 불러올 수 없습니다."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No se pudo cargar el catálogo de compañeros."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impossible de charger le catalogue des compagnons."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Begleiter-Katalog konnte nicht geladen werden."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Não foi possível carregar o catálogo de companheiros."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не удалось загрузить каталог спутников."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تعذّر تحميل فهرس الرفاق."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "साथी कैटलॉग लोड नहीं हो सका।"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impossibile caricare il catalogo dei compagni."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "โหลดคatalog เพื่อนร่วมทางไม่ได้"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không thể tải danh mục bạn đồng hành."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tidak dapat memuat katalog teman."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yol arkadaşı kataloğu yüklenemedi."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Metgezellen-catalogus kon niet worden geladen."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie udało się wczytać katalogu towarzyszy."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не вдалося завантажити каталог супутників."
+          }
+        },
+        "ms": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tidak dapat memuatkan katalog rakan."
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无法加載伙伴圖鉴。"
+          }
+        }
+      }
+    },
+    "图鉴已更新，新增 %lld 个伙伴，共 %lld 个。": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "图鉴已更新，新增 %lld 个伙伴，共 %lld 个。"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Catalog updated — %lld new companions (%lld total)."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "図鑑を更新しました。新規 %lld 体、合計 %lld 体。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "도감 업데이트 — 새 동반자 %lld명 (총 %lld명)."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Catálogo actualizado — %lld compañeros nuevos (%lld en total)."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Catalogue mis à jour — %lld nouveaux compagnons (%lld au total)."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Katalog aktualisiert — %lld neue Begleiter (%lld gesamt)."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Catálogo atualizado — %lld novos companheiros (%lld no total)."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Каталог обновлён — %lld новых спутников (всего %lld)."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تم تحديث الفهرس — %lld رفيق جديد (%lld إجمالاً)."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "कैटलॉग अपडेट — %lld नए साथी (कुल %lld)।"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Catalogo aggiornato — %lld nuovi compagni (%lld totali)."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "อัปเดตคatalog แล้ว — เพิ่ม %lld ราย (รวม %lld)"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã cập nhật danh mục — %lld bạn mới (tổng %lld)."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Katalog diperbarui — %lld teman baru (total %lld)."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Katalog güncellendi — %lld yeni yol arkadaşı (toplam %lld)."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Catalogus bijgewerkt — %lld nieuwe metgezellen (%lld totaal)."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Katalog zaktualizowany — %lld nowych towarzyszy (łącznie %lld)."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Каталог оновлено — %lld нових супутників (усього %lld)."
+          }
+        },
+        "ms": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Katalog dikemas kini — %lld rakan baharu (jumlah %lld)."
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "圖鉴已更新，新增 %lld 個伙伴，共 %lld 個。"
+          }
+        }
+      }
+    },
+    "图鉴已是最新，共 %lld 个伙伴。": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "图鉴已是最新，共 %lld 个伙伴。"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Catalog is up to date — %lld companions."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "図鑑は最新です（合計 %lld 体）。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "도감이 최신입니다 — 총 %lld명."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El catálogo está actualizado — %lld compañeros."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le catalogue est à jour — %lld compagnons."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Katalog ist aktuell — %lld Begleiter."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Catálogo atualizado — %lld companheiros."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Каталог актуален — %lld спутников."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الفهرس محدّث — %lld رفيق."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "कैटलॉग अद्यतन है — %lld साथी।"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Catalogo aggiornato — %lld compagni."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "คatalog ล่าสุดแล้ว — รวม %lld ราย"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Danh mục đã cập nhật — %lld bạn đồng hành."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Katalog sudah terbaru — %lld teman."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Katalog güncel — %lld yol arkadaşı."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Catalogus is up-to-date — %lld metgezellen."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Katalog jest aktualny — %lld towarzyszy."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Каталог актуальний — %lld супутників."
+          }
+        },
+        "ms": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Katalog terkini — %lld rakan."
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "圖鉴已是最新，共 %lld 個伙伴。"
+          }
+        }
+      }
+    },
+    "伙伴包格式无效，无法安装。": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "伙伴包格式无效，无法安装。"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Invalid companion pack — can't install."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "パートナーパックの形式が無効で、インストールできません。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "동반자 팩 형식이 올바르지 않아 설치할 수 없습니다."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paquete de compañero no válido — no se puede instalar."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pack compagnon invalide — installation impossible."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ungültiges Begleiter-Paket — Installation nicht möglich."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pacote de companheiro inválido — não é possível instalar."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Неверный пакет спутника — установка невозможна."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حزمة الرفيق غير صالحة — لا يمكن التثبيت."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "अमान्य साथी पैक — इंस्टॉल नहीं हो सकता।"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pacchetto compagno non valido — impossibile installare."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "แพ็กเพื่อนร่วมทางไม่ถูกต้อง ติดตั้งไม่ได้"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gói bạn đồng hành không hợp lệ — không thể cài đặt."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paket teman tidak valid — tidak dapat diinstal."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geçersiz yol arkadaşı paketi — yüklenemiyor."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ongeldig metgezellenpakket — kan niet installeren."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nieprawidłowa paczka towarzysza — nie można zainstalować."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Недійсний пакет супутника — неможливо встановити."
+          }
+        },
+        "ms": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pakej rakan tidak sah — tidak boleh dipasang."
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "伙伴包格式无效，无法安装。"
+          }
+        }
+      }
+    },
+    "该伙伴已下载。": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "该伙伴已下载。"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This companion is already downloaded."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "このパートナーはすでにダウンロード済みです。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "이 동반자는 이미 다운로드되었습니다."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Este compañero ya está descargado."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ce compagnon est déjà téléchargé."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dieser Begleiter ist bereits heruntergeladen."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Este companheiro já foi baixado."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Этот спутник уже загружен."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تم تنزيل هذا الرفيق بالفعل."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "यह साथी पहले से डाउनलोड है।"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Questo compagno è già stato scaricato."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ดาวน์โหลดเพื่อนรายนี้แล้ว"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bạn đồng hành này đã được tải."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Teman ini sudah diunduh."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bu yol arkadaşı zaten indirildi."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deze metgezel is al gedownload."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ten towarzysz jest już pobrany."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Цього супутника вже завантажено."
+          }
+        },
+        "ms": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rakan ini sudah dimuat turun."
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "该伙伴已下載。"
           }
         }
       }

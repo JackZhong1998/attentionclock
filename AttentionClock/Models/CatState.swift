@@ -6,8 +6,8 @@ enum CatStage: String, Codable {
 
     var label: String {
         switch self {
-        case .kitten: return String(localized: "幼猫")
-        case .adult: return String(localized: "成猫")
+        case .kitten: return String(localized: "初识")
+        case .adult: return String(localized: "熟络")
         }
     }
 }
@@ -33,9 +33,9 @@ enum CatExpression: String {
         switch self {
         case .happy: return String(localized: "今天状态不错～")
         case .sleepy: return String(localized: "陪你专注中…")
-        case .hungry: return String(localized: "喵…好久没陪我啦")
+        case .hungry: return String(localized: "好久没一起专注了")
         case .waiting: return String(localized: "点「开始专注」陪我吧")
-        case .celebrating: return String(localized: "好棒！吃到猫粮啦")
+        case .celebrating: return String(localized: "太好了！又一起专注啦")
         }
     }
 }
@@ -50,7 +50,7 @@ struct CatState: Codable {
     var stage: CatStage
 
     static let initial = CatState(
-        name: String(localized: "咪咪"),
+        name: String(localized: "小伴"),
         hunger: 60,
         mood: 60,
         affection: 10,

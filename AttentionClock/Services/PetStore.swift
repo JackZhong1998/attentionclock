@@ -133,16 +133,16 @@ final class PetStore: ObservableObject {
                 remotePets = PetdexCatalogService.loadLocalCatalog()
             }
             if remotePets.isEmpty {
-                catalogError = String(localized: "无法加载宠物图鉴。")
+                catalogError = String(localized: "无法加载伙伴图鉴。")
             }
         }
     }
 
     private func syncSuccessMessage(for result: PetdexCatalogSyncResult) -> String {
         if result.addedCount > 0 {
-            return String(localized: "图鉴已更新，新增 \(result.addedCount) 个宠物，共 \(result.totalCount) 个。")
+            return String(localized: "图鉴已更新，新增 \(result.addedCount) 个伙伴，共 \(result.totalCount) 个。")
         }
-        return String(localized: "图鉴已是最新，共 \(result.totalCount) 个宠物。")
+        return String(localized: "图鉴已是最新，共 \(result.totalCount) 个伙伴。")
     }
 
     func refreshBrowseSnapshot(query: PetBrowseQuery) {

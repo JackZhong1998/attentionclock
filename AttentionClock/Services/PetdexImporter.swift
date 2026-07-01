@@ -10,9 +10,9 @@ enum PetdexImportError: LocalizedError {
         case .networkFailed:
             return String(localized: "网络连接失败，请稍后重试。")
         case .invalidPackage:
-            return String(localized: "宠物包格式无效，无法安装。")
+            return String(localized: "伙伴包格式无效，无法安装。")
         case .alreadyInstalled:
-            return String(localized: "该宠物已下载。")
+            return String(localized: "该伙伴已下载。")
         }
     }
 }

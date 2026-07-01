@@ -2,7 +2,7 @@
 
 [简体中文](README.zh-Hans.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [More languages](../README.md)
 
-**Attention Clock** is a free, open-source Mac app that helps you focus. Set a timer (default 25 minutes), work without distractions, and get a gentle reminder when time is up. Your daily progress is tracked automatically. Optionally, pick from **3000+ desktop pets** to keep you company.
+**Attention Clock** is a free, open-source Mac app that helps you focus. Set a timer (default 25 minutes), work without distractions, and get a gentle reminder when time is up. Your daily progress is tracked automatically. Optionally, pick from **3000+ focus companions** to keep you company.
 
 No account required. Focus timing works offline. All data stays on your Mac.
 
@@ -15,17 +15,17 @@ No account required. Focus timing works offline. All data stays on your Mac.
 - **Flexible timing**: Default 25 minutes, adjust in ±5 minute steps, or change your default in Settings
 - **Full control**: Pause, resume, or end a session anytime
 - **See your progress**: Plant a tree 🌳 for every completed session; a heatmap shows your consistency over six months
-- **Desktop pets (optional)**: 3000+ downloadable pixel companions with a floating desktop window
+- **Focus companions (optional)**: 3000+ downloadable pixel characters with a floating desktop window
 - **Completely free**: Open source, transparent code, no hidden costs
 
 ---
 
-## Desktop pets (optional)
+## Focus companions (optional)
 
-Focus doesn't have to feel lonely. With desktop pets you can:
+Focus doesn't have to feel lonely. With focus companions you can:
 
-- **Browse 3000+ companions** — search the catalog in the Desktop Pets tab and download favorites
-- **Get reactions while focusing** — your pet stays beside the timer and celebrates when you finish
+- **Browse 3000+ characters** — search the catalog in the Companions tab and download favorites
+- **Get reactions while focusing** — your companion stays beside the timer and celebrates when you finish
 - **Float on your desktop** — enable the floating window to keep your companion visible across apps
 - **Turn off anytime** — the timer works perfectly on its own
 
@@ -48,17 +48,17 @@ Focus doesn't have to feel lonely. With desktop pets you can:
 | Change this session's length | Tap **−** or **+** beside the ring (5 min each) |
 | Take a break | Tap **Pause**, then **Resume** when ready |
 | End early | Tap **End** |
-| Pick a desktop pet | **Desktop Pets** → browse catalog → download and select |
-| Enable floating window | **Desktop Pets** → turn on **Floating Window** |
+| Pick a focus companion | **Companions** → browse catalog → download and select |
+| Enable floating window | **Companions** → turn on **Floating Window** |
 | Change default duration | **Settings** → adjust **Default Duration** |
 | View stats | **Stats** → today's count, heatmap, history |
 
 ### Four main tabs
 
-- **Focus**: Timer, controls, and your selected pet below the ring
-- **Desktop Pets**: Browse, search, download, and manage companions
+- **Focus**: Timer, controls, and your selected companion below the ring
+- **Companions**: Browse, search, download, and manage pixel characters
 - **Stats**: Today's sessions, heatmap, and daily history
-- **Settings**: Default duration, desktop pet toggles, and more
+- **Settings**: Default duration, companion toggles, and more
 
 ---
 
@@ -86,9 +86,8 @@ Or visit the **[all releases page](https://github.com/JackZhong1998/attentionclo
 ### Step 3: Install
 
 1. Double-click the downloaded `.dmg` file
-2. Drag **Attention Clock** into the **Applications** folder
-3. Eject the disk image
-4. Open Attention Clock from Applications
+2. Double-click **Install and Open** — copies to Applications and launches the app
+3. If you see a "damaged" warning, see **First Launch Guide.txt** in the same window
 
 ### Step 4: First launch ("damaged" warning)
 
@@ -107,13 +106,13 @@ macOS may block apps downloaded outside the App Store and show a "damaged" warni
 ## FAQ
 
 **Does it need the internet?**  
-Focus timing and stats work offline. Browsing and downloading desktop pets requires internet.
+Focus timing and stats work offline. Browsing and downloading focus companions requires internet.
 
 **Where is my data stored?**  
 Locally on your Mac (`~/Library/Application Support/AttentionClock/`). Nothing is uploaded.
 
-**What are desktop pets?**  
-An optional feature. Download pixel companions from a catalog of 3000+, keep them beside the timer, and optionally float them on your desktop. The timer works fine without them.
+**What are focus companions?**  
+An optional feature. Download pixel characters from a catalog of 3000+, keep them beside the timer while you focus, and optionally float them on your desktop. The timer works fine without them.
 
 **Windows or iPhone?**  
 Mac only, macOS 14.0 or later.

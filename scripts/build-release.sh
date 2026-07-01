@@ -55,26 +55,10 @@ build_arch() {
     build
 }
 
-create_dmg() {
-  local app_path="$1"
-  local dmg_path="$2"
-  local vol_name="$3"
-  local staging="release/.staging-$$"
-
-  rm -rf "$staging" "$dmg_path"
-  mkdir -p "$staging"
-  cp -R "$app_path" "$staging/AttentionClock.app"
-  ln -s /Applications "$staging/Applications"
-  hdiutil create \
-    -volname "$vol_name" \
-    -srcfolder "$staging" \
-    -ov \
-    -format UDZO \
-    "$dmg_path"
-  rm -rf "$staging"
-}
-
 mkdir -p release
+
+echo "==> Generating DMG install assets..."
+python3 scripts/generate-dmg-assets.py
 
 for arch in "${ARCHS[@]}"; do
   build_arch "$arch"
@@ -90,7 +74,7 @@ for arch in "${ARCHS[@]}"; do
     cp -R "$SRC_APP" "$WORK_APP"
     strip_localizations "$WORK_APP" "$lang"
     sign_app "$WORK_APP"
-    create_dmg "$WORK_APP" "release/$DMG_NAME" "$VOL_NAME"
+    create_dmg "$WORK_APP" "release/$DMG_NAME" "$VOL_NAME" "$lang"
     rm -rf "$WORK_APP"
   done
 done

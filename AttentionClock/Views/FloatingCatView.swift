@@ -17,7 +17,7 @@ struct FloatingCatView: View {
         VStack(spacing: 6) {
             ZStack(alignment: .top) {
                 if catStore.pendingRewardNotice {
-                    Text("猫粮 +1")
+                    Text("默契 +1")
                         .font(.system(size: 10, weight: .semibold))
                         .padding(.horizontal, 8)
                         .padding(.vertical, 3)

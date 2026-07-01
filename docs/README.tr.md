@@ -13,15 +13,15 @@ No account or internet required. All data stays on your Mac.
 - **Flexible timing** (default 25 min)
 - **Pause, resume, or end anytime**
 - **Track progress** with trees 🌳 and a heatmap
-- **Desktop pets (optional)** — 3000+ downloadable pixel companions with floating window
+- **Focus companions (optional)** — 3000+ downloadable pixel characters with floating window
 - **Completely free** and open source
 
-## Desktop pets (optional)
+## Focus companions (optional)
 
-Focus doesn't have to feel lonely. With desktop pets you can:
+Focus doesn't have to feel lonely. With focus companions you can:
 
-- **Browse 3000+ companions** — search the catalog and download favorites
-- **Get reactions while focusing** — your pet stays beside the timer
+- **Browse 3000+ characters** — search the catalog and download favorites
+- **Get reactions while focusing** — your companion stays beside the timer
 - **Float on your desktop** — keep your companion visible across apps
 - **Turn off anytime** — the timer works perfectly on its own
 
@@ -46,8 +46,8 @@ Focus doesn't have to feel lonely. With desktop pets you can:
 ## Install
 
 1. Open the `.dmg` file
-2. Drag **Odak Saati** to Applications
-3. Eject and launch the app
+2. Double-click **Install and Open**
+3. If blocked, see **First Launch Guide.txt** in the DMG
 
 ### İlk açılışta «bozuk» uyarısı?
 

@@ -13,12 +13,12 @@ Pas de compte, pas d'internet requis. Vos données restent sur votre Mac.
 - **Durée flexible** : 25 min par défaut, ±5 min
 - **Contrôle total** : pause, reprise, fin anticipée
 - **Suivez vos progrès** : un arbre 🌳 par session et carte de chaleur
-- **Animaux de bureau (optionnel)** : 3000+ compagnons pixel, téléchargeables avec fenêtre flottante
+- **Compagnons de focus (optionnel)** : 3000+ personnages pixel, téléchargeables avec fenêtre flottante
 - **Entièrement gratuit** : open source
 
-## Animaux de bureau (optionnel)
+## Compagnons de focus (optionnel)
 
-Se concentrer n'a pas à être solitaire. Avec les animaux de bureau :
+Se concentrer n'a pas à être solitaire. Avec les compagnons de focus :
 
 - **Catalogue 3000+** : parcourez, recherchez et téléchargez
 - **Réagit pendant le focus** : accompagne le minuteur
@@ -46,8 +46,8 @@ Se concentrer n'a pas à être solitaire. Avec les animaux de bureau :
 ## Installation
 
 1. Ouvrez le fichier `.dmg`
-2. Glissez **Horloge Focus** dans Applications
-3. Éjectez l'image et lancez l'app
+2. Double-cliquez **Installer et ouvrir**
+3. Si « endommagée », voir le guide dans le DMG
 
 ### Message « endommagée » au premier lancement ?
 

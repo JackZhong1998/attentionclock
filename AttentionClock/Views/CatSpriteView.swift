@@ -71,13 +71,20 @@ private struct CodexPetSpriteView: View {
     }
 
     var body: some View {
-        SpritesheetPetCanvas(
-            atlas: atlas,
-            row: animator.currentClip.row,
-            frameIndex: animator.currentFrameIndex,
-            displayWidth: displayWidth,
-            mirror: animator.currentClip.mirror
-        )
+        TimelineView(.animation(minimumInterval: 1.0 / max(animator.currentClip.fps, 1))) { context in
+            let frameIndex = animator.frameIndex(at: context.date)
+
+            SpritesheetPetCanvas(
+                atlas: atlas,
+                row: animator.currentClip.row,
+                frameIndex: frameIndex,
+                displayWidth: displayWidth,
+                mirror: animator.currentClip.mirror
+            )
+            .background {
+                PetAnimationTick(animator: animator, date: context.date)
+            }
+        }
         .onAppear { syncAnimator() }
         .onChange(of: pack.id) { _, _ in
             animator.replacePack(pack)
@@ -96,5 +103,21 @@ private struct CodexPetSpriteView: View {
             behavior: behavior,
             pendingReward: pendingReward
         )
+    }
+}
+
+private struct PetAnimationTick: View {
+    @ObservedObject var animator: CodexPetAnimator
+    let date: Date
+
+    private var tickKey: Int {
+        Int(date.timeIntervalSinceReferenceDate * max(animator.currentClip.fps, 1))
+    }
+
+    var body: some View {
+        Color.clear
+            .frame(width: 0, height: 0)
+            .onAppear { animator.handleTick(at: date) }
+            .onChange(of: tickKey) { _, _ in animator.handleTick(at: date) }
     }
 }

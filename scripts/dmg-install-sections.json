@@ -1,0 +1,98 @@
+{
+  "zh-Hans": {
+    "installer_app": "安装并打开",
+    "guide_file": "首次打开指南.txt",
+    "settings_link_file": "打开系统设置.webloc",
+    "open_settings_button": "打开系统设置",
+    "dismiss_button": "知道了",
+    "guide_title": "专注时钟 — 安装与首次打开",
+    "method1": "双击「安装并打开」—— 自动复制到「应用程序」并启动应用。",
+    "settings_shortcut_line": "快捷跳转：双击「打开系统设置.webloc」，或在安装弹窗中点「打开系统设置」。",
+    "post_install_title": "安装完成",
+    "post_install_body": "应用正在启动。\n\n若弹出「已损坏」，请点击「取消」（不要移到废纸篓）。\n\n然后点击下方「打开系统设置」，在「安全性」区域点「仍要打开」。\n\n顺序很重要：必须先触发一次拦截，「仍要打开」才会出现。"
+  },
+  "zh-Hant": {
+    "installer_app": "安裝並開啟",
+    "guide_file": "首次開啟指南.txt",
+    "settings_link_file": "開啟系統設定.webloc",
+    "open_settings_button": "開啟系統設定",
+    "dismiss_button": "知道了",
+    "guide_title": "專注時鐘 — 安裝與首次開啟",
+    "method1": "按兩下「安裝並開啟」—— 自動複製到「應用程式」並啟動。",
+    "settings_shortcut_line": "快捷跳轉：按兩下「開啟系統設定.webloc」，或在安裝彈窗點「開啟系統設定」。",
+    "post_install_title": "安裝完成",
+    "post_install_body": "應用正在啟動。\n\n若顯示「已損壞」，請點「取消」（不要移到垃圾桶）。\n\n然後點下方「開啟系統設定」，在「安全性」區域點「仍要打開」。\n\n順序很重要：必須先觸發一次攔截，「仍要打開」才會出現。"
+  },
+  "en": {
+    "installer_app": "Install and Open",
+    "guide_file": "First Launch Guide.txt",
+    "settings_link_file": "Open System Settings.webloc",
+    "open_settings_button": "Open System Settings",
+    "dismiss_button": "OK",
+    "guide_title": "Attention Clock — Install & First Launch",
+    "method1": "Double-click \"Install and Open\" — copies to Applications and launches the app.",
+    "settings_shortcut_line": "Shortcut: double-click \"Open System Settings.webloc\", or use the button in the install dialog.",
+    "post_install_title": "Installation complete",
+    "post_install_body": "The app is launching.\n\nIf you see \"damaged\", click Cancel (not Move to Trash).\n\nThen click \"Open System Settings\" below and choose Open Anyway under Security.\n\nOrder matters: trigger the block once before Open Anyway appears."
+  },
+  "ja": {
+    "installer_app": "インストールして開く",
+    "guide_file": "初回起動ガイド.txt",
+    "settings_link_file": "システム設定を開く.webloc",
+    "open_settings_button": "システム設定を開く",
+    "dismiss_button": "OK",
+    "guide_title": "集中タイマー — インストールと初回起動",
+    "method1": "「インストールして開く」をダブルクリック — 自動でコピーして起動します。",
+    "settings_shortcut_line": "ショートカット：「システム設定を開く.webloc」をダブルクリック、またはインストールダイアログのボタンを使用。",
+    "post_install_title": "インストール完了",
+    "post_install_body": "アプリを起動しています。\n\n「損傷しています」と出たら「キャンセル」（ゴミ箱に入れるは押さない）。\n\n下の「システム設定を開く」をクリックし、「セキュリティ」で「このまま開く」を押してください。\n\n順番が重要です。"
+  },
+  "ko": {
+    "installer_app": "설치하고 열기",
+    "guide_file": "첫 실행 가이드.txt",
+    "settings_link_file": "시스템 설정 열기.webloc",
+    "open_settings_button": "시스템 설정 열기",
+    "dismiss_button": "확인",
+    "guide_title": "집중 타이머 — 설치 및 첫 실행",
+    "method1": "「설치하고 열기」 더블 클릭 — 자동 복사 후 실행합니다.",
+    "settings_shortcut_line": "바로가기: 「시스템 설정 열기.webloc」 더블 클릭 또는 설치 대화상자 버튼 사용.",
+    "post_install_title": "설치 완료",
+    "post_install_body": "앱을 실행 중입니다.\n\n「손상됨」이 뜨면 「취소」(휴지통으로 이동 금지).\n\n아래 「시스템 설정 열기」를 누르고 「보안」에서 확인 없이 열기를 선택하세요.\n\n순서가 중요합니다."
+  },
+  "es": {
+    "installer_app": "Instalar y abrir",
+    "guide_file": "Guia primer inicio.txt",
+    "settings_link_file": "Abrir Ajustes.webloc",
+    "open_settings_button": "Abrir Ajustes",
+    "dismiss_button": "OK",
+    "guide_title": "Reloj de Enfoque — Instalación",
+    "method1": "Doble clic en «Instalar y abrir» — copia a Aplicaciones y abre la app.",
+    "settings_shortcut_line": "Atajo: doble clic en «Abrir Ajustes.webloc» o usa el botón del diálogo.",
+    "post_install_title": "Instalación completada",
+    "post_install_body": "La app se está abriendo.\n\nSi dice «dañada», pulsa Cancelar.\n\nLuego pulsa «Abrir Ajustes» y elige Abrir igualmente en Seguridad."
+  },
+  "fr": {
+    "installer_app": "Installer et ouvrir",
+    "guide_file": "Guide premier lancement.txt",
+    "settings_link_file": "Ouvrir Reglages.webloc",
+    "open_settings_button": "Ouvrir Réglages",
+    "dismiss_button": "OK",
+    "guide_title": "Horloge Focus — Installation",
+    "method1": "Double-cliquez sur « Installer et ouvrir » — copie dans Applications et lance l'app.",
+    "settings_shortcut_line": "Raccourci : double-cliquez « Ouvrir Reglages.webloc » ou le bouton du dialogue.",
+    "post_install_title": "Installation terminée",
+    "post_install_body": "L'app démarre.\n\nSi « endommagée » : Annuler, puis « Ouvrir Réglages » et Ouvrir quand même dans Sécurité."
+  },
+  "de": {
+    "installer_app": "Installieren und öffnen",
+    "guide_file": "Erster Start Leitfaden.txt",
+    "settings_link_file": "Systemeinstellungen.webloc",
+    "open_settings_button": "Systemeinstellungen",
+    "dismiss_button": "OK",
+    "guide_title": "Fokus-Uhr — Installation",
+    "method1": "«Installieren und öffnen» doppelklicken — kopiert nach Programme und startet die App.",
+    "settings_shortcut_line": "Kurzweg: «Systemeinstellungen.webloc» doppelklicken oder Dialog-Schaltfläche.",
+    "post_install_title": "Installation abgeschlossen",
+    "post_install_body": "Die App startet.\n\nBei „beschädigt“: Abbrechen, dann «Systemeinstellungen» und Trotzdem öffnen unter Sicherheit."
+  }
+}

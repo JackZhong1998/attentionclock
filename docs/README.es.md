@@ -13,12 +13,12 @@ Sin registro ni conexión a internet. Tus datos permanecen en tu Mac.
 - **Tiempo flexible**: 25 min por defecto, ajustes de ±5 min
 - **Control total**: pausa, reanuda o termina cuando quieras
 - **Ve tu progreso**: un árbol 🌳 por sesión completada y mapa de calor
-- **Mascotas de escritorio (opcional)**: 3000+ compañeros pixel, descargables y con ventana flotante
+- **Compañeros de enfoque (opcional)**: 3000+ personajes pixel, descargables y con ventana flotante
 - **Totalmente gratis**: código abierto y transparente
 
-## Mascotas de escritorio (opcional)
+## Compañeros de enfoque (opcional)
 
-Enfocarte no tiene que ser solitario. Con las mascotas de escritorio puedes:
+Enfocarte no tiene que ser solitario. Con los compañeros de enfoque puedes:
 
 - **Catálogo de 3000+**: explora, busca y descarga personajes
 - **Reacciona al enfocarte**: acompaña en el temporizador y cambia expresión
@@ -46,8 +46,8 @@ Enfocarte no tiene que ser solitario. Con las mascotas de escritorio puedes:
 ## Instalación
 
 1. Abre el archivo `.dmg`
-2. Arrastra **Reloj de Enfoque** a Aplicaciones
-3. Expulsa la imagen y abre la app
+2. Doble clic en **Instalar y abrir**
+3. Si aparece «dañada», consulta la guía en el DMG
 
 ### ¿Aparece «dañada» al abrir por primera vez?
 

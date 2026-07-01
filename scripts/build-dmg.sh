@@ -61,19 +61,12 @@ done
 
 sign_app "$WORK_APP"
 
+echo "==> Generating DMG install assets..."
+python3 scripts/generate-dmg-assets.py
+
 echo "Creating DMG..."
-STAGING="release/dmg-staging"
-rm -rf "$STAGING" "release/$DMG_NAME"
-mkdir -p "$STAGING"
-cp -R "$WORK_APP" "$STAGING/AttentionClock.app"
-ln -s /Applications "$STAGING/Applications"
-hdiutil create \
-  -volname "$VOL_NAME" \
-  -srcfolder "$STAGING" \
-  -ov \
-  -format UDZO \
-  "release/$DMG_NAME"
-rm -rf "$STAGING" "$WORK_APP"
+create_dmg "$WORK_APP" "release/$DMG_NAME" "$VOL_NAME" "$LANG"
+rm -rf "$WORK_APP"
 
 echo "Done: release/$DMG_NAME"
 ls -lh "release/$DMG_NAME"

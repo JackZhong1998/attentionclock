@@ -8,7 +8,7 @@ final class CatStore: ObservableObject {
     @Published var pendingRewardNotice = false
 
     var shortStatus: String {
-        if pendingRewardNotice { return String(localized: "专注完成，猫粮已领取") }
+        if pendingRewardNotice { return String(localized: "专注完成，默契已提升") }
         switch expression {
         case .happy: return String(localized: "状态不错")
         case .sleepy: return String(localized: "陪伴中")
@@ -74,7 +74,7 @@ final class CatStore: ObservableObject {
         switch timerPhase {
         case .running:
             expression = .sleepy
-            bubbleMessage = String(localized: "安静地趴在你旁边…")
+            bubbleMessage = String(localized: "安静地陪在你旁边…")
         case .paused:
             expression = .waiting
             bubbleMessage = String(localized: "怎么停下来了？")

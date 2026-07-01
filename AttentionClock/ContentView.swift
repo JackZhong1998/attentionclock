@@ -33,7 +33,7 @@ struct ContentView: View {
                 timer: timer
             )
             .tabItem {
-                Label("桌面宠物", systemImage: "pawprint.fill")
+                Label("专注伙伴", systemImage: "person.2.fill")
             }
 
             StatsView(sessionStore: sessionStore)

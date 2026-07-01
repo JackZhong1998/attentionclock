@@ -73,12 +73,12 @@ struct DesktopPetView: View {
         HStack(alignment: .center, spacing: 16) {
             VStack(alignment: .leading, spacing: 10) {
                 if !settings.desktopPetEnabled {
-                    Text("开启桌面宠物后，可下载伙伴陪伴专注，或显示在桌面上。")
+                    Text(String(localized: "开启专注伙伴后，可从图鉴下载角色陪你专注，或显示在桌面上。"))
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
                 }
 
-                Toggle(String(localized: "开启桌面宠物"), isOn: $settings.desktopPetEnabled)
+                Toggle(String(localized: "开启专注伙伴"), isOn: $settings.desktopPetEnabled)
                 Toggle(String(localized: "桌面浮窗"), isOn: $settings.floatingCatEnabled)
                     .disabled(!settings.desktopPetEnabled)
             }
@@ -149,7 +149,7 @@ struct DesktopPetView: View {
             HStack(spacing: 8) {
                 Image(systemName: "magnifyingglass")
                     .foregroundStyle(.secondary)
-                TextField(String(localized: "搜索宠物（支持中文/英文/日文等）"), text: $searchText)
+                TextField(String(localized: "搜索伙伴（支持中文/英文/日文等）"), text: $searchText)
                     .textFieldStyle(.plain)
                 Button {
                     Task { await petStore.syncCatalog() }
@@ -162,7 +162,7 @@ struct DesktopPetView: View {
                     }
                 }
                 .buttonStyle(.plain)
-                .help(String(localized: "从 Petdex 拉取最新宠物列表"))
+                .help(String(localized: "从 Petdex 拉取最新伙伴列表"))
                 .disabled(petStore.catalogSyncInfo.isSyncing)
             }
             .padding(.horizontal, 12)
@@ -308,7 +308,7 @@ struct DesktopPetView: View {
         if let error = petStore.catalogError {
             return error
         }
-        return String(localized: "没有匹配的宠物，试试其他关键词或筛选条件。")
+        return String(localized: "没有匹配的伙伴，试试其他关键词或筛选条件。")
     }
 
     private var activeBehavior: CatBehavior {
