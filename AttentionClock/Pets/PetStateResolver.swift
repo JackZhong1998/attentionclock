@@ -48,12 +48,11 @@ enum PetStateResolver {
             }
 
             if behavior == .idleRoaming {
-                let row = CodexPetRow.runningRight
+                let row = expression == .waiting ? CodexPetRow.waiting : CodexPetRow.idle
                 return .loop(
                     row: row,
                     frames: pack.frameCount(forRow: row),
-                    fps: 8,
-                    mirror: walkDirection == .left
+                    fps: row == CodexPetRow.waiting ? 5 : 6
                 )
             }
 

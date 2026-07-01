@@ -32,7 +32,7 @@ final class FloatingCatWindowController {
     private func showPanel(petStore: PetStore, catStore: CatStore, timer: TimerViewModel) {
         if panel == nil {
             let newPanel = NSPanel(
-                contentRect: NSRect(x: 0, y: 0, width: 158, height: 158),
+                contentRect: NSRect(x: 0, y: 0, width: 168, height: 180),
                 styleMask: [.borderless, .nonactivatingPanel],
                 backing: .buffered,
                 defer: false
@@ -54,14 +54,24 @@ final class FloatingCatWindowController {
         }
 
         let rootView = FloatingCatView(petStore: petStore, catStore: catStore, timer: timer)
-        if let hostingView {
+        if let hostingView, let panel {
             hostingView.rootView = rootView
+            fitPanelToContent(hostingView: hostingView, panel: panel)
         } else if let panel {
             let view = NSHostingView(rootView: rootView)
             hostingView = view
             panel.contentView = view
+            fitPanelToContent(hostingView: view, panel: panel)
         }
 
         panel?.orderFrontRegardless()
+    }
+
+    private func fitPanelToContent(hostingView: NSHostingView<FloatingCatView>, panel: NSPanel) {
+        hostingView.layoutSubtreeIfNeeded()
+        let size = hostingView.fittingSize
+        let contentSize = NSSize(width: max(size.width, 168), height: max(size.height, 120))
+        panel.setContentSize(contentSize)
+        hostingView.frame = NSRect(origin: .zero, size: contentSize)
     }
 }

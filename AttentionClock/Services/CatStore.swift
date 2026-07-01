@@ -9,14 +9,15 @@ final class CatStore: ObservableObject {
 
     private var rewardDismissTask: Task<Void, Never>?
 
-    var shortStatus: String {
-        if pendingRewardNotice { return String(localized: "专注完成，默契已提升") }
-        switch expression {
-        case .happy: return String(localized: "状态不错")
-        case .sleepy: return String(localized: "陪伴中")
-        case .hungry: return String(localized: "等你回来")
-        case .waiting: return String(localized: "等你开始")
-        case .celebrating: return String(localized: "好开心")
+    func companionBubbleLabel(timerPhase: TimerPhase) -> String {
+        switch timerPhase {
+        case .running, .paused:
+            return String(localized: "正在监督你")
+        case .idle:
+            if pendingRewardNotice {
+                return String(localized: "默契 +1")
+            }
+            return String(localized: "等你回来")
         }
     }
 

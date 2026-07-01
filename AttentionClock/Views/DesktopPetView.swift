@@ -87,6 +87,8 @@ struct DesktopPetView: View {
 
             if settings.desktopPetEnabled, petStore.hasSelectedPet {
                 VStack(spacing: 6) {
+                    PetStatusBubble(text: catStore.companionBubbleLabel(timerPhase: timer.phase))
+
                     CatSpriteView(
                         petStore: petStore,
                         timerPhase: timer.phase,
@@ -96,14 +98,10 @@ struct DesktopPetView: View {
                         displayWidth: 64
                     )
                     .frame(width: 64, height: 70)
+                    .frame(maxWidth: .infinity)
 
                     Text(selectedPetName)
                         .font(.subheadline.weight(.semibold))
-                        .lineLimit(1)
-
-                    Text(catStore.shortStatus)
-                        .font(.caption)
-                        .foregroundStyle(.secondary)
                         .lineLimit(1)
                 }
                 .frame(minWidth: 88)

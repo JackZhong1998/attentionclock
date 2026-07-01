@@ -13,22 +13,10 @@ struct FloatingCatView: View {
         spriteWidth * (petStore.activeAtlas?.aspectRatio ?? 1.08)
     }
 
-    private var bubbleLabel: String {
-        switch timer.phase {
-        case .running, .paused:
-            return String(localized: "正在监督你")
-        case .idle:
-            if catStore.pendingRewardNotice {
-                return String(localized: "默契 +1")
-            }
-            return String(localized: "等你回来")
-        }
-    }
-
     var body: some View {
         VStack(spacing: 6) {
             VStack(spacing: 4) {
-                statusBubble(bubbleLabel)
+                PetStatusBubble(text: catStore.companionBubbleLabel(timerPhase: timer.phase))
 
                 CatSpriteView(
                     petStore: petStore,
@@ -38,8 +26,9 @@ struct FloatingCatView: View {
                     pendingReward: catStore.pendingRewardNotice,
                     displayWidth: spriteWidth
                 )
+                .frame(width: spriteWidth, height: spriteHeight, alignment: .center)
+                .frame(maxWidth: .infinity)
             }
-            .frame(height: max(spriteHeight, 88) + 20)
             .contentShape(Rectangle())
             .onTapGesture { handlePrimaryTap() }
 
@@ -49,7 +38,9 @@ struct FloatingCatView: View {
                 Color.clear.frame(height: 32)
             }
         }
-        .frame(width: 152, height: max(spriteHeight, 88) + 58)
+        .frame(minWidth: 152)
+        .frame(maxWidth: .infinity)
+        .fixedSize(horizontal: false, vertical: true)
         .onHover { isHovering = $0 }
         .onAppear { catStore.refreshExpression(timerPhase: timer.phase) }
         .onChange(of: timer.phase) { _, phase in catStore.refreshExpression(timerPhase: phase) }
@@ -58,6 +49,7 @@ struct FloatingCatView: View {
     @ViewBuilder
     private var actionBar: some View {
         HStack(spacing: 8) {
+            Spacer(minLength: 0)
             if timer.canStart {
                 actionButton(String(localized: "开始")) { timer.start() }
             } else if timer.phase == .running {
@@ -69,17 +61,9 @@ struct FloatingCatView: View {
             } else if catStore.pendingRewardNotice {
                 actionButton(String(localized: "知道了")) { catStore.acknowledgeReward() }
             }
+            Spacer(minLength: 0)
         }
         .frame(height: 32)
-    }
-
-    private func statusBubble(_ text: String) -> some View {
-        Text(text)
-            .font(.system(size: 10, weight: .semibold))
-            .padding(.horizontal, 8)
-            .padding(.vertical, 3)
-            .background(Capsule().fill(Color.white.opacity(0.95)))
-            .overlay(Capsule().stroke(Color.primary.opacity(0.12), lineWidth: 1))
     }
 
     private func actionButton(_ title: String, action: @escaping () -> Void) -> some View {
