@@ -1,5 +1,3 @@
-import AppKit
-import ImageIO
 import SwiftUI
 
 struct DesktopPetView: View {
@@ -488,6 +486,11 @@ private struct PetThumbnailView: View {
     let spritesheetURL: URL
     @State private var image: NSImage?
 
+    init(spritesheetURL: URL) {
+        self.spritesheetURL = spritesheetURL
+        _image = State(initialValue: PetThumbnailLoader.cachedThumbnail(for: spritesheetURL))
+    }
+
     var body: some View {
         Group {
             if let image {
@@ -501,40 +504,11 @@ private struct PetThumbnailView: View {
             }
         }
         .task(id: spritesheetURL) {
+            if let cached = PetThumbnailLoader.cachedThumbnail(for: spritesheetURL) {
+                image = cached
+                return
+            }
             image = await PetThumbnailLoader.thumbnail(for: spritesheetURL)
         }
-    }
-}
-
-private enum PetThumbnailLoader {
-    static func thumbnail(for url: URL) async -> NSImage? {
-        if url.isFileURL, let atlas = loadLocalAtlas(url: url) {
-            return atlas.nsImage(row: 0, column: 0)
-        }
-
-        var request = URLRequest(url: url)
-        request.setValue("AttentionClock/1.0", forHTTPHeaderField: "User-Agent")
-        guard let (data, response) = try? await URLSession.shared.data(for: request),
-              let http = response as? HTTPURLResponse,
-              (200..<300).contains(http.statusCode),
-              let source = CGImageSourceCreateWithData(data as CFData, nil),
-              let cgImage = CGImageSourceCreateImageAtIndex(source, 0, nil) else {
-            return nil
-        }
-
-        let columns = 8
-        let rows = 9
-        let cellW = cgImage.width / columns
-        let cellH = cgImage.height / rows
-        let y = cgImage.height - cellH
-        let rect = CGRect(x: 0, y: y, width: cellW, height: cellH)
-        guard let cropped = cgImage.cropping(to: rect) else { return nil }
-        return NSImage(cgImage: cropped, size: NSSize(width: cellW, height: cellH))
-    }
-
-    private static func loadLocalAtlas(url: URL) -> CodexPetAtlas? {
-        let directory = url.deletingLastPathComponent()
-        guard let pack = CodexPetPackLoader.loadPack(from: directory) else { return nil }
-        return CodexPetAtlas(pack: pack)
     }
 }

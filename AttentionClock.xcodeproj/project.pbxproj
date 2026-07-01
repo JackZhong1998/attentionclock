@@ -54,6 +54,7 @@
 		A10000010000000000000046 /* PetdexSearchMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000046 /* PetdexSearchMatcher.swift */; };
 		A10000010000000000000047 /* PetdexCatalogEnricher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000047 /* PetdexCatalogEnricher.swift */; };
 		A10000010000000000000048 /* PetStatusBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000048 /* PetStatusBubble.swift */; };
+		A10000010000000000000049 /* PetThumbnailLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000049 /* PetThumbnailLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -104,6 +105,7 @@
 		A20000010000000000000046 /* PetdexSearchMatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetdexSearchMatcher.swift; sourceTree = "<group>"; };
 		A20000010000000000000047 /* PetdexCatalogEnricher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetdexCatalogEnricher.swift; sourceTree = "<group>"; };
 		A20000010000000000000048 /* PetStatusBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetStatusBubble.swift; sourceTree = "<group>"; };
+		A20000010000000000000049 /* PetThumbnailLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetThumbnailLoader.swift; sourceTree = "<group>"; };
 		A30000010000000000000001 /* AttentionClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AttentionClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -232,6 +234,7 @@
 				A20000010000000000000045 /* PetdexIndexEntry.swift */,
 				A20000010000000000000046 /* PetdexSearchMatcher.swift */,
 				A20000010000000000000047 /* PetdexCatalogEnricher.swift */,
+				A20000010000000000000049 /* PetThumbnailLoader.swift */,
 			);
 			path = Pets;
 			sourceTree = "<group>";
@@ -379,6 +382,7 @@
 				A10000010000000000000042 /* PetdexCatalogService.swift in Sources */,
 				A10000010000000000000043 /* PetdexImporter.swift in Sources */,
 				A10000010000000000000044 /* DesktopPetView.swift in Sources */,
+				A10000010000000000000049 /* PetThumbnailLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
