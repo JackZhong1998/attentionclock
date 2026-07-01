@@ -280,16 +280,10 @@ def render_installer_gatekeeper(locale: str) -> list[str]:
         "",
         f"### {g['installer_title']}",
         "",
-        g.get("installer_intro", ""),
-        "",
     ]
     for i, step in enumerate(g["installer_steps"], 1):
         lines.append(f"{i}. {step}")
-    lines += [
-        "",
-        f"> {g.get('installer_order_note', '')}",
-        "",
-    ]
+    lines.append("")
     return lines
 
 
@@ -299,16 +293,10 @@ def render_gatekeeper(locale: str) -> list[str]:
     lines += [
         f"### {g['title']}",
         "",
-        g["intro"],
-        "",
     ]
     for i, step in enumerate(g["steps"], 1):
         lines.append(f"{i}. {step}")
-    lines += [
-        "",
-        f"> {g['order_note']}",
-        "",
-    ]
+    lines.append("")
     return lines
 
 

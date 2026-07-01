@@ -49,33 +49,22 @@ Fokussieren muss nicht einsam sein. Mit Desktop-Begleitern kannst du:
 2. **Installieren und öffnen** doppelklicken
 3. Bei „beschädigt“ die Anleitung im DMG lesen
 
-### “Installieren und öffnen” cannot be verified?
+### Cannot verify Install and Open?
 
-Downloaded from a browser, **the installer helper itself** may be blocked first. macOS shows only **Done** — **not** our install guide. This is normal.
+1. Click **Done** if blocked
+2. System Settings → **Open Anyway** for **Installieren und öffnen**
+3. Double-click **Installieren und öffnen** again
 
-1. Double-click **Installieren und öffnen** in the DMG
-2. If macOS says it **cannot verify “Installieren und öffnen”**, click **Done**
-3. Open **System Settings** → **Privacy & Security** (or double-click **Open System Settings**)
-4. Under **Security**, click **Open Anyway** for **Installieren und öffnen**
-5. **Double-click Installieren und öffnen again** — the install guide dialog will appear and install Attention Clock
+### Attention Clock “damaged”?
 
-> **Order matters**: allow Install and Open first, or the guide dialog will not appear.
-
-### “Damaged” warning for Attention Clock after install?
-
-After the installer runs, it copies and launches Attention Clock. If macOS blocks the app itself, follow these steps **in order**:
-
-1. If you see **damaged**, click **Cancel** (not Move to Trash)
-2. Open **System Settings** → **Privacy & Security**
-3. Under **Security**, click **Open Anyway** for **Attention Clock**
-4. Open Attention Clock again
-
-> **Order matters**: trigger the block once before Open Anyway appears.
+1. Click **Cancel**
+2. System Settings → **Open Anyway** for Attention Clock
+3. Open the app again
 
 ## FAQ
 
-**Blocked during install or launch?**  
-Two steps: Open Anyway for Install and Open, then for Attention Clock.
+**Blocked?**  
+Allow Install and Open, then Attention Clock.
 
 **Internet nötig?**  
 Nein, läuft vollständig lokal.

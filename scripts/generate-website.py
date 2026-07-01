@@ -144,7 +144,6 @@ def install_steps(lang: str) -> list[str]:
         f"{helper_label} **{ins['installer_app']}**",
     ]
     steps.extend(strip_md(s) for s in gk.get("installer_steps", []))
-    steps.append(strip_md(gk.get("installer_order_note", "")))
     steps.extend(strip_md(s) for s in gk.get("steps", []))
     return [s for s in steps if s]
 

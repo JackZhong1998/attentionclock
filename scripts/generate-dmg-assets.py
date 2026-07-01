@@ -28,10 +28,8 @@ def install_for(locale: str) -> dict:
     base = INSTALL["en"].copy()
     g = GATEKEEPER.get(locale, GATEKEEPER["en"])
     base["post_install_body"] = (
-        "The app is launching.\n\n"
-        + strip_md(g.get("order_note", ""))
-        + "\n\n"
-        + 'Click "Open System Settings" below, then choose Open Anyway under Security.'
+        "Launching the app.\n\n"
+        'If "damaged" → Cancel → Open System Settings → Open Anyway.'
     )
     return base
 
@@ -45,33 +43,20 @@ def build_guide(locale: str) -> str:
     gk = gatekeeper_for(locale)
     lines = [
         ins["guide_title"],
-        "=" * min(len(ins["guide_title"]), 48),
         "",
         ins["method1"],
-        "",
-        ins.get("settings_shortcut_line", INSTALL["en"]["settings_shortcut_line"]),
+        ins.get("settings_shortcut_line", ""),
         "",
     ]
-    if gk.get("installer_title"):
-        lines += [
-            strip_md(gk["installer_title"]),
-            "-" * 40,
-            strip_md(gk.get("installer_intro", "")),
-            "",
-        ]
-        for i, step in enumerate(gk.get("installer_steps", []), 1):
+    if gk.get("installer_steps"):
+        lines += [strip_md(gk["installer_title"]), ""]
+        for i, step in enumerate(gk["installer_steps"], 1):
             lines.append(f"{i}. {strip_md(step)}")
-        if gk.get("installer_order_note"):
-            lines += ["", strip_md(gk["installer_order_note"]), ""]
-    lines += [
-        strip_md(gk["title"]),
-        "-" * 40,
-        strip_md(gk["intro"]),
-        "",
-    ]
+        lines.append("")
+    lines += [strip_md(gk["title"]), ""]
     for i, step in enumerate(gk["steps"], 1):
         lines.append(f"{i}. {strip_md(step)}")
-    lines += ["", strip_md(gk["order_note"]), ""]
+    lines.append("")
     return "\n".join(lines)
 
 

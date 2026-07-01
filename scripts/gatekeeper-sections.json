@@ -1,485 +1,422 @@
 {
   "zh-Hans": {
-    "title": "安装后打开专注时钟提示「已损坏」？",
-    "intro": "安装助手成功运行后，会复制并尝试打开专注时钟。若此时 macOS 拦截 **专注时钟** 本身，请**按顺序**操作：",
+    "title": "专注时钟提示「已损坏」？",
+    "intro": "安装助手运行后，若拦截专注时钟：",
     "steps": [
-      "安装助手会自动尝试打开专注时钟；若弹出 **「已损坏」**，点击 **取消**",
-      "打开 **系统设置** → **隐私与安全性**（安装弹窗或 **「打开系统设置」** 可一键跳转）",
-      "在 **安全性** 区域找到 **AttentionClock / 专注时钟**，点击 **仍要打开**",
-      "再次打开专注时钟，即可正常使用"
+      "点 **取消**（不要移到废纸篓）",
+      "系统设置 → **仍要打开**（专注时钟）",
+      "再次打开应用"
     ],
-    "order_note": "**顺序很重要**：必须先触发一次对专注时钟的拦截，「仍要打开」才会出现。",
-    "faq_q": "安装或打开时被拦截？",
-    "faq_a": "分两步：先为「安装并打开」点仍要打开，再为专注时钟点仍要打开。详见上方说明。",
-    "installer_title": "点击「安装并打开」提示无法验证？",
-    "installer_intro": "从浏览器下载后，**安装助手本身**也可能先被 macOS 拦截。系统弹窗里通常只有 **「完成」** 按钮，**不会**出现我们的安装引导——这是正常现象。",
+    "order_note": "须先触发一次拦截，「仍要打开」才会出现。",
+    "faq_q": "安装或打开被拦截？",
+    "faq_a": "先放行「安装并打开」，再放行专注时钟。",
+    "installer_title": "「安装并打开」无法验证？",
+    "installer_intro": "先放行安装助手，再安装应用。",
     "installer_steps": [
-      "双击 DMG 中的 **「安装并打开」**",
-      "若弹出 **「未打开“安装并打开”」/ Apple 无法验证…**，点击 **完成**（不要移到废纸篓）",
-      "打开 **系统设置** → **隐私与安全性**（可双击 DMG 内 **「打开系统设置」**）",
-      "在 **安全性** 区域找到 **「安装并打开」**，点击 **仍要打开**",
-      "**再次双击「安装并打开」** — 此时才会出现安装引导弹窗，并自动安装专注时钟"
+      "无法验证时点 **完成**",
+      "系统设置 → **隐私与安全性** → 为 **安装并打开** 点 **仍要打开**",
+      "再次双击 **安装并打开**"
     ],
-    "installer_order_note": "**顺序很重要**：必须先为「安装并打开」点一次「仍要打开」，安装引导弹窗才会出现。"
+    "installer_order_note": "先放行「安装并打开」，才会出现安装弹窗。"
   },
   "zh-Hant": {
-    "title": "安裝後開啟專注時鐘顯示「已損壞」？",
-    "intro": "安裝助手成功後會嘗試開啟專注時鐘。若被攔截，請依序操作：",
+    "title": "專注時鐘「已損壞」？",
+    "intro": "安裝後若被攔截：",
     "steps": [
-      "若彈出 **「已損壞」**，點 **取消**",
-      "開啟 **系統設定** → **隱私權與安全性**",
-      "在 **安全性** 為 **專注時鐘** 點 **仍要打開**",
-      "再次開啟應用"
+      "點 **取消**",
+      "系統設定 → **仍要打開**",
+      "再次開啟"
     ],
-    "order_note": "**順序很重要**：必須先觸發一次攔截。",
-    "faq_q": "安裝或開啟時被攔截？",
-    "faq_a": "先為安裝助手點仍要打開，再為專注時鐘點仍要打開。",
-    "installer_title": "按「安裝並開啟」顯示無法驗證？",
-    "installer_intro": "從瀏覽器下載後，**安裝助手本身**也可能先被 macOS 攔截。系統彈窗通常只有 **「完成」**，**不會**出現我們的安裝引導。",
+    "order_note": "須先觸發一次攔截。",
+    "faq_q": "被攔截？",
+    "faq_a": "先放行安裝助手，再放行專注時鐘。",
+    "installer_title": "「安裝並開啟」無法驗證？",
+    "installer_intro": "先放行安裝助手。",
     "installer_steps": [
-      "按兩下 DMG 中的 **「安裝並開啟」**",
-      "若顯示 **Apple 無法驗證…**，點 **完成**",
-      "開啟 **系統設定** → **隱私權與安全性**",
-      "在 **安全性** 為 **「安裝並開啟」** 點 **仍要打開**",
-      "**再次按兩下「安裝並開啟」** — 此時才會出現安裝引導彈窗"
+      "無法驗證時點 **完成**",
+      "系統設定 → 為 **安裝並開啟** 點 **仍要打開**",
+      "再次按兩下 **安裝並開啟**"
     ],
-    "installer_order_note": "**順序很重要**：必須先為安裝助手點「仍要打開」。"
+    "installer_order_note": "先放行安裝助手。"
   },
   "en": {
-    "title": "“Damaged” warning for Attention Clock after install?",
-    "intro": "After the installer runs, it copies and launches Attention Clock. If macOS blocks the app itself, follow these steps **in order**:",
+    "title": "Attention Clock “damaged”?",
+    "intro": "After install, if the app is blocked:",
     "steps": [
-      "If you see **damaged**, click **Cancel** (not Move to Trash)",
-      "Open **System Settings** → **Privacy & Security**",
-      "Under **Security**, click **Open Anyway** for **Attention Clock**",
-      "Open Attention Clock again"
+      "Click **Cancel**",
+      "System Settings → **Open Anyway** for Attention Clock",
+      "Open the app again"
     ],
-    "order_note": "**Order matters**: trigger the block once before Open Anyway appears.",
-    "faq_q": "Blocked during install or launch?",
-    "faq_a": "Two steps: Open Anyway for Install and Open, then for Attention Clock.",
-    "installer_title": "“Install and Open” cannot be verified?",
-    "installer_intro": "Downloaded from a browser, **the installer helper itself** may be blocked first. macOS shows only **Done** — **not** our install guide. This is normal.",
+    "order_note": "Trigger the block once first.",
+    "faq_q": "Blocked?",
+    "faq_a": "Allow Install and Open, then Attention Clock.",
+    "installer_title": "Cannot verify Install and Open?",
+    "installer_intro": "Allow the installer first.",
     "installer_steps": [
-      "Double-click **Install and Open** in the DMG",
-      "If macOS says it **cannot verify “Install and Open”**, click **Done**",
-      "Open **System Settings** → **Privacy & Security** (or double-click **Open System Settings**)",
-      "Under **Security**, click **Open Anyway** for **Install and Open**",
-      "**Double-click Install and Open again** — the install guide dialog will appear and install Attention Clock"
+      "Click **Done** if blocked",
+      "System Settings → **Open Anyway** for **Install and Open**",
+      "Double-click **Install and Open** again"
     ],
-    "installer_order_note": "**Order matters**: allow Install and Open first, or the guide dialog will not appear."
+    "installer_order_note": "Allow the installer before the guide appears."
   },
   "ja": {
-    "title": "インストール後「損傷しています」と表示？",
-    "intro": "助手が集中タイマーを起動しようとしたときのブロックへの対処：",
+    "title": "「損傷しています」？",
+    "intro": "インストール後にブロックされた場合：",
     "steps": [
-      "「損傷しています」なら **キャンセル**",
-      "**システム設定** → **プライバシーとセキュリティ**",
-      "**集中タイマー** の **このまま開く**",
-      "再度アプリを開く"
+      "**キャンセル**",
+      "システム設定 → **このまま開く**",
+      "再度開く"
     ],
-    "order_note": "**順番が重要**です。",
-    "faq_q": "インストールや起動でブロック？",
-    "faq_a": "助手と集中タイマー、両方で「このまま開く」が必要な場合があります。",
+    "order_note": "先にブロックを1回起こす。",
+    "faq_q": "ブロック？",
+    "faq_a": "助手とアプリ、両方許可が必要な場合あり。",
     "installer_title": "「インストールして開く」を検証できない？",
-    "installer_intro": "ブラウザからのダウンロードでは、**インストール助手自体**が先にブロックされることがあります。**「完了」** だけのダイアログで、当方の案内は出ません。",
+    "installer_intro": "先に助手を許可してください。",
     "installer_steps": [
-      "DMG 内の **「インストールして開く」** をダブルクリック",
-      "検証できない旨の表示なら **完了** をクリック",
-      "**システム設定** → **プライバシーとセキュリティ** を開く",
-      "**セキュリティ** で **「インストールして開く」** の **このまま開く**",
-      "もう一度 **「インストールして開く」** をダブルクリック"
+      "ブロック時は **完了**",
+      "システム設定 → **このまま開く**（インストールして開く）",
+      "もう一度ダブルクリック"
     ],
-    "installer_order_note": "**順番が重要**：助手を先に許可してください。"
+    "installer_order_note": "助手を先に許可。"
   },
   "ko": {
-    "title": "설치 후 「손상됨」?",
-    "intro": "설치 도우미가 집중 타이머를 실행할 때 차단되면:",
+    "title": "「손상됨」?",
+    "intro": "설치 후 차단 시:",
     "steps": [
-      "「손상됨」이면 **취소**",
-      "**시스템 설정** → **개인 정보 보호 및 보안**",
-      "**집중 타이머**의 **확인 없이 열기**",
-      "앱 다시 열기"
+      "**취소**",
+      "시스템 설정 → **확인 없이 열기**",
+      "다시 열기"
     ],
-    "order_note": "**순서가 중요합니다**.",
-    "faq_q": "설치/실행 시 차단?",
-    "faq_a": "설치 도우미와 앱 각각 확인 없이 열기가 필요할 수 있습니다.",
-    "installer_title": "「설치하고 열기」를 확인할 수 없음?",
-    "installer_intro": "브라우저 다운로드 시 **설치 도우미 자체**가 먼저 차단될 수 있습니다. **완료**만 보이고 안내 팝업은 나오지 않습니다.",
+    "order_note": "먼저 차단을 한 번 발생.",
+    "faq_q": "차단?",
+    "faq_a": "도우미와 앱 각각 허용.",
+    "installer_title": "「설치하고 열기」 확인 불가?",
+    "installer_intro": "설치 도우미를 먼저 허용하세요.",
     "installer_steps": [
-      "DMG에서 **「설치하고 열기」** 더블 클릭",
-      "확인할 수 없다는 메시지면 **완료** 클릭",
-      "**시스템 설정** → **개인 정보 보호 및 보안**",
-      "**설치하고 열기**에 대해 **확인 없이 열기**",
-      "**「설치하고 열기」** 를 다시 더블 클릭"
+      "차단 시 **완료**",
+      "시스템 설정 → **확인 없이 열기**（설치하고 열기）",
+      "다시 더블 클릭"
     ],
-    "installer_order_note": "**순서가 중요합니다**."
+    "installer_order_note": "도우미를 먼저 허용."
   },
   "es": {
-    "title": "“Damaged” warning for Attention Clock after install?",
-    "intro": "After the installer runs, it copies and launches Attention Clock. If macOS blocks the app itself, follow these steps **in order**:",
+    "title": "Attention Clock “damaged”?",
+    "intro": "After install, if the app is blocked:",
     "steps": [
-      "If you see **damaged**, click **Cancel** (not Move to Trash)",
-      "Open **System Settings** → **Privacy & Security**",
-      "Under **Security**, click **Open Anyway** for **Attention Clock**",
-      "Open Attention Clock again"
+      "Click **Cancel**",
+      "System Settings → **Open Anyway** for Attention Clock",
+      "Open the app again"
     ],
-    "order_note": "**Order matters**: trigger the block once before Open Anyway appears.",
-    "faq_q": "Blocked during install or launch?",
-    "faq_a": "Two steps: Open Anyway for Install and Open, then for Attention Clock.",
-    "installer_title": "“Instalar y abrir” cannot be verified?",
-    "installer_intro": "Downloaded from a browser, **the installer helper itself** may be blocked first. macOS shows only **Done** — **not** our install guide. This is normal.",
+    "order_note": "Trigger the block once first.",
+    "faq_q": "Blocked?",
+    "faq_a": "Allow Install and Open, then Attention Clock.",
+    "installer_title": "Cannot verify Install and Open?",
+    "installer_intro": "Allow the installer first.",
     "installer_steps": [
-      "Double-click **Instalar y abrir** in the DMG",
-      "If macOS says it **cannot verify “Instalar y abrir”**, click **Done**",
-      "Open **System Settings** → **Privacy & Security** (or double-click **Open System Settings**)",
-      "Under **Security**, click **Open Anyway** for **Instalar y abrir**",
-      "**Double-click Instalar y abrir again** — the install guide dialog will appear and install Attention Clock"
+      "Click **Done** if blocked",
+      "System Settings → **Open Anyway** for **Instalar y abrir**",
+      "Double-click **Instalar y abrir** again"
     ],
-    "installer_order_note": "**Order matters**: allow Install and Open first, or the guide dialog will not appear."
+    "installer_order_note": "Allow the installer before the guide appears."
   },
   "fr": {
-    "title": "“Damaged” warning for Attention Clock after install?",
-    "intro": "After the installer runs, it copies and launches Attention Clock. If macOS blocks the app itself, follow these steps **in order**:",
+    "title": "Attention Clock “damaged”?",
+    "intro": "After install, if the app is blocked:",
     "steps": [
-      "If you see **damaged**, click **Cancel** (not Move to Trash)",
-      "Open **System Settings** → **Privacy & Security**",
-      "Under **Security**, click **Open Anyway** for **Attention Clock**",
-      "Open Attention Clock again"
+      "Click **Cancel**",
+      "System Settings → **Open Anyway** for Attention Clock",
+      "Open the app again"
     ],
-    "order_note": "**Order matters**: trigger the block once before Open Anyway appears.",
-    "faq_q": "Blocked during install or launch?",
-    "faq_a": "Two steps: Open Anyway for Install and Open, then for Attention Clock.",
-    "installer_title": "“Installer et ouvrir” cannot be verified?",
-    "installer_intro": "Downloaded from a browser, **the installer helper itself** may be blocked first. macOS shows only **Done** — **not** our install guide. This is normal.",
+    "order_note": "Trigger the block once first.",
+    "faq_q": "Blocked?",
+    "faq_a": "Allow Install and Open, then Attention Clock.",
+    "installer_title": "Cannot verify Install and Open?",
+    "installer_intro": "Allow the installer first.",
     "installer_steps": [
-      "Double-click **Installer et ouvrir** in the DMG",
-      "If macOS says it **cannot verify “Installer et ouvrir”**, click **Done**",
-      "Open **System Settings** → **Privacy & Security** (or double-click **Open System Settings**)",
-      "Under **Security**, click **Open Anyway** for **Installer et ouvrir**",
-      "**Double-click Installer et ouvrir again** — the install guide dialog will appear and install Attention Clock"
+      "Click **Done** if blocked",
+      "System Settings → **Open Anyway** for **Installer et ouvrir**",
+      "Double-click **Installer et ouvrir** again"
     ],
-    "installer_order_note": "**Order matters**: allow Install and Open first, or the guide dialog will not appear."
+    "installer_order_note": "Allow the installer before the guide appears."
   },
   "de": {
-    "title": "“Damaged” warning for Attention Clock after install?",
-    "intro": "After the installer runs, it copies and launches Attention Clock. If macOS blocks the app itself, follow these steps **in order**:",
+    "title": "Attention Clock “damaged”?",
+    "intro": "After install, if the app is blocked:",
     "steps": [
-      "If you see **damaged**, click **Cancel** (not Move to Trash)",
-      "Open **System Settings** → **Privacy & Security**",
-      "Under **Security**, click **Open Anyway** for **Attention Clock**",
-      "Open Attention Clock again"
+      "Click **Cancel**",
+      "System Settings → **Open Anyway** for Attention Clock",
+      "Open the app again"
     ],
-    "order_note": "**Order matters**: trigger the block once before Open Anyway appears.",
-    "faq_q": "Blocked during install or launch?",
-    "faq_a": "Two steps: Open Anyway for Install and Open, then for Attention Clock.",
-    "installer_title": "“Installieren und öffnen” cannot be verified?",
-    "installer_intro": "Downloaded from a browser, **the installer helper itself** may be blocked first. macOS shows only **Done** — **not** our install guide. This is normal.",
+    "order_note": "Trigger the block once first.",
+    "faq_q": "Blocked?",
+    "faq_a": "Allow Install and Open, then Attention Clock.",
+    "installer_title": "Cannot verify Install and Open?",
+    "installer_intro": "Allow the installer first.",
     "installer_steps": [
-      "Double-click **Installieren und öffnen** in the DMG",
-      "If macOS says it **cannot verify “Installieren und öffnen”**, click **Done**",
-      "Open **System Settings** → **Privacy & Security** (or double-click **Open System Settings**)",
-      "Under **Security**, click **Open Anyway** for **Installieren und öffnen**",
-      "**Double-click Installieren und öffnen again** — the install guide dialog will appear and install Attention Clock"
+      "Click **Done** if blocked",
+      "System Settings → **Open Anyway** for **Installieren und öffnen**",
+      "Double-click **Installieren und öffnen** again"
     ],
-    "installer_order_note": "**Order matters**: allow Install and Open first, or the guide dialog will not appear."
+    "installer_order_note": "Allow the installer before the guide appears."
   },
   "pt-BR": {
-    "title": "“Damaged” warning for Attention Clock after install?",
-    "intro": "After the installer runs, it copies and launches Attention Clock. If macOS blocks the app itself, follow these steps **in order**:",
+    "title": "Attention Clock “damaged”?",
+    "intro": "After install, if the app is blocked:",
     "steps": [
-      "If you see **damaged**, click **Cancel** (not Move to Trash)",
-      "Open **System Settings** → **Privacy & Security**",
-      "Under **Security**, click **Open Anyway** for **Attention Clock**",
-      "Open Attention Clock again"
+      "Click **Cancel**",
+      "System Settings → **Open Anyway** for Attention Clock",
+      "Open the app again"
     ],
-    "order_note": "**Order matters**: trigger the block once before Open Anyway appears.",
-    "faq_q": "Blocked during install or launch?",
-    "faq_a": "Two steps: Open Anyway for Install and Open, then for Attention Clock.",
-    "installer_title": "“Install and Open” cannot be verified?",
-    "installer_intro": "Downloaded from a browser, **the installer helper itself** may be blocked first. macOS shows only **Done** — **not** our install guide. This is normal.",
+    "order_note": "Trigger the block once first.",
+    "faq_q": "Blocked?",
+    "faq_a": "Allow Install and Open, then Attention Clock.",
+    "installer_title": "Cannot verify Install and Open?",
+    "installer_intro": "Allow the installer first.",
     "installer_steps": [
-      "Double-click **Install and Open** in the DMG",
-      "If macOS says it **cannot verify “Install and Open”**, click **Done**",
-      "Open **System Settings** → **Privacy & Security** (or double-click **Open System Settings**)",
-      "Under **Security**, click **Open Anyway** for **Install and Open**",
-      "**Double-click Install and Open again** — the install guide dialog will appear and install Attention Clock"
+      "Click **Done** if blocked",
+      "System Settings → **Open Anyway** for **Install and Open**",
+      "Double-click **Install and Open** again"
     ],
-    "installer_order_note": "**Order matters**: allow Install and Open first, or the guide dialog will not appear."
+    "installer_order_note": "Allow the installer before the guide appears."
   },
   "ru": {
-    "title": "“Damaged” warning for Attention Clock after install?",
-    "intro": "After the installer runs, it copies and launches Attention Clock. If macOS blocks the app itself, follow these steps **in order**:",
+    "title": "Attention Clock “damaged”?",
+    "intro": "After install, if the app is blocked:",
     "steps": [
-      "If you see **damaged**, click **Cancel** (not Move to Trash)",
-      "Open **System Settings** → **Privacy & Security**",
-      "Under **Security**, click **Open Anyway** for **Attention Clock**",
-      "Open Attention Clock again"
+      "Click **Cancel**",
+      "System Settings → **Open Anyway** for Attention Clock",
+      "Open the app again"
     ],
-    "order_note": "**Order matters**: trigger the block once before Open Anyway appears.",
-    "faq_q": "Blocked during install or launch?",
-    "faq_a": "Two steps: Open Anyway for Install and Open, then for Attention Clock.",
-    "installer_title": "“Install and Open” cannot be verified?",
-    "installer_intro": "Downloaded from a browser, **the installer helper itself** may be blocked first. macOS shows only **Done** — **not** our install guide. This is normal.",
+    "order_note": "Trigger the block once first.",
+    "faq_q": "Blocked?",
+    "faq_a": "Allow Install and Open, then Attention Clock.",
+    "installer_title": "Cannot verify Install and Open?",
+    "installer_intro": "Allow the installer first.",
     "installer_steps": [
-      "Double-click **Install and Open** in the DMG",
-      "If macOS says it **cannot verify “Install and Open”**, click **Done**",
-      "Open **System Settings** → **Privacy & Security** (or double-click **Open System Settings**)",
-      "Under **Security**, click **Open Anyway** for **Install and Open**",
-      "**Double-click Install and Open again** — the install guide dialog will appear and install Attention Clock"
+      "Click **Done** if blocked",
+      "System Settings → **Open Anyway** for **Install and Open**",
+      "Double-click **Install and Open** again"
     ],
-    "installer_order_note": "**Order matters**: allow Install and Open first, or the guide dialog will not appear."
+    "installer_order_note": "Allow the installer before the guide appears."
   },
   "ar": {
-    "title": "“Damaged” warning for Attention Clock after install?",
-    "intro": "After the installer runs, it copies and launches Attention Clock. If macOS blocks the app itself, follow these steps **in order**:",
+    "title": "Attention Clock “damaged”?",
+    "intro": "After install, if the app is blocked:",
     "steps": [
-      "If you see **damaged**, click **Cancel** (not Move to Trash)",
-      "Open **System Settings** → **Privacy & Security**",
-      "Under **Security**, click **Open Anyway** for **Attention Clock**",
-      "Open Attention Clock again"
+      "Click **Cancel**",
+      "System Settings → **Open Anyway** for Attention Clock",
+      "Open the app again"
     ],
-    "order_note": "**Order matters**: trigger the block once before Open Anyway appears.",
-    "faq_q": "Blocked during install or launch?",
-    "faq_a": "Two steps: Open Anyway for Install and Open, then for Attention Clock.",
-    "installer_title": "“Install and Open” cannot be verified?",
-    "installer_intro": "Downloaded from a browser, **the installer helper itself** may be blocked first. macOS shows only **Done** — **not** our install guide. This is normal.",
+    "order_note": "Trigger the block once first.",
+    "faq_q": "Blocked?",
+    "faq_a": "Allow Install and Open, then Attention Clock.",
+    "installer_title": "Cannot verify Install and Open?",
+    "installer_intro": "Allow the installer first.",
     "installer_steps": [
-      "Double-click **Install and Open** in the DMG",
-      "If macOS says it **cannot verify “Install and Open”**, click **Done**",
-      "Open **System Settings** → **Privacy & Security** (or double-click **Open System Settings**)",
-      "Under **Security**, click **Open Anyway** for **Install and Open**",
-      "**Double-click Install and Open again** — the install guide dialog will appear and install Attention Clock"
+      "Click **Done** if blocked",
+      "System Settings → **Open Anyway** for **Install and Open**",
+      "Double-click **Install and Open** again"
     ],
-    "installer_order_note": "**Order matters**: allow Install and Open first, or the guide dialog will not appear."
+    "installer_order_note": "Allow the installer before the guide appears."
   },
   "hi": {
-    "title": "“Damaged” warning for Attention Clock after install?",
-    "intro": "After the installer runs, it copies and launches Attention Clock. If macOS blocks the app itself, follow these steps **in order**:",
+    "title": "Attention Clock “damaged”?",
+    "intro": "After install, if the app is blocked:",
     "steps": [
-      "If you see **damaged**, click **Cancel** (not Move to Trash)",
-      "Open **System Settings** → **Privacy & Security**",
-      "Under **Security**, click **Open Anyway** for **Attention Clock**",
-      "Open Attention Clock again"
+      "Click **Cancel**",
+      "System Settings → **Open Anyway** for Attention Clock",
+      "Open the app again"
     ],
-    "order_note": "**Order matters**: trigger the block once before Open Anyway appears.",
-    "faq_q": "Blocked during install or launch?",
-    "faq_a": "Two steps: Open Anyway for Install and Open, then for Attention Clock.",
-    "installer_title": "“Install and Open” cannot be verified?",
-    "installer_intro": "Downloaded from a browser, **the installer helper itself** may be blocked first. macOS shows only **Done** — **not** our install guide. This is normal.",
+    "order_note": "Trigger the block once first.",
+    "faq_q": "Blocked?",
+    "faq_a": "Allow Install and Open, then Attention Clock.",
+    "installer_title": "Cannot verify Install and Open?",
+    "installer_intro": "Allow the installer first.",
     "installer_steps": [
-      "Double-click **Install and Open** in the DMG",
-      "If macOS says it **cannot verify “Install and Open”**, click **Done**",
-      "Open **System Settings** → **Privacy & Security** (or double-click **Open System Settings**)",
-      "Under **Security**, click **Open Anyway** for **Install and Open**",
-      "**Double-click Install and Open again** — the install guide dialog will appear and install Attention Clock"
+      "Click **Done** if blocked",
+      "System Settings → **Open Anyway** for **Install and Open**",
+      "Double-click **Install and Open** again"
     ],
-    "installer_order_note": "**Order matters**: allow Install and Open first, or the guide dialog will not appear."
+    "installer_order_note": "Allow the installer before the guide appears."
   },
   "it": {
-    "title": "“Damaged” warning for Attention Clock after install?",
-    "intro": "After the installer runs, it copies and launches Attention Clock. If macOS blocks the app itself, follow these steps **in order**:",
+    "title": "Attention Clock “damaged”?",
+    "intro": "After install, if the app is blocked:",
     "steps": [
-      "If you see **damaged**, click **Cancel** (not Move to Trash)",
-      "Open **System Settings** → **Privacy & Security**",
-      "Under **Security**, click **Open Anyway** for **Attention Clock**",
-      "Open Attention Clock again"
+      "Click **Cancel**",
+      "System Settings → **Open Anyway** for Attention Clock",
+      "Open the app again"
     ],
-    "order_note": "**Order matters**: trigger the block once before Open Anyway appears.",
-    "faq_q": "Blocked during install or launch?",
-    "faq_a": "Two steps: Open Anyway for Install and Open, then for Attention Clock.",
-    "installer_title": "“Install and Open” cannot be verified?",
-    "installer_intro": "Downloaded from a browser, **the installer helper itself** may be blocked first. macOS shows only **Done** — **not** our install guide. This is normal.",
+    "order_note": "Trigger the block once first.",
+    "faq_q": "Blocked?",
+    "faq_a": "Allow Install and Open, then Attention Clock.",
+    "installer_title": "Cannot verify Install and Open?",
+    "installer_intro": "Allow the installer first.",
     "installer_steps": [
-      "Double-click **Install and Open** in the DMG",
-      "If macOS says it **cannot verify “Install and Open”**, click **Done**",
-      "Open **System Settings** → **Privacy & Security** (or double-click **Open System Settings**)",
-      "Under **Security**, click **Open Anyway** for **Install and Open**",
-      "**Double-click Install and Open again** — the install guide dialog will appear and install Attention Clock"
+      "Click **Done** if blocked",
+      "System Settings → **Open Anyway** for **Install and Open**",
+      "Double-click **Install and Open** again"
     ],
-    "installer_order_note": "**Order matters**: allow Install and Open first, or the guide dialog will not appear."
+    "installer_order_note": "Allow the installer before the guide appears."
   },
   "th": {
-    "title": "“Damaged” warning for Attention Clock after install?",
-    "intro": "After the installer runs, it copies and launches Attention Clock. If macOS blocks the app itself, follow these steps **in order**:",
+    "title": "Attention Clock “damaged”?",
+    "intro": "After install, if the app is blocked:",
     "steps": [
-      "If you see **damaged**, click **Cancel** (not Move to Trash)",
-      "Open **System Settings** → **Privacy & Security**",
-      "Under **Security**, click **Open Anyway** for **Attention Clock**",
-      "Open Attention Clock again"
+      "Click **Cancel**",
+      "System Settings → **Open Anyway** for Attention Clock",
+      "Open the app again"
     ],
-    "order_note": "**Order matters**: trigger the block once before Open Anyway appears.",
-    "faq_q": "Blocked during install or launch?",
-    "faq_a": "Two steps: Open Anyway for Install and Open, then for Attention Clock.",
-    "installer_title": "“Install and Open” cannot be verified?",
-    "installer_intro": "Downloaded from a browser, **the installer helper itself** may be blocked first. macOS shows only **Done** — **not** our install guide. This is normal.",
+    "order_note": "Trigger the block once first.",
+    "faq_q": "Blocked?",
+    "faq_a": "Allow Install and Open, then Attention Clock.",
+    "installer_title": "Cannot verify Install and Open?",
+    "installer_intro": "Allow the installer first.",
     "installer_steps": [
-      "Double-click **Install and Open** in the DMG",
-      "If macOS says it **cannot verify “Install and Open”**, click **Done**",
-      "Open **System Settings** → **Privacy & Security** (or double-click **Open System Settings**)",
-      "Under **Security**, click **Open Anyway** for **Install and Open**",
-      "**Double-click Install and Open again** — the install guide dialog will appear and install Attention Clock"
+      "Click **Done** if blocked",
+      "System Settings → **Open Anyway** for **Install and Open**",
+      "Double-click **Install and Open** again"
     ],
-    "installer_order_note": "**Order matters**: allow Install and Open first, or the guide dialog will not appear."
+    "installer_order_note": "Allow the installer before the guide appears."
   },
   "vi": {
-    "title": "“Damaged” warning for Attention Clock after install?",
-    "intro": "After the installer runs, it copies and launches Attention Clock. If macOS blocks the app itself, follow these steps **in order**:",
+    "title": "Attention Clock “damaged”?",
+    "intro": "After install, if the app is blocked:",
     "steps": [
-      "If you see **damaged**, click **Cancel** (not Move to Trash)",
-      "Open **System Settings** → **Privacy & Security**",
-      "Under **Security**, click **Open Anyway** for **Attention Clock**",
-      "Open Attention Clock again"
+      "Click **Cancel**",
+      "System Settings → **Open Anyway** for Attention Clock",
+      "Open the app again"
     ],
-    "order_note": "**Order matters**: trigger the block once before Open Anyway appears.",
-    "faq_q": "Blocked during install or launch?",
-    "faq_a": "Two steps: Open Anyway for Install and Open, then for Attention Clock.",
-    "installer_title": "“Install and Open” cannot be verified?",
-    "installer_intro": "Downloaded from a browser, **the installer helper itself** may be blocked first. macOS shows only **Done** — **not** our install guide. This is normal.",
+    "order_note": "Trigger the block once first.",
+    "faq_q": "Blocked?",
+    "faq_a": "Allow Install and Open, then Attention Clock.",
+    "installer_title": "Cannot verify Install and Open?",
+    "installer_intro": "Allow the installer first.",
     "installer_steps": [
-      "Double-click **Install and Open** in the DMG",
-      "If macOS says it **cannot verify “Install and Open”**, click **Done**",
-      "Open **System Settings** → **Privacy & Security** (or double-click **Open System Settings**)",
-      "Under **Security**, click **Open Anyway** for **Install and Open**",
-      "**Double-click Install and Open again** — the install guide dialog will appear and install Attention Clock"
+      "Click **Done** if blocked",
+      "System Settings → **Open Anyway** for **Install and Open**",
+      "Double-click **Install and Open** again"
     ],
-    "installer_order_note": "**Order matters**: allow Install and Open first, or the guide dialog will not appear."
+    "installer_order_note": "Allow the installer before the guide appears."
   },
   "id": {
-    "title": "“Damaged” warning for Attention Clock after install?",
-    "intro": "After the installer runs, it copies and launches Attention Clock. If macOS blocks the app itself, follow these steps **in order**:",
+    "title": "Attention Clock “damaged”?",
+    "intro": "After install, if the app is blocked:",
     "steps": [
-      "If you see **damaged**, click **Cancel** (not Move to Trash)",
-      "Open **System Settings** → **Privacy & Security**",
-      "Under **Security**, click **Open Anyway** for **Attention Clock**",
-      "Open Attention Clock again"
+      "Click **Cancel**",
+      "System Settings → **Open Anyway** for Attention Clock",
+      "Open the app again"
     ],
-    "order_note": "**Order matters**: trigger the block once before Open Anyway appears.",
-    "faq_q": "Blocked during install or launch?",
-    "faq_a": "Two steps: Open Anyway for Install and Open, then for Attention Clock.",
-    "installer_title": "“Install and Open” cannot be verified?",
-    "installer_intro": "Downloaded from a browser, **the installer helper itself** may be blocked first. macOS shows only **Done** — **not** our install guide. This is normal.",
+    "order_note": "Trigger the block once first.",
+    "faq_q": "Blocked?",
+    "faq_a": "Allow Install and Open, then Attention Clock.",
+    "installer_title": "Cannot verify Install and Open?",
+    "installer_intro": "Allow the installer first.",
     "installer_steps": [
-      "Double-click **Install and Open** in the DMG",
-      "If macOS says it **cannot verify “Install and Open”**, click **Done**",
-      "Open **System Settings** → **Privacy & Security** (or double-click **Open System Settings**)",
-      "Under **Security**, click **Open Anyway** for **Install and Open**",
-      "**Double-click Install and Open again** — the install guide dialog will appear and install Attention Clock"
+      "Click **Done** if blocked",
+      "System Settings → **Open Anyway** for **Install and Open**",
+      "Double-click **Install and Open** again"
     ],
-    "installer_order_note": "**Order matters**: allow Install and Open first, or the guide dialog will not appear."
+    "installer_order_note": "Allow the installer before the guide appears."
   },
   "tr": {
-    "title": "“Damaged” warning for Attention Clock after install?",
-    "intro": "After the installer runs, it copies and launches Attention Clock. If macOS blocks the app itself, follow these steps **in order**:",
+    "title": "Attention Clock “damaged”?",
+    "intro": "After install, if the app is blocked:",
     "steps": [
-      "If you see **damaged**, click **Cancel** (not Move to Trash)",
-      "Open **System Settings** → **Privacy & Security**",
-      "Under **Security**, click **Open Anyway** for **Attention Clock**",
-      "Open Attention Clock again"
+      "Click **Cancel**",
+      "System Settings → **Open Anyway** for Attention Clock",
+      "Open the app again"
     ],
-    "order_note": "**Order matters**: trigger the block once before Open Anyway appears.",
-    "faq_q": "Blocked during install or launch?",
-    "faq_a": "Two steps: Open Anyway for Install and Open, then for Attention Clock.",
-    "installer_title": "“Install and Open” cannot be verified?",
-    "installer_intro": "Downloaded from a browser, **the installer helper itself** may be blocked first. macOS shows only **Done** — **not** our install guide. This is normal.",
+    "order_note": "Trigger the block once first.",
+    "faq_q": "Blocked?",
+    "faq_a": "Allow Install and Open, then Attention Clock.",
+    "installer_title": "Cannot verify Install and Open?",
+    "installer_intro": "Allow the installer first.",
     "installer_steps": [
-      "Double-click **Install and Open** in the DMG",
-      "If macOS says it **cannot verify “Install and Open”**, click **Done**",
-      "Open **System Settings** → **Privacy & Security** (or double-click **Open System Settings**)",
-      "Under **Security**, click **Open Anyway** for **Install and Open**",
-      "**Double-click Install and Open again** — the install guide dialog will appear and install Attention Clock"
+      "Click **Done** if blocked",
+      "System Settings → **Open Anyway** for **Install and Open**",
+      "Double-click **Install and Open** again"
     ],
-    "installer_order_note": "**Order matters**: allow Install and Open first, or the guide dialog will not appear."
+    "installer_order_note": "Allow the installer before the guide appears."
   },
   "nl": {
-    "title": "“Damaged” warning for Attention Clock after install?",
-    "intro": "After the installer runs, it copies and launches Attention Clock. If macOS blocks the app itself, follow these steps **in order**:",
+    "title": "Attention Clock “damaged”?",
+    "intro": "After install, if the app is blocked:",
     "steps": [
-      "If you see **damaged**, click **Cancel** (not Move to Trash)",
-      "Open **System Settings** → **Privacy & Security**",
-      "Under **Security**, click **Open Anyway** for **Attention Clock**",
-      "Open Attention Clock again"
+      "Click **Cancel**",
+      "System Settings → **Open Anyway** for Attention Clock",
+      "Open the app again"
     ],
-    "order_note": "**Order matters**: trigger the block once before Open Anyway appears.",
-    "faq_q": "Blocked during install or launch?",
-    "faq_a": "Two steps: Open Anyway for Install and Open, then for Attention Clock.",
-    "installer_title": "“Install and Open” cannot be verified?",
-    "installer_intro": "Downloaded from a browser, **the installer helper itself** may be blocked first. macOS shows only **Done** — **not** our install guide. This is normal.",
+    "order_note": "Trigger the block once first.",
+    "faq_q": "Blocked?",
+    "faq_a": "Allow Install and Open, then Attention Clock.",
+    "installer_title": "Cannot verify Install and Open?",
+    "installer_intro": "Allow the installer first.",
     "installer_steps": [
-      "Double-click **Install and Open** in the DMG",
-      "If macOS says it **cannot verify “Install and Open”**, click **Done**",
-      "Open **System Settings** → **Privacy & Security** (or double-click **Open System Settings**)",
-      "Under **Security**, click **Open Anyway** for **Install and Open**",
-      "**Double-click Install and Open again** — the install guide dialog will appear and install Attention Clock"
+      "Click **Done** if blocked",
+      "System Settings → **Open Anyway** for **Install and Open**",
+      "Double-click **Install and Open** again"
     ],
-    "installer_order_note": "**Order matters**: allow Install and Open first, or the guide dialog will not appear."
+    "installer_order_note": "Allow the installer before the guide appears."
   },
   "pl": {
-    "title": "“Damaged” warning for Attention Clock after install?",
-    "intro": "After the installer runs, it copies and launches Attention Clock. If macOS blocks the app itself, follow these steps **in order**:",
+    "title": "Attention Clock “damaged”?",
+    "intro": "After install, if the app is blocked:",
     "steps": [
-      "If you see **damaged**, click **Cancel** (not Move to Trash)",
-      "Open **System Settings** → **Privacy & Security**",
-      "Under **Security**, click **Open Anyway** for **Attention Clock**",
-      "Open Attention Clock again"
+      "Click **Cancel**",
+      "System Settings → **Open Anyway** for Attention Clock",
+      "Open the app again"
     ],
-    "order_note": "**Order matters**: trigger the block once before Open Anyway appears.",
-    "faq_q": "Blocked during install or launch?",
-    "faq_a": "Two steps: Open Anyway for Install and Open, then for Attention Clock.",
-    "installer_title": "“Install and Open” cannot be verified?",
-    "installer_intro": "Downloaded from a browser, **the installer helper itself** may be blocked first. macOS shows only **Done** — **not** our install guide. This is normal.",
+    "order_note": "Trigger the block once first.",
+    "faq_q": "Blocked?",
+    "faq_a": "Allow Install and Open, then Attention Clock.",
+    "installer_title": "Cannot verify Install and Open?",
+    "installer_intro": "Allow the installer first.",
     "installer_steps": [
-      "Double-click **Install and Open** in the DMG",
-      "If macOS says it **cannot verify “Install and Open”**, click **Done**",
-      "Open **System Settings** → **Privacy & Security** (or double-click **Open System Settings**)",
-      "Under **Security**, click **Open Anyway** for **Install and Open**",
-      "**Double-click Install and Open again** — the install guide dialog will appear and install Attention Clock"
+      "Click **Done** if blocked",
+      "System Settings → **Open Anyway** for **Install and Open**",
+      "Double-click **Install and Open** again"
     ],
-    "installer_order_note": "**Order matters**: allow Install and Open first, or the guide dialog will not appear."
+    "installer_order_note": "Allow the installer before the guide appears."
   },
   "uk": {
-    "title": "“Damaged” warning for Attention Clock after install?",
-    "intro": "After the installer runs, it copies and launches Attention Clock. If macOS blocks the app itself, follow these steps **in order**:",
+    "title": "Attention Clock “damaged”?",
+    "intro": "After install, if the app is blocked:",
     "steps": [
-      "If you see **damaged**, click **Cancel** (not Move to Trash)",
-      "Open **System Settings** → **Privacy & Security**",
-      "Under **Security**, click **Open Anyway** for **Attention Clock**",
-      "Open Attention Clock again"
+      "Click **Cancel**",
+      "System Settings → **Open Anyway** for Attention Clock",
+      "Open the app again"
     ],
-    "order_note": "**Order matters**: trigger the block once before Open Anyway appears.",
-    "faq_q": "Blocked during install or launch?",
-    "faq_a": "Two steps: Open Anyway for Install and Open, then for Attention Clock.",
-    "installer_title": "“Install and Open” cannot be verified?",
-    "installer_intro": "Downloaded from a browser, **the installer helper itself** may be blocked first. macOS shows only **Done** — **not** our install guide. This is normal.",
+    "order_note": "Trigger the block once first.",
+    "faq_q": "Blocked?",
+    "faq_a": "Allow Install and Open, then Attention Clock.",
+    "installer_title": "Cannot verify Install and Open?",
+    "installer_intro": "Allow the installer first.",
     "installer_steps": [
-      "Double-click **Install and Open** in the DMG",
-      "If macOS says it **cannot verify “Install and Open”**, click **Done**",
-      "Open **System Settings** → **Privacy & Security** (or double-click **Open System Settings**)",
-      "Under **Security**, click **Open Anyway** for **Install and Open**",
-      "**Double-click Install and Open again** — the install guide dialog will appear and install Attention Clock"
+      "Click **Done** if blocked",
+      "System Settings → **Open Anyway** for **Install and Open**",
+      "Double-click **Install and Open** again"
     ],
-    "installer_order_note": "**Order matters**: allow Install and Open first, or the guide dialog will not appear."
+    "installer_order_note": "Allow the installer before the guide appears."
   },
   "ms": {
-    "title": "“Damaged” warning for Attention Clock after install?",
-    "intro": "After the installer runs, it copies and launches Attention Clock. If macOS blocks the app itself, follow these steps **in order**:",
+    "title": "Attention Clock “damaged”?",
+    "intro": "After install, if the app is blocked:",
     "steps": [
-      "If you see **damaged**, click **Cancel** (not Move to Trash)",
-      "Open **System Settings** → **Privacy & Security**",
-      "Under **Security**, click **Open Anyway** for **Attention Clock**",
-      "Open Attention Clock again"
+      "Click **Cancel**",
+      "System Settings → **Open Anyway** for Attention Clock",
+      "Open the app again"
     ],
-    "order_note": "**Order matters**: trigger the block once before Open Anyway appears.",
-    "faq_q": "Blocked during install or launch?",
-    "faq_a": "Two steps: Open Anyway for Install and Open, then for Attention Clock.",
-    "installer_title": "“Install and Open” cannot be verified?",
-    "installer_intro": "Downloaded from a browser, **the installer helper itself** may be blocked first. macOS shows only **Done** — **not** our install guide. This is normal.",
+    "order_note": "Trigger the block once first.",
+    "faq_q": "Blocked?",
+    "faq_a": "Allow Install and Open, then Attention Clock.",
+    "installer_title": "Cannot verify Install and Open?",
+    "installer_intro": "Allow the installer first.",
     "installer_steps": [
-      "Double-click **Install and Open** in the DMG",
-      "If macOS says it **cannot verify “Install and Open”**, click **Done**",
-      "Open **System Settings** → **Privacy & Security** (or double-click **Open System Settings**)",
-      "Under **Security**, click **Open Anyway** for **Install and Open**",
-      "**Double-click Install and Open again** — the install guide dialog will appear and install Attention Clock"
+      "Click **Done** if blocked",
+      "System Settings → **Open Anyway** for **Install and Open**",
+      "Double-click **Install and Open** again"
     ],
-    "installer_order_note": "**Order matters**: allow Install and Open first, or the guide dialog will not appear."
+    "installer_order_note": "Allow the installer before the guide appears."
   }
 }
