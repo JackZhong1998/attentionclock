@@ -12,6 +12,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 GATEKEEPER = json.loads((ROOT / "scripts" / "gatekeeper-sections.json").read_text(encoding="utf-8"))
 INSTALL = json.loads((ROOT / "scripts" / "dmg-install-sections.json").read_text(encoding="utf-8"))
+DIALOG = json.loads((ROOT / "scripts" / "dmg-dialog-i18n.json").read_text(encoding="utf-8"))
 META = json.loads((ROOT / "scripts" / "languages-metadata.json").read_text(encoding="utf-8"))
 OUT = ROOT / "release" / "dmg-assets"
 APPLESCRIPT = ROOT / "scripts" / "dmg" / "Install.applescript"
@@ -23,14 +24,12 @@ def strip_md(text: str) -> str:
 
 
 def install_for(locale: str) -> dict:
-    if locale in INSTALL:
-        return INSTALL[locale]
-    base = INSTALL["en"].copy()
-    g = GATEKEEPER.get(locale, GATEKEEPER["en"])
-    base["post_install_body"] = (
-        "Launching the app.\n\n"
-        'If "damaged" → Cancel → Open System Settings → Open Anyway.'
-    )
+    base = {**INSTALL["en"], **INSTALL.get(locale, {})}
+    dlg = DIALOG.get(locale, DIALOG["en"])
+    base["pre_install_title"] = dlg["pre_install_title"]
+    base["pre_install_body"] = dlg["pre_install_body"]
+    base["post_install_title"] = dlg.get("post_install_title", DIALOG["en"]["post_install_title"])
+    base["post_install_body"] = dlg.get("post_install_body", DIALOG["en"]["post_install_body"])
     return base
 
 

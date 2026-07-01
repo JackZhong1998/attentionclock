@@ -5,14 +5,14 @@
     "settings_link_file": "打开系统设置.app",
     "open_settings_button": "打开系统设置",
     "dismiss_button": "知道了",
-    "continue_button": "继续安装",
-    "pre_install_title": "安装专注时钟",
-    "pre_install_body": "将复制到「应用程序」并打开。\n\n若刚才只有「无法验证」→ 先去系统设置为「安装并打开」点「仍要打开」，再重新双击。",
+    "continue_button": "继续",
+    "pre_install_title": "安装",
+    "pre_install_body": "将安装并打开专注时钟。\n若被拦截 → 打开系统设置放行后再双击。",
     "guide_title": "专注时钟 — 安装",
     "method1": "双击「安装并打开」。",
     "settings_shortcut_line": "可双击「打开系统设置」跳转。",
-    "post_install_title": "安装完成",
-    "post_install_body": "正在打开专注时钟。\n\n若提示「已损坏」→ 点「取消」→ 点「打开系统设置」→ 仍要打开。"
+    "post_install_title": "完成",
+    "post_install_body": "若提示「已损坏」→ 取消 → 打开系统设置 → 仍要打开。"
   },
   "zh-Hant": {
     "installer_app": "安裝並開啟",
@@ -20,14 +20,14 @@
     "settings_link_file": "開啟系統設定.app",
     "open_settings_button": "開啟系統設定",
     "dismiss_button": "知道了",
-    "continue_button": "繼續安裝",
-    "pre_install_title": "安裝專注時鐘",
-    "pre_install_body": "將複製到「應用程式」並開啟。\n\n若只有「無法驗證」→ 先為「安裝並開啟」點「仍要打開」，再按兩下。",
+    "continue_button": "繼續",
+    "pre_install_title": "安裝",
+    "pre_install_body": "將安裝並開啟專注時鐘。\n若被攔截 → 開啟系統設定放行後再按兩下。",
     "guide_title": "專注時鐘 — 安裝",
     "method1": "按兩下「安裝並開啟」。",
     "settings_shortcut_line": "可按兩下「開啟系統設定」跳轉。",
     "post_install_title": "安裝完成",
-    "post_install_body": "正在開啟。\n\n「已損壞」→ 取消 → 開啟系統設定 → 仍要打開。"
+    "post_install_body": "「已損壞」→ 取消 → 開啟系統設定 → 仍要打開。"
   },
   "en": {
     "installer_app": "Install and Open",
@@ -37,12 +37,12 @@
     "dismiss_button": "OK",
     "continue_button": "Continue",
     "pre_install_title": "Install",
-    "pre_install_body": "Copies to Applications and opens the app.\n\nIf you only saw “cannot verify” → allow Install and Open in System Settings, then double-click again.",
+    "pre_install_body": "Installs and opens Attention Clock.\nIf blocked → Open System Settings, allow, then try again.",
     "guide_title": "Attention Clock — Install",
     "method1": "Double-click Install and Open.",
     "settings_shortcut_line": "Double-click Open System Settings to jump there.",
     "post_install_title": "Done",
-    "post_install_body": "Launching Attention Clock.\n\nIf “damaged” → Cancel → Open System Settings → Open Anyway."
+    "post_install_body": "If “damaged” → Cancel → Open System Settings → Open Anyway."
   },
   "ja": {
     "installer_app": "インストールして開く",

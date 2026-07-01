@@ -1,0 +1,128 @@
+{
+  "zh-Hans": {
+    "pre_install_title": "安装",
+    "pre_install_body": "将安装并打开专注时钟。\n若被拦截 → 打开系统设置放行后再双击。",
+    "post_install_title": "完成",
+    "post_install_body": "若「已损坏」→ 取消 → 打开系统设置 → 仍要打开。"
+  },
+  "zh-Hant": {
+    "pre_install_title": "安裝",
+    "pre_install_body": "將安裝並開啟專注時鐘。\n若被攔截 → 開啟系統設定放行後再按兩下。",
+    "post_install_title": "完成",
+    "post_install_body": "若「已損壞」→ 取消 → 開啟系統設定 → 仍要打開。"
+  },
+  "en": {
+    "pre_install_title": "Install",
+    "pre_install_body": "Installs and opens Attention Clock.\nIf blocked → Open System Settings, allow, then try again.",
+    "post_install_title": "Done",
+    "post_install_body": "If “damaged” → Cancel → Open System Settings → Open Anyway."
+  },
+  "ja": {
+    "pre_install_title": "インストール",
+    "pre_install_body": "集中タイマーをインストールして開きます。\nブロック時 → システム設定で許可してから再試行。",
+    "post_install_title": "完了",
+    "post_install_body": "「損傷」→ キャンセル → システム設定 → このまま開く。"
+  },
+  "ko": {
+    "pre_install_title": "설치",
+    "pre_install_body": "집중 타이머를 설치하고 엽니다.\n차단 시 → 시스템 설정에서 허용 후 다시 시도.",
+    "post_install_title": "완료",
+    "post_install_body": "「손상됨」→ 취소 → 시스템 설정 → 확인 없이 열기."
+  },
+  "es": {
+    "pre_install_title": "Instalar",
+    "pre_install_body": "Instala y abre la app.\nSi está bloqueada → Ajustes → permitir → reintentar.",
+    "post_install_title": "Listo",
+    "post_install_body": "«Dañada» → Cancelar → Ajustes → Abrir igualmente."
+  },
+  "fr": {
+    "pre_install_title": "Installer",
+    "pre_install_body": "Installe et ouvre l'app.\nSi bloqué → Réglages → autoriser → réessayer.",
+    "post_install_title": "Terminé",
+    "post_install_body": "« Endommagée » → Annuler → Réglages → Ouvrir quand même."
+  },
+  "de": {
+    "pre_install_title": "Installation",
+    "pre_install_body": "Installiert und startet die App.\nBei Blockierung → Einstellungen → erlauben → erneut.",
+    "post_install_title": "Fertig",
+    "post_install_body": "„Beschädigt“ → Abbrechen → Einstellungen → Trotzdem öffnen."
+  },
+  "pt-BR": {
+    "pre_install_title": "Instalar",
+    "pre_install_body": "Instala e abre o app.\nSe bloqueado → Ajustes → permitir → tentar de novo.",
+    "post_install_title": "Pronto",
+    "post_install_body": "«Danificado» → Cancelar → Ajustes → Abrir mesmo assim."
+  },
+  "ru": {
+    "pre_install_title": "Установка",
+    "pre_install_body": "Установит и откроет приложение.\nЕсли заблокировано → Настройки → разрешить → снова.",
+    "post_install_title": "Готово",
+    "post_install_body": "«Повреждено» → Отмена → Настройки → Все равно открыть."
+  },
+  "ar": {
+    "pre_install_title": "تثبيت",
+    "pre_install_body": "يثبّت التطبيق ويفتحه.\nإذا حُظر → الإعدادات → السماح → أعد المحاولة.",
+    "post_install_title": "تم",
+    "post_install_body": "«تالف» → إلغاء → الإعدادات → فتح على أي حال."
+  },
+  "hi": {
+    "pre_install_title": "इंस्टॉल",
+    "pre_install_body": "ऐप इंस्टॉल करके खोलता है।\nब्लॉक हो तो → सेटिंग्स → अनुमति → फिर कोशिश करें।",
+    "post_install_title": "हो गया",
+    "post_install_body": "«क्षतिग्रस्त» → रद्द → सेटिंग्स → फिर भी खोलें।"
+  },
+  "it": {
+    "pre_install_title": "Installa",
+    "pre_install_body": "Installa e apre l'app.\nSe bloccata → Impostazioni → consenti → riprova.",
+    "post_install_title": "Fatto",
+    "post_install_body": "«Danneggiata» → Annulla → Impostazioni → Apri comunque."
+  },
+  "th": {
+    "pre_install_title": "ติดตั้ง",
+    "pre_install_body": "ติดตั้งและเปิดแอป\nถ้าถูกบล็อก → การตั้งค่า → อนุญาต → ลองอีกครั้ง",
+    "post_install_title": "เสร็จ",
+    "post_install_body": "«เสียหาย» → ยกเลิก → การตั้งค่า → เปิดอยู่ดี"
+  },
+  "vi": {
+    "pre_install_title": "Cài đặt",
+    "pre_install_body": "Cài và mở ứng dụng.\nNếu bị chặn → Cài đặt hệ thống → cho phép → thử lại.",
+    "post_install_title": "Xong",
+    "post_install_body": "«Bị hỏng» → Hủy → Cài đặt → Vẫn mở."
+  },
+  "id": {
+    "pre_install_title": "Instal",
+    "pre_install_body": "Memasang dan membuka app.\nJika diblokir → Pengaturan → izinkan → coba lagi.",
+    "post_install_title": "Selesai",
+    "post_install_body": "«Rusak» → Batal → Pengaturan → Buka Tetap."
+  },
+  "tr": {
+    "pre_install_title": "Kur",
+    "pre_install_body": "Uygulamayı kurar ve açar.\nEngellenirse → Ayarlar → izin ver → tekrar dene.",
+    "post_install_title": "Tamam",
+    "post_install_body": "«Bozuk» → İptal → Ayarlar → Yine de Aç."
+  },
+  "nl": {
+    "pre_install_title": "Installeren",
+    "pre_install_body": "Installeert en opent de app.\nGeblokkeerd? → Instellingen → toestaan → opnieuw.",
+    "post_install_title": "Klaar",
+    "post_install_body": "«Beschadigd» → Annuleer → Instellingen → Open toch."
+  },
+  "pl": {
+    "pre_install_title": "Instalacja",
+    "pre_install_body": "Instaluje i uruchamia aplikację.\nZablokowane? → Ustawienia → zezwól → ponów.",
+    "post_install_title": "Gotowe",
+    "post_install_body": "«Uszkodzona» → Anuluj → Ustawienia → Otwórz mimo to."
+  },
+  "uk": {
+    "pre_install_title": "Встановлення",
+    "pre_install_body": "Встановить і відкрити застосунок.\nЗаблоковано? → Налаштування → дозволити → знову.",
+    "post_install_title": "Готово",
+    "post_install_body": "«Пошкоджено» → Скасувати → Налаштування → Все одно відкрити."
+  },
+  "ms": {
+    "pre_install_title": "Pasang",
+    "pre_install_body": "Pasang dan buka app.\nDisekat? → Tetapan → benarkan → cuba lagi.",
+    "post_install_title": "Siap",
+    "post_install_body": "«Rosak» → Batal → Tetapan → Buka Juga."
+  }
+}
