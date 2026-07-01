@@ -29,8 +29,8 @@ No account or internet required. All data stays on your Mac.
 
 | Chip | Download |
 |------|----------|
-| Apple Silicon (M-series) | [**Download for Apple Silicon**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.0.0/AttentionClock-1.0.0-nl-arm64.dmg) |
-| Intel | [**Download for Intel**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.0.0/AttentionClock-1.0.0-nl-x86_64.dmg) |
+| Apple Silicon (M-series) | [**Download for Apple Silicon**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.1.0/AttentionClock-1.1.0-nl-arm64.dmg) |
+| Intel | [**Download for Intel**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.1.0/AttentionClock-1.1.0-nl-x86_64.dmg) |
 
 [All releases](https://github.com/JackZhong1998/attentionclock/releases/latest)
 
@@ -40,11 +40,22 @@ No account or internet required. All data stays on your Mac.
 2. Drag **Focus Klok** to Applications
 3. Eject and launch the app
 
-### Blocked on first launch?
+### «Beschadigd» bij eerste start?
 
-**System Settings** → **Privacy & Security** → **Open Anyway**
+macOS kan apps buiten de App Store blokkeren. **De app is niet echt beschadigd.** Volg deze stappen **in volgorde**:
+
+1. **Dubbelklik** in **Programma's** op Attention Clock
+2. Klik bij «beschadigd» op **Annuleer** (⚠️ **niet** **Verplaats naar prullenmand**)
+3. Open **Systeeminstellingen** → **Privacy en beveiliging**
+4. Scroll naar **Beveiliging** en klik **Open toch** bij Attention Clock
+5. Open de app opnieuw
+
+> **Volgorde is belangrijk**: eerst stap 1 en 2, anders verschijnt **Open toch** niet.
 
 ## FAQ
+
+**Toont «beschadigd»?**  
+Volg de stappen: dubbelklik → Annuleer → Open toch in Instellingen.
 
 **Internet required?**  
 No, runs entirely on your Mac.

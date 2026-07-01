@@ -29,8 +29,8 @@ No account or internet required. All data stays on your Mac.
 
 | Chip | Download |
 |------|----------|
-| Apple Silicon (M-series) | [**Download for Apple Silicon**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.0.0/AttentionClock-1.0.0-vi-arm64.dmg) |
-| Intel | [**Download for Intel**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.0.0/AttentionClock-1.0.0-vi-x86_64.dmg) |
+| Apple Silicon (M-series) | [**Download for Apple Silicon**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.1.0/AttentionClock-1.1.0-vi-arm64.dmg) |
+| Intel | [**Download for Intel**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.1.0/AttentionClock-1.1.0-vi-x86_64.dmg) |
 
 [All releases](https://github.com/JackZhong1998/attentionclock/releases/latest)
 
@@ -40,11 +40,22 @@ No account or internet required. All data stays on your Mac.
 2. Drag **Đồng Hồ Tập Trung** to Applications
 3. Eject and launch the app
 
-### Blocked on first launch?
+### Cảnh báo «bị hỏng» lần đầu mở?
 
-**System Settings** → **Privacy & Security** → **Open Anyway**
+macOS có thể chặn app tải ngoài App Store. **App không thực sự bị hỏng.** Làm **đúng thứ tự**:
+
+1. Trong **Ứng dụng**, **nhấp đúp** Attention Clock
+2. Khi hộp thoại «bị hỏng» hiện, nhấn **Hủy** (⚠️ **không** nhấn **Chuyển vào Thùng rác**)
+3. Mở **Cài đặt hệ thống** → **Quyền riêng tư & Bảo mật**
+4. Cuộn tới **Bảo mật** và nhấn **Vẫn mở** cho Attention Clock
+5. Mở lại app
+
+> **Thứ tự quan trọng**: phải làm bước 1 và 2 trước thì mới thấy **Vẫn mở**.
 
 ## FAQ
+
+**Báo «bị hỏng»?**  
+Làm theo các bước: nhấp đúp → Hủy → Vẫn mở trong Cài đặt.
 
 **Internet required?**  
 No, runs entirely on your Mac.

@@ -36,6 +36,23 @@
 		A10000010000000000000028 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000028 /* Localizable.xcstrings */; };
 		A10000010000000000000029 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000029 /* InfoPlist.xcstrings */; };
 		A10000010000000000000030 /* L10n.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000030 /* L10n.swift */; };
+		A10000010000000000000031 /* PetClip.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000031 /* PetClip.swift */; };
+		A10000010000000000000032 /* CodexPetManifest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000032 /* CodexPetManifest.swift */; };
+		A10000010000000000000033 /* CodexPetPack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000033 /* CodexPetPack.swift */; };
+		A10000010000000000000034 /* CodexPetAtlas.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000034 /* CodexPetAtlas.swift */; };
+		A10000010000000000000035 /* PetStateResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000035 /* PetStateResolver.swift */; };
+		A10000010000000000000036 /* CodexPetAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000036 /* CodexPetAnimator.swift */; };
+		A10000010000000000000037 /* SpritesheetPetCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000037 /* SpritesheetPetCanvas.swift */; };
+		A10000010000000000000038 /* PetStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000038 /* PetStore.swift */; };
+		A10000010000000000000039 /* Petdex in Resources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000039 /* Petdex */; };
+		A10000010000000000000045 /* PetdexIndexEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000045 /* PetdexIndexEntry.swift */; };
+		A10000010000000000000040 /* PetdexFranchiseCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000040 /* PetdexFranchiseCatalog.swift */; };
+		A10000010000000000000041 /* PetdexRemotePet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000041 /* PetdexRemotePet.swift */; };
+		A10000010000000000000042 /* PetdexCatalogService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000042 /* PetdexCatalogService.swift */; };
+		A10000010000000000000043 /* PetdexImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000043 /* PetdexImporter.swift */; };
+		A10000010000000000000044 /* DesktopPetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000044 /* DesktopPetView.swift */; };
+		A10000010000000000000046 /* PetdexSearchMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000046 /* PetdexSearchMatcher.swift */; };
+		A10000010000000000000047 /* PetdexCatalogEnricher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000047 /* PetdexCatalogEnricher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +85,23 @@
 		A20000010000000000000028 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		A20000010000000000000029 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
 		A20000010000000000000030 /* L10n.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L10n.swift; sourceTree = "<group>"; };
+		A20000010000000000000031 /* PetClip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetClip.swift; sourceTree = "<group>"; };
+		A20000010000000000000032 /* CodexPetManifest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexPetManifest.swift; sourceTree = "<group>"; };
+		A20000010000000000000033 /* CodexPetPack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexPetPack.swift; sourceTree = "<group>"; };
+		A20000010000000000000034 /* CodexPetAtlas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexPetAtlas.swift; sourceTree = "<group>"; };
+		A20000010000000000000035 /* PetStateResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetStateResolver.swift; sourceTree = "<group>"; };
+		A20000010000000000000036 /* CodexPetAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexPetAnimator.swift; sourceTree = "<group>"; };
+		A20000010000000000000037 /* SpritesheetPetCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpritesheetPetCanvas.swift; sourceTree = "<group>"; };
+		A20000010000000000000038 /* PetStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetStore.swift; sourceTree = "<group>"; };
+		A20000010000000000000039 /* Petdex */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Petdex; sourceTree = "<group>"; };
+		A20000010000000000000045 /* PetdexIndexEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetdexIndexEntry.swift; sourceTree = "<group>"; };
+		A20000010000000000000040 /* PetdexFranchiseCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetdexFranchiseCatalog.swift; sourceTree = "<group>"; };
+		A20000010000000000000041 /* PetdexRemotePet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetdexRemotePet.swift; sourceTree = "<group>"; };
+		A20000010000000000000042 /* PetdexCatalogService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetdexCatalogService.swift; sourceTree = "<group>"; };
+		A20000010000000000000043 /* PetdexImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetdexImporter.swift; sourceTree = "<group>"; };
+		A20000010000000000000044 /* DesktopPetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesktopPetView.swift; sourceTree = "<group>"; };
+		A20000010000000000000046 /* PetdexSearchMatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetdexSearchMatcher.swift; sourceTree = "<group>"; };
+		A20000010000000000000047 /* PetdexCatalogEnricher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetdexCatalogEnricher.swift; sourceTree = "<group>"; };
 		A30000010000000000000001 /* AttentionClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AttentionClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -100,6 +134,8 @@
 				A50000010000000000000006 /* ViewModels */,
 				A50000010000000000000007 /* Views */,
 				A50000010000000000000008 /* Utilities */,
+				A50000010000000000000009 /* Pets */,
+				A50000010000000000000010 /* Resources */,
 				A20000010000000000000011 /* Assets.xcassets */,
 				A20000010000000000000028 /* Localizable.xcstrings */,
 				A20000010000000000000029 /* InfoPlist.xcstrings */,
@@ -133,6 +169,9 @@
 				A20000010000000000000005 /* SettingsStore.swift */,
 				A20000010000000000000015 /* FocusReminderService.swift */,
 				A20000010000000000000017 /* CatStore.swift */,
+				A20000010000000000000038 /* PetStore.swift */,
+				A20000010000000000000042 /* PetdexCatalogService.swift */,
+				A20000010000000000000043 /* PetdexImporter.swift */,
 				A20000010000000000000026 /* CatAnimator.swift */,
 				A20000010000000000000018 /* FloatingCatWindowController.swift */,
 			);
@@ -156,6 +195,7 @@
 				A20000010000000000000013 /* FocusHeatmapView.swift */,
 				A20000010000000000000019 /* CatCompanionView.swift */,
 				A20000010000000000000020 /* FloatingCatView.swift */,
+				A20000010000000000000044 /* DesktopPetView.swift */,
 				A20000010000000000000021 /* CatSpriteView.swift */,
 				A20000010000000000000022 /* AppButtonStyles.swift */,
 				A20000010000000000000027 /* PixelCatCanvas.swift */,
@@ -172,6 +212,33 @@
 				A20000010000000000000030 /* L10n.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A50000010000000000000009 /* Pets */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000031 /* PetClip.swift */,
+				A20000010000000000000032 /* CodexPetManifest.swift */,
+				A20000010000000000000033 /* CodexPetPack.swift */,
+				A20000010000000000000034 /* CodexPetAtlas.swift */,
+				A20000010000000000000035 /* PetStateResolver.swift */,
+				A20000010000000000000036 /* CodexPetAnimator.swift */,
+				A20000010000000000000037 /* SpritesheetPetCanvas.swift */,
+				A20000010000000000000040 /* PetdexFranchiseCatalog.swift */,
+				A20000010000000000000041 /* PetdexRemotePet.swift */,
+				A20000010000000000000045 /* PetdexIndexEntry.swift */,
+				A20000010000000000000046 /* PetdexSearchMatcher.swift */,
+				A20000010000000000000047 /* PetdexCatalogEnricher.swift */,
+			);
+			path = Pets;
+			sourceTree = "<group>";
+		};
+		A50000010000000000000010 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000039 /* Petdex */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +322,7 @@
 				A10000010000000000000011 /* Assets.xcassets in Resources */,
 				A10000010000000000000028 /* Localizable.xcstrings in Resources */,
 				A10000010000000000000029 /* InfoPlist.xcstrings in Resources */,
+				A10000010000000000000039 /* Petdex in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +359,22 @@
 				A10000010000000000000026 /* CatAnimator.swift in Sources */,
 				A10000010000000000000027 /* PixelCatCanvas.swift in Sources */,
 				A10000010000000000000030 /* L10n.swift in Sources */,
+				A10000010000000000000031 /* PetClip.swift in Sources */,
+				A10000010000000000000032 /* CodexPetManifest.swift in Sources */,
+				A10000010000000000000033 /* CodexPetPack.swift in Sources */,
+				A10000010000000000000034 /* CodexPetAtlas.swift in Sources */,
+				A10000010000000000000035 /* PetStateResolver.swift in Sources */,
+				A10000010000000000000036 /* CodexPetAnimator.swift in Sources */,
+				A10000010000000000000037 /* SpritesheetPetCanvas.swift in Sources */,
+				A10000010000000000000038 /* PetStore.swift in Sources */,
+				A10000010000000000000040 /* PetdexFranchiseCatalog.swift in Sources */,
+				A10000010000000000000041 /* PetdexRemotePet.swift in Sources */,
+				A10000010000000000000045 /* PetdexIndexEntry.swift in Sources */,
+				A10000010000000000000046 /* PetdexSearchMatcher.swift in Sources */,
+				A10000010000000000000047 /* PetdexCatalogEnricher.swift in Sources */,
+				A10000010000000000000042 /* PetdexCatalogService.swift in Sources */,
+				A10000010000000000000043 /* PetdexImporter.swift in Sources */,
+				A10000010000000000000044 /* DesktopPetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,7 +432,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -358,7 +442,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.attentionclock.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -373,7 +457,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -383,7 +467,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.attentionclock.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

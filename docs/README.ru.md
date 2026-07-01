@@ -29,8 +29,8 @@ No account or internet required. All data stays on your Mac.
 
 | Chip | Download |
 |------|----------|
-| Apple Silicon (M-series) | [**Download for Apple Silicon**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.0.0/AttentionClock-1.0.0-ru-arm64.dmg) |
-| Intel | [**Download for Intel**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.0.0/AttentionClock-1.0.0-ru-x86_64.dmg) |
+| Apple Silicon (M-series) | [**Download for Apple Silicon**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.1.0/AttentionClock-1.1.0-ru-arm64.dmg) |
+| Intel | [**Download for Intel**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.1.0/AttentionClock-1.1.0-ru-x86_64.dmg) |
 
 [All releases](https://github.com/JackZhong1998/attentionclock/releases/latest)
 
@@ -40,11 +40,22 @@ No account or internet required. All data stays on your Mac.
 2. Drag **Часы Фокуса** to Applications
 3. Eject and launch the app
 
-### Blocked on first launch?
+### Сообщение «повреждено» при первом запуске?
 
-**System Settings** → **Privacy & Security** → **Open Anyway**
+macOS может блокировать приложения, скачанные не из App Store. **Приложение не повреждено.** Выполните шаги **по порядку**:
+
+1. В **Программах** **дважды щёлкните** Attention Clock
+2. В диалоге «повреждено» нажмите **Отменить** (⚠️ **не** **Переместить в Корзину**)
+3. Откройте **Системные настройки** → **Конфиденциальность и безопасность**
+4. Прокрутите до **Безопасность** и нажмите **Все равно открыть** для Attention Clock
+5. Снова откройте приложение
+
+> **Порядок важен**: сначала шаги 1 и 2, иначе кнопка **Все равно открыть** не появится.
 
 ## FAQ
+
+**Пишет «повреждено»?**  
+Следуйте шагам: двойной щелчок → Отменить → Все равно открыть в настройках.
 
 **Internet required?**  
 No, runs entirely on your Mac.

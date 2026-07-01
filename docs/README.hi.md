@@ -29,8 +29,8 @@ No account or internet required. All data stays on your Mac.
 
 | Chip | Download |
 |------|----------|
-| Apple Silicon (M-series) | [**Download for Apple Silicon**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.0.0/AttentionClock-1.0.0-hi-arm64.dmg) |
-| Intel | [**Download for Intel**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.0.0/AttentionClock-1.0.0-hi-x86_64.dmg) |
+| Apple Silicon (M-series) | [**Download for Apple Silicon**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.1.0/AttentionClock-1.1.0-hi-arm64.dmg) |
+| Intel | [**Download for Intel**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.1.0/AttentionClock-1.1.0-hi-x86_64.dmg) |
 
 [All releases](https://github.com/JackZhong1998/attentionclock/releases/latest)
 
@@ -40,11 +40,22 @@ No account or internet required. All data stays on your Mac.
 2. Drag **फोकस घड़ी** to Applications
 3. Eject and launch the app
 
-### Blocked on first launch?
+### पहली बार खोलने पर «क्षतिग्रस्त»?
 
-**System Settings** → **Privacy & Security** → **Open Anyway**
+macOS App Store के बाहर डाउनलोड किए ऐप को रोक सकता है। **ऐप वास्तव में खराब नहीं है।** इन चरणों का **क्रम** पालन करें:
+
+1. **एप्लिकेशन** में Attention Clock पर **डबल-क्लिक** करें
+2. «क्षतिग्रस्त» संवाद में **रद्द करें** दबाएँ (⚠️ **ट्रैश में ले जाएँ** नहीं)
+3. **सिस्टम सेटिंग्स** → **गोपनीयता और सुरक्षा** खोलें
+4. **सुरक्षा** तक स्क्रॉल करें और Attention Clock के लिए **फिर भी खोलें** दबाएँ
+5. ऐप फिर से खोलें
+
+> **क्रम महत्वपूर्ण**: पहले चरण 1 और 2, तभी **फिर भी खोलें** दिखेगा।
 
 ## FAQ
+
+**«क्षतिग्रस्त» दिखता है?**  
+चरणों का पालन करें: डबल-क्लिक → रद्द करें → सेटिंग्स में फिर भी खोलें।
 
 **Internet required?**  
 No, runs entirely on your Mac.

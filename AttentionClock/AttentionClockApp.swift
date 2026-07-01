@@ -5,13 +5,15 @@ struct AttentionClockApp: App {
     @StateObject private var sessionStore = SessionStore()
     @StateObject private var settings = SettingsStore()
     @StateObject private var catStore = CatStore()
+    @StateObject private var petStore = PetStore()
 
     var body: some Scene {
         WindowGroup {
             ContentView(
                 sessionStore: sessionStore,
                 settings: settings,
-                catStore: catStore
+                catStore: catStore,
+                petStore: petStore
             )
             .onAppear {
                 FocusReminderService.shared.requestAuthorization()

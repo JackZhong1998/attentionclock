@@ -29,8 +29,8 @@ No account or internet required. All data stays on your Mac.
 
 | Chip | Download |
 |------|----------|
-| Apple Silicon (M-series) | [**Download for Apple Silicon**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.0.0/AttentionClock-1.0.0-ar-arm64.dmg) |
-| Intel | [**Download for Intel**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.0.0/AttentionClock-1.0.0-ar-x86_64.dmg) |
+| Apple Silicon (M-series) | [**Download for Apple Silicon**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.1.0/AttentionClock-1.1.0-ar-arm64.dmg) |
+| Intel | [**Download for Intel**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.1.0/AttentionClock-1.1.0-ar-x86_64.dmg) |
 
 [All releases](https://github.com/JackZhong1998/attentionclock/releases/latest)
 
@@ -40,11 +40,22 @@ No account or internet required. All data stays on your Mac.
 2. Drag **ساعة التركيز** to Applications
 3. Eject and launch the app
 
-### Blocked on first launch?
+### تحذير «تالف» عند الفتح لأول مرة؟
 
-**System Settings** → **Privacy & Security** → **Open Anyway**
+قد يحجب macOS التطبيقات المحمّلة خارج App Store. **التطبيق ليس تالفاً فعلياً.** اتبع الخطوات **بالترتيب**:
+
+1. في **التطبيقات**، **انقر نقرتين** على Attention Clock
+2. عند ظهور «تالف»، انقر **إلغاء** (⚠️ **لا** تنقر **نقل إلى سلة المهملات**)
+3. افتح **إعدادات النظام** → **الخصوصية والأمان**
+4. مرّر إلى **الأمان** وانقر **فتح على أي حال** لـ Attention Clock
+5. افتح التطبيق مرة أخرى
+
+> **الترتيب مهم**: يجب إكمال الخطوتين 1 و2 أولاً وإلا لن يظهر **فتح على أي حال**.
 
 ## FAQ
+
+**يظهر «تالف»؟**  
+اتبع الخطوات: نقرتان → إلغاء → فتح على أي حال من الإعدادات.
 
 **Internet required?**  
 No, runs entirely on your Mac.

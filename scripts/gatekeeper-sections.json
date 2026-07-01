@@ -1,0 +1,296 @@
+{
+  "zh-Hans": {
+    "title": "首次打开提示「已损坏」怎么办？",
+    "intro": "从浏览器下载后，macOS 可能会拦截未上架 App Store 的应用，弹出「已损坏」提示。**这不是应用真的坏了**，请**按顺序**完成以下步骤：",
+    "steps": [
+      "在「应用程序」中**双击打开** AttentionClock（专注时钟）",
+      "弹出「已损坏」对话框时，点击 **取消**（⚠️ **不要**点「移到废纸篓」）",
+      "打开 **系统设置** → **隐私与安全性**",
+      "向下滚动到 **安全性** 区域，会出现 AttentionClock 的 **仍要打开** 按钮，点击它",
+      "再次打开应用，即可正常使用"
+    ],
+    "order_note": "**顺序很重要**：必须先完成第 1、2 步，「仍要打开」按钮才会出现。如果直接打开系统设置，可能看不到该按钮。",
+    "faq_q": "打开时提示「已损坏」？",
+    "faq_a": "按上方步骤操作：先双击打开并点「取消」，再去系统设置里点「仍要打开」。"
+  },
+  "zh-Hant": {
+    "title": "首次開啟顯示「已損壞」怎麼辦？",
+    "intro": "從瀏覽器下載後，macOS 可能會攔截未上架 App Store 的應用，彈出「已損壞」提示。**這不是應用真的壞了**，請**依序**完成以下步驟：",
+    "steps": [
+      "在「應用程式」中**按兩下開啟** AttentionClock（專注時鐘）",
+      "彈出「已損壞」對話框時，點擊 **取消**（⚠️ **不要**點「移到垃圾桶」）",
+      "開啟 **系統設定** → **隱私權與安全性**",
+      "向下捲動到 **安全性** 區域，會出現 AttentionClock 的 **仍要打開** 按鈕，點擊它",
+      "再次開啟應用，即可正常使用"
+    ],
+    "order_note": "**順序很重要**：必須先完成第 1、2 步，「仍要打開」按鈕才會出現。",
+    "faq_q": "開啟時顯示「已損壞」？",
+    "faq_a": "依上方步驟：先按兩下開啟並點「取消」，再到系統設定點「仍要打開」。"
+  },
+  "en": {
+    "title": "\"Damaged\" warning on first launch?",
+    "intro": "macOS may block apps downloaded outside the App Store and show a \"damaged\" warning. **The app is not actually damaged.** Follow these steps **in order**:",
+    "steps": [
+      "In **Applications**, **double-click** Attention Clock to open it",
+      "When the \"damaged\" dialog appears, click **Cancel** (⚠️ do **not** click **Move to Trash**)",
+      "Open **System Settings** → **Privacy & Security**",
+      "Scroll to the **Security** section — you'll see **Open Anyway** for Attention Clock. Click it",
+      "Open the app again to use it normally"
+    ],
+    "order_note": "**Order matters**: You must complete steps 1 and 2 first, or the **Open Anyway** button will not appear.",
+    "faq_q": "Shows \"damaged\" when opening?",
+    "faq_a": "Follow the steps above: double-click, click Cancel, then use Open Anyway in System Settings."
+  },
+  "ja": {
+    "title": "初回起動で「損傷しています」と表示される場合",
+    "intro": "ブラウザからダウンロードしたアプリは、macOS によりブロックされることがあります。**アプリが壊れているわけではありません。** 以下の手順を**順番どおり**に行ってください：",
+    "steps": [
+      "「アプリケーション」で AttentionClock（集中タイマー）を**ダブルクリック**して開く",
+      "「損傷しています」ダイアログが出たら **キャンセル** をクリック（⚠️ **ゴミ箱に入れる** は押さない）",
+      "**システム設定** → **プライバシーとセキュリティ** を開く",
+      "**セキュリティ** セクションまでスクロールし、AttentionClock の **このまま開く** をクリック",
+      "もう一度アプリを開いて使用する"
+    ],
+    "order_note": "**順番が重要です**：手順 1・2 を先に行わないと **このまま開く** ボタンは表示されません。",
+    "faq_q": "「損傷しています」と表示される？",
+    "faq_a": "上記の手順どおり：ダブルクリック → キャンセル → システム設定で「このまま開く」。"
+  },
+  "ko": {
+    "title": "첫 실행 시 「손상됨」이 뜨나요?",
+    "intro": "브라우저에서 다운로드한 앱은 macOS에서 차단될 수 있습니다. **앱이 실제로 손상된 것은 아닙니다.** 아래 순서를 **반드시 지켜** 주세요:",
+    "steps": [
+      "「응용 프로그램」에서 AttentionClock(집중 타이머)을 **더블 클릭**하여 실행",
+      "「손상됨」 대화상자가 뜨면 **취소** 클릭 (⚠️ **휴지통으로 이동** 은 누르지 마세요)",
+      "**시스템 설정** → **개인 정보 보호 및 보안** 열기",
+      "**보안** 섹션까지 스크롤하여 AttentionClock의 **확인 없이 열기** 클릭",
+      "앱을 다시 열어 정상 사용"
+    ],
+    "order_note": "**순서가 중요합니다**: 1·2단계를 먼저 해야 **확인 없이 열기** 버튼이 나타납니다.",
+    "faq_q": "열 때 「손상됨」이 뜨나요?",
+    "faq_a": "위 순서대로: 더블 클릭 → 취소 → 시스템 설정에서 확인 없이 열기."
+  },
+  "es": {
+    "title": "¿Aparece «dañada» al abrir por primera vez?",
+    "intro": "macOS puede bloquear apps descargadas fuera de la App Store. **La app no está realmente dañada.** Sigue estos pasos **en orden**:",
+    "steps": [
+      "En **Aplicaciones**, **haz doble clic** en Attention Clock para abrirla",
+      "Cuando aparezca el aviso de «dañada», pulsa **Cancelar** (⚠️ **no** pulses **Mover a la Papelera**)",
+      "Abre **Ajustes del sistema** → **Privacidad y seguridad**",
+      "Desplázate hasta **Seguridad** y pulsa **Abrir igualmente** en Attention Clock",
+      "Vuelve a abrir la app con normalidad"
+    ],
+    "order_note": "**El orden importa**: debes completar los pasos 1 y 2 primero, o no aparecerá **Abrir igualmente**.",
+    "faq_q": "¿Dice «dañada» al abrir?",
+    "faq_a": "Sigue los pasos: doble clic → Cancelar → Abrir igualmente en Ajustes."
+  },
+  "fr": {
+    "title": "Message « endommagée » au premier lancement ?",
+    "intro": "macOS peut bloquer les apps téléchargées hors de l'App Store. **L'app n'est pas réellement endommagée.** Suivez ces étapes **dans l'ordre** :",
+    "steps": [
+      "Dans **Applications**, **double-cliquez** sur Attention Clock",
+      "Quand la boîte « endommagée » s'affiche, cliquez **Annuler** (⚠️ **pas** **Mettre à la corbeille**)",
+      "Ouvrez **Réglages système** → **Confidentialité et sécurité**",
+      "Faites défiler jusqu'à **Sécurité**, puis cliquez **Ouvrir quand même** pour Attention Clock",
+      "Rouvrez l'app normalement"
+    ],
+    "order_note": "**L'ordre compte** : les étapes 1 et 2 doivent être faites d'abord, sinon **Ouvrir quand même** n'apparaît pas.",
+    "faq_q": "Message « endommagée » ?",
+    "faq_a": "Suivez les étapes : double-clic → Annuler → Ouvrir quand même dans Réglages."
+  },
+  "de": {
+    "title": "„Beschädigt“-Hinweis beim ersten Start?",
+    "intro": "macOS blockiert oft Apps außerhalb des App Store. **Die App ist nicht wirklich beschädigt.** Diese Schritte **in dieser Reihenfolge**:",
+    "steps": [
+      "In **Programme** **Attention Clock doppelklicken**",
+      "Beim Dialog „beschädigt“ auf **Abbrechen** klicken (⚠️ **nicht** **In den Papierkorb legen**)",
+      "**Systemeinstellungen** → **Datenschutz & Sicherheit** öffnen",
+      "Zu **Sicherheit** scrollen und **Trotzdem öffnen** bei Attention Clock klicken",
+      "App erneut öffnen"
+    ],
+    "order_note": "**Die Reihenfolge ist wichtig**: Schritte 1 und 2 zuerst, sonst erscheint **Trotzdem öffnen** nicht.",
+    "faq_q": "Zeigt „beschädigt“?",
+    "faq_a": "Schritte befolgen: Doppelklick → Abbrechen → Trotzdem öffnen in den Einstellungen."
+  },
+  "pt-BR": {
+    "title": "Aviso de «danificado» na primeira abertura?",
+    "intro": "O macOS pode bloquear apps baixados fora da App Store. **O app não está realmente danificado.** Siga **nesta ordem**:",
+    "steps": [
+      "Em **Aplicativos**, **clique duas vezes** em Attention Clock",
+      "No aviso «danificado», clique **Cancelar** (⚠️ **não** clique **Mover para o Lixo**)",
+      "Abra **Ajustes do Sistema** → **Privacidade e Segurança**",
+      "Role até **Segurança** e clique **Abrir Mesmo Assim** em Attention Clock",
+      "Abra o app novamente"
+    ],
+    "order_note": "**A ordem importa**: conclua os passos 1 e 2 primeiro, senão **Abrir Mesmo Assim** não aparece.",
+    "faq_q": "Mostra «danificado»?",
+    "faq_a": "Siga os passos: duplo clique → Cancelar → Abrir Mesmo Assim nos Ajustes."
+  },
+  "ru": {
+    "title": "Сообщение «повреждено» при первом запуске?",
+    "intro": "macOS может блокировать приложения, скачанные не из App Store. **Приложение не повреждено.** Выполните шаги **по порядку**:",
+    "steps": [
+      "В **Программах** **дважды щёлкните** Attention Clock",
+      "В диалоге «повреждено» нажмите **Отменить** (⚠️ **не** **Переместить в Корзину**)",
+      "Откройте **Системные настройки** → **Конфиденциальность и безопасность**",
+      "Прокрутите до **Безопасность** и нажмите **Все равно открыть** для Attention Clock",
+      "Снова откройте приложение"
+    ],
+    "order_note": "**Порядок важен**: сначала шаги 1 и 2, иначе кнопка **Все равно открыть** не появится.",
+    "faq_q": "Пишет «повреждено»?",
+    "faq_a": "Следуйте шагам: двойной щелчок → Отменить → Все равно открыть в настройках."
+  },
+  "ar": {
+    "title": "تحذير «تالف» عند الفتح لأول مرة؟",
+    "intro": "قد يحجب macOS التطبيقات المحمّلة خارج App Store. **التطبيق ليس تالفاً فعلياً.** اتبع الخطوات **بالترتيب**:",
+    "steps": [
+      "في **التطبيقات**، **انقر نقرتين** على Attention Clock",
+      "عند ظهور «تالف»، انقر **إلغاء** (⚠️ **لا** تنقر **نقل إلى سلة المهملات**)",
+      "افتح **إعدادات النظام** → **الخصوصية والأمان**",
+      "مرّر إلى **الأمان** وانقر **فتح على أي حال** لـ Attention Clock",
+      "افتح التطبيق مرة أخرى"
+    ],
+    "order_note": "**الترتيب مهم**: يجب إكمال الخطوتين 1 و2 أولاً وإلا لن يظهر **فتح على أي حال**.",
+    "faq_q": "يظهر «تالف»؟",
+    "faq_a": "اتبع الخطوات: نقرتان → إلغاء → فتح على أي حال من الإعدادات."
+  },
+  "hi": {
+    "title": "पहली बार खोलने पर «क्षतिग्रस्त»?",
+    "intro": "macOS App Store के बाहर डाउनलोड किए ऐप को रोक सकता है। **ऐप वास्तव में खराब नहीं है।** इन चरणों का **क्रम** पालन करें:",
+    "steps": [
+      "**एप्लिकेशन** में Attention Clock पर **डबल-क्लिक** करें",
+      "«क्षतिग्रस्त» संवाद में **रद्द करें** दबाएँ (⚠️ **ट्रैश में ले जाएँ** नहीं)",
+      "**सिस्टम सेटिंग्स** → **गोपनीयता और सुरक्षा** खोलें",
+      "**सुरक्षा** तक स्क्रॉल करें और Attention Clock के लिए **फिर भी खोलें** दबाएँ",
+      "ऐप फिर से खोलें"
+    ],
+    "order_note": "**क्रम महत्वपूर्ण**: पहले चरण 1 और 2, तभी **फिर भी खोलें** दिखेगा।",
+    "faq_q": "«क्षतिग्रस्त» दिखता है?",
+    "faq_a": "चरणों का पालन करें: डबल-क्लिक → रद्द करें → सेटिंग्स में फिर भी खोलें।"
+  },
+  "it": {
+    "title": "Avviso «danneggiata» al primo avvio?",
+    "intro": "macOS può bloccare app scaricate fuori dall'App Store. **L'app non è realmente danneggiata.** Segui **in ordine**:",
+    "steps": [
+      "In **Applicazioni**, **fai doppio clic** su Attention Clock",
+      "Nella finestra «danneggiata», clicca **Annulla** (⚠️ **non** **Sposta nel Cestino**)",
+      "Apri **Impostazioni di Sistema** → **Privacy e sicurezza**",
+      "Scorri fino a **Sicurezza** e clicca **Apri comunque** per Attention Clock",
+      "Riapri l'app"
+    ],
+    "order_note": "**L'ordine conta**: completa prima i passaggi 1 e 2, altrimenti **Apri comunque** non compare.",
+    "faq_q": "Compare «danneggiata»?",
+    "faq_a": "Segui i passaggi: doppio clic → Annulla → Apri comunque nelle Impostazioni."
+  },
+  "th": {
+    "title": "ขึ้น «เสียหาย» ตอนเปิดครั้งแรก?",
+    "intro": "macOS อาจบล็อกแอปที่ดาวน์โหลดนอก App Store **แอปไม่ได้เสียหายจริง** ทำตามลำดับนี้:",
+    "steps": [
+      "ใน **โปรแกรม** **ดับเบิลคลิก** Attention Clock",
+      "เมื่อขึ้น «เสียหาย» ให้กด **ยกเลิก** (⚠️ **อย่า**กด **ย้ายไปถังขยะ**)",
+      "เปิด **การตั้งค่าระบบ** → **ความเป็นส่วนตัวและความปลอดภัย**",
+      "เลื่อนไปที่ **ความปลอดภัย** แล้วกด **เปิดอยู่ดี** สำหรับ Attention Clock",
+      "เปิดแอปอีกครั้ง"
+    ],
+    "order_note": "**ลำดับสำคัญ**: ต้องทำขั้น 1 และ 2 ก่อน จึงจะเห็น **เปิดอยู่ดี**",
+    "faq_q": "ขึ้น «เสียหาย»?",
+    "faq_a": "ทำตามขั้นตอน: ดับเบิลคลิก → ยกเลิก → เปิดอยู่ดีในการตั้งค่า"
+  },
+  "vi": {
+    "title": "Cảnh báo «bị hỏng» lần đầu mở?",
+    "intro": "macOS có thể chặn app tải ngoài App Store. **App không thực sự bị hỏng.** Làm **đúng thứ tự**:",
+    "steps": [
+      "Trong **Ứng dụng**, **nhấp đúp** Attention Clock",
+      "Khi hộp thoại «bị hỏng» hiện, nhấn **Hủy** (⚠️ **không** nhấn **Chuyển vào Thùng rác**)",
+      "Mở **Cài đặt hệ thống** → **Quyền riêng tư & Bảo mật**",
+      "Cuộn tới **Bảo mật** và nhấn **Vẫn mở** cho Attention Clock",
+      "Mở lại app"
+    ],
+    "order_note": "**Thứ tự quan trọng**: phải làm bước 1 và 2 trước thì mới thấy **Vẫn mở**.",
+    "faq_q": "Báo «bị hỏng»?",
+    "faq_a": "Làm theo các bước: nhấp đúp → Hủy → Vẫn mở trong Cài đặt."
+  },
+  "id": {
+    "title": "Peringatan «rusak» saat pertama dibuka?",
+    "intro": "macOS dapat memblokir app unduhan di luar App Store. **App tidak benar-benar rusak.** Ikuti langkah **berurutan**:",
+    "steps": [
+      "Di **Aplikasi**, **klik dua kali** Attention Clock",
+      "Saat dialog «rusak» muncul, klik **Batal** (⚠️ **jangan** **Pindahkan ke Tong Sampah**)",
+      "Buka **Pengaturan Sistem** → **Privasi & Keamanan**",
+      "Gulir ke **Keamanan** dan klik **Buka Tetap** untuk Attention Clock",
+      "Buka app lagi"
+    ],
+    "order_note": "**Urutan penting**: langkah 1 dan 2 harus dulu, baru muncul **Buka Tetap**.",
+    "faq_q": "Muncul «rusak»?",
+    "faq_a": "Ikuti langkah: klik dua kali → Batal → Buka Tetap di Pengaturan."
+  },
+  "tr": {
+    "title": "İlk açılışta «bozuk» uyarısı?",
+    "intro": "macOS, App Store dışı indirilen uygulamaları engelleyebilir. **Uygulama gerçekten bozuk değil.** Adımları **sırayla** izleyin:",
+    "steps": [
+      "**Uygulamalar**'da Attention Clock'a **çift tıklayın**",
+      "«Bozuk» iletişim kutusunda **İptal**'e tıklayın (⚠️ **Çöp Sepetine Taşı**'ya değil)",
+      "**Sistem Ayarları** → **Gizlilik ve Güvenlik**'i açın",
+      "**Güvenlik** bölümüne kaydırın ve Attention Clock için **Yine de Aç**'a tıklayın",
+      "Uygulamayı tekrar açın"
+    ],
+    "order_note": "**Sıra önemli**: önce 1 ve 2. adımlar, yoksa **Yine de Aç** görünmez.",
+    "faq_q": "«Bozuk» diyor?",
+    "faq_a": "Adımları izleyin: çift tık → İptal → Ayarlarda Yine de Aç."
+  },
+  "nl": {
+    "title": "«Beschadigd» bij eerste start?",
+    "intro": "macOS kan apps buiten de App Store blokkeren. **De app is niet echt beschadigd.** Volg deze stappen **in volgorde**:",
+    "steps": [
+      "**Dubbelklik** in **Programma's** op Attention Clock",
+      "Klik bij «beschadigd» op **Annuleer** (⚠️ **niet** **Verplaats naar prullenmand**)",
+      "Open **Systeeminstellingen** → **Privacy en beveiliging**",
+      "Scroll naar **Beveiliging** en klik **Open toch** bij Attention Clock",
+      "Open de app opnieuw"
+    ],
+    "order_note": "**Volgorde is belangrijk**: eerst stap 1 en 2, anders verschijnt **Open toch** niet.",
+    "faq_q": "Toont «beschadigd»?",
+    "faq_a": "Volg de stappen: dubbelklik → Annuleer → Open toch in Instellingen."
+  },
+  "pl": {
+    "title": "Komunikat «uszkodzona» przy pierwszym uruchomieniu?",
+    "intro": "macOS może blokować aplikacje spoza App Store. **Aplikacja nie jest uszkodzona.** Wykonaj kroki **po kolei**:",
+    "steps": [
+      "W **Aplikacjach** **kliknij dwukrotnie** Attention Clock",
+      "W oknie «uszkodzona» kliknij **Anuluj** (⚠️ **nie** **Przenieś do Kosza**)",
+      "Otwórz **Ustawienia systemowe** → **Prywatność i bezpieczeństwo**",
+      "Przewiń do **Bezpieczeństwo** i kliknij **Otwórz mimo to** przy Attention Clock",
+      "Otwórz aplikację ponownie"
+    ],
+    "order_note": "**Kolejność ma znaczenie**: najpierw kroki 1 i 2, inaczej **Otwórz mimo to** się nie pojawi.",
+    "faq_q": "Pokazuje «uszkodzona»?",
+    "faq_a": "Wykonaj kroki: dwuklik → Anuluj → Otwórz mimo to w Ustawieniach."
+  },
+  "uk": {
+    "title": "Попередження «пошкоджено» при першому запуску?",
+    "intro": "macOS може блокувати застосунки поза App Store. **Застосунок не пошкоджений.** Виконайте кроки **по порядку**:",
+    "steps": [
+      "У **Програмах** **двічі клацніть** Attention Clock",
+      "У вікні «пошкоджено» натисніть **Скасувати** (⚠️ **не** **Перемістити в Кошик**)",
+      "Відкрийте **Системні налаштування** → **Конфіденційність і безпека**",
+      "Прокрутіть до **Безпека** і натисніть **Все одно відкрити** для Attention Clock",
+      "Відкрийте застосунок знову"
+    ],
+    "order_note": "**Порядок важливий**: спочатку кроки 1 і 2, інакше **Все одно відкрити** не з’явиться.",
+    "faq_q": "Пише «пошкоджено»?",
+    "faq_a": "Дотримуйтесь кроків: подвійний клік → Скасувати → Все одно відкрити в налаштуваннях."
+  },
+  "ms": {
+    "title": "Amaran «rosak» pada bukaan pertama?",
+    "intro": "macOS boleh menyekat app muat turun luar App Store. **App tidak benar-benar rosak.** Ikut langkah **mengikut turutan**:",
+    "steps": [
+      "Dalam **Aplikasi**, **klik dua kali** Attention Clock",
+      "Apabila dialog «rosak» muncul, klik **Batal** (⚠️ **jangan** **Alih ke Tong Sampah**)",
+      "Buka **Tetapan Sistem** → **Privasi & Keselamatan**",
+      "Tatal ke **Keselamatan** dan klik **Buka Juga** untuk Attention Clock",
+      "Buka app semula"
+    ],
+    "order_note": "**Turutan penting**: langkah 1 dan 2 dahulu, barulah **Buka Juga** muncul.",
+    "faq_q": "Papar «rosak»?",
+    "faq_a": "Ikut langkah: klik dua kali → Batal → Buka Juga dalam Tetapan."
+  }
+}

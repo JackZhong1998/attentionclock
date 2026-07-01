@@ -12,11 +12,12 @@ final class FloatingCatWindowController {
 
     func sync(
         enabled: Bool,
+        petStore: PetStore,
         catStore: CatStore,
         timer: TimerViewModel
     ) {
         if enabled {
-            showPanel(catStore: catStore, timer: timer)
+            showPanel(petStore: petStore, catStore: catStore, timer: timer)
         } else {
             hidePanel()
         }
@@ -28,10 +29,10 @@ final class FloatingCatWindowController {
         hostingView = nil
     }
 
-    private func showPanel(catStore: CatStore, timer: TimerViewModel) {
+    private func showPanel(petStore: PetStore, catStore: CatStore, timer: TimerViewModel) {
         if panel == nil {
             let newPanel = NSPanel(
-                contentRect: NSRect(x: 0, y: 0, width: 140, height: 132),
+                contentRect: NSRect(x: 0, y: 0, width: 158, height: 138),
                 styleMask: [.borderless, .nonactivatingPanel],
                 backing: .buffered,
                 defer: false
@@ -46,14 +47,17 @@ final class FloatingCatWindowController {
             newPanel.acceptsMouseMovedEvents = true
 
             if let screen = NSScreen.main?.visibleFrame {
-                newPanel.setFrameOrigin(NSPoint(x: screen.maxX - 170, y: screen.minY + 72))
+                newPanel.setFrameOrigin(NSPoint(x: screen.maxX - 182, y: screen.minY + 72))
             }
 
             panel = newPanel
         }
 
-        if hostingView == nil, let panel {
-            let view = NSHostingView(rootView: FloatingCatView(catStore: catStore, timer: timer))
+        let rootView = FloatingCatView(petStore: petStore, catStore: catStore, timer: timer)
+        if let hostingView {
+            hostingView.rootView = rootView
+        } else if let panel {
+            let view = NSHostingView(rootView: rootView)
             hostingView = view
             panel.contentView = view
         }

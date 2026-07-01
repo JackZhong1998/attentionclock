@@ -29,8 +29,8 @@ No account or internet required. All data stays on your Mac.
 
 | Chip | Download |
 |------|----------|
-| Apple Silicon (M-series) | [**Download for Apple Silicon**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.0.0/AttentionClock-1.0.0-th-arm64.dmg) |
-| Intel | [**Download for Intel**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.0.0/AttentionClock-1.0.0-th-x86_64.dmg) |
+| Apple Silicon (M-series) | [**Download for Apple Silicon**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.1.0/AttentionClock-1.1.0-th-arm64.dmg) |
+| Intel | [**Download for Intel**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.1.0/AttentionClock-1.1.0-th-x86_64.dmg) |
 
 [All releases](https://github.com/JackZhong1998/attentionclock/releases/latest)
 
@@ -40,11 +40,22 @@ No account or internet required. All data stays on your Mac.
 2. Drag **นาฬิกาโฟกัส** to Applications
 3. Eject and launch the app
 
-### Blocked on first launch?
+### ขึ้น «เสียหาย» ตอนเปิดครั้งแรก?
 
-**System Settings** → **Privacy & Security** → **Open Anyway**
+macOS อาจบล็อกแอปที่ดาวน์โหลดนอก App Store **แอปไม่ได้เสียหายจริง** ทำตามลำดับนี้:
+
+1. ใน **โปรแกรม** **ดับเบิลคลิก** Attention Clock
+2. เมื่อขึ้น «เสียหาย» ให้กด **ยกเลิก** (⚠️ **อย่า**กด **ย้ายไปถังขยะ**)
+3. เปิด **การตั้งค่าระบบ** → **ความเป็นส่วนตัวและความปลอดภัย**
+4. เลื่อนไปที่ **ความปลอดภัย** แล้วกด **เปิดอยู่ดี** สำหรับ Attention Clock
+5. เปิดแอปอีกครั้ง
+
+> **ลำดับสำคัญ**: ต้องทำขั้น 1 และ 2 ก่อน จึงจะเห็น **เปิดอยู่ดี**
 
 ## FAQ
+
+**ขึ้น «เสียหาย»?**  
+ทำตามขั้นตอน: ดับเบิลคลิก → ยกเลิก → เปิดอยู่ดีในการตั้งค่า
 
 **Internet required?**  
 No, runs entirely on your Mac.

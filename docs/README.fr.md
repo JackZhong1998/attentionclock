@@ -29,8 +29,8 @@ Pas de compte, pas d'internet requis. Vos données restent sur votre Mac.
 
 | Chip | Download |
 |------|----------|
-| Apple Silicon (série M) | [**Télécharger pour Apple Silicon**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.0.0/AttentionClock-1.0.0-fr-arm64.dmg) |
-| Intel | [**Télécharger pour Intel**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.0.0/AttentionClock-1.0.0-fr-x86_64.dmg) |
+| Apple Silicon (série M) | [**Télécharger pour Apple Silicon**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.1.0/AttentionClock-1.1.0-fr-arm64.dmg) |
+| Intel | [**Télécharger pour Intel**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.1.0/AttentionClock-1.1.0-fr-x86_64.dmg) |
 
 [Toutes les versions](https://github.com/JackZhong1998/attentionclock/releases/latest)
 
@@ -40,11 +40,22 @@ Pas de compte, pas d'internet requis. Vos données restent sur votre Mac.
 2. Glissez **Horloge Focus** dans Applications
 3. Éjectez l'image et lancez l'app
 
-### Bloqué au premier lancement ?
+### Message « endommagée » au premier lancement ?
 
-**Réglages système** → **Confidentialité et sécurité** → **Ouvrir quand même**
+macOS peut bloquer les apps téléchargées hors de l'App Store. **L'app n'est pas réellement endommagée.** Suivez ces étapes **dans l'ordre** :
+
+1. Dans **Applications**, **double-cliquez** sur Attention Clock
+2. Quand la boîte « endommagée » s'affiche, cliquez **Annuler** (⚠️ **pas** **Mettre à la corbeille**)
+3. Ouvrez **Réglages système** → **Confidentialité et sécurité**
+4. Faites défiler jusqu'à **Sécurité**, puis cliquez **Ouvrir quand même** pour Attention Clock
+5. Rouvrez l'app normalement
+
+> **L'ordre compte** : les étapes 1 et 2 doivent être faites d'abord, sinon **Ouvrir quand même** n'apparaît pas.
 
 ## FAQ
+
+**Message « endommagée » ?**  
+Suivez les étapes : double-clic → Annuler → Ouvrir quand même dans Réglages.
 
 **Internet requis ?**  
 Non, tout fonctionne en local.

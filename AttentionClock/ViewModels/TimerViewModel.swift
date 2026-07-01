@@ -107,7 +107,7 @@ final class TimerViewModel: ObservableObject {
         )
         sessionStore.add(record)
 
-        if settings.cloudCatEnabled {
+        if settings.desktopPetEnabled {
             catStore.feed(reason: reason, elapsedSeconds: max(elapsed, 0))
             catStore.refreshExpression(timerPhase: .idle)
         }

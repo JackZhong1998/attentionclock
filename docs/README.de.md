@@ -29,8 +29,8 @@ Kein Konto, kein Internet nötig. Alle Daten bleiben auf deinem Mac.
 
 | Chip | Download |
 |------|----------|
-| Apple Silicon (M-Serie) | [**Für Apple Silicon laden**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.0.0/AttentionClock-1.0.0-de-arm64.dmg) |
-| Intel | [**Für Intel laden**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.0.0/AttentionClock-1.0.0-de-x86_64.dmg) |
+| Apple Silicon (M-Serie) | [**Für Apple Silicon laden**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.1.0/AttentionClock-1.1.0-de-arm64.dmg) |
+| Intel | [**Für Intel laden**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.1.0/AttentionClock-1.1.0-de-x86_64.dmg) |
 
 [Alle Versionen](https://github.com/JackZhong1998/attentionclock/releases/latest)
 
@@ -40,11 +40,22 @@ Kein Konto, kein Internet nötig. Alle Daten bleiben auf deinem Mac.
 2. **Fokus-Uhr** in Programme ziehen
 3. Image auswerfen und starten
 
-### Beim ersten Start blockiert?
+### „Beschädigt“-Hinweis beim ersten Start?
 
-**Systemeinstellungen** → **Datenschutz & Sicherheit** → **Trotzdem öffnen**
+macOS blockiert oft Apps außerhalb des App Store. **Die App ist nicht wirklich beschädigt.** Diese Schritte **in dieser Reihenfolge**:
+
+1. In **Programme** **Attention Clock doppelklicken**
+2. Beim Dialog „beschädigt“ auf **Abbrechen** klicken (⚠️ **nicht** **In den Papierkorb legen**)
+3. **Systemeinstellungen** → **Datenschutz & Sicherheit** öffnen
+4. Zu **Sicherheit** scrollen und **Trotzdem öffnen** bei Attention Clock klicken
+5. App erneut öffnen
+
+> **Die Reihenfolge ist wichtig**: Schritte 1 und 2 zuerst, sonst erscheint **Trotzdem öffnen** nicht.
 
 ## FAQ
+
+**Zeigt „beschädigt“?**  
+Schritte befolgen: Doppelklick → Abbrechen → Trotzdem öffnen in den Einstellungen.
 
 **Internet nötig?**  
 Nein, läuft vollständig lokal.

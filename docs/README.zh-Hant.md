@@ -29,8 +29,8 @@
 
 | Chip | Download |
 |------|----------|
-| Apple 晶片（M 系列） | [**下載 Apple 晶片版**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.0.0/AttentionClock-1.0.0-zh-Hant-arm64.dmg) |
-| Intel 晶片 | [**下載 Intel 版**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.0.0/AttentionClock-1.0.0-zh-Hant-x86_64.dmg) |
+| Apple 晶片（M 系列） | [**下載 Apple 晶片版**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.1.0/AttentionClock-1.1.0-zh-Hant-arm64.dmg) |
+| Intel 晶片 | [**下載 Intel 版**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.1.0/AttentionClock-1.1.0-zh-Hant-x86_64.dmg) |
 
 [所有版本下載頁](https://github.com/JackZhong1998/attentionclock/releases/latest)
 
@@ -40,11 +40,22 @@
 2. 將 **專注時鐘** 拖入「應用程式」
 3. 推出磁碟映像後，從應用程式開啟
 
-### 首次打開被阻擋？
+### 首次開啟顯示「已損壞」怎麼辦？
 
-前往 **系統設定** → **隱私權與安全性** → 點 **仍要打開**
+從瀏覽器下載後，macOS 可能會攔截未上架 App Store 的應用，彈出「已損壞」提示。**這不是應用真的壞了**，請**依序**完成以下步驟：
+
+1. 在「應用程式」中**按兩下開啟** AttentionClock（專注時鐘）
+2. 彈出「已損壞」對話框時，點擊 **取消**（⚠️ **不要**點「移到垃圾桶」）
+3. 開啟 **系統設定** → **隱私權與安全性**
+4. 向下捲動到 **安全性** 區域，會出現 AttentionClock 的 **仍要打開** 按鈕，點擊它
+5. 再次開啟應用，即可正常使用
+
+> **順序很重要**：必須先完成第 1、2 步，「仍要打開」按鈕才會出現。
 
 ## 常見問題
+
+**開啟時顯示「已損壞」？**  
+依上方步驟：先按兩下開啟並點「取消」，再到系統設定點「仍要打開」。
 
 **需要連網嗎？**  
 不需要，完全在本機運行。

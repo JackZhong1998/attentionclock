@@ -29,8 +29,8 @@ Sin registro ni conexión a internet. Tus datos permanecen en tu Mac.
 
 | Chip | Download |
 |------|----------|
-| Apple Silicon (serie M) | [**Descargar para Apple Silicon**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.0.0/AttentionClock-1.0.0-es-arm64.dmg) |
-| Intel | [**Descargar para Intel**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.0.0/AttentionClock-1.0.0-es-x86_64.dmg) |
+| Apple Silicon (serie M) | [**Descargar para Apple Silicon**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.1.0/AttentionClock-1.1.0-es-arm64.dmg) |
+| Intel | [**Descargar para Intel**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.1.0/AttentionClock-1.1.0-es-x86_64.dmg) |
 
 [Página de todas las versiones](https://github.com/JackZhong1998/attentionclock/releases/latest)
 
@@ -40,11 +40,22 @@ Sin registro ni conexión a internet. Tus datos permanecen en tu Mac.
 2. Arrastra **Reloj de Enfoque** a Aplicaciones
 3. Expulsa la imagen y abre la app
 
-### ¿No se puede abrir la primera vez?
+### ¿Aparece «dañada» al abrir por primera vez?
 
-Ve a **Ajustes del sistema** → **Privacidad y seguridad** → **Abrir de todos modos**
+macOS puede bloquear apps descargadas fuera de la App Store. **La app no está realmente dañada.** Sigue estos pasos **en orden**:
+
+1. En **Aplicaciones**, **haz doble clic** en Attention Clock para abrirla
+2. Cuando aparezca el aviso de «dañada», pulsa **Cancelar** (⚠️ **no** pulses **Mover a la Papelera**)
+3. Abre **Ajustes del sistema** → **Privacidad y seguridad**
+4. Desplázate hasta **Seguridad** y pulsa **Abrir igualmente** en Attention Clock
+5. Vuelve a abrir la app con normalidad
+
+> **El orden importa**: debes completar los pasos 1 y 2 primero, o no aparecerá **Abrir igualmente**.
 
 ## Preguntas frecuentes
+
+**¿Dice «dañada» al abrir?**  
+Sigue los pasos: doble clic → Cancelar → Abrir igualmente en Ajustes.
 
 **¿Necesita internet?**  
 No, funciona completamente en local.

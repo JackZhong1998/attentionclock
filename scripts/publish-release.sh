@@ -13,7 +13,7 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
 
-VERSION="${1:-1.0.0}"
+VERSION="${1:-1.1.0}"
 TAG="v${VERSION}"
 RELEASE_DIR="$ROOT/release"
 
@@ -53,8 +53,12 @@ else
     --notes "$(cat <<EOF
 ## Attention Clock ${VERSION}
 
-macOS 专注计时应用首个多语言正式版。
+### 新功能
+- **桌面宠物**：独立 Tab，浏览 Petdex 图鉴、搜索下载 3300+ 宠物伙伴
+- **应用内图鉴同步**：自动/手动从 Petdex 拉取最新宠物列表
+- **多语言搜索**：支持中文角色名搜索（路飞、皮卡丘等）
 
+### 包含
 - 21 种语言界面
 - Apple 芯片 (arm64) 与 Intel (x86_64) 安装包
 - 免费开源，数据本地保存

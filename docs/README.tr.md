@@ -29,8 +29,8 @@ No account or internet required. All data stays on your Mac.
 
 | Chip | Download |
 |------|----------|
-| Apple Silicon (M-series) | [**Download for Apple Silicon**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.0.0/AttentionClock-1.0.0-tr-arm64.dmg) |
-| Intel | [**Download for Intel**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.0.0/AttentionClock-1.0.0-tr-x86_64.dmg) |
+| Apple Silicon (M-series) | [**Download for Apple Silicon**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.1.0/AttentionClock-1.1.0-tr-arm64.dmg) |
+| Intel | [**Download for Intel**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.1.0/AttentionClock-1.1.0-tr-x86_64.dmg) |
 
 [All releases](https://github.com/JackZhong1998/attentionclock/releases/latest)
 
@@ -40,11 +40,22 @@ No account or internet required. All data stays on your Mac.
 2. Drag **Odak Saati** to Applications
 3. Eject and launch the app
 
-### Blocked on first launch?
+### İlk açılışta «bozuk» uyarısı?
 
-**System Settings** → **Privacy & Security** → **Open Anyway**
+macOS, App Store dışı indirilen uygulamaları engelleyebilir. **Uygulama gerçekten bozuk değil.** Adımları **sırayla** izleyin:
+
+1. **Uygulamalar**'da Attention Clock'a **çift tıklayın**
+2. «Bozuk» iletişim kutusunda **İptal**'e tıklayın (⚠️ **Çöp Sepetine Taşı**'ya değil)
+3. **Sistem Ayarları** → **Gizlilik ve Güvenlik**'i açın
+4. **Güvenlik** bölümüne kaydırın ve Attention Clock için **Yine de Aç**'a tıklayın
+5. Uygulamayı tekrar açın
+
+> **Sıra önemli**: önce 1 ve 2. adımlar, yoksa **Yine de Aç** görünmez.
 
 ## FAQ
+
+**«Bozuk» diyor?**  
+Adımları izleyin: çift tık → İptal → Ayarlarda Yine de Aç.
 
 **Internet required?**  
 No, runs entirely on your Mac.

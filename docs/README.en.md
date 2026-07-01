@@ -77,13 +77,17 @@ Or visit the **[all releases page](https://github.com/JackZhong1998/attentionclo
 3. Eject the disk image
 4. Open Attention Clock from Applications
 
-### "Cannot verify developer" on first launch?
+### Step 4: First launch ("damaged" warning)
 
-This is normal for apps outside the App Store:
+macOS may block apps downloaded outside the App Store and show a "damaged" warning. **The app is not actually damaged.** Follow these steps **in order**:
 
-1. Open **System Settings** → **Privacy & Security**
-2. Find the message about Attention Clock being blocked
-3. Click **Open Anyway**
+1. In **Applications**, **double-click** Attention Clock to open it
+2. When the "damaged" dialog appears, click **Cancel** (⚠️ do **not** click **Move to Trash**)
+3. Open **System Settings** → **Privacy & Security**
+4. Scroll to the **Security** section — you'll see **Open Anyway** for Attention Clock. Click it
+5. Open the app again to use it normally
+
+> **Order matters**: You must complete steps 1 and 2 first, or the **Open Anyway** button will not appear.
 
 ---
 
@@ -100,6 +104,9 @@ Mac only, macOS 14.0 or later.
 
 **Download link not working?**  
 A [GitHub Release](https://github.com/JackZhong1998/attentionclock/releases) must be published first. If none exists yet, check back later or build from source.
+
+**Shows "damaged" when opening?**  
+Follow Step 4 above: double-click, click Cancel, then use Open Anyway in System Settings. Order matters.
 
 ---
 

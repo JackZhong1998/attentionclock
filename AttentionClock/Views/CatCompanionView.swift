@@ -1,14 +1,22 @@
 import SwiftUI
 
 struct CatCompanionView: View {
+    @ObservedObject var petStore: PetStore
     @ObservedObject var catStore: CatStore
     @ObservedObject var timer: TimerViewModel
 
     var body: some View {
         VStack(spacing: 6) {
-            CatSpriteView(behavior: behavior, scale: 5)
+            CatSpriteView(
+                petStore: petStore,
+                timerPhase: timer.phase,
+                expression: catStore.expression,
+                behavior: behavior,
+                pendingReward: catStore.pendingRewardNotice,
+                displayWidth: spriteWidth
+            )
 
-            Text(catStore.state.name)
+            Text(selectedPetName)
                 .font(.caption.weight(.medium))
                 .foregroundStyle(.primary.opacity(0.75))
 
@@ -26,5 +34,13 @@ struct CatCompanionView: View {
         case .running, .paused: return .focusCompanion
         case .idle: return .idleRoaming
         }
+    }
+
+    private var spriteWidth: CGFloat { 88 }
+
+    private var selectedPetName: String {
+        petStore.activePack?.displayName
+            ?? petStore.installedItems().first(where: \.isSelected)?.displayName
+            ?? ""
     }
 }

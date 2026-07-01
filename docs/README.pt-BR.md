@@ -29,8 +29,8 @@ No account or internet required. All data stays on your Mac.
 
 | Chip | Download |
 |------|----------|
-| Apple Silicon (M-series) | [**Download for Apple Silicon**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.0.0/AttentionClock-1.0.0-pt-BR-arm64.dmg) |
-| Intel | [**Download for Intel**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.0.0/AttentionClock-1.0.0-pt-BR-x86_64.dmg) |
+| Apple Silicon (M-series) | [**Download for Apple Silicon**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.1.0/AttentionClock-1.1.0-pt-BR-arm64.dmg) |
+| Intel | [**Download for Intel**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.1.0/AttentionClock-1.1.0-pt-BR-x86_64.dmg) |
 
 [All releases](https://github.com/JackZhong1998/attentionclock/releases/latest)
 
@@ -40,11 +40,22 @@ No account or internet required. All data stays on your Mac.
 2. Drag **Relógio de Foco** to Applications
 3. Eject and launch the app
 
-### Blocked on first launch?
+### Aviso de «danificado» na primeira abertura?
 
-**System Settings** → **Privacy & Security** → **Open Anyway**
+O macOS pode bloquear apps baixados fora da App Store. **O app não está realmente danificado.** Siga **nesta ordem**:
+
+1. Em **Aplicativos**, **clique duas vezes** em Attention Clock
+2. No aviso «danificado», clique **Cancelar** (⚠️ **não** clique **Mover para o Lixo**)
+3. Abra **Ajustes do Sistema** → **Privacidade e Segurança**
+4. Role até **Segurança** e clique **Abrir Mesmo Assim** em Attention Clock
+5. Abra o app novamente
+
+> **A ordem importa**: conclua os passos 1 e 2 primeiro, senão **Abrir Mesmo Assim** não aparece.
 
 ## FAQ
+
+**Mostra «danificado»?**  
+Siga os passos: duplo clique → Cancelar → Abrir Mesmo Assim nos Ajustes.
 
 **Internet required?**  
 No, runs entirely on your Mac.

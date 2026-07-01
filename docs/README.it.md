@@ -29,8 +29,8 @@ No account or internet required. All data stays on your Mac.
 
 | Chip | Download |
 |------|----------|
-| Apple Silicon (M-series) | [**Download for Apple Silicon**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.0.0/AttentionClock-1.0.0-it-arm64.dmg) |
-| Intel | [**Download for Intel**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.0.0/AttentionClock-1.0.0-it-x86_64.dmg) |
+| Apple Silicon (M-series) | [**Download for Apple Silicon**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.1.0/AttentionClock-1.1.0-it-arm64.dmg) |
+| Intel | [**Download for Intel**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.1.0/AttentionClock-1.1.0-it-x86_64.dmg) |
 
 [All releases](https://github.com/JackZhong1998/attentionclock/releases/latest)
 
@@ -40,11 +40,22 @@ No account or internet required. All data stays on your Mac.
 2. Drag **Orologio Focus** to Applications
 3. Eject and launch the app
 
-### Blocked on first launch?
+### Avviso «danneggiata» al primo avvio?
 
-**System Settings** → **Privacy & Security** → **Open Anyway**
+macOS può bloccare app scaricate fuori dall'App Store. **L'app non è realmente danneggiata.** Segui **in ordine**:
+
+1. In **Applicazioni**, **fai doppio clic** su Attention Clock
+2. Nella finestra «danneggiata», clicca **Annulla** (⚠️ **non** **Sposta nel Cestino**)
+3. Apri **Impostazioni di Sistema** → **Privacy e sicurezza**
+4. Scorri fino a **Sicurezza** e clicca **Apri comunque** per Attention Clock
+5. Riapri l'app
+
+> **L'ordine conta**: completa prima i passaggi 1 e 2, altrimenti **Apri comunque** non compare.
 
 ## FAQ
+
+**Compare «danneggiata»?**  
+Segui i passaggi: doppio clic → Annulla → Apri comunque nelle Impostazioni.
 
 **Internet required?**  
 No, runs entirely on your Mac.

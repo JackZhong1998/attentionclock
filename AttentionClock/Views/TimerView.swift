@@ -4,6 +4,7 @@ struct TimerView: View {
     @ObservedObject var timer: TimerViewModel
     @ObservedObject var settings: SettingsStore
     @ObservedObject var catStore: CatStore
+    @ObservedObject var petStore: PetStore
 
     private let ringSize: CGFloat = 240
 
@@ -15,16 +16,16 @@ struct TimerView: View {
                 .padding(.bottom, 36)
 
             controlButtons
-                .padding(.bottom, settings.cloudCatEnabled ? 20 : 32)
+                .padding(.bottom, settings.desktopPetEnabled ? 20 : 32)
 
-            if settings.cloudCatEnabled {
-                CatCompanionView(catStore: catStore, timer: timer)
+            if settings.desktopPetEnabled && petStore.hasSelectedPet {
+                CatCompanionView(petStore: petStore, catStore: catStore, timer: timer)
                     .transition(.opacity.combined(with: .move(edge: .bottom)))
             }
 
             Spacer()
         }
-        .animation(.easeInOut(duration: 0.28), value: settings.cloudCatEnabled)
+        .animation(.easeInOut(duration: 0.28), value: settings.desktopPetEnabled)
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Color(nsColor: .windowBackgroundColor))
     }

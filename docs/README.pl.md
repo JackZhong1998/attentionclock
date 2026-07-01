@@ -29,8 +29,8 @@ No account or internet required. All data stays on your Mac.
 
 | Chip | Download |
 |------|----------|
-| Apple Silicon (M-series) | [**Download for Apple Silicon**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.0.0/AttentionClock-1.0.0-pl-arm64.dmg) |
-| Intel | [**Download for Intel**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.0.0/AttentionClock-1.0.0-pl-x86_64.dmg) |
+| Apple Silicon (M-series) | [**Download for Apple Silicon**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.1.0/AttentionClock-1.1.0-pl-arm64.dmg) |
+| Intel | [**Download for Intel**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.1.0/AttentionClock-1.1.0-pl-x86_64.dmg) |
 
 [All releases](https://github.com/JackZhong1998/attentionclock/releases/latest)
 
@@ -40,11 +40,22 @@ No account or internet required. All data stays on your Mac.
 2. Drag **Zegar Skupienia** to Applications
 3. Eject and launch the app
 
-### Blocked on first launch?
+### Komunikat «uszkodzona» przy pierwszym uruchomieniu?
 
-**System Settings** → **Privacy & Security** → **Open Anyway**
+macOS może blokować aplikacje spoza App Store. **Aplikacja nie jest uszkodzona.** Wykonaj kroki **po kolei**:
+
+1. W **Aplikacjach** **kliknij dwukrotnie** Attention Clock
+2. W oknie «uszkodzona» kliknij **Anuluj** (⚠️ **nie** **Przenieś do Kosza**)
+3. Otwórz **Ustawienia systemowe** → **Prywatność i bezpieczeństwo**
+4. Przewiń do **Bezpieczeństwo** i kliknij **Otwórz mimo to** przy Attention Clock
+5. Otwórz aplikację ponownie
+
+> **Kolejność ma znaczenie**: najpierw kroki 1 i 2, inaczej **Otwórz mimo to** się nie pojawi.
 
 ## FAQ
+
+**Pokazuje «uszkodzona»?**  
+Wykonaj kroki: dwuklik → Anuluj → Otwórz mimo to w Ustawieniach.
 
 **Internet required?**  
 No, runs entirely on your Mac.

@@ -29,8 +29,8 @@ No account or internet required. All data stays on your Mac.
 
 | Chip | Download |
 |------|----------|
-| Apple Silicon (M-series) | [**Download for Apple Silicon**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.0.0/AttentionClock-1.0.0-ms-arm64.dmg) |
-| Intel | [**Download for Intel**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.0.0/AttentionClock-1.0.0-ms-x86_64.dmg) |
+| Apple Silicon (M-series) | [**Download for Apple Silicon**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.1.0/AttentionClock-1.1.0-ms-arm64.dmg) |
+| Intel | [**Download for Intel**](https://github.com/JackZhong1998/attentionclock/releases/download/v1.1.0/AttentionClock-1.1.0-ms-x86_64.dmg) |
 
 [All releases](https://github.com/JackZhong1998/attentionclock/releases/latest)
 
@@ -40,11 +40,22 @@ No account or internet required. All data stays on your Mac.
 2. Drag **Jam Fokus** to Applications
 3. Eject and launch the app
 
-### Blocked on first launch?
+### Amaran «rosak» pada bukaan pertama?
 
-**System Settings** → **Privacy & Security** → **Open Anyway**
+macOS boleh menyekat app muat turun luar App Store. **App tidak benar-benar rosak.** Ikut langkah **mengikut turutan**:
+
+1. Dalam **Aplikasi**, **klik dua kali** Attention Clock
+2. Apabila dialog «rosak» muncul, klik **Batal** (⚠️ **jangan** **Alih ke Tong Sampah**)
+3. Buka **Tetapan Sistem** → **Privasi & Keselamatan**
+4. Tatal ke **Keselamatan** dan klik **Buka Juga** untuk Attention Clock
+5. Buka app semula
+
+> **Turutan penting**: langkah 1 dan 2 dahulu, barulah **Buka Juga** muncul.
 
 ## FAQ
+
+**Papar «rosak»?**  
+Ikut langkah: klik dua kali → Batal → Buka Juga dalam Tetapan.
 
 **Internet required?**  
 No, runs entirely on your Mac.

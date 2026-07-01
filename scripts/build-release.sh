@@ -13,7 +13,7 @@ cd "$ROOT"
 # shellcheck source=scripts/release-common.sh
 source "$ROOT/scripts/release-common.sh"
 
-VERSION="${1:-1.0.0}"
+VERSION="${1:-1.1.0}"
 ARCHS=(arm64 x86_64)
 
 strip_localizations() {

@@ -10,10 +10,10 @@ final class SettingsStore: ObservableObject {
         didSet { UserDefaults.standard.set(sessionMinutes, forKey: Keys.sessionMinutes) }
     }
 
-    @Published var cloudCatEnabled: Bool {
+    @Published var desktopPetEnabled: Bool {
         didSet {
-            UserDefaults.standard.set(cloudCatEnabled, forKey: Keys.cloudCatEnabled)
-            if !cloudCatEnabled {
+            UserDefaults.standard.set(desktopPetEnabled, forKey: Keys.desktopPetEnabled)
+            if !desktopPetEnabled {
                 floatingCatEnabled = false
             }
         }
@@ -26,7 +26,7 @@ final class SettingsStore: ObservableObject {
     private enum Keys {
         static let defaultMinutes = "defaultMinutes"
         static let sessionMinutes = "sessionMinutes"
-        static let cloudCatEnabled = "cloudCatEnabled"
+        static let desktopPetEnabled = "desktopPetEnabled"
         static let floatingCatEnabled = "floatingCatEnabled"
     }
 
@@ -38,7 +38,7 @@ final class SettingsStore: ObservableObject {
         let storedSession = UserDefaults.standard.integer(forKey: Keys.sessionMinutes)
         sessionMinutes = storedSession > 0 ? storedSession : resolvedDefault
 
-        cloudCatEnabled = UserDefaults.standard.bool(forKey: Keys.cloudCatEnabled)
+        desktopPetEnabled = UserDefaults.standard.object(forKey: Keys.desktopPetEnabled) as? Bool ?? false
         floatingCatEnabled = UserDefaults.standard.bool(forKey: Keys.floatingCatEnabled)
     }
 

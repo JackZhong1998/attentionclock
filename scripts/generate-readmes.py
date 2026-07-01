@@ -6,6 +6,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 META = json.loads((ROOT / "scripts" / "languages-metadata.json").read_text(encoding="utf-8"))
+GATEKEEPER = json.loads((ROOT / "scripts" / "gatekeeper-sections.json").read_text(encoding="utf-8"))
 REPO = META["repo"]
 VERSION = META["version"]
 RELEASES = f"{REPO}/releases/latest"
@@ -46,8 +47,6 @@ CONTENT = {
             "將 **專注時鐘** 拖入「應用程式」",
             "推出磁碟映像後，從應用程式開啟",
         ],
-        "security_title": "首次打開被阻擋？",
-        "security": "前往 **系統設定** → **隱私權與安全性** → 點 **仍要打開**",
         "faq_title": "常見問題",
         "faq": [
             ("需要連網嗎？", "不需要，完全在本機運行。"),
@@ -89,8 +88,6 @@ CONTENT = {
             "Arrastra **Reloj de Enfoque** a Aplicaciones",
             "Expulsa la imagen y abre la app",
         ],
-        "security_title": "¿No se puede abrir la primera vez?",
-        "security": "Ve a **Ajustes del sistema** → **Privacidad y seguridad** → **Abrir de todos modos**",
         "faq_title": "Preguntas frecuentes",
         "faq": [
             ("¿Necesita internet?", "No, funciona completamente en local."),
@@ -132,8 +129,6 @@ CONTENT = {
             "Glissez **Horloge Focus** dans Applications",
             "Éjectez l'image et lancez l'app",
         ],
-        "security_title": "Bloqué au premier lancement ?",
-        "security": "**Réglages système** → **Confidentialité et sécurité** → **Ouvrir quand même**",
         "faq_title": "FAQ",
         "faq": [
             ("Internet requis ?", "Non, tout fonctionne en local."),
@@ -175,8 +170,6 @@ CONTENT = {
             "**Fokus-Uhr** in Programme ziehen",
             "Image auswerfen und starten",
         ],
-        "security_title": "Beim ersten Start blockiert?",
-        "security": "**Systemeinstellungen** → **Datenschutz & Sicherheit** → **Trotzdem öffnen**",
         "faq_title": "FAQ",
         "faq": [
             ("Internet nötig?", "Nein, läuft vollständig lokal."),
@@ -221,8 +214,6 @@ EN_FALLBACK = {
         "Drag **{title}** to Applications",
         "Eject and launch the app",
     ],
-    "security_title": "Blocked on first launch?",
-    "security": "**System Settings** → **Privacy & Security** → **Open Anyway**",
     "faq_title": "FAQ",
     "faq": [
         ("Internet required?", "No, runs entirely on your Mac."),
@@ -233,6 +224,36 @@ EN_FALLBACK = {
 }
 
 SKIP = {"zh-Hans", "en", "ja", "ko"}  # hand-maintained
+
+
+def gatekeeper_for(locale: str) -> dict:
+    if locale in GATEKEEPER:
+        return GATEKEEPER[locale]
+    return GATEKEEPER["en"]
+
+
+def render_gatekeeper(locale: str) -> list[str]:
+    g = gatekeeper_for(locale)
+    lines = [
+        "",
+        f"### {g['title']}",
+        "",
+        g["intro"],
+        "",
+    ]
+    for i, step in enumerate(g["steps"], 1):
+        lines.append(f"{i}. {step}")
+    lines += [
+        "",
+        f"> {g['order_note']}",
+        "",
+    ]
+    return lines
+
+
+def faq_gatekeeper(locale: str) -> tuple[str, str]:
+    g = gatekeeper_for(locale)
+    return g["faq_q"], g["faq_a"]
 
 
 def other_lang_links(current: str) -> str:
@@ -291,15 +312,15 @@ def render(locale: str, info: dict, c: dict) -> str:
     ]
     for i, step in enumerate(c["install"], 1):
         lines.append(f"{i}. {step}")
+    lines += render_gatekeeper(locale)
     lines += [
-        "",
-        f"### {c['security_title']}",
-        "",
-        c["security"],
-        "",
         f"## {c['faq_title']}",
         "",
     ]
+    gq, ga = faq_gatekeeper(locale)
+    lines.append(f"**{gq}**  ")
+    lines.append(f"{ga}")
+    lines.append("")
     for q, a in c["faq"]:
         lines.append(f"**{q}**  ")
         lines.append(f"{a}")

@@ -46,22 +46,6 @@ struct SettingsView: View {
             }
 
             Section {
-                Toggle("开始云养猫", isOn: $settings.cloudCatEnabled)
-
-                if settings.cloudCatEnabled {
-                    Toggle("桌面浮窗", isOn: $settings.floatingCatEnabled)
-                }
-            } header: {
-                Text("云养猫")
-            } footer: {
-                if settings.cloudCatEnabled {
-                    Text("开启后会有像素小猫陪伴专注；桌面浮窗可将小猫放在桌面上。")
-                } else {
-                    Text("关闭后不显示任何养猫相关功能。")
-                }
-            }
-
-            Section {
                 HStack {
                     Text("版本")
                     Spacer()

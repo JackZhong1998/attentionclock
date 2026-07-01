@@ -1,10 +1,17 @@
 import SwiftUI
 
 struct FloatingCatView: View {
+    @ObservedObject var petStore: PetStore
     @ObservedObject var catStore: CatStore
     @ObservedObject var timer: TimerViewModel
 
     @State private var isHovering = false
+
+    private var spriteWidth: CGFloat { 88 }
+
+    private var spriteHeight: CGFloat {
+        spriteWidth * (petStore.activeAtlas?.aspectRatio ?? 1.08)
+    }
 
     var body: some View {
         VStack(spacing: 6) {
@@ -19,9 +26,16 @@ struct FloatingCatView: View {
                         .offset(y: -6)
                 }
 
-                CatSpriteView(behavior: behavior, scale: 5)
+                CatSpriteView(
+                    petStore: petStore,
+                    timerPhase: timer.phase,
+                    expression: catStore.expression,
+                    behavior: behavior,
+                    pendingReward: catStore.pendingRewardNotice,
+                    displayWidth: spriteWidth
+                )
             }
-            .frame(height: 88)
+            .frame(height: max(spriteHeight, 88))
             .contentShape(Rectangle())
             .onTapGesture { handlePrimaryTap() }
 
@@ -31,7 +45,7 @@ struct FloatingCatView: View {
                 Color.clear.frame(height: 32)
             }
         }
-        .frame(width: 140, height: 132)
+        .frame(width: 152, height: max(spriteHeight, 88) + 38)
         .onHover { isHovering = $0 }
         .onAppear { catStore.refreshExpression(timerPhase: timer.phase) }
         .onChange(of: timer.phase) { _, phase in catStore.refreshExpression(timerPhase: phase) }
