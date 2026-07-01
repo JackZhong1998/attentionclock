@@ -49,22 +49,33 @@ Focus doesn't have to feel lonely. With desktop companions you can:
 2. Double-click **Install and Open**
 3. If blocked, see **First Launch Guide.txt** in the DMG
 
-### पहली बार खोलने पर «क्षतिग्रस्त»?
+### “Install and Open” cannot be verified?
 
-macOS App Store के बाहर डाउनलोड किए ऐप को रोक सकता है। **ऐप वास्तव में खराब नहीं है।** इन चरणों का **क्रम** पालन करें:
+Downloaded from a browser, **the installer helper itself** may be blocked first. macOS shows only **Done** — **not** our install guide. This is normal.
 
-1. **एप्लिकेशन** में Attention Clock पर **डबल-क्लिक** करें
-2. «क्षतिग्रस्त» संवाद में **रद्द करें** दबाएँ (⚠️ **ट्रैश में ले जाएँ** नहीं)
-3. **सिस्टम सेटिंग्स** → **गोपनीयता और सुरक्षा** खोलें
-4. **सुरक्षा** तक स्क्रॉल करें और Attention Clock के लिए **फिर भी खोलें** दबाएँ
-5. ऐप फिर से खोलें
+1. Double-click **Install and Open** in the DMG
+2. If macOS says it **cannot verify “Install and Open”**, click **Done**
+3. Open **System Settings** → **Privacy & Security** (or double-click **Open System Settings.webloc**)
+4. Under **Security**, click **Open Anyway** for **Install and Open**
+5. **Double-click Install and Open again** — the install guide dialog will appear and install Attention Clock
 
-> **क्रम महत्वपूर्ण**: पहले चरण 1 और 2, तभी **फिर भी खोलें** दिखेगा।
+> **Order matters**: allow Install and Open first, or the guide dialog will not appear.
+
+### “Damaged” warning for Attention Clock after install?
+
+After the installer runs, it copies and launches Attention Clock. If macOS blocks the app itself, follow these steps **in order**:
+
+1. If you see **damaged**, click **Cancel** (not Move to Trash)
+2. Open **System Settings** → **Privacy & Security**
+3. Under **Security**, click **Open Anyway** for **Attention Clock**
+4. Open Attention Clock again
+
+> **Order matters**: trigger the block once before Open Anyway appears.
 
 ## FAQ
 
-**«क्षतिग्रस्त» दिखता है?**  
-चरणों का पालन करें: डबल-क्लिक → रद्द करें → सेटिंग्स में फिर भी खोलें।
+**Blocked during install or launch?**  
+Two steps: Open Anyway for Install and Open, then for Attention Clock.
 
 **Internet required?**  
 No, runs entirely on your Mac.

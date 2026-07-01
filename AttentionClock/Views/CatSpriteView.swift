@@ -71,19 +71,18 @@ private struct CodexPetSpriteView: View {
     }
 
     var body: some View {
-        TimelineView(.animation(minimumInterval: 1.0 / max(animator.currentClip.fps, 1))) { context in
-            let frameIndex = animator.frameIndex(at: context.date)
-
-            SpritesheetPetCanvas(
-                atlas: atlas,
-                row: animator.currentClip.row,
-                frameIndex: frameIndex,
-                displayWidth: displayWidth,
-                mirror: animator.currentClip.mirror
+        TimelineView(
+            .periodic(
+                from: animator.animationEpoch,
+                by: 1.0 / max(animator.currentClip.fps, 1)
             )
-            .background {
-                PetAnimationTick(animator: animator, date: context.date)
-            }
+        ) { context in
+            PetAnimationFrame(
+                animator: animator,
+                atlas: atlas,
+                displayWidth: displayWidth,
+                date: context.date
+            )
         }
         .onAppear { syncAnimator() }
         .onChange(of: pack.id) { _, _ in
@@ -106,8 +105,10 @@ private struct CodexPetSpriteView: View {
     }
 }
 
-private struct PetAnimationTick: View {
+private struct PetAnimationFrame: View {
     @ObservedObject var animator: CodexPetAnimator
+    let atlas: CodexPetAtlas
+    let displayWidth: CGFloat
     let date: Date
 
     private var tickKey: Int {
@@ -115,9 +116,15 @@ private struct PetAnimationTick: View {
     }
 
     var body: some View {
-        Color.clear
-            .frame(width: 0, height: 0)
-            .onAppear { animator.handleTick(at: date) }
-            .onChange(of: tickKey) { _, _ in animator.handleTick(at: date) }
+        SpritesheetPetCanvas(
+            atlas: atlas,
+            row: animator.currentClip.row,
+            frameIndex: animator.frameIndex(at: date),
+            displayWidth: displayWidth,
+            mirror: animator.currentClip.mirror
+        )
+        .onChange(of: tickKey, initial: true) { _, _ in
+            animator.handleTick(at: date)
+        }
     }
 }

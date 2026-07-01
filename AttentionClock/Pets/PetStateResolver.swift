@@ -48,12 +48,12 @@ enum PetStateResolver {
             }
 
             if behavior == .idleRoaming {
-                let row = walkDirection == .left ? CodexPetRow.runningLeft : CodexPetRow.runningRight
+                let row = CodexPetRow.runningRight
                 return .loop(
                     row: row,
                     frames: pack.frameCount(forRow: row),
                     fps: 8,
-                    mirror: false
+                    mirror: walkDirection == .left
                 )
             }
 

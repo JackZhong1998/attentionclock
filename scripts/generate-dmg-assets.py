@@ -52,6 +52,19 @@ def build_guide(locale: str) -> str:
         "",
         ins.get("settings_shortcut_line", INSTALL["en"]["settings_shortcut_line"]),
         "",
+    ]
+    if gk.get("installer_title"):
+        lines += [
+            strip_md(gk["installer_title"]),
+            "-" * 40,
+            strip_md(gk.get("installer_intro", "")),
+            "",
+        ]
+        for i, step in enumerate(gk.get("installer_steps", []), 1):
+            lines.append(f"{i}. {strip_md(step)}")
+        if gk.get("installer_order_note"):
+            lines += ["", strip_md(gk["installer_order_note"]), ""]
+    lines += [
         strip_md(gk["title"]),
         "-" * 40,
         strip_md(gk["intro"]),
@@ -81,6 +94,18 @@ def build_installer_app(locale: str) -> Path:
     script = APPLESCRIPT.read_text(encoding="utf-8")
     script = script.replace("__DIALOG_TITLE__", escape_applescript(ins["post_install_title"]))
     script = script.replace("__DIALOG_BODY__", escape_applescript(ins["post_install_body"]))
+    script = script.replace(
+        "__PRE_INSTALL_TITLE__",
+        escape_applescript(ins.get("pre_install_title", INSTALL["en"]["pre_install_title"])),
+    )
+    script = script.replace(
+        "__PRE_INSTALL_BODY__",
+        escape_applescript(ins.get("pre_install_body", INSTALL["en"]["pre_install_body"])),
+    )
+    script = script.replace(
+        "__CONTINUE_BUTTON__",
+        escape_applescript(ins.get("continue_button", INSTALL["en"]["continue_button"])),
+    )
     script = script.replace(
         "__OPEN_SETTINGS_BUTTON__",
         escape_applescript(ins.get("open_settings_button", INSTALL["en"]["open_settings_button"])),

@@ -49,22 +49,33 @@ Se concentrer n'a pas à être solitaire. Avec les compagnons de focus :
 2. Double-cliquez **Installer et ouvrir**
 3. Si « endommagée », voir le guide dans le DMG
 
-### Message « endommagée » au premier lancement ?
+### “Installer et ouvrir” cannot be verified?
 
-macOS peut bloquer les apps téléchargées hors de l'App Store. **L'app n'est pas réellement endommagée.** Suivez ces étapes **dans l'ordre** :
+Downloaded from a browser, **the installer helper itself** may be blocked first. macOS shows only **Done** — **not** our install guide. This is normal.
 
-1. Dans **Applications**, **double-cliquez** sur Attention Clock
-2. Quand la boîte « endommagée » s'affiche, cliquez **Annuler** (⚠️ **pas** **Mettre à la corbeille**)
-3. Ouvrez **Réglages système** → **Confidentialité et sécurité**
-4. Faites défiler jusqu'à **Sécurité**, puis cliquez **Ouvrir quand même** pour Attention Clock
-5. Rouvrez l'app normalement
+1. Double-click **Installer et ouvrir** in the DMG
+2. If macOS says it **cannot verify “Installer et ouvrir”**, click **Done**
+3. Open **System Settings** → **Privacy & Security** (or double-click **Open System Settings.webloc**)
+4. Under **Security**, click **Open Anyway** for **Installer et ouvrir**
+5. **Double-click Installer et ouvrir again** — the install guide dialog will appear and install Attention Clock
 
-> **L'ordre compte** : les étapes 1 et 2 doivent être faites d'abord, sinon **Ouvrir quand même** n'apparaît pas.
+> **Order matters**: allow Install and Open first, or the guide dialog will not appear.
+
+### “Damaged” warning for Attention Clock after install?
+
+After the installer runs, it copies and launches Attention Clock. If macOS blocks the app itself, follow these steps **in order**:
+
+1. If you see **damaged**, click **Cancel** (not Move to Trash)
+2. Open **System Settings** → **Privacy & Security**
+3. Under **Security**, click **Open Anyway** for **Attention Clock**
+4. Open Attention Clock again
+
+> **Order matters**: trigger the block once before Open Anyway appears.
 
 ## FAQ
 
-**Message « endommagée » ?**  
-Suivez les étapes : double-clic → Annuler → Ouvrir quand même dans Réglages.
+**Blocked during install or launch?**  
+Two steps: Open Anyway for Install and Open, then for Attention Clock.
 
 **Internet requis ?**  
 Non, tout fonctionne en local.

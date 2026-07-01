@@ -272,10 +272,31 @@ def gatekeeper_for(locale: str) -> dict:
     return GATEKEEPER["en"]
 
 
-def render_gatekeeper(locale: str) -> list[str]:
+def render_installer_gatekeeper(locale: str) -> list[str]:
     g = gatekeeper_for(locale)
+    if not g.get("installer_steps"):
+        return []
     lines = [
         "",
+        f"### {g['installer_title']}",
+        "",
+        g.get("installer_intro", ""),
+        "",
+    ]
+    for i, step in enumerate(g["installer_steps"], 1):
+        lines.append(f"{i}. {step}")
+    lines += [
+        "",
+        f"> {g.get('installer_order_note', '')}",
+        "",
+    ]
+    return lines
+
+
+def render_gatekeeper(locale: str) -> list[str]:
+    g = gatekeeper_for(locale)
+    lines = render_installer_gatekeeper(locale)
+    lines += [
         f"### {g['title']}",
         "",
         g["intro"],

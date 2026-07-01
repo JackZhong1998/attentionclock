@@ -49,22 +49,33 @@ Fokussieren muss nicht einsam sein. Mit Desktop-Begleitern kannst du:
 2. **Installieren und öffnen** doppelklicken
 3. Bei „beschädigt“ die Anleitung im DMG lesen
 
-### „Beschädigt“-Hinweis beim ersten Start?
+### “Installieren und öffnen” cannot be verified?
 
-macOS blockiert oft Apps außerhalb des App Store. **Die App ist nicht wirklich beschädigt.** Diese Schritte **in dieser Reihenfolge**:
+Downloaded from a browser, **the installer helper itself** may be blocked first. macOS shows only **Done** — **not** our install guide. This is normal.
 
-1. In **Programme** **Attention Clock doppelklicken**
-2. Beim Dialog „beschädigt“ auf **Abbrechen** klicken (⚠️ **nicht** **In den Papierkorb legen**)
-3. **Systemeinstellungen** → **Datenschutz & Sicherheit** öffnen
-4. Zu **Sicherheit** scrollen und **Trotzdem öffnen** bei Attention Clock klicken
-5. App erneut öffnen
+1. Double-click **Installieren und öffnen** in the DMG
+2. If macOS says it **cannot verify “Installieren und öffnen”**, click **Done**
+3. Open **System Settings** → **Privacy & Security** (or double-click **Open System Settings.webloc**)
+4. Under **Security**, click **Open Anyway** for **Installieren und öffnen**
+5. **Double-click Installieren und öffnen again** — the install guide dialog will appear and install Attention Clock
 
-> **Die Reihenfolge ist wichtig**: Schritte 1 und 2 zuerst, sonst erscheint **Trotzdem öffnen** nicht.
+> **Order matters**: allow Install and Open first, or the guide dialog will not appear.
+
+### “Damaged” warning for Attention Clock after install?
+
+After the installer runs, it copies and launches Attention Clock. If macOS blocks the app itself, follow these steps **in order**:
+
+1. If you see **damaged**, click **Cancel** (not Move to Trash)
+2. Open **System Settings** → **Privacy & Security**
+3. Under **Security**, click **Open Anyway** for **Attention Clock**
+4. Open Attention Clock again
+
+> **Order matters**: trigger the block once before Open Anyway appears.
 
 ## FAQ
 
-**Zeigt „beschädigt“?**  
-Schritte befolgen: Doppelklick → Abbrechen → Trotzdem öffnen in den Einstellungen.
+**Blocked during install or launch?**  
+Two steps: Open Anyway for Install and Open, then for Attention Clock.
 
 **Internet nötig?**  
 Nein, läuft vollständig lokal.

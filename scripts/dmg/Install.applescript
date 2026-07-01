@@ -1,7 +1,10 @@
 property dialogTitle : "__DIALOG_TITLE__"
 property dialogBody : "__DIALOG_BODY__"
+property preInstallTitle : "__PRE_INSTALL_TITLE__"
+property preInstallBody : "__PRE_INSTALL_BODY__"
 property openSettingsButton : "__OPEN_SETTINGS_BUTTON__"
 property dismissButton : "__DISMISS_BUTTON__"
+property continueButton : "__CONTINUE_BUTTON__"
 property settingsURL : "x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension"
 
 on openPrivacySettings()
@@ -9,6 +12,13 @@ on openPrivacySettings()
 end openPrivacySettings
 
 on run
+	set firstChoice to button returned of (display dialog preInstallBody with title preInstallTitle buttons {continueButton, openSettingsButton, dismissButton} default button 1 with icon note)
+	if firstChoice is dismissButton then return
+	if firstChoice is openSettingsButton then
+		my openPrivacySettings()
+		return
+	end if
+
 	set bundleRoot to POSIX path of (path to me)
 	if bundleRoot ends with "/" then
 		set bundleRoot to text 1 thru -2 of bundleRoot

@@ -1,0 +1,158 @@
+#!/usr/bin/env python3
+"""Add installer Gatekeeper fields to gatekeeper-sections.json for every locale."""
+
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+PATH = ROOT / "scripts" / "gatekeeper-sections.json"
+INSTALL = json.loads((ROOT / "scripts" / "dmg-install-sections.json").read_text(encoding="utf-8"))
+
+# Locale-specific installer-phase copy (app phase stays in gatekeeper or is patched below).
+INSTALLER: dict[str, dict] = {
+    "zh-Hans": {
+        "installer_title": "点击「安装并打开」提示无法验证？",
+        "installer_intro": "从浏览器下载后，**安装助手本身**也可能先被 macOS 拦截。系统弹窗里通常只有 **「完成」** 按钮，**不会**出现我们的安装引导——这是正常现象。",
+        "installer_steps": [
+            "双击 DMG 中的 **「安装并打开」**",
+            "若弹出 **「未打开“安装并打开”」/ Apple 无法验证…**，点击 **完成**（不要移到废纸篓）",
+            "打开 **系统设置** → **隐私与安全性**（可双击 DMG 内 **「打开系统设置.webloc」**）",
+            "在 **安全性** 区域找到 **「安装并打开」**，点击 **仍要打开**",
+            "**再次双击「安装并打开」** — 此时才会出现安装引导弹窗，并自动安装专注时钟",
+        ],
+        "installer_order_note": "**顺序很重要**：必须先为「安装并打开」点一次「仍要打开」，安装引导弹窗才会出现。",
+        "title": "安装后打开专注时钟提示「已损坏」？",
+        "intro": "安装助手成功运行后，会复制并尝试打开专注时钟。若此时 macOS 拦截 **专注时钟** 本身，请**按顺序**操作：",
+        "steps": [
+            "安装助手会自动尝试打开专注时钟；若弹出 **「已损坏」**，点击 **取消**",
+            "打开 **系统设置** → **隐私与安全性**（安装弹窗或 **「打开系统设置.webloc」** 可一键跳转）",
+            "在 **安全性** 区域找到 **AttentionClock / 专注时钟**，点击 **仍要打开**",
+            "再次打开专注时钟，即可正常使用",
+        ],
+        "order_note": "**顺序很重要**：必须先触发一次对专注时钟的拦截，「仍要打开」才会出现。",
+        "faq_q": "安装或打开时被拦截？",
+        "faq_a": "分两步：先为「安装并打开」点仍要打开，再为专注时钟点仍要打开。详见上方说明。",
+    },
+    "zh-Hant": {
+        "installer_title": "按「安裝並開啟」顯示無法驗證？",
+        "installer_intro": "從瀏覽器下載後，**安裝助手本身**也可能先被 macOS 攔截。系統彈窗通常只有 **「完成」**，**不會**出現我們的安裝引導。",
+        "installer_steps": [
+            "按兩下 DMG 中的 **「安裝並開啟」**",
+            "若顯示 **Apple 無法驗證…**，點 **完成**",
+            "開啟 **系統設定** → **隱私權與安全性**",
+            "在 **安全性** 為 **「安裝並開啟」** 點 **仍要打開**",
+            "**再次按兩下「安裝並開啟」** — 此時才會出現安裝引導彈窗",
+        ],
+        "installer_order_note": "**順序很重要**：必須先為安裝助手點「仍要打開」。",
+        "title": "安裝後開啟專注時鐘顯示「已損壞」？",
+        "intro": "安裝助手成功後會嘗試開啟專注時鐘。若被攔截，請依序操作：",
+        "steps": [
+            "若彈出 **「已損壞」**，點 **取消**",
+            "開啟 **系統設定** → **隱私權與安全性**",
+            "在 **安全性** 為 **專注時鐘** 點 **仍要打開**",
+            "再次開啟應用",
+        ],
+        "order_note": "**順序很重要**：必須先觸發一次攔截。",
+        "faq_q": "安裝或開啟時被攔截？",
+        "faq_a": "先為安裝助手點仍要打開，再為專注時鐘點仍要打開。",
+    },
+    "en": {
+        "installer_title": "“Install and Open” cannot be verified?",
+        "installer_intro": "Downloaded from a browser, **the installer helper itself** may be blocked first. macOS shows only **Done** — **not** our install guide. This is normal.",
+        "installer_steps": [
+            "Double-click **Install and Open** in the DMG",
+            "If macOS says it **cannot verify “Install and Open”**, click **Done**",
+            "Open **System Settings** → **Privacy & Security** (or double-click **Open System Settings.webloc**)",
+            "Under **Security**, click **Open Anyway** for **Install and Open**",
+            "**Double-click Install and Open again** — the install guide dialog will appear and install Attention Clock",
+        ],
+        "installer_order_note": "**Order matters**: allow Install and Open first, or the guide dialog will not appear.",
+        "title": "“Damaged” warning for Attention Clock after install?",
+        "intro": "After the installer runs, it copies and launches Attention Clock. If macOS blocks the app itself, follow these steps **in order**:",
+        "steps": [
+            "If you see **damaged**, click **Cancel** (not Move to Trash)",
+            "Open **System Settings** → **Privacy & Security**",
+            "Under **Security**, click **Open Anyway** for **Attention Clock**",
+            "Open Attention Clock again",
+        ],
+        "order_note": "**Order matters**: trigger the block once before Open Anyway appears.",
+        "faq_q": "Blocked during install or launch?",
+        "faq_a": "Two steps: Open Anyway for Install and Open, then for Attention Clock.",
+    },
+    "ja": {
+        "installer_title": "「インストールして開く」を検証できない？",
+        "installer_intro": "ブラウザからのダウンロードでは、**インストール助手自体**が先にブロックされることがあります。**「完了」** だけのダイアログで、当方の案内は出ません。",
+        "installer_steps": [
+            "DMG 内の **「インストールして開く」** をダブルクリック",
+            "検証できない旨の表示なら **完了** をクリック",
+            "**システム設定** → **プライバシーとセキュリティ** を開く",
+            "**セキュリティ** で **「インストールして開く」** の **このまま開く**",
+            "もう一度 **「インストールして開く」** をダブルクリック",
+        ],
+        "installer_order_note": "**順番が重要**：助手を先に許可してください。",
+        "title": "インストール後「損傷しています」と表示？",
+        "intro": "助手が集中タイマーを起動しようとしたときのブロックへの対処：",
+        "steps": [
+            "「損傷しています」なら **キャンセル**",
+            "**システム設定** → **プライバシーとセキュリティ**",
+            "**集中タイマー** の **このまま開く**",
+            "再度アプリを開く",
+        ],
+        "order_note": "**順番が重要**です。",
+        "faq_q": "インストールや起動でブロック？",
+        "faq_a": "助手と集中タイマー、両方で「このまま開く」が必要な場合があります。",
+    },
+    "ko": {
+        "installer_title": "「설치하고 열기」를 확인할 수 없음?",
+        "installer_intro": "브라우저 다운로드 시 **설치 도우미 자체**가 먼저 차단될 수 있습니다. **완료**만 보이고 안내 팝업은 나오지 않습니다.",
+        "installer_steps": [
+            "DMG에서 **「설치하고 열기」** 더블 클릭",
+            "확인할 수 없다는 메시지면 **완료** 클릭",
+            "**시스템 설정** → **개인 정보 보호 및 보안**",
+            "**설치하고 열기**에 대해 **확인 없이 열기**",
+            "**「설치하고 열기」** 를 다시 더블 클릭",
+        ],
+        "installer_order_note": "**순서가 중요합니다**.",
+        "title": "설치 후 「손상됨」?",
+        "intro": "설치 도우미가 집중 타이머를 실행할 때 차단되면:",
+        "steps": [
+            "「손상됨」이면 **취소**",
+            "**시스템 설정** → **개인 정보 보호 및 보안**",
+            "**집중 타이머**의 **확인 없이 열기**",
+            "앱 다시 열기",
+        ],
+        "order_note": "**순서가 중요합니다**.",
+        "faq_q": "설치/실행 시 차단?",
+        "faq_a": "설치 도우미와 앱 각각 확인 없이 열기가 필요할 수 있습니다.",
+    },
+}
+
+
+def installer_name(locale: str) -> str:
+    return INSTALL.get(locale, INSTALL["en"])["installer_app"]
+
+
+def patch_locale(locale: str, data: dict) -> dict:
+    if locale in INSTALLER:
+        return {**data, **INSTALLER[locale]}
+    en = INSTALLER["en"].copy()
+    name = installer_name(locale)
+    en["installer_steps"] = [
+        s.replace("Install and Open", name) for s in en["installer_steps"]
+    ]
+    en["installer_title"] = en["installer_title"].replace("Install and Open", name)
+    return {**data, **en}
+
+
+def main() -> None:
+    data = json.loads(PATH.read_text(encoding="utf-8"))
+    for locale in list(data.keys()):
+        data[locale] = patch_locale(locale, data[locale])
+    PATH.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"Patched {len(data)} locales in {PATH}")
+
+
+if __name__ == "__main__":
+    main()

@@ -86,20 +86,30 @@ Or visit the **[all releases page](https://github.com/JackZhong1998/attentionclo
 ### Step 3: Install
 
 1. Double-click the downloaded `.dmg` file
-2. Double-click **Install and Open** — copies to Applications and launches the app
-3. If you see a "damaged" warning, see **First Launch Guide.txt** in the same window
+2. Double-click **Install and Open**
 
-### Step 4: First launch ("damaged" warning)
+### Step 4: Installer blocked (only “Done”, no guide dialog)
 
-macOS may block apps downloaded outside the App Store and show a "damaged" warning. **The app is not actually damaged.** Follow these steps **in order**:
+Downloaded from a browser, **Install and Open itself** may be blocked first. macOS shows only **Done** — **not** our install guide. This is normal.
 
-1. In **Applications**, **double-click** Attention Clock to open it
-2. When the "damaged" dialog appears, click **Cancel** (⚠️ do **not** click **Move to Trash**)
-3. Open **System Settings** → **Privacy & Security**
-4. Scroll to the **Security** section — you'll see **Open Anyway** for Attention Clock. Click it
-5. Open the app again to use it normally
+1. Double-click **Install and Open**
+2. If macOS says it **cannot verify “Install and Open”**, click **Done**
+3. Open **System Settings** → **Privacy & Security** (or double-click **Open System Settings.webloc**)
+4. Under **Security**, click **Open Anyway** for **Install and Open**
+5. **Double-click Install and Open again** — you’ll see **Continue Install**, then Attention Clock installs
 
-> **Order matters**: You must complete steps 1 and 2 first, or the **Open Anyway** button will not appear.
+> **Order matters**: allow Install and Open first, or the guide dialog will not appear.
+
+### Step 5: Attention Clock blocked (“damaged”)
+
+After the installer runs, it copies and launches Attention Clock. If blocked:
+
+1. If you see **damaged**, click **Cancel**
+2. Open **System Settings** → **Privacy & Security**
+3. Click **Open Anyway** for **Attention Clock** under **Security**
+4. Open Attention Clock again
+
+> See **① Read Me First.txt** in the DMG for the full guide.
 
 ---
 
@@ -120,8 +130,8 @@ Mac only, macOS 14.0 or later.
 **Download link not working?**  
 A [GitHub Release](https://github.com/JackZhong1998/attentionclock/releases) must be published first. If none exists yet, check back later or build from source.
 
-**Shows "damaged" when opening?**  
-Follow Step 4 above: double-click, click Cancel, then use Open Anyway in System Settings. Order matters.
+**Shows "damaged" or blocked during install?**  
+Two steps: Open Anyway for Install and Open, then for Attention Clock. See Steps 4–5 above.
 
 ---
 

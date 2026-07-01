@@ -3,10 +3,10 @@ import Foundation
 @MainActor
 final class CodexPetAnimator: ObservableObject {
     @Published private(set) var currentClip: PetClip
-    @Published private(set) var walkDirection: WalkDirection = .left
     @Published private(set) var animationEpoch: Date = .now
 
     private var pack: CodexPetPack
+    private var walkDirection: WalkDirection = .left
     private var pendingResumeClip: PetClip?
     private var completedWalkCycles = 0
 
@@ -36,7 +36,13 @@ final class CodexPetAnimator: ObservableObject {
             pack: pack
         )
 
-        guard clip != currentClip else { return }
+        if clip == currentClip { return }
+
+        if canSwapWithoutRestart(to: clip) {
+            currentClip = clip
+            return
+        }
+
         start(
             clip: clip,
             timerPhase: timerPhase,
@@ -98,15 +104,38 @@ final class CodexPetAnimator: ObservableObject {
         }
     }
 
+    private func canSwapWithoutRestart(to clip: PetClip) -> Bool {
+        guard clip.loop, currentClip.loop else { return false }
+        guard clip.fps == currentClip.fps,
+              clip.frameCount == currentClip.frameCount,
+              clip.row == currentClip.row else { return false }
+        return clip.mirror != currentClip.mirror
+    }
+
     private func updateWalkDirectionIfNeeded(totalFrames: Int) {
-        guard currentClip.row == CodexPetRow.runningLeft || currentClip.row == CodexPetRow.runningRight else {
-            return
-        }
+        guard isWalkClip(currentClip) else { return }
 
         let count = max(currentClip.frameCount, 1)
         let cycles = totalFrames / count
         guard cycles > completedWalkCycles else { return }
         completedWalkCycles = cycles
+
         walkDirection = walkDirection == .left ? .right : .left
+        let shouldMirror = walkDirection == .left
+        guard currentClip.mirror != shouldMirror else { return }
+
+        currentClip = PetClip(
+            row: currentClip.row,
+            frameCount: currentClip.frameCount,
+            fps: currentClip.fps,
+            loop: currentClip.loop,
+            mirror: shouldMirror
+        )
+    }
+
+    private func isWalkClip(_ clip: PetClip) -> Bool {
+        clip.row == CodexPetRow.runningRight
+            || clip.row == CodexPetRow.runningLeft
+            || clip.row == CodexPetRow.running
     }
 }

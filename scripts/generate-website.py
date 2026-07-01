@@ -12,6 +12,8 @@ ROOT = Path(__file__).resolve().parent.parent
 WEBSITE = ROOT / "website"
 DATA = WEBSITE / "data"
 METADATA = json.loads((ROOT / "scripts" / "languages-metadata.json").read_text(encoding="utf-8"))
+GATEKEEPER = json.loads((ROOT / "scripts" / "gatekeeper-sections.json").read_text(encoding="utf-8"))
+INSTALL_DMG = json.loads((ROOT / "scripts" / "dmg-install-sections.json").read_text(encoding="utf-8"))
 
 VERSION = METADATA["version"]
 REPO = METADATA["repo"]
@@ -109,8 +111,52 @@ def faq_items(lang: str) -> list[dict[str, str]]:
     return items
 
 
+def strip_md(text: str) -> str:
+    return re.sub(r"\*\*([^*]+)\*\*", r"\1", text)
+
+
+def dmg_install_for(lang: str) -> dict:
+    return INSTALL_DMG.get(lang, INSTALL_DMG["en"])
+
+
+def gatekeeper_for(lang: str) -> dict:
+    return GATEKEEPER.get(lang, GATEKEEPER["en"])
+
+
+INSTALL_LABELS: dict[str, tuple[str, str]] = {
+    "zh-Hans": ("双击下载的 .dmg 文件", "双击"),
+    "zh-Hant": ("雙擊下載的 .dmg 檔案", "雙擊"),
+    "en": ("Double-click the downloaded .dmg file", "Double-click"),
+    "ja": ("ダウンロードした .dmg をダブルクリック", "ダブルクリック："),
+    "ko": ("다운로드한 .dmg 더블 클릭", "더블 클릭:"),
+    "es": ("Doble clic en el .dmg descargado", "Doble clic en"),
+    "fr": ("Double-cliquez sur le .dmg téléchargé", "Double-cliquez sur"),
+    "de": ("Heruntergeladene .dmg doppelklicken", "Doppelklick auf"),
+}
+
+
 def install_steps(lang: str) -> list[str]:
-    return [t(lang, f"install{i}") for i in range(1, 5)]
+    ins = dmg_install_for(lang)
+    gk = gatekeeper_for(lang)
+    dmg_label, helper_label = INSTALL_LABELS.get(lang, INSTALL_LABELS["en"])
+    steps = [
+        dmg_label,
+        f"{helper_label} **{ins['installer_app']}**",
+    ]
+    steps.extend(strip_md(s) for s in gk.get("installer_steps", []))
+    steps.append(strip_md(gk.get("installer_order_note", "")))
+    steps.extend(strip_md(s) for s in gk.get("steps", []))
+    return [s for s in steps if s]
+
+
+def render_install_html(lang: str) -> str:
+    lines = []
+    for step in install_steps(lang):
+        # Allow **bold** from gatekeeper copy.
+        escaped = html.escape(step)
+        escaped = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", escaped)
+        lines.append(f"          <li>{escaped}</li>")
+    return "\n".join(lines)
 
 
 def lang_options(current: str) -> str:
@@ -207,9 +253,7 @@ def render_page(lang: str) -> str:
         for item in faq_items(lang)
     )
 
-    install_html = "\n".join(
-        f"          <li>{html.escape(step)}</li>" for step in install_steps(lang)
-    )
+    install_list_html = render_install_html(lang)
 
     return f"""<!DOCTYPE html>
 <html lang="{lang}" dir="{direction}">
@@ -395,7 +439,7 @@ def render_page(lang: str) -> str:
           <div class="download-note">
             <strong>{html.escape(t(lang, "install_title"))}</strong>
             <ol>
-{install_html}
+{install_list_html}
             </ol>
           </div>
         </div>

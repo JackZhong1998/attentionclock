@@ -49,22 +49,33 @@ Focus doesn't have to feel lonely. With desktop companions you can:
 2. Double-click **Install and Open**
 3. If blocked, see **First Launch Guide.txt** in the DMG
 
-### ขึ้น «เสียหาย» ตอนเปิดครั้งแรก?
+### “Install and Open” cannot be verified?
 
-macOS อาจบล็อกแอปที่ดาวน์โหลดนอก App Store **แอปไม่ได้เสียหายจริง** ทำตามลำดับนี้:
+Downloaded from a browser, **the installer helper itself** may be blocked first. macOS shows only **Done** — **not** our install guide. This is normal.
 
-1. ใน **โปรแกรม** **ดับเบิลคลิก** Attention Clock
-2. เมื่อขึ้น «เสียหาย» ให้กด **ยกเลิก** (⚠️ **อย่า**กด **ย้ายไปถังขยะ**)
-3. เปิด **การตั้งค่าระบบ** → **ความเป็นส่วนตัวและความปลอดภัย**
-4. เลื่อนไปที่ **ความปลอดภัย** แล้วกด **เปิดอยู่ดี** สำหรับ Attention Clock
-5. เปิดแอปอีกครั้ง
+1. Double-click **Install and Open** in the DMG
+2. If macOS says it **cannot verify “Install and Open”**, click **Done**
+3. Open **System Settings** → **Privacy & Security** (or double-click **Open System Settings.webloc**)
+4. Under **Security**, click **Open Anyway** for **Install and Open**
+5. **Double-click Install and Open again** — the install guide dialog will appear and install Attention Clock
 
-> **ลำดับสำคัญ**: ต้องทำขั้น 1 และ 2 ก่อน จึงจะเห็น **เปิดอยู่ดี**
+> **Order matters**: allow Install and Open first, or the guide dialog will not appear.
+
+### “Damaged” warning for Attention Clock after install?
+
+After the installer runs, it copies and launches Attention Clock. If macOS blocks the app itself, follow these steps **in order**:
+
+1. If you see **damaged**, click **Cancel** (not Move to Trash)
+2. Open **System Settings** → **Privacy & Security**
+3. Under **Security**, click **Open Anyway** for **Attention Clock**
+4. Open Attention Clock again
+
+> **Order matters**: trigger the block once before Open Anyway appears.
 
 ## FAQ
 
-**ขึ้น «เสียหาย»?**  
-ทำตามขั้นตอน: ดับเบิลคลิก → ยกเลิก → เปิดอยู่ดีในการตั้งค่า
+**Blocked during install or launch?**  
+Two steps: Open Anyway for Install and Open, then for Attention Clock.
 
 **Internet required?**  
 No, runs entirely on your Mac.
