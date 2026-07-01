@@ -84,16 +84,29 @@ def tab_items(lang: str) -> list[dict[str, str]]:
         {"title": t(lang, "tab1_title"), "desc": t(lang, "tab1_desc")},
         {"title": t(lang, "tab2_title"), "desc": t(lang, "tab2_desc")},
         {"title": t(lang, "tab3_title"), "desc": t(lang, "tab3_desc")},
+        {"title": t(lang, "tab4_title"), "desc": t(lang, "tab4_desc")},
+    ]
+
+
+def pet_items(lang: str) -> list[dict[str, str]]:
+    return [
+        {"icon": "📚", "title": t(lang, "pet1_title"), "desc": t(lang, "pet1_desc")},
+        {"icon": "💬", "title": t(lang, "pet2_title"), "desc": t(lang, "pet2_desc")},
+        {"icon": "🪟", "title": t(lang, "pet3_title"), "desc": t(lang, "pet3_desc")},
+        {"icon": "✨", "title": t(lang, "pet4_title"), "desc": t(lang, "pet4_desc")},
     ]
 
 
 def faq_items(lang: str) -> list[dict[str, str]]:
-    return [
+    items = [
         {"q": t(lang, "faq1_q"), "a": t(lang, "faq1_a")},
         {"q": t(lang, "faq2_q"), "a": t(lang, "faq2_a")},
         {"q": t(lang, "faq3_q"), "a": t(lang, "faq3_a")},
         {"q": t(lang, "faq4_q"), "a": t(lang, "faq4_a")},
     ]
+    if t(lang, "faq5_q"):
+        items.append({"q": t(lang, "faq5_q"), "a": t(lang, "faq5_a")})
+    return items
 
 
 def install_steps(lang: str) -> list[str]:
@@ -177,6 +190,15 @@ def render_page(lang: str) -> str:
         for tab in tab_items(lang)
     )
 
+    pets_html = "\n".join(
+        f"""        <article class="pet-card">
+          <div class="pet-icon">{html.escape(p["icon"])}</div>
+          <h3>{html.escape(p["title"])}</h3>
+          <p>{html.escape(p["desc"])}</p>
+        </article>"""
+        for p in pet_items(lang)
+    )
+
     faq_html = "\n".join(
         f"""        <div class="faq-item">
           <button class="faq-question" type="button" aria-expanded="false">{html.escape(item["q"])}</button>
@@ -226,6 +248,7 @@ def render_page(lang: str) -> str:
       <button class="menu-toggle" type="button" aria-label="Menu" aria-expanded="false">☰</button>
       <nav class="nav-main" aria-label="Main">
         <a href="#features">{html.escape(t(lang, "nav_features"))}</a>
+        <a href="#pets">{html.escape(t(lang, "nav_pets"))}</a>
         <a href="#how">{html.escape(t(lang, "nav_how"))}</a>
         <a href="#download">{html.escape(t(lang, "nav_download"))}</a>
         <a href="#faq">{html.escape(t(lang, "nav_faq"))}</a>
@@ -252,6 +275,7 @@ def render_page(lang: str) -> str:
         <div class="hero-meta">
           <span>✓ {html.escape(t(lang, "meta_free"))}</span>
           <span>✓ {html.escape(t(lang, "meta_local"))}</span>
+          <span>🐾 {html.escape(t(lang, "meta_pets"))}</span>
           <span>✓ macOS 14+</span>
         </div>
       </div>
@@ -266,6 +290,7 @@ def render_page(lang: str) -> str:
               <div class="mockup-tab active">{html.escape(t(lang, "tab1_title"))}</div>
               <div class="mockup-tab">{html.escape(t(lang, "tab2_title"))}</div>
               <div class="mockup-tab">{html.escape(t(lang, "tab3_title"))}</div>
+              <div class="mockup-tab">{html.escape(t(lang, "tab4_title"))}</div>
             </div>
             <div class="mockup-main">
               <div class="timer-ring">
@@ -298,7 +323,32 @@ def render_page(lang: str) -> str:
       </div>
     </section>
 
-    <section id="how" class="section">
+    <section id="pets" class="section">
+      <div class="container">
+        <header class="section-header">
+          <h2>{html.escape(t(lang, "pets_title"))}</h2>
+          <p>{html.escape(t(lang, "pets_sub"))}</p>
+        </header>
+        <div class="pets-layout">
+          <div class="pets-visual" aria-hidden="true">
+            <div class="float-window">
+              <div class="float-bar"><span></span><span></span><span></span></div>
+              <div class="float-pet">🐱</div>
+              <div class="float-caption">{html.escape(t(lang, "tab2_title"))}</div>
+            </div>
+            <div class="desk-pet-grid">
+              <span>🐈</span><span>🦊</span><span>🐰</span><span>🐻</span>
+              <span>🐼</span><span>🐶</span><span>🐹</span><span>🦁</span>
+            </div>
+          </div>
+          <div class="pets-grid">
+{pets_html}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="section section-alt">
       <div class="container">
         <header class="section-header">
           <h2>{html.escape(t(lang, "how_title"))}</h2>
@@ -310,7 +360,7 @@ def render_page(lang: str) -> str:
       </div>
     </section>
 
-    <section class="section section-alt">
+    <section class="section">
       <div class="container">
         <header class="section-header">
           <h2>{html.escape(t(lang, "tabs_section_title"))}</h2>
@@ -321,7 +371,7 @@ def render_page(lang: str) -> str:
       </div>
     </section>
 
-    <section id="download" class="section">
+    <section id="download" class="section section-alt">
       <div class="container">
         <header class="section-header">
           <h2>{html.escape(t(lang, "download_title"))}</h2>
@@ -372,6 +422,7 @@ def render_page(lang: str) -> str:
           <a href="{REPO}" rel="noopener">GitHub</a>
           <a href="{REPO}/releases/latest" rel="noopener">{html.escape(t(lang, "nav_download"))}</a>
           <a href="#features">{html.escape(t(lang, "nav_features"))}</a>
+          <a href="#pets">{html.escape(t(lang, "nav_pets"))}</a>
           <a href="#faq">{html.escape(t(lang, "nav_faq"))}</a>
         </div>
       </div>

@@ -13,8 +13,17 @@ Kein Konto, kein Internet nötig. Alle Daten bleiben auf deinem Mac.
 - **Flexible Zeit**: 25 Min. Standard, ±5 Min.
 - **Volle Kontrolle**: Pause, Fortsetzen, vorzeitig beenden
 - **Fortschritt sehen**: ein Baum 🌳 pro Session, Heatmap
-- **Optionaler Begleiter**: Pixel-Katze
+- **Desktop-Haustiere (optional)**: 3000+ Pixel-Begleiter, downloadbar mit Schwebefenster
 - **Komplett kostenlos**: Open Source
+
+## Desktop-Haustiere (optional)
+
+Fokussieren muss nicht einsam sein. Mit Desktop-Haustieren kannst du:
+
+- **3000+ Katalog**: durchsuchen, suchen und herunterladen
+- **Reagiert beim Fokus**: begleitet den Timer
+- **Schwebefenster**: auf dem Desktop sichtbar
+- **Vollständig optional**: jederzeit abschaltbar
 
 ## So funktioniert's
 

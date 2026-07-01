@@ -24,8 +24,16 @@ CONTENT = {
             "**時間靈活**：預設 25 分鐘，可 ±5 分鐘調整",
             "**隨時掌控**：支援暫停、繼續、提前結束",
             "**看見進步**：每完成一次種一棵樹 🌳，還有熱力圖",
-            "**可愛陪伴（可選）**：像素小貓陪你專注",
+            "**桌面寵物（可選）**：3000+ 像素夥伴，可下載、可浮窗常駐桌面",
             "**完全免費**：開源專案，程式碼公開",
+        ],
+        "pets_title": "桌面寵物（可選）",
+        "pets_intro": "專注不必一個人硬撐。開啟桌面寵物後，可以：",
+        "pets": [
+            "**3000+ 像素圖鑑**：瀏覽、搜尋、下載喜歡的角色",
+            "**專注時有回應**：寵物陪在計時器旁，表情隨狀態變化",
+            "**桌面浮窗常駐**：把夥伴放在桌面上，切換應用也不離開",
+            "**完全可選**：隨時關閉，不影響計時與統計",
         ],
         "use_title": "怎麼用？",
         "use_steps": [
@@ -65,8 +73,16 @@ CONTENT = {
             "**Tiempo flexible**: 25 min por defecto, ajustes de ±5 min",
             "**Control total**: pausa, reanuda o termina cuando quieras",
             "**Ve tu progreso**: un árbol 🌳 por sesión completada y mapa de calor",
-            "**Compañero opcional**: un gato pixelado puede acompañarte",
+            "**Mascotas de escritorio (opcional)**: 3000+ compañeros pixel, descargables y con ventana flotante",
             "**Totalmente gratis**: código abierto y transparente",
+        ],
+        "pets_title": "Mascotas de escritorio (opcional)",
+        "pets_intro": "Enfocarte no tiene que ser solitario. Con las mascotas de escritorio puedes:",
+        "pets": [
+            "**Catálogo de 3000+**: explora, busca y descarga personajes",
+            "**Reacciona al enfocarte**: acompaña en el temporizador y cambia expresión",
+            "**Ventana flotante**: mantén tu compañero visible en el escritorio",
+            "**Totalmente opcional**: desactívalo cuando quieras",
         ],
         "use_title": "Cómo usarlo",
         "use_steps": [
@@ -106,8 +122,16 @@ CONTENT = {
             "**Durée flexible** : 25 min par défaut, ±5 min",
             "**Contrôle total** : pause, reprise, fin anticipée",
             "**Suivez vos progrès** : un arbre 🌳 par session et carte de chaleur",
-            "**Compagnon optionnel** : un chat pixelisé",
+            "**Animaux de bureau (optionnel)** : 3000+ compagnons pixel, téléchargeables avec fenêtre flottante",
             "**Entièrement gratuit** : open source",
+        ],
+        "pets_title": "Animaux de bureau (optionnel)",
+        "pets_intro": "Se concentrer n'a pas à être solitaire. Avec les animaux de bureau :",
+        "pets": [
+            "**Catalogue 3000+** : parcourez, recherchez et téléchargez",
+            "**Réagit pendant le focus** : accompagne le minuteur",
+            "**Fenêtre flottante** : visible sur le bureau",
+            "**Entièrement optionnel** : désactivable à tout moment",
         ],
         "use_title": "Comment l'utiliser",
         "use_steps": [
@@ -147,8 +171,16 @@ CONTENT = {
             "**Flexible Zeit**: 25 Min. Standard, ±5 Min.",
             "**Volle Kontrolle**: Pause, Fortsetzen, vorzeitig beenden",
             "**Fortschritt sehen**: ein Baum 🌳 pro Session, Heatmap",
-            "**Optionaler Begleiter**: Pixel-Katze",
+            "**Desktop-Haustiere (optional)**: 3000+ Pixel-Begleiter, downloadbar mit Schwebefenster",
             "**Komplett kostenlos**: Open Source",
+        ],
+        "pets_title": "Desktop-Haustiere (optional)",
+        "pets_intro": "Fokussieren muss nicht einsam sein. Mit Desktop-Haustieren kannst du:",
+        "pets": [
+            "**3000+ Katalog**: durchsuchen, suchen und herunterladen",
+            "**Reagiert beim Fokus**: begleitet den Timer",
+            "**Schwebefenster**: auf dem Desktop sichtbar",
+            "**Vollständig optional**: jederzeit abschaltbar",
         ],
         "use_title": "So funktioniert's",
         "use_steps": [
@@ -191,8 +223,16 @@ EN_FALLBACK = {
         "**Flexible timing** (default 25 min)",
         "**Pause, resume, or end anytime**",
         "**Track progress** with trees 🌳 and a heatmap",
-        "**Optional pixel cat companion**",
+        "**Desktop pets (optional)** — 3000+ downloadable pixel companions with floating window",
         "**Completely free** and open source",
+    ],
+    "pets_title": "Desktop pets (optional)",
+    "pets_intro": "Focus doesn't have to feel lonely. With desktop pets you can:",
+    "pets": [
+        "**Browse 3000+ companions** — search the catalog and download favorites",
+        "**Get reactions while focusing** — your pet stays beside the timer",
+        "**Float on your desktop** — keep your companion visible across apps",
+        "**Turn off anytime** — the timer works perfectly on its own",
     ],
     "use_title": "How to use",
     "use_steps": [
@@ -291,6 +331,9 @@ def render(locale: str, info: dict, c: dict) -> str:
         "",
     ]
     lines += [f"- {x}" for x in c["why"]]
+    if c.get("pets"):
+        lines += ["", f"## {c['pets_title']}", "", c["pets_intro"], ""]
+        lines += [f"- {x}" for x in c["pets"]]
     lines += ["", f"## {c['use_title']}", ""]
     for i, step in enumerate(c["use_steps"], 1):
         lines.append(f"{i}. {step}")

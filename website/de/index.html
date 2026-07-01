@@ -56,6 +56,7 @@
       <button class="menu-toggle" type="button" aria-label="Menu" aria-expanded="false">☰</button>
       <nav class="nav-main" aria-label="Main">
         <a href="#features">Funktionen</a>
+        <a href="#pets">Desktop-Haustiere</a>
         <a href="#how">So funktioniert&#x27;s</a>
         <a href="#download">Download</a>
         <a href="#faq">FAQ</a>
@@ -94,7 +95,7 @@
       <div class="container">
         <span class="hero-badge">v1.1.0 · macOS 14+</span>
         <h1>Fokus-Uhr</h1>
-        <p class="hero-lead">Ein ruhiger Fokus-Timer für Mac. Keine Anmeldung, keine Cloud.</p>
+        <p class="hero-lead">Mac-Fokus-Timer mit optional 3000+ Pixel-Begleitern auf dem Desktop.</p>
         <div class="hero-cta">
           <a id="hero-download" class="btn btn-primary btn-lg" href="#download">Für Mac herunterladen</a>
           <a class="btn btn-secondary btn-lg" href="https://github.com/JackZhong1998/attentionclock" rel="noopener">Auf GitHub ansehen</a>
@@ -102,6 +103,7 @@
         <div class="hero-meta">
           <span>✓ Kostenlos &amp; Open Source</span>
           <span>✓ Daten bleiben auf dem Mac</span>
+          <span>🐾 3000+ Haustiere</span>
           <span>✓ macOS 14+</span>
         </div>
       </div>
@@ -114,6 +116,7 @@
           <div class="mockup-body">
             <div class="mockup-sidebar">
               <div class="mockup-tab active">Fokus</div>
+              <div class="mockup-tab">Desktop-Haustiere</div>
               <div class="mockup-tab">Statistik</div>
               <div class="mockup-tab">Einstellungen</div>
             </div>
@@ -170,8 +173,8 @@
         </article>
         <article class="feature-card">
           <div class="feature-icon">🐱</div>
-          <h3>Cloud-Katze</h3>
-          <p>Optionaler Pixel-Kater mit Schwebefenster.</p>
+          <h3>3000+ Desktop-Haustiere</h3>
+          <p>Katalog durchsuchen, Charaktere suchen, Favoriten laden.</p>
         </article>
         <article class="feature-card">
           <div class="feature-icon">🔓</div>
@@ -182,7 +185,51 @@
       </div>
     </section>
 
-    <section id="how" class="section">
+    <section id="pets" class="section">
+      <div class="container">
+        <header class="section-header">
+          <h2>Haustiere, die dich begleiten</h2>
+          <p>Optional, leicht und motivierend.</p>
+        </header>
+        <div class="pets-layout">
+          <div class="pets-visual" aria-hidden="true">
+            <div class="float-window">
+              <div class="float-bar"><span></span><span></span><span></span></div>
+              <div class="float-pet">🐱</div>
+              <div class="float-caption">Desktop-Haustiere</div>
+            </div>
+            <div class="desk-pet-grid">
+              <span>🐈</span><span>🦊</span><span>🐰</span><span>🐻</span>
+              <span>🐼</span><span>🐶</span><span>🐹</span><span>🦁</span>
+            </div>
+          </div>
+          <div class="pets-grid">
+        <article class="pet-card">
+          <div class="pet-icon">📚</div>
+          <h3>Riesiger Pixel-Katalog</h3>
+          <p>3000+ Begleiter mit Suche und Filtern.</p>
+        </article>
+        <article class="pet-card">
+          <div class="pet-icon">💬</div>
+          <h3>Reagiert beim Fokus</h3>
+          <p>Bleibt bei dir und feiert Abschlüsse.</p>
+        </article>
+        <article class="pet-card">
+          <div class="pet-icon">🪟</div>
+          <h3>Schwebt auf dem Desktop</h3>
+          <p>Schwebefenster über allen Apps sichtbar.</p>
+        </article>
+        <article class="pet-card">
+          <div class="pet-icon">✨</div>
+          <h3>Vollständig optional</h3>
+          <p>Jederzeit ein- oder ausschaltbar.</p>
+        </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="section section-alt">
       <div class="container">
         <header class="section-header">
           <h2>In Minuten starten</h2>
@@ -205,10 +252,10 @@
       </div>
     </section>
 
-    <section class="section section-alt">
+    <section class="section">
       <div class="container">
         <header class="section-header">
-          <h2>Drei einfache Tabs</h2>
+          <h2>Vier Tabs</h2>
         </header>
         <div class="tabs-grid">
         <article class="tab-card">
@@ -216,18 +263,22 @@
           <p>Timer und Steuerung.</p>
         </article>
         <article class="tab-card">
+          <h3>Desktop-Haustiere</h3>
+          <p>Durchsuchen, laden, verwalten.</p>
+        </article>
+        <article class="tab-card">
           <h3>Statistik</h3>
-          <p>Sitzungen, Heatmap, Verlauf.</p>
+          <p>Sessions, Heatmap, Verlauf.</p>
         </article>
         <article class="tab-card">
           <h3>Einstellungen</h3>
-          <p>Dauer, Katze, Einstellungen.</p>
+          <p>Dauer, Schwebefenster, etc.</p>
         </article>
         </div>
       </div>
     </section>
 
-    <section id="download" class="section">
+    <section id="download" class="section section-alt">
       <div class="container">
         <header class="section-header">
           <h2>Fokus-Uhr herunterladen</h2>
@@ -277,6 +328,10 @@
           <button class="faq-question" type="button" aria-expanded="false">Download funktioniert nicht?</button>
           <div class="faq-answer"><p>GitHub Releases prüfen.</p></div>
         </div>
+        <div class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false">Internet für Haustiere nötig?</button>
+          <div class="faq-answer"><p>Nur zum Herunterladen. Timer läuft offline.</p></div>
+        </div>
         </div>
       </div>
     </section>
@@ -296,6 +351,7 @@
           <a href="https://github.com/JackZhong1998/attentionclock" rel="noopener">GitHub</a>
           <a href="https://github.com/JackZhong1998/attentionclock/releases/latest" rel="noopener">Download</a>
           <a href="#features">Funktionen</a>
+          <a href="#pets">Desktop-Haustiere</a>
           <a href="#faq">FAQ</a>
         </div>
       </div>

@@ -13,8 +13,17 @@ No account or internet required. All data stays on your Mac.
 - **Flexible timing** (default 25 min)
 - **Pause, resume, or end anytime**
 - **Track progress** with trees 🌳 and a heatmap
-- **Optional pixel cat companion**
+- **Desktop pets (optional)** — 3000+ downloadable pixel companions with floating window
 - **Completely free** and open source
+
+## Desktop pets (optional)
+
+Focus doesn't have to feel lonely. With desktop pets you can:
+
+- **Browse 3000+ companions** — search the catalog and download favorites
+- **Get reactions while focusing** — your pet stays beside the timer
+- **Float on your desktop** — keep your companion visible across apps
+- **Turn off anytime** — the timer works perfectly on its own
 
 ## How to use
 

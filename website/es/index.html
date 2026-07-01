@@ -56,6 +56,7 @@
       <button class="menu-toggle" type="button" aria-label="Menu" aria-expanded="false">☰</button>
       <nav class="nav-main" aria-label="Main">
         <a href="#features">Funciones</a>
+        <a href="#pets">Mascotas de escritorio</a>
         <a href="#how">Cómo funciona</a>
         <a href="#download">Descargar</a>
         <a href="#faq">Preguntas</a>
@@ -94,7 +95,7 @@
       <div class="container">
         <span class="hero-badge">v1.1.0 · macOS 14+</span>
         <h1>Reloj de Enfoque</h1>
-        <p class="hero-lead">Un temporizador de enfoque tranquilo para Mac. Sin registro, sin nube.</p>
+        <p class="hero-lead">Temporizador Mac con más de 3000 mascotas pixeladas opcionales en tu escritorio.</p>
         <div class="hero-cta">
           <a id="hero-download" class="btn btn-primary btn-lg" href="#download">Descargar para Mac</a>
           <a class="btn btn-secondary btn-lg" href="https://github.com/JackZhong1998/attentionclock" rel="noopener">Ver en GitHub</a>
@@ -102,6 +103,7 @@
         <div class="hero-meta">
           <span>✓ Gratis y código abierto</span>
           <span>✓ Datos en tu Mac</span>
+          <span>🐾 3000+ mascotas</span>
           <span>✓ macOS 14+</span>
         </div>
       </div>
@@ -114,6 +116,7 @@
           <div class="mockup-body">
             <div class="mockup-sidebar">
               <div class="mockup-tab active">Enfoque</div>
+              <div class="mockup-tab">Mascotas</div>
               <div class="mockup-tab">Estadísticas</div>
               <div class="mockup-tab">Ajustes</div>
             </div>
@@ -170,8 +173,8 @@
         </article>
         <article class="feature-card">
           <div class="feature-icon">🐱</div>
-          <h3>Gato en la nube</h3>
-          <p>Gato pixel opcional con ventana flotante.</p>
+          <h3>3000+ mascotas de escritorio</h3>
+          <p>Explora el catálogo, busca personajes y descarga favoritos.</p>
         </article>
         <article class="feature-card">
           <div class="feature-icon">🔓</div>
@@ -182,7 +185,51 @@
       </div>
     </section>
 
-    <section id="how" class="section">
+    <section id="pets" class="section">
+      <div class="container">
+        <header class="section-header">
+          <h2>Mascotas que te acompañan</h2>
+          <p>Opcionales, ligeras y motivadoras.</p>
+        </header>
+        <div class="pets-layout">
+          <div class="pets-visual" aria-hidden="true">
+            <div class="float-window">
+              <div class="float-bar"><span></span><span></span><span></span></div>
+              <div class="float-pet">🐱</div>
+              <div class="float-caption">Mascotas</div>
+            </div>
+            <div class="desk-pet-grid">
+              <span>🐈</span><span>🦊</span><span>🐰</span><span>🐻</span>
+              <span>🐼</span><span>🐶</span><span>🐹</span><span>🦁</span>
+            </div>
+          </div>
+          <div class="pets-grid">
+        <article class="pet-card">
+          <div class="pet-icon">📚</div>
+          <h3>Catálogo enorme</h3>
+          <p>3000+ compañeros con búsqueda y filtros.</p>
+        </article>
+        <article class="pet-card">
+          <div class="pet-icon">💬</div>
+          <h3>Reacciona al enfocarte</h3>
+          <p>Cambia expresión y celebra al terminar.</p>
+        </article>
+        <article class="pet-card">
+          <div class="pet-icon">🪟</div>
+          <h3>Flota en el escritorio</h3>
+          <p>Ventana flotante visible en todas las apps.</p>
+        </article>
+        <article class="pet-card">
+          <div class="pet-icon">✨</div>
+          <h3>Totalmente opcional</h3>
+          <p>Actívalo o desactívalo cuando quieras.</p>
+        </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="section section-alt">
       <div class="container">
         <header class="section-header">
           <h2>Empieza en minutos</h2>
@@ -205,10 +252,10 @@
       </div>
     </section>
 
-    <section class="section section-alt">
+    <section class="section">
       <div class="container">
         <header class="section-header">
-          <h2>Tres pestañas simples</h2>
+          <h2>Cuatro pestañas</h2>
         </header>
         <div class="tabs-grid">
         <article class="tab-card">
@@ -216,18 +263,22 @@
           <p>Temporizador y controles.</p>
         </article>
         <article class="tab-card">
+          <h3>Mascotas</h3>
+          <p>Explorar, descargar y gestionar.</p>
+        </article>
+        <article class="tab-card">
           <h3>Estadísticas</h3>
-          <p>Sesiones, mapa de calor, historial.</p>
+          <p>Sesiones, mapa de calor e historial.</p>
         </article>
         <article class="tab-card">
           <h3>Ajustes</h3>
-          <p>Duración, gato, preferencias.</p>
+          <p>Duración, ventana flotante y más.</p>
         </article>
         </div>
       </div>
     </section>
 
-    <section id="download" class="section">
+    <section id="download" class="section section-alt">
       <div class="container">
         <header class="section-header">
           <h2>Descargar Reloj de Enfoque</h2>
@@ -277,6 +328,10 @@
           <button class="faq-question" type="button" aria-expanded="false">¿El enlace no funciona?</button>
           <div class="faq-answer"><p>Visita GitHub Releases o compila desde el código.</p></div>
         </div>
+        <div class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false">¿Las mascotas necesitan internet?</button>
+          <div class="faq-answer"><p>Solo para descargar nuevas. El temporizador funciona offline.</p></div>
+        </div>
         </div>
       </div>
     </section>
@@ -296,6 +351,7 @@
           <a href="https://github.com/JackZhong1998/attentionclock" rel="noopener">GitHub</a>
           <a href="https://github.com/JackZhong1998/attentionclock/releases/latest" rel="noopener">Descargar</a>
           <a href="#features">Funciones</a>
+          <a href="#pets">Mascotas de escritorio</a>
           <a href="#faq">Preguntas</a>
         </div>
       </div>

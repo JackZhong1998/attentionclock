@@ -56,6 +56,7 @@
       <button class="menu-toggle" type="button" aria-label="Menu" aria-expanded="false">☰</button>
       <nav class="nav-main" aria-label="Main">
         <a href="#features">機能</a>
+        <a href="#pets">デスクトップペット</a>
         <a href="#how">使い方</a>
         <a href="#download">ダウンロード</a>
         <a href="#faq">FAQ</a>
@@ -94,7 +95,7 @@
       <div class="container">
         <span class="hero-badge">v1.1.0 · macOS 14+</span>
         <h1>集中タイマー</h1>
-        <p class="hero-lead">静かで邪魔にならない Mac 用集中タイマー。セッションを設定し、深く作業し、進捗を可視化——登録不要、クラウド不要。</p>
+        <p class="hero-lead">3000 体以上のデスクトップペットと一緒に集中できる Mac タイマー。</p>
         <div class="hero-cta">
           <a id="hero-download" class="btn btn-primary btn-lg" href="#download">Mac 版をダウンロード</a>
           <a class="btn btn-secondary btn-lg" href="https://github.com/JackZhong1998/attentionclock" rel="noopener">GitHub で見る</a>
@@ -102,6 +103,7 @@
         <div class="hero-meta">
           <span>✓ 無料・オープンソース</span>
           <span>✓ データは Mac に保存</span>
+          <span>🐾 3000+ ペット</span>
           <span>✓ macOS 14+</span>
         </div>
       </div>
@@ -114,6 +116,7 @@
           <div class="mockup-body">
             <div class="mockup-sidebar">
               <div class="mockup-tab active">集中</div>
+              <div class="mockup-tab">デスクトップペット</div>
               <div class="mockup-tab">統計</div>
               <div class="mockup-tab">設定</div>
             </div>
@@ -170,8 +173,8 @@
         </article>
         <article class="feature-card">
           <div class="feature-icon">🐱</div>
-          <h3>クラウド猫</h3>
-          <p>ピクセル猫がオプションで寄り添い、フローティングウィンドウも可能。</p>
+          <h3>3000+ デスクトップペット</h3>
+          <p>図鑑から検索・ダウンロードして、好きな相棒に切り替え。</p>
         </article>
         <article class="feature-card">
           <div class="feature-icon">🔓</div>
@@ -182,7 +185,51 @@
       </div>
     </section>
 
-    <section id="how" class="section">
+    <section id="pets" class="section">
+      <div class="container">
+        <header class="section-header">
+          <h2>デスクトップペットが寄り添う</h2>
+          <p>任意・軽量で、集中が楽しくなる。</p>
+        </header>
+        <div class="pets-layout">
+          <div class="pets-visual" aria-hidden="true">
+            <div class="float-window">
+              <div class="float-bar"><span></span><span></span><span></span></div>
+              <div class="float-pet">🐱</div>
+              <div class="float-caption">デスクトップペット</div>
+            </div>
+            <div class="desk-pet-grid">
+              <span>🐈</span><span>🦊</span><span>🐰</span><span>🐻</span>
+              <span>🐼</span><span>🐶</span><span>🐹</span><span>🦁</span>
+            </div>
+          </div>
+          <div class="pets-grid">
+        <article class="pet-card">
+          <div class="pet-icon">📚</div>
+          <h3>巨大ピクセル図鑑</h3>
+          <p>3000 体以上を検索・フィルター。</p>
+        </article>
+        <article class="pet-card">
+          <div class="pet-icon">💬</div>
+          <h3>集中中にリアクション</h3>
+          <p>セッション中も一緒に、完了を祝ってくれる。</p>
+        </article>
+        <article class="pet-card">
+          <div class="pet-icon">🪟</div>
+          <h3>デスクトップに浮かぶ</h3>
+          <p>フローティングウィンドウで常に表示。</p>
+        </article>
+        <article class="pet-card">
+          <div class="pet-icon">✨</div>
+          <h3>完全オプション</h3>
+          <p>いつでもオン/オフ。タイマー単体でも完璧。</p>
+        </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="section section-alt">
       <div class="container">
         <header class="section-header">
           <h2>数分で始められる</h2>
@@ -205,10 +252,10 @@
       </div>
     </section>
 
-    <section class="section section-alt">
+    <section class="section">
       <div class="container">
         <header class="section-header">
-          <h2>3 つのシンプルなタブ</h2>
+          <h2>4 つのタブ</h2>
         </header>
         <div class="tabs-grid">
         <article class="tab-card">
@@ -216,18 +263,22 @@
           <p>タイマー、一時停止、再開、終了。</p>
         </article>
         <article class="tab-card">
+          <h3>デスクトップペット</h3>
+          <p>閲覧・ダウンロード・管理。</p>
+        </article>
+        <article class="tab-card">
           <h3>統計</h3>
-          <p>今日のセッション、ヒートマップ、履歴。</p>
+          <p>今日のセッションとヒートマップ。</p>
         </article>
         <article class="tab-card">
           <h3>設定</h3>
-          <p>デフォルト時間、クラウド猫など。</p>
+          <p>時間・浮窗など。</p>
         </article>
         </div>
       </div>
     </section>
 
-    <section id="download" class="section">
+    <section id="download" class="section section-alt">
       <div class="container">
         <header class="section-header">
           <h2>集中タイマーをダウンロード</h2>
@@ -277,6 +328,10 @@
           <button class="faq-question" type="button" aria-expanded="false">ダウンロードリンクが動かない？</button>
           <div class="faq-answer"><p>GitHub Releases を確認。未公開の場合はソースからビルド可能。</p></div>
         </div>
+        <div class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false">ペットにネットは必要？</button>
+          <div class="faq-answer"><p>新規ダウンロード時のみ。タイマーはオフライン可。</p></div>
+        </div>
         </div>
       </div>
     </section>
@@ -296,6 +351,7 @@
           <a href="https://github.com/JackZhong1998/attentionclock" rel="noopener">GitHub</a>
           <a href="https://github.com/JackZhong1998/attentionclock/releases/latest" rel="noopener">ダウンロード</a>
           <a href="#features">機能</a>
+          <a href="#pets">デスクトップペット</a>
           <a href="#faq">FAQ</a>
         </div>
       </div>

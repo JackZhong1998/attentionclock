@@ -13,8 +13,17 @@ Sin registro ni conexión a internet. Tus datos permanecen en tu Mac.
 - **Tiempo flexible**: 25 min por defecto, ajustes de ±5 min
 - **Control total**: pausa, reanuda o termina cuando quieras
 - **Ve tu progreso**: un árbol 🌳 por sesión completada y mapa de calor
-- **Compañero opcional**: un gato pixelado puede acompañarte
+- **Mascotas de escritorio (opcional)**: 3000+ compañeros pixel, descargables y con ventana flotante
 - **Totalmente gratis**: código abierto y transparente
+
+## Mascotas de escritorio (opcional)
+
+Enfocarte no tiene que ser solitario. Con las mascotas de escritorio puedes:
+
+- **Catálogo de 3000+**: explora, busca y descarga personajes
+- **Reacciona al enfocarte**: acompaña en el temporizador y cambia expresión
+- **Ventana flotante**: mantén tu compañero visible en el escritorio
+- **Totalmente opcional**: desactívalo cuando quieras
 
 ## Cómo usarlo
 

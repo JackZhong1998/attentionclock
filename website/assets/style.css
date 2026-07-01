@@ -610,7 +610,119 @@ a:hover { text-decoration: underline; }
   .hero { padding-top: 2.5rem; }
 }
 
+/* Desktop pets section */
+.pets-layout {
+  display: grid;
+  grid-template-columns: minmax(220px, 340px) 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+.pets-visual {
+  position: relative;
+  min-height: 280px;
+}
+
+.float-window {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+  width: 160px;
+  margin: 0 auto;
+  animation: floaty 4s ease-in-out infinite;
+}
+
+@keyframes floaty {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+.float-bar {
+  display: flex;
+  gap: 5px;
+  padding: 8px 10px;
+  background: #f0efec;
+  border-bottom: 1px solid var(--border);
+}
+.float-bar span {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #d4d2cd;
+}
+
+.float-pet {
+  font-size: 3rem;
+  text-align: center;
+  padding: 1.25rem 0 0.5rem;
+  line-height: 1;
+}
+
+.float-caption {
+  text-align: center;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  padding-bottom: 0.85rem;
+}
+
+.desk-pet-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+  opacity: 0.55;
+}
+.desk-pet-grid span {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0.35rem;
+  background: var(--bg-elevated);
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+
+.pets-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.pet-card {
+  padding: 1.25rem 1.35rem;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.pet-card:hover {
+  border-color: var(--accent);
+  box-shadow: var(--shadow);
+}
+.pet-icon {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.pet-card h3 {
+  margin: 0 0 0.4rem;
+  font-size: 1rem;
+}
+.pet-card p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+@media (max-width: 768px) {
+  .pets-layout {
+    grid-template-columns: 1fr;
+  }
+  .pets-visual { min-height: auto; margin-bottom: 0.5rem; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .btn:hover { transform: none; }
+  .float-window { animation: none; }
 }

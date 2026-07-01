@@ -56,6 +56,7 @@
       <button class="menu-toggle" type="button" aria-label="Menu" aria-expanded="false">☰</button>
       <nav class="nav-main" aria-label="Main">
         <a href="#features">기능</a>
+        <a href="#pets">데스크톱 펫</a>
         <a href="#how">사용법</a>
         <a href="#download">다운로드</a>
         <a href="#faq">FAQ</a>
@@ -94,7 +95,7 @@
       <div class="container">
         <span class="hero-badge">v1.1.0 · macOS 14+</span>
         <h1>집중 타이머</h1>
-        <p class="hero-lead">조용하고 방해받지 않는 Mac 집중 타이머. 세션을 설정하고 깊이 작업하며 성장을 확인하세요.</p>
+        <p class="hero-lead">3000개 이상의 데스크톱 펫과 함께 집중하는 Mac 타이머.</p>
         <div class="hero-cta">
           <a id="hero-download" class="btn btn-primary btn-lg" href="#download">Mac용 다운로드</a>
           <a class="btn btn-secondary btn-lg" href="https://github.com/JackZhong1998/attentionclock" rel="noopener">GitHub에서 보기</a>
@@ -102,6 +103,7 @@
         <div class="hero-meta">
           <span>✓ 무료 · 오픈소스</span>
           <span>✓ 데이터는 Mac에 저장</span>
+          <span>🐾 3000+ 펫</span>
           <span>✓ macOS 14+</span>
         </div>
       </div>
@@ -114,6 +116,7 @@
           <div class="mockup-body">
             <div class="mockup-sidebar">
               <div class="mockup-tab active">집중</div>
+              <div class="mockup-tab">데스크톱 펫</div>
               <div class="mockup-tab">통계</div>
               <div class="mockup-tab">설정</div>
             </div>
@@ -170,8 +173,8 @@
         </article>
         <article class="feature-card">
           <div class="feature-icon">🐱</div>
-          <h3>클라우드 고양이</h3>
-          <p>픽셀 고양이가 함께하며 플로팅 창 지원.</p>
+          <h3>3000+ 데스크톱 펫</h3>
+          <p>도감에서 검색·다운로드하고 동반자를 바꿀 수 있습니다.</p>
         </article>
         <article class="feature-card">
           <div class="feature-icon">🔓</div>
@@ -182,7 +185,51 @@
       </div>
     </section>
 
-    <section id="how" class="section">
+    <section id="pets" class="section">
+      <div class="container">
+        <header class="section-header">
+          <h2>함께하는 데스크톱 펫</h2>
+          <p>선택 사항이지만 동기부여에 효과적.</p>
+        </header>
+        <div class="pets-layout">
+          <div class="pets-visual" aria-hidden="true">
+            <div class="float-window">
+              <div class="float-bar"><span></span><span></span><span></span></div>
+              <div class="float-pet">🐱</div>
+              <div class="float-caption">데스크톱 펫</div>
+            </div>
+            <div class="desk-pet-grid">
+              <span>🐈</span><span>🦊</span><span>🐰</span><span>🐻</span>
+              <span>🐼</span><span>🐶</span><span>🐹</span><span>🦁</span>
+            </div>
+          </div>
+          <div class="pets-grid">
+        <article class="pet-card">
+          <div class="pet-icon">📚</div>
+          <h3>방대한 픽셀 도감</h3>
+          <p>3000개 이상 검색·필터.</p>
+        </article>
+        <article class="pet-card">
+          <div class="pet-icon">💬</div>
+          <h3>집중 중 반응</h3>
+          <p>세션 동안 함께하며 완료를 축하.</p>
+        </article>
+        <article class="pet-card">
+          <div class="pet-icon">🪟</div>
+          <h3>데스크톱에 떠다님</h3>
+          <p>플로팅 창으로 항상 표시.</p>
+        </article>
+        <article class="pet-card">
+          <div class="pet-icon">✨</div>
+          <h3>완전 선택</h3>
+          <p>언제든 켜고 끌 수 있음.</p>
+        </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="section section-alt">
       <div class="container">
         <header class="section-header">
           <h2>몇 분이면 시작</h2>
@@ -205,10 +252,10 @@
       </div>
     </section>
 
-    <section class="section section-alt">
+    <section class="section">
       <div class="container">
         <header class="section-header">
-          <h2>세 가지 간단한 탭</h2>
+          <h2>4개의 탭</h2>
         </header>
         <div class="tabs-grid">
         <article class="tab-card">
@@ -216,18 +263,22 @@
           <p>타이머, 일시정지, 재개, 종료.</p>
         </article>
         <article class="tab-card">
+          <h3>데스크톱 펫</h3>
+          <p>탐색·다운로드·관리.</p>
+        </article>
+        <article class="tab-card">
           <h3>통계</h3>
-          <p>오늘 세션, 히트맵, 기록.</p>
+          <p>오늘 세션과 히트맵.</p>
         </article>
         <article class="tab-card">
           <h3>설정</h3>
-          <p>기본 시간, 클라우드 고양이 등.</p>
+          <p>시간·플로팅 창 등.</p>
         </article>
         </div>
       </div>
     </section>
 
-    <section id="download" class="section">
+    <section id="download" class="section section-alt">
       <div class="container">
         <header class="section-header">
           <h2>집중 타이머 다운로드</h2>
@@ -277,6 +328,10 @@
           <button class="faq-question" type="button" aria-expanded="false">다운로드 링크가 안 되나요?</button>
           <div class="faq-answer"><p>GitHub Releases를 확인하세요.</p></div>
         </div>
+        <div class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false">펫에 인터넷 필요?</button>
+          <div class="faq-answer"><p>새 펫 다운로드 시만. 타이머는 오프라인 가능.</p></div>
+        </div>
         </div>
       </div>
     </section>
@@ -296,6 +351,7 @@
           <a href="https://github.com/JackZhong1998/attentionclock" rel="noopener">GitHub</a>
           <a href="https://github.com/JackZhong1998/attentionclock/releases/latest" rel="noopener">다운로드</a>
           <a href="#features">기능</a>
+          <a href="#pets">데스크톱 펫</a>
           <a href="#faq">FAQ</a>
         </div>
       </div>
