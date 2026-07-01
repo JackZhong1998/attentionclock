@@ -7,6 +7,8 @@ final class CatStore: ObservableObject {
     @Published var bubbleMessage: String = CatExpression.waiting.message
     @Published var pendingRewardNotice = false
 
+    private var rewardDismissTask: Task<Void, Never>?
+
     var shortStatus: String {
         if pendingRewardNotice { return String(localized: "专注完成，默契已提升") }
         switch expression {
@@ -52,6 +54,7 @@ final class CatStore: ObservableObject {
             expression = .celebrating
             bubbleMessage = L10n.catFedMinutes(minutes)
             pendingRewardNotice = true
+            scheduleRewardAutoDismiss()
         } else {
             expression = .happy
             bubbleMessage = String(localized: "虽然没完成，但也陪了我一会儿～")
@@ -61,9 +64,20 @@ final class CatStore: ObservableObject {
     }
 
     func acknowledgeReward() {
+        rewardDismissTask?.cancel()
+        rewardDismissTask = nil
         pendingRewardNotice = false
         expression = .happy
         refreshExpression(timerPhase: .idle)
+    }
+
+    private func scheduleRewardAutoDismiss() {
+        rewardDismissTask?.cancel()
+        rewardDismissTask = Task {
+            try? await Task.sleep(for: .seconds(120))
+            guard !Task.isCancelled, pendingRewardNotice else { return }
+            acknowledgeReward()
+        }
     }
 
     func refreshExpression(timerPhase: TimerPhase) {

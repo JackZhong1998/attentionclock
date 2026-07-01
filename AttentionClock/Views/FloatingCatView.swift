@@ -13,18 +13,22 @@ struct FloatingCatView: View {
         spriteWidth * (petStore.activeAtlas?.aspectRatio ?? 1.08)
     }
 
+    private var bubbleLabel: String {
+        switch timer.phase {
+        case .running, .paused:
+            return String(localized: "正在监督你")
+        case .idle:
+            if catStore.pendingRewardNotice {
+                return String(localized: "默契 +1")
+            }
+            return String(localized: "等你回来")
+        }
+    }
+
     var body: some View {
         VStack(spacing: 6) {
-            ZStack(alignment: .top) {
-                if catStore.pendingRewardNotice {
-                    Text("默契 +1")
-                        .font(.system(size: 10, weight: .semibold))
-                        .padding(.horizontal, 8)
-                        .padding(.vertical, 3)
-                        .background(Capsule().fill(Color.white.opacity(0.95)))
-                        .overlay(Capsule().stroke(Color.primary.opacity(0.12), lineWidth: 1))
-                        .offset(y: -6)
-                }
+            VStack(spacing: 4) {
+                statusBubble(bubbleLabel)
 
                 CatSpriteView(
                     petStore: petStore,
@@ -35,7 +39,7 @@ struct FloatingCatView: View {
                     displayWidth: spriteWidth
                 )
             }
-            .frame(height: max(spriteHeight, 88))
+            .frame(height: max(spriteHeight, 88) + 20)
             .contentShape(Rectangle())
             .onTapGesture { handlePrimaryTap() }
 
@@ -45,7 +49,7 @@ struct FloatingCatView: View {
                 Color.clear.frame(height: 32)
             }
         }
-        .frame(width: 152, height: max(spriteHeight, 88) + 38)
+        .frame(width: 152, height: max(spriteHeight, 88) + 58)
         .onHover { isHovering = $0 }
         .onAppear { catStore.refreshExpression(timerPhase: timer.phase) }
         .onChange(of: timer.phase) { _, phase in catStore.refreshExpression(timerPhase: phase) }
@@ -67,6 +71,15 @@ struct FloatingCatView: View {
             }
         }
         .frame(height: 32)
+    }
+
+    private func statusBubble(_ text: String) -> some View {
+        Text(text)
+            .font(.system(size: 10, weight: .semibold))
+            .padding(.horizontal, 8)
+            .padding(.vertical, 3)
+            .background(Capsule().fill(Color.white.opacity(0.95)))
+            .overlay(Capsule().stroke(Color.primary.opacity(0.12), lineWidth: 1))
     }
 
     private func actionButton(_ title: String, action: @escaping () -> Void) -> some View {

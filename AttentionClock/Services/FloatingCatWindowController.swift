@@ -32,7 +32,7 @@ final class FloatingCatWindowController {
     private func showPanel(petStore: PetStore, catStore: CatStore, timer: TimerViewModel) {
         if panel == nil {
             let newPanel = NSPanel(
-                contentRect: NSRect(x: 0, y: 0, width: 158, height: 138),
+                contentRect: NSRect(x: 0, y: 0, width: 158, height: 158),
                 styleMask: [.borderless, .nonactivatingPanel],
                 backing: .buffered,
                 defer: false
