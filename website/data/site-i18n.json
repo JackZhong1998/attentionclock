@@ -1,6 +1,6 @@
 {
   "en": {
-    "meta_title": "{app} — Free Mac Focus Timer",
+    "meta_title": "{app} — Free Mac Focus Timer with 3000+ Desktop Pets",
     "meta_description": "Attention Clock is a free Mac focus timer with 3000+ downloadable desktop companions. Pomodoro sessions, heatmap stats, floating pixel characters. No account, data stays local.",
     "meta_keywords": "focus timer, desktop companion, mac desktop buddy, pomodoro, mac productivity, attention clock, open source, pixel character",
     "meta_free": "Free & open source",
@@ -88,10 +88,11 @@
     "faq5_q": "Do desktop companions need the internet?",
     "faq5_a": "Only to browse and download new companions. Focus timing and stats work fully offline.",
     "chip_arm_short": "Apple Silicon",
-    "chip_intel_short": "Intel"
+    "chip_intel_short": "Intel",
+    "og_image_alt": "{app} app icon — Mac focus timer with desktop pets"
   },
   "zh-Hans": {
-    "meta_title": "{app} — 免费 Mac 专注计时器",
+    "meta_title": "{app} — 免费 Mac 专注计时器 · 3000+ 桌面宠物开源",
     "meta_description": "专注时钟是免费 Mac 专注计时器，内置 3000+ 可下载桌面伙伴。番茄钟专注、热力图统计、像素角色桌面浮窗。无需注册，数据本地保存。",
     "meta_keywords": "专注计时, 桌面伙伴, Mac 伙伴, 番茄钟, Mac 效率, 专注时钟, 开源, 像素角色",
     "meta_free": "免费开源",
@@ -179,10 +180,11 @@
     "faq5_q": "桌面伙伴需要联网吗？",
     "faq5_a": "浏览和下载新伙伴时需要网络。专注计时和统计可完全离线使用。",
     "chip_arm_short": "Apple 芯片",
-    "chip_intel_short": "Intel 芯片"
+    "chip_intel_short": "Intel 芯片",
+    "og_image_alt": "{app} 应用图标 — 带桌面宠物的 Mac 专注计时器"
   },
   "zh-Hant": {
-    "meta_title": "{app} — 免費 Mac 專注計時器",
+    "meta_title": "{app} — 免費 Mac 專注計時器 · 3000+ 桌面寵物開源",
     "meta_description": "專注時钟是免费 Mac 專注计時器，内置 3000+ 可下載桌面夥伴。番茄钟專注、热力圖统计、像素角色桌面浮窗。无需注册，数据本地保存。",
     "meta_keywords": "專注計時, 桌面夥伴, Mac 夥伴, 番茄鐘, Mac 效率, 專注時鐘, 開源, 像素角色",
     "meta_free": "免費開源",
@@ -270,10 +272,11 @@
     "faq5_q": "桌面夥伴需要联网吗？",
     "faq5_a": "浏览和下載新夥伴時需要网络。專注计時和统计可完全离线使用。",
     "chip_arm_short": "Apple 晶片",
-    "chip_intel_short": "Intel 晶片"
+    "chip_intel_short": "Intel 晶片",
+    "og_image_alt": "{app} 應用圖標 — 帶桌面寵物的 Mac 專注計時器"
   },
   "ja": {
-    "meta_title": "{app} — 無料 Mac 集中タイマー",
+    "meta_title": "{app} — 無料 Mac 集中タイマー · 3000+ デスクトップペット",
     "meta_description": "集中タイマーは無料の Mac 集中タイマー。3000体以上のダウンロード可能なデスクトップ相棒、ポモドーロ、ヒートマップ、ピクセルキャラの浮窗付き。",
     "meta_keywords": "集中タイマー, 集中パートナー, デスクトップ相棒, ポモドーロ, Mac 生産性, オープンソース, ピクセルキャラ",
     "meta_free": "無料・オープンソース",
@@ -361,10 +364,11 @@
     "faq5_q": "デスクトップ相棒にインターネットは必要？",
     "faq5_a": "閲覧・ダウンロード時のみ。集中タイマーと統計はオフラインで動作。",
     "chip_arm_short": "Apple Silicon",
-    "chip_intel_short": "Intel"
+    "chip_intel_short": "Intel",
+    "og_image_alt": "{app} app icon — Mac focus timer with desktop pets"
   },
   "ko": {
-    "meta_title": "{app} — 무료 Mac 집중 타이머",
+    "meta_title": "{app} — 무료 Mac 집중 타이머 · 3000+ 데스크톱 펫",
     "meta_description": "집중 타이머는 3000개 이상의 다운로드 가능한 데스크톱 파트너가 있는 무료 Mac 집중 타이머입니다.",
     "meta_keywords": "집중 타이머, 집중 파트너, 데스크톱 동반자, 포모도로, Mac 생산성, 오픈소스, 픽셀 캐릭터",
     "meta_free": "무료 · 오픈소스",
@@ -452,10 +456,11 @@
     "faq5_q": "데스크톱 파트너에 인터넷이 필요한가요?",
     "faq5_a": "탐색·다운로드할 때만 필요합니다. 집중 타이머와 통계는 오프라인으로 동작합니다.",
     "chip_arm_short": "Apple Silicon",
-    "chip_intel_short": "Intel"
+    "chip_intel_short": "Intel",
+    "og_image_alt": "{app} app icon — Mac focus timer with desktop pets"
   },
   "es": {
-    "meta_title": "{app} — Temporizador de enfoque gratis para Mac",
+    "meta_title": "{app} — Temporizador Mac gratis con 3000+ mascotas",
     "meta_description": "Reloj de Enfoque es un temporizador de concentración gratuito y de código abierto para Mac. Sesiones pomodoro, mapa de calor, gato pixel opcional.",
     "meta_keywords": "temporizador enfoque, pomodoro, mac productividad, código abierto",
     "meta_free": "Gratis y código abierto",
@@ -543,10 +548,11 @@
     "faq5_q": "¿Las mascotas necesitan internet?",
     "faq5_a": "Solo para descargar nuevas. El temporizador funciona offline.",
     "chip_arm_short": "Apple Silicon",
-    "chip_intel_short": "Intel"
+    "chip_intel_short": "Intel",
+    "og_image_alt": "{app} app icon — Mac focus timer with desktop pets"
   },
   "fr": {
-    "meta_title": "{app} — Minuteur de concentration gratuit pour Mac",
+    "meta_title": "{app} — Minuteur Mac gratuit avec 3000+ animaux",
     "meta_description": "Horloge Focus est un minuteur de concentration gratuit et open source pour Mac. Sessions pomodoro, carte thermique, chat pixel optionnel.",
     "meta_keywords": "minuteur concentration, pomodoro, mac, open source",
     "meta_free": "Gratuit et open source",
@@ -634,10 +640,11 @@
     "faq5_q": "Internet requis pour les animaux ?",
     "faq5_a": "Seulement pour télécharger. Le minuteur fonctionne hors ligne.",
     "chip_arm_short": "Apple Silicon",
-    "chip_intel_short": "Intel"
+    "chip_intel_short": "Intel",
+    "og_image_alt": "{app} app icon — Mac focus timer with desktop pets"
   },
   "de": {
-    "meta_title": "{app} — Kostenloser Mac-Fokus-Timer",
+    "meta_title": "{app} — Kostenloser Mac-Fokus-Timer mit 3000+ Haustieren",
     "meta_description": "Fokus-Uhr ist ein kostenloser Open-Source-Fokus-Timer für Mac. Pomodoro-Sitzungen, Heatmap, optionaler Pixel-Kater.",
     "meta_keywords": "Fokus Timer, Pomodoro, Mac Produktivität, Open Source",
     "meta_free": "Kostenlos & Open Source",
@@ -725,10 +732,11 @@
     "faq5_q": "Internet für Begleitere nötig?",
     "faq5_a": "Nur zum Herunterladen. Timer läuft offline.",
     "chip_arm_short": "Apple Silicon",
-    "chip_intel_short": "Intel"
+    "chip_intel_short": "Intel",
+    "og_image_alt": "{app} app icon — Mac focus timer with desktop pets"
   },
   "it": {
-    "meta_title": "{app} — Orologio Focus Mac Gratis",
+    "meta_title": "{app} — Timer Mac gratuito con 3000+ animali desktop",
     "meta_description": "Attention Clock is a free Mac focus timer with 3000+ downloadable desktop companions. Pomodoro sessions, heatmap stats, floating pixel companions. No account, data stays local.",
     "meta_keywords": "focus timer, desktop companions, mac pet, pomodoro, mac productivity, attention clock, open source, pixel companion",
     "meta_free": "Free & open source",
@@ -816,10 +824,11 @@
     "faq5_q": "Do desktop companions need the internet?",
     "faq5_a": "Only to browse and download new pets. Focus timing and stats work fully offline.",
     "chip_arm_short": "Apple Silicon",
-    "chip_intel_short": "Intel"
+    "chip_intel_short": "Intel",
+    "og_image_alt": "{app} app icon — Mac focus timer with desktop pets"
   },
   "pt-BR": {
-    "meta_title": "{app} — Relógio de Foco Mac Gratis",
+    "meta_title": "{app} — Timer Mac grátis com 3000+ pets de desktop",
     "meta_description": "Attention Clock is a free Mac focus timer with 3000+ downloadable desktop companions. Pomodoro sessions, heatmap stats, floating pixel companions. No account, data stays local.",
     "meta_keywords": "focus timer, desktop companions, mac pet, pomodoro, mac productivity, attention clock, open source, pixel companion",
     "meta_free": "Free & open source",
@@ -907,10 +916,11 @@
     "faq5_q": "Do desktop companions need the internet?",
     "faq5_a": "Only to browse and download new pets. Focus timing and stats work fully offline.",
     "chip_arm_short": "Apple Silicon",
-    "chip_intel_short": "Intel"
+    "chip_intel_short": "Intel",
+    "og_image_alt": "{app} app icon — Mac focus timer with desktop pets"
   },
   "nl": {
-    "meta_title": "{app} — Focus Klok Mac Gratis",
+    "meta_title": "{app} — Gratis Mac focus timer met 3000+ desktop huisdieren",
     "meta_description": "Attention Clock is a free Mac focus timer with 3000+ downloadable desktop companions. Pomodoro sessions, heatmap stats, floating pixel companions. No account, data stays local.",
     "meta_keywords": "focus timer, desktop companions, mac pet, pomodoro, mac productivity, attention clock, open source, pixel companion",
     "meta_free": "Free & open source",
@@ -998,10 +1008,11 @@
     "faq5_q": "Do desktop companions need the internet?",
     "faq5_a": "Only to browse and download new pets. Focus timing and stats work fully offline.",
     "chip_arm_short": "Apple Silicon",
-    "chip_intel_short": "Intel"
+    "chip_intel_short": "Intel",
+    "og_image_alt": "{app} app icon — Mac focus timer with desktop pets"
   },
   "pl": {
-    "meta_title": "{app} — Zegar Skupienia Mac Gratis",
+    "meta_title": "{app} — Darmowy timer Mac z 3000+ zwierzakami na pulpicie",
     "meta_description": "Attention Clock is a free Mac focus timer with 3000+ downloadable desktop companions. Pomodoro sessions, heatmap stats, floating pixel companions. No account, data stays local.",
     "meta_keywords": "focus timer, desktop companions, mac pet, pomodoro, mac productivity, attention clock, open source, pixel companion",
     "meta_free": "Free & open source",
@@ -1089,10 +1100,11 @@
     "faq5_q": "Do desktop companions need the internet?",
     "faq5_a": "Only to browse and download new pets. Focus timing and stats work fully offline.",
     "chip_arm_short": "Apple Silicon",
-    "chip_intel_short": "Intel"
+    "chip_intel_short": "Intel",
+    "og_image_alt": "{app} app icon — Mac focus timer with desktop pets"
   },
   "ru": {
-    "meta_title": "{app} — Часы Фокуса Mac Gratis",
+    "meta_title": "{app} — Бесплатный Mac таймер с 3000+ питомцами",
     "meta_description": "Attention Clock is a free Mac focus timer with 3000+ downloadable desktop companions. Pomodoro sessions, heatmap stats, floating pixel companions. No account, data stays local.",
     "meta_keywords": "focus timer, desktop companions, mac pet, pomodoro, mac productivity, attention clock, open source, pixel companion",
     "meta_free": "Free & open source",
@@ -1180,10 +1192,11 @@
     "faq5_q": "Do desktop companions need the internet?",
     "faq5_a": "Only to browse and download new pets. Focus timing and stats work fully offline.",
     "chip_arm_short": "Apple Silicon",
-    "chip_intel_short": "Intel"
+    "chip_intel_short": "Intel",
+    "og_image_alt": "{app} app icon — Mac focus timer with desktop pets"
   },
   "uk": {
-    "meta_title": "{app} — Годинник Фокусу Mac Gratis",
+    "meta_title": "{app} — Безкоштовний Mac таймер з 3000+ віртуальними улюбленцями",
     "meta_description": "Attention Clock is a free Mac focus timer with 3000+ downloadable desktop companions. Pomodoro sessions, heatmap stats, floating pixel companions. No account, data stays local.",
     "meta_keywords": "focus timer, desktop companions, mac pet, pomodoro, mac productivity, attention clock, open source, pixel companion",
     "meta_free": "Free & open source",
@@ -1271,10 +1284,11 @@
     "faq5_q": "Do desktop companions need the internet?",
     "faq5_a": "Only to browse and download new pets. Focus timing and stats work fully offline.",
     "chip_arm_short": "Apple Silicon",
-    "chip_intel_short": "Intel"
+    "chip_intel_short": "Intel",
+    "og_image_alt": "{app} app icon — Mac focus timer with desktop pets"
   },
   "tr": {
-    "meta_title": "{app} — Odak Saati Mac Gratis",
+    "meta_title": "{app} — 3000+ masaüstü evcil hayvanlı ücretsiz Mac zamanlayıcı",
     "meta_description": "Attention Clock is a free Mac focus timer with 3000+ downloadable desktop companions. Pomodoro sessions, heatmap stats, floating pixel companions. No account, data stays local.",
     "meta_keywords": "focus timer, desktop companions, mac pet, pomodoro, mac productivity, attention clock, open source, pixel companion",
     "meta_free": "Free & open source",
@@ -1362,10 +1376,11 @@
     "faq5_q": "Do desktop companions need the internet?",
     "faq5_a": "Only to browse and download new pets. Focus timing and stats work fully offline.",
     "chip_arm_short": "Apple Silicon",
-    "chip_intel_short": "Intel"
+    "chip_intel_short": "Intel",
+    "og_image_alt": "{app} app icon — Mac focus timer with desktop pets"
   },
   "vi": {
-    "meta_title": "{app} — Đồng Hồ Tập Trung Mac Gratis",
+    "meta_title": "{app} — Bộ đếm Mac miễn phí với 3000+ thú cưng",
     "meta_description": "Attention Clock is a free Mac focus timer with 3000+ downloadable desktop companions. Pomodoro sessions, heatmap stats, floating pixel companions. No account, data stays local.",
     "meta_keywords": "focus timer, desktop companions, mac pet, pomodoro, mac productivity, attention clock, open source, pixel companion",
     "meta_free": "Free & open source",
@@ -1453,10 +1468,11 @@
     "faq5_q": "Do desktop companions need the internet?",
     "faq5_a": "Only to browse and download new pets. Focus timing and stats work fully offline.",
     "chip_arm_short": "Apple Silicon",
-    "chip_intel_short": "Intel"
+    "chip_intel_short": "Intel",
+    "og_image_alt": "{app} app icon — Mac focus timer with desktop pets"
   },
   "id": {
-    "meta_title": "{app} — Jam Fokus Mac Gratis",
+    "meta_title": "{app} — Timer Mac gratis dengan 3000+ hewan peliharaan",
     "meta_description": "Attention Clock is a free Mac focus timer with 3000+ downloadable desktop companions. Pomodoro sessions, heatmap stats, floating pixel companions. No account, data stays local.",
     "meta_keywords": "focus timer, desktop companions, mac pet, pomodoro, mac productivity, attention clock, open source, pixel companion",
     "meta_free": "Free & open source",
@@ -1544,10 +1560,11 @@
     "faq5_q": "Do desktop companions need the internet?",
     "faq5_a": "Only to browse and download new pets. Focus timing and stats work fully offline.",
     "chip_arm_short": "Apple Silicon",
-    "chip_intel_short": "Intel"
+    "chip_intel_short": "Intel",
+    "og_image_alt": "{app} app icon — Mac focus timer with desktop pets"
   },
   "ms": {
-    "meta_title": "{app} — Jam Fokus Mac Gratis",
+    "meta_title": "{app} — Pemasa Mac percuma dengan 3000+ haiwan desktop",
     "meta_description": "Attention Clock is a free Mac focus timer with 3000+ downloadable desktop companions. Pomodoro sessions, heatmap stats, floating pixel companions. No account, data stays local.",
     "meta_keywords": "focus timer, desktop companions, mac pet, pomodoro, mac productivity, attention clock, open source, pixel companion",
     "meta_free": "Free & open source",
@@ -1635,10 +1652,11 @@
     "faq5_q": "Do desktop companions need the internet?",
     "faq5_a": "Only to browse and download new pets. Focus timing and stats work fully offline.",
     "chip_arm_short": "Apple Silicon",
-    "chip_intel_short": "Intel"
+    "chip_intel_short": "Intel",
+    "og_image_alt": "{app} app icon — Mac focus timer with desktop pets"
   },
   "th": {
-    "meta_title": "{app} — นาฬิกาโฟกัส Mac Gratis",
+    "meta_title": "{app} — ตัวจับเวลา Mac ฟรี พร้อมสัตว์เลี้ยง 3000+",
     "meta_description": "Attention Clock is a free Mac focus timer with 3000+ downloadable desktop companions. Pomodoro sessions, heatmap stats, floating pixel companions. No account, data stays local.",
     "meta_keywords": "focus timer, desktop companions, mac pet, pomodoro, mac productivity, attention clock, open source, pixel companion",
     "meta_free": "Free & open source",
@@ -1726,10 +1744,11 @@
     "faq5_q": "Do desktop companions need the internet?",
     "faq5_a": "Only to browse and download new pets. Focus timing and stats work fully offline.",
     "chip_arm_short": "Apple Silicon",
-    "chip_intel_short": "Intel"
+    "chip_intel_short": "Intel",
+    "og_image_alt": "{app} app icon — Mac focus timer with desktop pets"
   },
   "hi": {
-    "meta_title": "{app} — फोकस घड़ी Mac Gratis",
+    "meta_title": "{app} — मुफ़्त Mac फोकस टाइमर · 3000+ डेस्कटॉप पेट",
     "meta_description": "Attention Clock is a free Mac focus timer with 3000+ downloadable desktop companions. Pomodoro sessions, heatmap stats, floating pixel companions. No account, data stays local.",
     "meta_keywords": "focus timer, desktop companions, mac pet, pomodoro, mac productivity, attention clock, open source, pixel companion",
     "meta_free": "Free & open source",
@@ -1817,10 +1836,11 @@
     "faq5_q": "Do desktop companions need the internet?",
     "faq5_a": "Only to browse and download new pets. Focus timing and stats work fully offline.",
     "chip_arm_short": "Apple Silicon",
-    "chip_intel_short": "Intel"
+    "chip_intel_short": "Intel",
+    "og_image_alt": "{app} app icon — Mac focus timer with desktop pets"
   },
   "ar": {
-    "meta_title": "{app} — مؤقت تركيز مجاني لـ Mac",
+    "meta_title": "{app} — مؤقت تركيز Mac مجاني مع 3000+ حيوان أليف",
     "meta_description": "Attention Clock is a free Mac focus timer with 3000+ downloadable desktop companions. Pomodoro sessions, heatmap stats, floating pixel companions. No account, data stays local.",
     "meta_keywords": "focus timer, desktop companions, mac pet, pomodoro, mac productivity, attention clock, open source, pixel companion",
     "meta_free": "Free & open source",
@@ -1908,6 +1928,7 @@
     "faq5_q": "Do desktop companions need the internet?",
     "faq5_a": "Only to browse and download new pets. Focus timing and stats work fully offline.",
     "chip_arm_short": "Apple Silicon",
-    "chip_intel_short": "Intel"
+    "chip_intel_short": "Intel",
+    "og_image_alt": "{app} app icon — Mac focus timer with desktop pets"
   }
 }

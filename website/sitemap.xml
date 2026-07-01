@@ -1,112 +1,597 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://jackzhong1998.github.io/attentionclock/zh-Hans/</loc>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://jackzhong1998.github.io/attentionclock/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://jackzhong1998.github.io/attentionclock/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jackzhong1998.github.io/attentionclock/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jackzhong1998.github.io/attentionclock/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://jackzhong1998.github.io/attentionclock/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jackzhong1998.github.io/attentionclock/de/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://jackzhong1998.github.io/attentionclock/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://jackzhong1998.github.io/attentionclock/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jackzhong1998.github.io/attentionclock/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://jackzhong1998.github.io/attentionclock/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jackzhong1998.github.io/attentionclock/ar/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://jackzhong1998.github.io/attentionclock/hi/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://jackzhong1998.github.io/attentionclock/it/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://jackzhong1998.github.io/attentionclock/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://jackzhong1998.github.io/attentionclock/vi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://jackzhong1998.github.io/attentionclock/id/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://jackzhong1998.github.io/attentionclock/tr/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jackzhong1998.github.io/attentionclock/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://jackzhong1998.github.io/attentionclock/pl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://jackzhong1998.github.io/attentionclock/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://jackzhong1998.github.io/attentionclock/ms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jackzhong1998.github.io/attentionclock/en/"/>
   </url>
   <url>
     <loc>https://jackzhong1998.github.io/attentionclock/zh-Hant/</loc>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://jackzhong1998.github.io/attentionclock/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://jackzhong1998.github.io/attentionclock/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jackzhong1998.github.io/attentionclock/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jackzhong1998.github.io/attentionclock/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://jackzhong1998.github.io/attentionclock/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jackzhong1998.github.io/attentionclock/de/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://jackzhong1998.github.io/attentionclock/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://jackzhong1998.github.io/attentionclock/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jackzhong1998.github.io/attentionclock/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://jackzhong1998.github.io/attentionclock/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jackzhong1998.github.io/attentionclock/ar/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://jackzhong1998.github.io/attentionclock/hi/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://jackzhong1998.github.io/attentionclock/it/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://jackzhong1998.github.io/attentionclock/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://jackzhong1998.github.io/attentionclock/vi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://jackzhong1998.github.io/attentionclock/id/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://jackzhong1998.github.io/attentionclock/tr/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jackzhong1998.github.io/attentionclock/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://jackzhong1998.github.io/attentionclock/pl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://jackzhong1998.github.io/attentionclock/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://jackzhong1998.github.io/attentionclock/ms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jackzhong1998.github.io/attentionclock/en/"/>
   </url>
   <url>
     <loc>https://jackzhong1998.github.io/attentionclock/en/</loc>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://jackzhong1998.github.io/attentionclock/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://jackzhong1998.github.io/attentionclock/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jackzhong1998.github.io/attentionclock/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jackzhong1998.github.io/attentionclock/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://jackzhong1998.github.io/attentionclock/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jackzhong1998.github.io/attentionclock/de/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://jackzhong1998.github.io/attentionclock/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://jackzhong1998.github.io/attentionclock/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jackzhong1998.github.io/attentionclock/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://jackzhong1998.github.io/attentionclock/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jackzhong1998.github.io/attentionclock/ar/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://jackzhong1998.github.io/attentionclock/hi/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://jackzhong1998.github.io/attentionclock/it/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://jackzhong1998.github.io/attentionclock/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://jackzhong1998.github.io/attentionclock/vi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://jackzhong1998.github.io/attentionclock/id/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://jackzhong1998.github.io/attentionclock/tr/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jackzhong1998.github.io/attentionclock/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://jackzhong1998.github.io/attentionclock/pl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://jackzhong1998.github.io/attentionclock/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://jackzhong1998.github.io/attentionclock/ms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jackzhong1998.github.io/attentionclock/en/"/>
   </url>
   <url>
     <loc>https://jackzhong1998.github.io/attentionclock/es/</loc>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://jackzhong1998.github.io/attentionclock/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://jackzhong1998.github.io/attentionclock/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jackzhong1998.github.io/attentionclock/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jackzhong1998.github.io/attentionclock/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://jackzhong1998.github.io/attentionclock/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jackzhong1998.github.io/attentionclock/de/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://jackzhong1998.github.io/attentionclock/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://jackzhong1998.github.io/attentionclock/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jackzhong1998.github.io/attentionclock/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://jackzhong1998.github.io/attentionclock/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jackzhong1998.github.io/attentionclock/ar/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://jackzhong1998.github.io/attentionclock/hi/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://jackzhong1998.github.io/attentionclock/it/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://jackzhong1998.github.io/attentionclock/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://jackzhong1998.github.io/attentionclock/vi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://jackzhong1998.github.io/attentionclock/id/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://jackzhong1998.github.io/attentionclock/tr/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jackzhong1998.github.io/attentionclock/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://jackzhong1998.github.io/attentionclock/pl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://jackzhong1998.github.io/attentionclock/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://jackzhong1998.github.io/attentionclock/ms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jackzhong1998.github.io/attentionclock/en/"/>
   </url>
   <url>
     <loc>https://jackzhong1998.github.io/attentionclock/fr/</loc>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://jackzhong1998.github.io/attentionclock/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://jackzhong1998.github.io/attentionclock/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jackzhong1998.github.io/attentionclock/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jackzhong1998.github.io/attentionclock/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://jackzhong1998.github.io/attentionclock/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jackzhong1998.github.io/attentionclock/de/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://jackzhong1998.github.io/attentionclock/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://jackzhong1998.github.io/attentionclock/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jackzhong1998.github.io/attentionclock/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://jackzhong1998.github.io/attentionclock/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jackzhong1998.github.io/attentionclock/ar/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://jackzhong1998.github.io/attentionclock/hi/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://jackzhong1998.github.io/attentionclock/it/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://jackzhong1998.github.io/attentionclock/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://jackzhong1998.github.io/attentionclock/vi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://jackzhong1998.github.io/attentionclock/id/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://jackzhong1998.github.io/attentionclock/tr/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jackzhong1998.github.io/attentionclock/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://jackzhong1998.github.io/attentionclock/pl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://jackzhong1998.github.io/attentionclock/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://jackzhong1998.github.io/attentionclock/ms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jackzhong1998.github.io/attentionclock/en/"/>
   </url>
   <url>
     <loc>https://jackzhong1998.github.io/attentionclock/de/</loc>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://jackzhong1998.github.io/attentionclock/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://jackzhong1998.github.io/attentionclock/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jackzhong1998.github.io/attentionclock/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jackzhong1998.github.io/attentionclock/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://jackzhong1998.github.io/attentionclock/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jackzhong1998.github.io/attentionclock/de/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://jackzhong1998.github.io/attentionclock/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://jackzhong1998.github.io/attentionclock/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jackzhong1998.github.io/attentionclock/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://jackzhong1998.github.io/attentionclock/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jackzhong1998.github.io/attentionclock/ar/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://jackzhong1998.github.io/attentionclock/hi/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://jackzhong1998.github.io/attentionclock/it/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://jackzhong1998.github.io/attentionclock/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://jackzhong1998.github.io/attentionclock/vi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://jackzhong1998.github.io/attentionclock/id/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://jackzhong1998.github.io/attentionclock/tr/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jackzhong1998.github.io/attentionclock/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://jackzhong1998.github.io/attentionclock/pl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://jackzhong1998.github.io/attentionclock/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://jackzhong1998.github.io/attentionclock/ms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jackzhong1998.github.io/attentionclock/en/"/>
   </url>
   <url>
     <loc>https://jackzhong1998.github.io/attentionclock/ja/</loc>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://jackzhong1998.github.io/attentionclock/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://jackzhong1998.github.io/attentionclock/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jackzhong1998.github.io/attentionclock/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jackzhong1998.github.io/attentionclock/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://jackzhong1998.github.io/attentionclock/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jackzhong1998.github.io/attentionclock/de/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://jackzhong1998.github.io/attentionclock/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://jackzhong1998.github.io/attentionclock/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jackzhong1998.github.io/attentionclock/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://jackzhong1998.github.io/attentionclock/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jackzhong1998.github.io/attentionclock/ar/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://jackzhong1998.github.io/attentionclock/hi/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://jackzhong1998.github.io/attentionclock/it/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://jackzhong1998.github.io/attentionclock/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://jackzhong1998.github.io/attentionclock/vi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://jackzhong1998.github.io/attentionclock/id/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://jackzhong1998.github.io/attentionclock/tr/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jackzhong1998.github.io/attentionclock/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://jackzhong1998.github.io/attentionclock/pl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://jackzhong1998.github.io/attentionclock/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://jackzhong1998.github.io/attentionclock/ms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jackzhong1998.github.io/attentionclock/en/"/>
   </url>
   <url>
     <loc>https://jackzhong1998.github.io/attentionclock/ko/</loc>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://jackzhong1998.github.io/attentionclock/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://jackzhong1998.github.io/attentionclock/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jackzhong1998.github.io/attentionclock/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jackzhong1998.github.io/attentionclock/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://jackzhong1998.github.io/attentionclock/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jackzhong1998.github.io/attentionclock/de/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://jackzhong1998.github.io/attentionclock/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://jackzhong1998.github.io/attentionclock/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jackzhong1998.github.io/attentionclock/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://jackzhong1998.github.io/attentionclock/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jackzhong1998.github.io/attentionclock/ar/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://jackzhong1998.github.io/attentionclock/hi/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://jackzhong1998.github.io/attentionclock/it/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://jackzhong1998.github.io/attentionclock/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://jackzhong1998.github.io/attentionclock/vi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://jackzhong1998.github.io/attentionclock/id/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://jackzhong1998.github.io/attentionclock/tr/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jackzhong1998.github.io/attentionclock/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://jackzhong1998.github.io/attentionclock/pl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://jackzhong1998.github.io/attentionclock/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://jackzhong1998.github.io/attentionclock/ms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jackzhong1998.github.io/attentionclock/en/"/>
   </url>
   <url>
     <loc>https://jackzhong1998.github.io/attentionclock/pt-BR/</loc>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://jackzhong1998.github.io/attentionclock/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://jackzhong1998.github.io/attentionclock/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jackzhong1998.github.io/attentionclock/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jackzhong1998.github.io/attentionclock/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://jackzhong1998.github.io/attentionclock/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jackzhong1998.github.io/attentionclock/de/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://jackzhong1998.github.io/attentionclock/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://jackzhong1998.github.io/attentionclock/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jackzhong1998.github.io/attentionclock/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://jackzhong1998.github.io/attentionclock/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jackzhong1998.github.io/attentionclock/ar/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://jackzhong1998.github.io/attentionclock/hi/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://jackzhong1998.github.io/attentionclock/it/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://jackzhong1998.github.io/attentionclock/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://jackzhong1998.github.io/attentionclock/vi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://jackzhong1998.github.io/attentionclock/id/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://jackzhong1998.github.io/attentionclock/tr/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jackzhong1998.github.io/attentionclock/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://jackzhong1998.github.io/attentionclock/pl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://jackzhong1998.github.io/attentionclock/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://jackzhong1998.github.io/attentionclock/ms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jackzhong1998.github.io/attentionclock/en/"/>
   </url>
   <url>
     <loc>https://jackzhong1998.github.io/attentionclock/ru/</loc>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://jackzhong1998.github.io/attentionclock/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://jackzhong1998.github.io/attentionclock/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jackzhong1998.github.io/attentionclock/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jackzhong1998.github.io/attentionclock/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://jackzhong1998.github.io/attentionclock/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jackzhong1998.github.io/attentionclock/de/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://jackzhong1998.github.io/attentionclock/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://jackzhong1998.github.io/attentionclock/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jackzhong1998.github.io/attentionclock/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://jackzhong1998.github.io/attentionclock/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jackzhong1998.github.io/attentionclock/ar/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://jackzhong1998.github.io/attentionclock/hi/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://jackzhong1998.github.io/attentionclock/it/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://jackzhong1998.github.io/attentionclock/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://jackzhong1998.github.io/attentionclock/vi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://jackzhong1998.github.io/attentionclock/id/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://jackzhong1998.github.io/attentionclock/tr/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jackzhong1998.github.io/attentionclock/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://jackzhong1998.github.io/attentionclock/pl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://jackzhong1998.github.io/attentionclock/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://jackzhong1998.github.io/attentionclock/ms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jackzhong1998.github.io/attentionclock/en/"/>
   </url>
   <url>
     <loc>https://jackzhong1998.github.io/attentionclock/ar/</loc>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://jackzhong1998.github.io/attentionclock/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://jackzhong1998.github.io/attentionclock/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jackzhong1998.github.io/attentionclock/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jackzhong1998.github.io/attentionclock/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://jackzhong1998.github.io/attentionclock/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jackzhong1998.github.io/attentionclock/de/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://jackzhong1998.github.io/attentionclock/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://jackzhong1998.github.io/attentionclock/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jackzhong1998.github.io/attentionclock/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://jackzhong1998.github.io/attentionclock/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jackzhong1998.github.io/attentionclock/ar/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://jackzhong1998.github.io/attentionclock/hi/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://jackzhong1998.github.io/attentionclock/it/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://jackzhong1998.github.io/attentionclock/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://jackzhong1998.github.io/attentionclock/vi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://jackzhong1998.github.io/attentionclock/id/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://jackzhong1998.github.io/attentionclock/tr/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jackzhong1998.github.io/attentionclock/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://jackzhong1998.github.io/attentionclock/pl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://jackzhong1998.github.io/attentionclock/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://jackzhong1998.github.io/attentionclock/ms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jackzhong1998.github.io/attentionclock/en/"/>
   </url>
   <url>
     <loc>https://jackzhong1998.github.io/attentionclock/hi/</loc>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://jackzhong1998.github.io/attentionclock/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://jackzhong1998.github.io/attentionclock/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jackzhong1998.github.io/attentionclock/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jackzhong1998.github.io/attentionclock/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://jackzhong1998.github.io/attentionclock/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jackzhong1998.github.io/attentionclock/de/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://jackzhong1998.github.io/attentionclock/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://jackzhong1998.github.io/attentionclock/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jackzhong1998.github.io/attentionclock/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://jackzhong1998.github.io/attentionclock/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jackzhong1998.github.io/attentionclock/ar/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://jackzhong1998.github.io/attentionclock/hi/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://jackzhong1998.github.io/attentionclock/it/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://jackzhong1998.github.io/attentionclock/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://jackzhong1998.github.io/attentionclock/vi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://jackzhong1998.github.io/attentionclock/id/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://jackzhong1998.github.io/attentionclock/tr/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jackzhong1998.github.io/attentionclock/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://jackzhong1998.github.io/attentionclock/pl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://jackzhong1998.github.io/attentionclock/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://jackzhong1998.github.io/attentionclock/ms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jackzhong1998.github.io/attentionclock/en/"/>
   </url>
   <url>
     <loc>https://jackzhong1998.github.io/attentionclock/it/</loc>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://jackzhong1998.github.io/attentionclock/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://jackzhong1998.github.io/attentionclock/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jackzhong1998.github.io/attentionclock/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jackzhong1998.github.io/attentionclock/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://jackzhong1998.github.io/attentionclock/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jackzhong1998.github.io/attentionclock/de/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://jackzhong1998.github.io/attentionclock/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://jackzhong1998.github.io/attentionclock/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jackzhong1998.github.io/attentionclock/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://jackzhong1998.github.io/attentionclock/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jackzhong1998.github.io/attentionclock/ar/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://jackzhong1998.github.io/attentionclock/hi/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://jackzhong1998.github.io/attentionclock/it/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://jackzhong1998.github.io/attentionclock/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://jackzhong1998.github.io/attentionclock/vi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://jackzhong1998.github.io/attentionclock/id/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://jackzhong1998.github.io/attentionclock/tr/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jackzhong1998.github.io/attentionclock/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://jackzhong1998.github.io/attentionclock/pl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://jackzhong1998.github.io/attentionclock/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://jackzhong1998.github.io/attentionclock/ms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jackzhong1998.github.io/attentionclock/en/"/>
   </url>
   <url>
     <loc>https://jackzhong1998.github.io/attentionclock/th/</loc>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://jackzhong1998.github.io/attentionclock/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://jackzhong1998.github.io/attentionclock/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jackzhong1998.github.io/attentionclock/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jackzhong1998.github.io/attentionclock/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://jackzhong1998.github.io/attentionclock/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jackzhong1998.github.io/attentionclock/de/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://jackzhong1998.github.io/attentionclock/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://jackzhong1998.github.io/attentionclock/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jackzhong1998.github.io/attentionclock/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://jackzhong1998.github.io/attentionclock/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jackzhong1998.github.io/attentionclock/ar/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://jackzhong1998.github.io/attentionclock/hi/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://jackzhong1998.github.io/attentionclock/it/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://jackzhong1998.github.io/attentionclock/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://jackzhong1998.github.io/attentionclock/vi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://jackzhong1998.github.io/attentionclock/id/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://jackzhong1998.github.io/attentionclock/tr/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jackzhong1998.github.io/attentionclock/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://jackzhong1998.github.io/attentionclock/pl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://jackzhong1998.github.io/attentionclock/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://jackzhong1998.github.io/attentionclock/ms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jackzhong1998.github.io/attentionclock/en/"/>
   </url>
   <url>
     <loc>https://jackzhong1998.github.io/attentionclock/vi/</loc>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://jackzhong1998.github.io/attentionclock/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://jackzhong1998.github.io/attentionclock/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jackzhong1998.github.io/attentionclock/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jackzhong1998.github.io/attentionclock/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://jackzhong1998.github.io/attentionclock/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jackzhong1998.github.io/attentionclock/de/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://jackzhong1998.github.io/attentionclock/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://jackzhong1998.github.io/attentionclock/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jackzhong1998.github.io/attentionclock/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://jackzhong1998.github.io/attentionclock/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jackzhong1998.github.io/attentionclock/ar/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://jackzhong1998.github.io/attentionclock/hi/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://jackzhong1998.github.io/attentionclock/it/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://jackzhong1998.github.io/attentionclock/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://jackzhong1998.github.io/attentionclock/vi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://jackzhong1998.github.io/attentionclock/id/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://jackzhong1998.github.io/attentionclock/tr/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jackzhong1998.github.io/attentionclock/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://jackzhong1998.github.io/attentionclock/pl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://jackzhong1998.github.io/attentionclock/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://jackzhong1998.github.io/attentionclock/ms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jackzhong1998.github.io/attentionclock/en/"/>
   </url>
   <url>
     <loc>https://jackzhong1998.github.io/attentionclock/id/</loc>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://jackzhong1998.github.io/attentionclock/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://jackzhong1998.github.io/attentionclock/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jackzhong1998.github.io/attentionclock/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jackzhong1998.github.io/attentionclock/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://jackzhong1998.github.io/attentionclock/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jackzhong1998.github.io/attentionclock/de/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://jackzhong1998.github.io/attentionclock/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://jackzhong1998.github.io/attentionclock/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jackzhong1998.github.io/attentionclock/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://jackzhong1998.github.io/attentionclock/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jackzhong1998.github.io/attentionclock/ar/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://jackzhong1998.github.io/attentionclock/hi/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://jackzhong1998.github.io/attentionclock/it/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://jackzhong1998.github.io/attentionclock/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://jackzhong1998.github.io/attentionclock/vi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://jackzhong1998.github.io/attentionclock/id/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://jackzhong1998.github.io/attentionclock/tr/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jackzhong1998.github.io/attentionclock/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://jackzhong1998.github.io/attentionclock/pl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://jackzhong1998.github.io/attentionclock/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://jackzhong1998.github.io/attentionclock/ms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jackzhong1998.github.io/attentionclock/en/"/>
   </url>
   <url>
     <loc>https://jackzhong1998.github.io/attentionclock/tr/</loc>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://jackzhong1998.github.io/attentionclock/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://jackzhong1998.github.io/attentionclock/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jackzhong1998.github.io/attentionclock/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jackzhong1998.github.io/attentionclock/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://jackzhong1998.github.io/attentionclock/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jackzhong1998.github.io/attentionclock/de/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://jackzhong1998.github.io/attentionclock/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://jackzhong1998.github.io/attentionclock/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jackzhong1998.github.io/attentionclock/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://jackzhong1998.github.io/attentionclock/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jackzhong1998.github.io/attentionclock/ar/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://jackzhong1998.github.io/attentionclock/hi/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://jackzhong1998.github.io/attentionclock/it/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://jackzhong1998.github.io/attentionclock/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://jackzhong1998.github.io/attentionclock/vi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://jackzhong1998.github.io/attentionclock/id/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://jackzhong1998.github.io/attentionclock/tr/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jackzhong1998.github.io/attentionclock/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://jackzhong1998.github.io/attentionclock/pl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://jackzhong1998.github.io/attentionclock/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://jackzhong1998.github.io/attentionclock/ms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jackzhong1998.github.io/attentionclock/en/"/>
   </url>
   <url>
     <loc>https://jackzhong1998.github.io/attentionclock/nl/</loc>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://jackzhong1998.github.io/attentionclock/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://jackzhong1998.github.io/attentionclock/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jackzhong1998.github.io/attentionclock/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jackzhong1998.github.io/attentionclock/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://jackzhong1998.github.io/attentionclock/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jackzhong1998.github.io/attentionclock/de/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://jackzhong1998.github.io/attentionclock/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://jackzhong1998.github.io/attentionclock/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jackzhong1998.github.io/attentionclock/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://jackzhong1998.github.io/attentionclock/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jackzhong1998.github.io/attentionclock/ar/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://jackzhong1998.github.io/attentionclock/hi/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://jackzhong1998.github.io/attentionclock/it/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://jackzhong1998.github.io/attentionclock/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://jackzhong1998.github.io/attentionclock/vi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://jackzhong1998.github.io/attentionclock/id/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://jackzhong1998.github.io/attentionclock/tr/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jackzhong1998.github.io/attentionclock/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://jackzhong1998.github.io/attentionclock/pl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://jackzhong1998.github.io/attentionclock/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://jackzhong1998.github.io/attentionclock/ms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jackzhong1998.github.io/attentionclock/en/"/>
   </url>
   <url>
     <loc>https://jackzhong1998.github.io/attentionclock/pl/</loc>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://jackzhong1998.github.io/attentionclock/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://jackzhong1998.github.io/attentionclock/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jackzhong1998.github.io/attentionclock/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jackzhong1998.github.io/attentionclock/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://jackzhong1998.github.io/attentionclock/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jackzhong1998.github.io/attentionclock/de/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://jackzhong1998.github.io/attentionclock/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://jackzhong1998.github.io/attentionclock/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jackzhong1998.github.io/attentionclock/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://jackzhong1998.github.io/attentionclock/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jackzhong1998.github.io/attentionclock/ar/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://jackzhong1998.github.io/attentionclock/hi/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://jackzhong1998.github.io/attentionclock/it/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://jackzhong1998.github.io/attentionclock/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://jackzhong1998.github.io/attentionclock/vi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://jackzhong1998.github.io/attentionclock/id/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://jackzhong1998.github.io/attentionclock/tr/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jackzhong1998.github.io/attentionclock/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://jackzhong1998.github.io/attentionclock/pl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://jackzhong1998.github.io/attentionclock/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://jackzhong1998.github.io/attentionclock/ms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jackzhong1998.github.io/attentionclock/en/"/>
   </url>
   <url>
     <loc>https://jackzhong1998.github.io/attentionclock/uk/</loc>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://jackzhong1998.github.io/attentionclock/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://jackzhong1998.github.io/attentionclock/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jackzhong1998.github.io/attentionclock/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jackzhong1998.github.io/attentionclock/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://jackzhong1998.github.io/attentionclock/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jackzhong1998.github.io/attentionclock/de/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://jackzhong1998.github.io/attentionclock/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://jackzhong1998.github.io/attentionclock/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jackzhong1998.github.io/attentionclock/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://jackzhong1998.github.io/attentionclock/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jackzhong1998.github.io/attentionclock/ar/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://jackzhong1998.github.io/attentionclock/hi/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://jackzhong1998.github.io/attentionclock/it/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://jackzhong1998.github.io/attentionclock/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://jackzhong1998.github.io/attentionclock/vi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://jackzhong1998.github.io/attentionclock/id/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://jackzhong1998.github.io/attentionclock/tr/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jackzhong1998.github.io/attentionclock/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://jackzhong1998.github.io/attentionclock/pl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://jackzhong1998.github.io/attentionclock/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://jackzhong1998.github.io/attentionclock/ms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jackzhong1998.github.io/attentionclock/en/"/>
   </url>
   <url>
     <loc>https://jackzhong1998.github.io/attentionclock/ms/</loc>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://jackzhong1998.github.io/attentionclock/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://jackzhong1998.github.io/attentionclock/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jackzhong1998.github.io/attentionclock/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jackzhong1998.github.io/attentionclock/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://jackzhong1998.github.io/attentionclock/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jackzhong1998.github.io/attentionclock/de/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://jackzhong1998.github.io/attentionclock/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://jackzhong1998.github.io/attentionclock/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jackzhong1998.github.io/attentionclock/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://jackzhong1998.github.io/attentionclock/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jackzhong1998.github.io/attentionclock/ar/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://jackzhong1998.github.io/attentionclock/hi/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://jackzhong1998.github.io/attentionclock/it/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://jackzhong1998.github.io/attentionclock/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://jackzhong1998.github.io/attentionclock/vi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://jackzhong1998.github.io/attentionclock/id/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://jackzhong1998.github.io/attentionclock/tr/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jackzhong1998.github.io/attentionclock/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://jackzhong1998.github.io/attentionclock/pl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://jackzhong1998.github.io/attentionclock/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://jackzhong1998.github.io/attentionclock/ms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jackzhong1998.github.io/attentionclock/en/"/>
   </url>
   <url>
     <loc>https://jackzhong1998.github.io/attentionclock/</loc>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

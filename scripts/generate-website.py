@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """Generate static multilingual SEO-friendly website pages."""
 
-from __future__ import annotations
-
+from datetime import date
 import html
 import json
 import re
@@ -271,6 +270,8 @@ def render_page(lang: str) -> str:
   <meta property="og:description" content="{html.escape(description)}">
   <meta property="og:url" content="{canonical}">
   <meta property="og:image" content="{og_image}">
+  <meta property="og:image:alt" content="{html.escape(t(lang, "og_image_alt").format(app=title))}">
+  <meta property="og:site_name" content="{html.escape(title)}">
   <meta property="og:locale" content="{lang.replace("-", "_")}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{html.escape(page_title)}">
@@ -278,6 +279,7 @@ def render_page(lang: str) -> str:
   <meta name="twitter:image" content="{og_image}">
   <link rel="icon" href="{asset_prefix}/icon.png" type="image/png">
   <link rel="apple-touch-icon" href="{asset_prefix}/icon.png">
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="../sitemap.xml">
   <link rel="stylesheet" href="{asset_prefix}/style.css">
   <script type="application/ld+json">{json_ld(lang)}</script>
 </head>
@@ -462,7 +464,7 @@ def render_page(lang: str) -> str:
       <div class="footer-grid">
         <div class="footer-brand">
           <a class="brand" href="#top">
-            <img src="{asset_prefix}/icon.png" width="32" height="32" alt="">
+            <img src="{asset_prefix}/icon.png" width="32" height="32" alt="{html.escape(title)}">
             <span>{html.escape(title)}</span>
           </a>
           <p>{html.escape(t(lang, "footer_tagline"))}</p>
@@ -489,14 +491,31 @@ def render_page(lang: str) -> str:
 
 def render_root_redirect() -> str:
     langs = json.dumps(LOCALES)
+    root_title = "Attention Clock — Free Mac Focus Timer with 3000+ Desktop Pets"
+    root_desc = (
+        "Free, open-source Mac focus timer with 3000+ downloadable desktop pets. "
+        "Pomodoro sessions, heatmap stats, floating pixel companions. Available in 21 languages."
+    )
+    lang_links = "\n".join(
+        f'      <li><a href="{code}/" hreflang="{code}">{html.escape(METADATA["locales"][code]["label"])}</a></li>'
+        for code in LOCALES
+    )
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Attention Clock</title>
-  <meta http-equiv="refresh" content="0; url=en/">
+  <title>{html.escape(root_title)}</title>
+  <meta name="description" content="{html.escape(root_desc)}">
+  <meta name="robots" content="index, follow">
   <link rel="canonical" href="{page_url("en")}">
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{html.escape(root_title)}">
+  <meta property="og:description" content="{html.escape(root_desc)}">
+  <meta property="og:url" content="{page_url()}">
+  <meta property="og:image" content="{SITE_URL}/assets/og-image.png">
+  <meta property="og:image:alt" content="Attention Clock app icon">
   <script>
     (function() {{
       var locales = {langs};
@@ -508,32 +527,52 @@ def render_root_redirect() -> str:
   </script>
 </head>
 <body>
-  <p><a href="en/">Attention Clock</a></p>
+  <main>
+    <h1>Attention Clock</h1>
+    <p>{html.escape(root_desc)}</p>
+    <p><a href="en/">Continue in English</a></p>
+    <nav aria-label="Languages">
+      <h2>Languages</h2>
+      <ul>
+{lang_links}
+      </ul>
+    </nav>
+  </main>
 </body>
 </html>
 """
 
 
 def render_sitemap() -> str:
+    lastmod = date.today().isoformat()
     urls = []
     for code in LOCALES:
+        alt_links = "\n".join(
+            f'    <xhtml:link rel="alternate" hreflang="{alt}" href="{page_url(alt)}"/>'
+            for alt in LOCALES
+        )
+        alt_links += f'\n    <xhtml:link rel="alternate" hreflang="x-default" href="{page_url("en")}"/>'
         urls.append(
             f"""  <url>
     <loc>{page_url(code)}</loc>
+    <lastmod>{lastmod}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>{"1.0" if code == "en" else "0.9"}</priority>
+{alt_links}
   </url>"""
         )
     urls.append(
         f"""  <url>
     <loc>{page_url()}</loc>
+    <lastmod>{lastmod}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>"""
     )
     return (
         '<?xml version="1.0" encoding="UTF-8"?>\n'
-        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n'
+        '        xmlns:xhtml="http://www.w3.org/1999/xhtml">\n'
         + "\n".join(urls)
         + "\n</urlset>\n"
     )
@@ -543,6 +582,7 @@ def render_robots() -> str:
     return f"""User-agent: *
 Allow: /
 
+# Attention Clock official website
 Sitemap: {page_url()}sitemap.xml
 """
 
