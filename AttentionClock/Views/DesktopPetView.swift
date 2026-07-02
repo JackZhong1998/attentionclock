@@ -1,3 +1,4 @@
+import AppKit
 import SwiftUI
 
 struct DesktopPetView: View {
@@ -10,6 +11,7 @@ struct DesktopPetView: View {
     @State private var kindFilter: PetKindFilter = .all
     @State private var franchiseFilter: String? = nil
     @State private var showSyncResult = false
+    @State private var configurePetId: String?
 
     private var browseQuery: PetBrowseQuery {
         PetBrowseQuery(
@@ -20,27 +22,30 @@ struct DesktopPetView: View {
     }
 
     var body: some View {
-        VStack(spacing: 0) {
-            headerCard
-                .padding(.horizontal, 20)
-                .padding(.top, 16)
+        NavigationStack {
+            VStack(spacing: 0) {
+                headerCard
+                    .padding(.horizontal, 20)
+                    .padding(.top, 16)
+                    .padding(.bottom, 12)
+
+            installedStrip
                 .padding(.bottom, 12)
 
-            if !petStore.installedItems().isEmpty {
-                installedStrip
-                    .padding(.bottom, 12)
+                filterBar
+                    .padding(.horizontal, 20)
+                    .padding(.bottom, 10)
+
+                Divider()
+
+                catalogBody
             }
-
-            filterBar
-                .padding(.horizontal, 20)
-                .padding(.bottom, 10)
-
-            Divider()
-
-            catalogBody
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .background(Color(nsColor: .windowBackgroundColor))
+            .navigationDestination(item: $configurePetId) { petId in
+                PetDetailView(petStore: petStore, petId: petId)
+            }
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(Color(nsColor: .windowBackgroundColor))
         .task {
             await petStore.bootstrapCatalog()
         }
@@ -127,13 +132,21 @@ struct DesktopPetView: View {
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 12) {
                     ForEach(petStore.installedItems()) { item in
-                        InstalledPetChip(item: item) {
-                            petStore.selectInstalledPet(id: item.id)
-                            if !settings.desktopPetEnabled {
-                                settings.desktopPetEnabled = true
+                        InstalledPetChip(
+                            item: item,
+                            onSelect: {
+                                petStore.selectInstalledPet(id: item.id)
+                                if !settings.desktopPetEnabled {
+                                    settings.desktopPetEnabled = true
+                                }
+                            },
+                            onConfigure: {
+                                configurePetId = item.id
                             }
-                        }
+                        )
                     }
+
+                    CustomizePetButton()
                 }
                 .padding(.horizontal, 20)
             }
@@ -352,13 +365,52 @@ struct DesktopPetView: View {
     }
 }
 
+private struct CustomizePetButton: View {
+    private let customizeURL = BundledPetCatalog.customizeURL
+
+    var body: some View {
+        Button {
+            NSWorkspace.shared.open(customizeURL)
+        } label: {
+            VStack(spacing: 6) {
+                ZStack {
+                    RoundedRectangle(cornerRadius: 12, style: .continuous)
+                        .strokeBorder(Color.accentColor.opacity(0.35), style: StrokeStyle(lineWidth: 1.5, dash: [5, 4]))
+                        .background(
+                            RoundedRectangle(cornerRadius: 12, style: .continuous)
+                                .fill(Color.accentColor.opacity(0.08))
+                        )
+                        .frame(width: 72, height: 72)
+
+                    VStack(spacing: 4) {
+                        Image(systemName: "sparkles")
+                            .font(.title3)
+                        Text(String(localized: "定制"))
+                            .font(.caption2.weight(.semibold))
+                    }
+                    .foregroundStyle(Color.accentColor)
+                }
+
+                Text(String(localized: "专属伙伴"))
+                    .font(.caption2)
+                    .foregroundStyle(.secondary)
+                    .lineLimit(1)
+                    .frame(width: 72)
+            }
+        }
+        .buttonStyle(.plain)
+        .help(String(localized: "联系作者定制专属桌面伙伴"))
+    }
+}
+
 private struct InstalledPetChip: View {
     let item: InstalledPetItem
     let onSelect: () -> Void
+    let onConfigure: () -> Void
 
     var body: some View {
-        Button(action: onSelect) {
-            VStack(spacing: 6) {
+        VStack(spacing: 6) {
+            Button(action: onSelect) {
                 ZStack {
                     RoundedRectangle(cornerRadius: 12, style: .continuous)
                         .fill(item.isSelected ? Color.accentColor.opacity(0.14) : Color.primary.opacity(0.05))
@@ -368,13 +420,26 @@ private struct InstalledPetChip: View {
                             .frame(width: 56, height: 56)
                     }
                 }
-                Text(item.displayName)
-                    .font(.caption2.weight(item.isSelected ? .semibold : .regular))
-                    .lineLimit(1)
-                    .frame(width: 72)
             }
+            .buttonStyle(.plain)
+            .overlay(alignment: .topTrailing) {
+                Button(action: onConfigure) {
+                    Image(systemName: "slider.horizontal.3")
+                        .font(.caption2.weight(.semibold))
+                        .foregroundStyle(.secondary)
+                        .padding(5)
+                        .background(Circle().fill(Color(nsColor: .windowBackgroundColor).opacity(0.92)))
+                }
+                .buttonStyle(.plain)
+                .help(String(localized: "动作设置"))
+                .offset(x: 4, y: -4)
+            }
+
+            Text(item.displayName)
+                .font(.caption2.weight(item.isSelected ? .semibold : .regular))
+                .lineLimit(1)
+                .frame(width: 72)
         }
-        .buttonStyle(.plain)
     }
 }
 

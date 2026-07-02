@@ -33,6 +33,7 @@ final class PetStore: ObservableObject {
     @Published private(set) var importingPetId: String?
     @Published var importError: String?
     @Published private(set) var browseSnapshot = PetBrowseSnapshot(franchiseOverview: [], sections: [], totalMatches: 0)
+    @Published private(set) var actionMappingRevision = 0
 
     @Published var selectedPetId: String? {
         didSet {
@@ -52,12 +53,27 @@ final class PetStore: ObservableObject {
     }
 
     init() {
+        BundledPetInstaller.installIfNeeded()
         selectedPetId = UserDefaults.standard.string(forKey: Keys.selectedPetId)
         reloadCatalog()
+        ensureDefaultPetSelection()
         reloadActivePack()
         remotePets = PetdexCatalogService.loadLocalCatalog()
         catalogSyncInfo = PetdexCatalogService.loadSyncInfo()
         refreshBrowseSnapshot(query: PetBrowseQuery())
+    }
+
+    private func ensureDefaultPetSelection() {
+        guard selectedPetId == nil else { return }
+        for entry in BundledPetCatalog.pets {
+            if CodexPetPackLoader.isInstalled(id: entry.preferredPetID) {
+                selectedPetId = entry.preferredPetID
+                return
+            }
+        }
+        if let first = catalog.first {
+            selectedPetId = first.id
+        }
     }
 
     var hasSelectedPet: Bool {
@@ -173,6 +189,15 @@ final class PetStore: ObservableObject {
     func selectInstalledPet(id: String) {
         guard CodexPetPackLoader.isInstalled(id: id) else { return }
         selectedPetId = id
+    }
+
+    func actionMapping(for petId: String) -> PetActionMapping {
+        PetActionMappingStore.load(for: petId)
+    }
+
+    func updateActionMapping(_ mapping: PetActionMapping, for petId: String) {
+        PetActionMappingStore.save(mapping, for: petId)
+        actionMappingRevision += 1
     }
 
     nonisolated private static func buildBrowseSnapshot(

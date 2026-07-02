@@ -25,7 +25,8 @@ final class CodexPetAnimator: ObservableObject {
         timerPhase: TimerPhase,
         expression: CatExpression,
         behavior: CatBehavior,
-        pendingReward: Bool
+        pendingReward: Bool,
+        mapping: PetActionMapping = .default
     ) {
         let clip = PetStateResolver.resolve(
             timerPhase: timerPhase,
@@ -33,7 +34,8 @@ final class CodexPetAnimator: ObservableObject {
             behavior: behavior,
             pendingReward: pendingReward,
             walkDirection: walkDirection,
-            pack: pack
+            pack: pack,
+            mapping: mapping
         )
 
         if clip == currentClip { return }
@@ -48,7 +50,8 @@ final class CodexPetAnimator: ObservableObject {
             timerPhase: timerPhase,
             expression: expression,
             behavior: behavior,
-            pendingReward: pendingReward
+            pendingReward: pendingReward,
+            mapping: mapping
         )
     }
 
@@ -85,7 +88,8 @@ final class CodexPetAnimator: ObservableObject {
         timerPhase: TimerPhase,
         expression: CatExpression,
         behavior: CatBehavior,
-        pendingReward: Bool
+        pendingReward: Bool,
+        mapping: PetActionMapping
     ) {
         pendingResumeClip = nil
         completedWalkCycles = 0
@@ -99,7 +103,8 @@ final class CodexPetAnimator: ObservableObject {
                 behavior: behavior,
                 pendingReward: false,
                 walkDirection: walkDirection,
-                pack: pack
+                pack: pack,
+                mapping: mapping
             )
         }
     }

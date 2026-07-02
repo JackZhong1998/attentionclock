@@ -65,6 +65,7 @@ struct ContentView: View {
         let shouldShow = settings.desktopPetEnabled && settings.floatingCatEnabled && petStore.hasSelectedPet
         FloatingCatWindowController.shared.sync(
             enabled: shouldShow,
+            settings: settings,
             petStore: petStore,
             catStore: catStore,
             timer: timer

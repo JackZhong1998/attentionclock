@@ -7,7 +7,8 @@ enum PetStateResolver {
         behavior: CatBehavior,
         pendingReward: Bool,
         walkDirection: WalkDirection,
-        pack: CodexPetPack
+        pack: CodexPetPack,
+        mapping: PetActionMapping = .default
     ) -> PetClip {
         if pendingReward {
             return .oneShot(
@@ -25,42 +26,20 @@ enum PetStateResolver {
             )
         }
 
+        let row: Int
         switch timerPhase {
         case .running:
-            return .loop(
-                row: CodexPetRow.idle,
-                frames: pack.frameCount(forRow: CodexPetRow.idle),
-                fps: 4
-            )
+            row = mapping.focusRow
         case .paused:
-            return .loop(
-                row: CodexPetRow.waiting,
-                frames: pack.frameCount(forRow: CodexPetRow.waiting),
-                fps: 5
-            )
+            row = mapping.pausedRow
         case .idle:
-            if expression == .hungry {
-                return .loop(
-                    row: CodexPetRow.waiting,
-                    frames: pack.frameCount(forRow: CodexPetRow.waiting),
-                    fps: 4
-                )
-            }
-
-            if behavior == .idleRoaming {
-                let row = expression == .waiting ? CodexPetRow.waiting : CodexPetRow.idle
-                return .loop(
-                    row: row,
-                    frames: pack.frameCount(forRow: row),
-                    fps: row == CodexPetRow.waiting ? 5 : 6
-                )
-            }
-
-            return .loop(
-                row: CodexPetRow.idle,
-                frames: pack.frameCount(forRow: CodexPetRow.idle),
-                fps: 6
-            )
+            row = mapping.idleRow
         }
+
+        return .loop(
+            row: row,
+            frames: pack.frameCount(forRow: row),
+            fps: PetActionCatalog.defaultFPS(for: row)
+        )
     }
 }

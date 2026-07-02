@@ -23,11 +23,26 @@ final class SettingsStore: ObservableObject {
         didSet { UserDefaults.standard.set(floatingCatEnabled, forKey: Keys.floatingCatEnabled) }
     }
 
+    @Published var floatingCatOriginX: Double {
+        didSet { UserDefaults.standard.set(floatingCatOriginX, forKey: Keys.floatingCatOriginX) }
+    }
+
+    @Published var floatingCatOriginY: Double {
+        didSet { UserDefaults.standard.set(floatingCatOriginY, forKey: Keys.floatingCatOriginY) }
+    }
+
+    @Published var floatingCatPositionSaved: Bool {
+        didSet { UserDefaults.standard.set(floatingCatPositionSaved, forKey: Keys.floatingCatPositionSaved) }
+    }
+
     private enum Keys {
         static let defaultMinutes = "defaultMinutes"
         static let sessionMinutes = "sessionMinutes"
         static let desktopPetEnabled = "desktopPetEnabled"
         static let floatingCatEnabled = "floatingCatEnabled"
+        static let floatingCatOriginX = "floatingCatOriginX"
+        static let floatingCatOriginY = "floatingCatOriginY"
+        static let floatingCatPositionSaved = "floatingCatPositionSaved"
     }
 
     init() {
@@ -40,6 +55,9 @@ final class SettingsStore: ObservableObject {
 
         desktopPetEnabled = UserDefaults.standard.object(forKey: Keys.desktopPetEnabled) as? Bool ?? false
         floatingCatEnabled = UserDefaults.standard.bool(forKey: Keys.floatingCatEnabled)
+        floatingCatOriginX = UserDefaults.standard.double(forKey: Keys.floatingCatOriginX)
+        floatingCatOriginY = UserDefaults.standard.double(forKey: Keys.floatingCatOriginY)
+        floatingCatPositionSaved = UserDefaults.standard.bool(forKey: Keys.floatingCatPositionSaved)
     }
 
     func applyDefaultToSession() {

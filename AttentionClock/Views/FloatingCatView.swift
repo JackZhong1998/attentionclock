@@ -6,6 +6,7 @@ struct FloatingCatView: View {
     @ObservedObject var timer: TimerViewModel
 
     @State private var isHovering = false
+    @State private var didDrag = false
 
     private var spriteWidth: CGFloat { 88 }
 
@@ -15,22 +16,7 @@ struct FloatingCatView: View {
 
     var body: some View {
         VStack(spacing: 6) {
-            VStack(spacing: 4) {
-                PetStatusBubble(text: catStore.companionBubbleLabel(timerPhase: timer.phase))
-
-                CatSpriteView(
-                    petStore: petStore,
-                    timerPhase: timer.phase,
-                    expression: catStore.expression,
-                    behavior: behavior,
-                    pendingReward: catStore.pendingRewardNotice,
-                    displayWidth: spriteWidth
-                )
-                .frame(width: spriteWidth, height: spriteHeight, alignment: .center)
-                .frame(maxWidth: .infinity)
-            }
-            .contentShape(Rectangle())
-            .onTapGesture { handlePrimaryTap() }
+            draggablePetSection
 
             if isHovering {
                 actionBar
@@ -44,6 +30,43 @@ struct FloatingCatView: View {
         .onHover { isHovering = $0 }
         .onAppear { catStore.refreshExpression(timerPhase: timer.phase) }
         .onChange(of: timer.phase) { _, phase in catStore.refreshExpression(timerPhase: phase) }
+    }
+
+    private var draggablePetSection: some View {
+        VStack(spacing: 4) {
+            PetStatusBubble(text: catStore.companionBubbleLabel(timerPhase: timer.phase))
+
+            CatSpriteView(
+                petStore: petStore,
+                timerPhase: timer.phase,
+                expression: catStore.expression,
+                behavior: behavior,
+                pendingReward: catStore.pendingRewardNotice,
+                displayWidth: spriteWidth
+            )
+            .frame(width: spriteWidth, height: spriteHeight, alignment: .center)
+            .frame(maxWidth: .infinity)
+        }
+        .contentShape(Rectangle())
+        .gesture(
+            DragGesture(minimumDistance: 6)
+                .onChanged { value in
+                    didDrag = true
+                    FloatingCatWindowController.shared.handleDrag(translation: value.translation)
+                }
+                .onEnded { _ in
+                    FloatingCatWindowController.shared.endDrag()
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.05) {
+                        didDrag = false
+                    }
+                }
+        )
+        .simultaneousGesture(
+            TapGesture().onEnded {
+                guard !didDrag else { return }
+                handlePrimaryTap()
+            }
+        )
     }
 
     @ViewBuilder

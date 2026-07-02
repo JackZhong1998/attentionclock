@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.1",
   "repo": "https://github.com/JackZhong1998/attentionclock",
   "locales": {
     "zh-Hans": { "label": "简体中文", "title": "专注时钟", "vol": "专注时钟 AttentionClock" },

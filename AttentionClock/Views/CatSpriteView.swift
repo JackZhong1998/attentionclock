@@ -12,6 +12,7 @@ struct CatSpriteView: View {
         Group {
             if let atlas = petStore.activeAtlas, let pack = petStore.activePack {
                 CodexPetSpriteView(
+                    petStore: petStore,
                     pack: pack,
                     atlas: atlas,
                     timerPhase: timerPhase,
@@ -32,6 +33,7 @@ struct CatSpriteView: View {
 }
 
 private struct CodexPetSpriteView: View {
+    @ObservedObject var petStore: PetStore
     let pack: CodexPetPack
     let atlas: CodexPetAtlas
     let timerPhase: TimerPhase
@@ -42,7 +44,12 @@ private struct CodexPetSpriteView: View {
 
     @StateObject private var animator: CodexPetAnimator
 
+    private var mapping: PetActionMapping {
+        petStore.actionMapping(for: pack.id)
+    }
+
     init(
+        petStore: PetStore,
         pack: CodexPetPack,
         atlas: CodexPetAtlas,
         timerPhase: TimerPhase,
@@ -51,6 +58,7 @@ private struct CodexPetSpriteView: View {
         pendingReward: Bool,
         displayWidth: CGFloat
     ) {
+        self.petStore = petStore
         self.pack = pack
         self.atlas = atlas
         self.timerPhase = timerPhase
@@ -59,13 +67,15 @@ private struct CodexPetSpriteView: View {
         self.pendingReward = pendingReward
         self.displayWidth = displayWidth
 
+        let initialMapping = petStore.actionMapping(for: pack.id)
         let initialClip = PetStateResolver.resolve(
             timerPhase: timerPhase,
             expression: expression,
             behavior: behavior,
             pendingReward: pendingReward,
             walkDirection: .left,
-            pack: pack
+            pack: pack,
+            mapping: initialMapping
         )
         _animator = StateObject(wrappedValue: CodexPetAnimator(pack: pack, initialClip: initialClip))
     }
@@ -93,6 +103,7 @@ private struct CodexPetSpriteView: View {
         .onChange(of: expression) { _, _ in syncAnimator() }
         .onChange(of: behavior) { _, _ in syncAnimator() }
         .onChange(of: pendingReward) { _, _ in syncAnimator() }
+        .onChange(of: petStore.actionMappingRevision) { _, _ in syncAnimator() }
     }
 
     private func syncAnimator() {
@@ -100,7 +111,8 @@ private struct CodexPetSpriteView: View {
             timerPhase: timerPhase,
             expression: expression,
             behavior: behavior,
-            pendingReward: pendingReward
+            pendingReward: pendingReward,
+            mapping: mapping
         )
     }
 }
